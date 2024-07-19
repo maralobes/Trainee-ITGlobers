@@ -12,46 +12,80 @@
           "blockClass": "carousel"
         },
         "children": [
-            "image#example__1", 
-            "image#example__2", 
-            "image#example__3"
+            "flex-layout.row#test_one--slider-home",
+            "flex-layout.row#test_two--slider-home"
         ]
       },
     
       "rich-text#1": {
-        "title": "slider layout home text 1",
+        "title": "slider layout home text h2",
         "props": {
-          "text": "Test1"
+          "text":  "Heading",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
         }
       },
       "rich-text#2": {
-        "title": "slider layout home text 2",
+        "title": "slider layout home text h3",
         "props": {
-          "text": "Test2"
+          "text": "Builder platform is made by, buildership platform is made by...",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER"
         }
       },
-      "rich-text#3": {
-        "title": "slider layout home text 3",
+      "image#home__carousel": {
+        "title": "image card element 1",
         "props": {
-          "text": "Test3"
+          "src": "assets/img/3_image_card_element.png"
         }
       },
-      "image#example__1": {
-        "title": "image one",
-        "props": {
-          "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+      "flex-layout.row#test_one--slider-home": {
+        "title": "slider row test one",
+        "children":[
+            "flex-layout.col#carousel__one--slider-home",
+            "flex-layout.col#carousel__two--slider-home",
+            "flex-layout.col#carousel__three--slider-home"
+        ]
+      },
+      "flex-layout.row#test_two--slider-home": {
+        "title": "slider row test two",
+        "children":[
+            "flex-layout.col#carousel__one--slider-home",
+            "flex-layout.col#carousel__two--slider-home",
+            "flex-layout.col#carousel__three--slider-home"
+        ]
+      },
+      "flex-layout.col#carousel__one--slider-home": {
+        "title": "slider col carousel one",
+        "children": [
+            "image#home__carousel",
+            "rich-text#1",
+            "rich-text#2"
+        ],
+        "props":{
+            "width": "40%"
         }
       },
-      "image#example__2": {
-        "title": "image one",
-        "props": {
-          "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+      "flex-layout.col#carousel__two--slider-home": {
+        "title": "slider col carousel two",
+        "children": [
+            "image#home__carousel",
+            "rich-text#1",
+            "rich-text#2"
+        ],
+        "props":{
+            "width": "40%"
         }
       },
-      "image#example__3": {
-        "title": "image one",
-        "props": {
-          "src": "https://storecomponents.vteximg.com.br/arquivos/box.png"
+      "flex-layout.col#carousel__three--slider-home": {
+        "title": "slider col carousel three",
+        "children": [
+            "image#home__carousel",
+            "rich-text#1",
+            "rich-text#2"
+        ],
+        "props":{
+            "width": "40%"
         }
       }
 }

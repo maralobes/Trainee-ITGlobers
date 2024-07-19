@@ -2,7 +2,8 @@
   "store.home": { 
     "blocks": [
       "flex-layout.row#text__one--home",
-      "list-context.image-list#demo",
+      //"list-context.image-list#demo",
+      "rich-text#h1--before-slider",
       "slider-layout#text-test"
     ]
   }

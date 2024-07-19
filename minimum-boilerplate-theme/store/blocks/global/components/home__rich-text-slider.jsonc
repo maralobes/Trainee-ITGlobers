@@ -1,0 +1,10 @@
+{
+    "rich-text#h1--before-slider": { 
+        "title": "slider layout home text h1",
+        "props": { 
+          "text": "An amazing product.",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT"
+        }
+    }
+}
