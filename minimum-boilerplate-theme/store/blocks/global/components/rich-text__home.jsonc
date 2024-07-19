@@ -1,6 +1,6 @@
 {
-    "flex-layout.row#text__one--home": {
-        "title": "Text row one home",
+    "flex-layout.row#images__text--home": {
+        "title": "Images and text inside container-row home",
         "children": [
             "flex-layout.col#text__one--home",
             "flex-layout.col#text__two--home",
@@ -10,67 +10,101 @@
     },
     "flex-layout.col#text__one--home": {
         "title": "Text col one home",
-        "children" :[
+        "children":[
             "image#home__image__watch--1"
         ],
         "props": {
-            "width": "50%"
+            "width": "100%",
+            "blockClass": [
+                "col__one--text"
+            ]
         }
     },
     "flex-layout.col#text__two--home": {
         "title": "Text col two home",
         "children" :[
+            "image#home__image__watch--2",
             "rich-text#h1",
             "rich-text#h2",
             "rich-text#h3"
         ],
         "props": {
-            "width": "40%"
+            "width": "100%",
+            "blockClass": [
+                "col__two--text"
+            ]
         }
     },
     "flex-layout.col#text__three--home": {
         "title": "Text col two home",
         "children" :[
-            "image#home__image__watch--2"
+            "image#home__image__watch--3"
         ],
         "props": {
-            "width": "50%"
+            "width": "100%",
+            "blockClass": [
+                "col__three--text"
+            ]
         }
     },
     "rich-text#h1": { 
+        "title": "iWatch heading",
         "props": { 
           "text": "iWATCH",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
-          "font": "t-heading-1"
+          "font": "t-heading-1",
+          "blockClass": [
+            "heading__iwatch--text"
+          ]
         }
     },
     "rich-text#h2": { 
+        "title": "ultra heading",
         "props": { 
           "text": "ULTRA 2",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
-          "font": "t-heading-2"
+          "font": "t-heading-2",
+          "blockClass": [
+            "heading__iwatch--text"
+          ]
         }
     },
     "rich-text#h3": { 
+        "title": "amazing heading",
         "props": { 
           "text": "An amazing product.",
           "textAlignment": "CENTER",
           "textPosition": "CENTER",
-          "font": "t-heading-3"
+          "font": "t-heading-3",
+          "blockClass": [
+            "heading__iwatch--text"
+          ]
         }
     },
     "image#home__image__watch--1": {
-        "title": "imag watch upside",
+        "title": "image watch upside",
         "props": {
-          "src": "assets/img/4_image_watch_upside.png"
+          "src": "assets/img/4_image_watch_upside.png",
+          "maxWidth": "100%",
+          "maxHeigth": "100%"
         }
       },
       "image#home__image__watch--2": {
-        "title": "imag watch downside",
+        "title": "image watch downside background",
         "props": {
-          "src": "assets/img/5_image_watch_downside.png"
+          "src": "assets/img/5_image_watch_downside.png",
+          "maxWidth": "100%",
+          "maxHeigth": "100%"
+        }
+      },
+      "image#home__image__watch--3": {
+        "title": "image watch downside",
+        "props": {
+          "src": "assets/img/5_image_watch_downside.png",
+          "maxWidth": "100%",
+          "maxHeigth": "100%"
         }
       }
 }
