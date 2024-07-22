@@ -1,25 +1,25 @@
-.container{
-    display: flex;
-    align-items: center;
-    align-content: center;
-}
-
 .paragraph--second__colum__text__first--text{
     font-weight: 600;
     font-size: 24px;
     line-height: 40px;
-    color: #1D2734
+    color: #1D2734;
+    padding-bottom: 8px;
+    margin: 0;
 }
 .paragraph--second__colum__text__second--text{
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
     color: #FF8324;
+    padding-bottom: 16px;
+    margin: 0;
 }
 
 .paragraph--second__colum__text__third--text{
     font-weight: 300;
     font-size: 16px;
     line-height: 16.8px;
-    color: #1D2734
+    color: #1D2734;
+    padding-bottom: 32px;
+    margin: 0;
 }

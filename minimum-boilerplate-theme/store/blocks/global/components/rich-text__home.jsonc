@@ -9,7 +9,29 @@
         "props": {
             "blockClass": "container__banner--text",
             "fullWidth": true,
-            "marginBottom": "20px"
+            "marginBottom": "15px"
+        }
+    },
+
+    "flex-layout.col#headings--home": {
+        "title": "Row for headings",
+        "children": [
+            "rich-text#h1",
+            "rich-text#h2",
+            "rich-text#h3",
+            "flex-layout.row#buy__button--home"
+        ],
+        "props": {
+            "blockClass": "headings_container",
+            "preventVerticalStretch": true
+        }
+    },
+    
+    "flex-layout.row#buy__button--home": {
+        "title": "Row for buy button",
+        "children": [
+        ],
+        "props": {
         }
     },
     "flex-layout.col#text__one--home": {
@@ -25,13 +47,12 @@
     "flex-layout.col#text__two--home": {
         "title": "Text col two home",
         "children": [
-            "rich-text#h1",
-            "rich-text#h2",
-            "rich-text#h3"
+            "flex-layout.col#headings--home"
         ],
         "props": {
             "width": "100%",
-            "blockClass": "colums--text"
+            "blockClass": "colums--text",
+            "verticalAlign": "middle"
         }
     },
     "flex-layout.col#text__three--home": {
