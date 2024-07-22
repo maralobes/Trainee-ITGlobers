@@ -8,12 +8,12 @@
           "images": [
             {
               "loading": "eager",
-              "image": "assets/img/4_image_watch_upside.png",
+              "image": "assets/img/4_image_watch.png",
               "description": "watch upside"
             },
             {
               "loading": "lazy",
-              "image": "assets/img/5_image_watch_downside.png",
+              "image": "assets/img/4_image_watch.png",
               "description": "watch downside"
             }
           ]

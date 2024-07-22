@@ -6,105 +6,80 @@
             "flex-layout.col#text__two--home",
             "flex-layout.col#text__three--home"
         ],
-        "props": {}
+        "props": {
+            "blockClass": "container__banner--text",
+            "fullWidth": true,
+            "marginBottom": "20px"
+        }
     },
     "flex-layout.col#text__one--home": {
         "title": "Text col one home",
-        "children":[
-            "image#home__image__watch--1"
+        "children": [
+            "image#home__image__watch"
         ],
         "props": {
             "width": "100%",
-            "blockClass": [
-                "col__one--text"
-            ]
+            "blockClass": "colums--text"
         }
     },
     "flex-layout.col#text__two--home": {
         "title": "Text col two home",
-        "children" :[
-            "image#home__image__watch--2",
+        "children": [
             "rich-text#h1",
             "rich-text#h2",
             "rich-text#h3"
         ],
         "props": {
             "width": "100%",
-            "blockClass": [
-                "col__two--text"
-            ]
+            "blockClass": "colums--text"
         }
     },
     "flex-layout.col#text__three--home": {
-        "title": "Text col two home",
-        "children" :[
-            "image#home__image__watch--3"
+        "title": "Text col three home",
+        "children": [
+            "image#home__image__watch"
         ],
         "props": {
             "width": "100%",
-            "blockClass": [
-                "col__three--text"
-            ]
+            "blockClass": "colums--text"
         }
     },
-    "rich-text#h1": { 
+    "rich-text#h1": {
         "title": "iWatch heading",
-        "props": { 
-          "text": "iWATCH",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-1",
-          "blockClass": [
-            "heading__iwatch--text"
-          ]
+        "props": {
+            "text": "iWATCH",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-1",
+            "blockClass": "second__colum__text__first--text"
         }
     },
-    "rich-text#h2": { 
+    "rich-text#h2": {
         "title": "ultra heading",
-        "props": { 
-          "text": "ULTRA 2",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-2",
-          "blockClass": [
-            "heading__iwatch--text"
-          ]
+        "props": {
+            "text": "ULTRA 2",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-2",
+            "blockClass": "second__colum__text__second--text"
         }
     },
-    "rich-text#h3": { 
+    "rich-text#h3": {
         "title": "amazing heading",
-        "props": { 
-          "text": "An amazing product.",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
-          "font": "t-heading-3",
-          "blockClass": [
-            "heading__iwatch--text"
-          ]
+        "props": {
+            "text": "An amazing product.",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-3",
+            "blockClass": "second__colum__text__third--text"
         }
     },
-    "image#home__image__watch--1": {
-        "title": "image watch upside",
+    "image#home__image__watch": {
+        "title": "image watch",
         "props": {
-          "src": "assets/img/4_image_watch_upside.png",
-          "maxWidth": "100%",
-          "maxHeigth": "100%"
+            "src": "assets/img/4_image_watch.png",
+            "maxWidth": "100%",
+            "maxHeight": "100%"
         }
-      },
-      "image#home__image__watch--2": {
-        "title": "image watch downside background",
-        "props": {
-          "src": "assets/img/5_image_watch_downside.png",
-          "maxWidth": "100%",
-          "maxHeigth": "100%"
-        }
-      },
-      "image#home__image__watch--3": {
-        "title": "image watch downside",
-        "props": {
-          "src": "assets/img/5_image_watch_downside.png",
-          "maxWidth": "100%",
-          "maxHeigth": "100%"
-        }
-      }
+    }
 }
