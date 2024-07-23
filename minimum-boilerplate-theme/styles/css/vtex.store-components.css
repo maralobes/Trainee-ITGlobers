@@ -1,3 +1,7 @@
 .imageElement{
    width: 100%;
 }
+
+.imageElement--watch_image_2 {
+   transform: rotate(180deg);
+}

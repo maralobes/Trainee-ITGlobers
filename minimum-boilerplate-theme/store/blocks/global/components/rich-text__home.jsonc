@@ -34,16 +34,18 @@
         "props": {
         }
     },
+
     "flex-layout.col#text__one--home": {
         "title": "Text col one home",
         "children": [
-            "image#home__image__watch"
+            "image#home__image__watch_1"
         ],
         "props": {
             "width": "100%",
             "blockClass": "colums--text"
         }
     },
+
     "flex-layout.col#text__two--home": {
         "title": "Text col two home",
         "children": [
@@ -55,26 +57,29 @@
             "verticalAlign": "middle"
         }
     },
+
     "flex-layout.col#text__three--home": {
         "title": "Text col three home",
         "children": [
-            "image#home__image__watch"
+            "image#home__image__watch_2"
         ],
         "props": {
             "width": "100%",
             "blockClass": "colums--text"
         }
     },
+
     "rich-text#h1": {
         "title": "iWatch heading",
         "props": {
-            "text": "iWATCH",
+            "text": "<span class='mini-text' style='font-size: 24px'>i</span><span class='upper-text'>WATCH</span>",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "t-heading-1",
             "blockClass": "second__colum__text__first--text"
         }
     },
+
     "rich-text#h2": {
         "title": "ultra heading",
         "props": {
@@ -85,6 +90,7 @@
             "blockClass": "second__colum__text__second--text"
         }
     },
+
     "rich-text#h3": {
         "title": "amazing heading",
         "props": {
@@ -95,12 +101,24 @@
             "blockClass": "second__colum__text__third--text"
         }
     },
-    "image#home__image__watch": {
-        "title": "image watch",
+
+    "image#home__image__watch_1": {
+        "title": "image watch 1",
         "props": {
             "src": "assets/img/4_image_watch.png",
             "maxWidth": "100%",
-            "maxHeight": "100%"
+            "maxHeight": "100%",
+            "blockClass": "watch_image_1"
+        }
+    },
+
+    "image#home__image__watch_2": {
+        "title": "image watch 2",
+        "props": {
+            "src": "assets/img/4_image_watch.png",
+            "maxWidth": "100%",
+            "maxHeight": "100%",
+            "blockClass": "watch_image_2"
         }
     }
 }

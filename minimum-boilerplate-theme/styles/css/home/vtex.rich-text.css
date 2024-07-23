@@ -1,6 +1,5 @@
 .paragraph--second__colum__text__first--text{
     font-weight: 600;
-    font-size: 24px;
     line-height: 40px;
     color: #1D2734;
     padding-bottom: 8px;
@@ -22,4 +21,24 @@
     color: #1D2734;
     padding-bottom: 32px;
     margin: 0;
+}
+
+.paragraph--second__colum__text__first--text .upper-text{
+    font-size: 48px;
+}
+
+.paragraph--second__colum__text__first--text .mini-text{
+    font-size: 10px;
+}
+
+.wrapper--amazing_product_slider_heading--text {
+    width: 165;
+    height: 17px;
+    top: 630px;
+    left: 72px;
+}
+.paragraph--amazing_product_slider_heading--text {
+   font-weight: 500;
+   font-size: 16px;
+   line-height: 16.8px;
 }

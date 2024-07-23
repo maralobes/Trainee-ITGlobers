@@ -4,7 +4,8 @@
         "props": { 
           "text": "An amazing product.",
           "textAlignment": "LEFT",
-          "textPosition": "LEFT"
+          "textPosition": "LEFT",
+          "blockClass": "amazing_product_slider_heading"
         }
     }
 }
