@@ -31,8 +31,8 @@
     font-size: 10px;
 }
 
-.wrapper--amazing_product_slider_heading--text {
-    width: 165;
+.container--amazing_product_slider_heading--text {
+    width: 500px;
     height: 17px;
     top: 630px;
     left: 72px;
@@ -41,4 +41,8 @@
    font-weight: 500;
    font-size: 16px;
    line-height: 16.8px;
+   margin: 2.5rem;
+   padding-left: 72px;
+   padding-bottom: 16px;
+
 }

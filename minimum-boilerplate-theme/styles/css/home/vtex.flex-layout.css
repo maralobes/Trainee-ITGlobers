@@ -12,15 +12,21 @@
    padding: auto;
 }
 
-
-.flexRowContent--headings_container {
-   gap: 0px;
-}
-
-.slideChildrenContainer--carousel {
+.slideChildrenContainer--first-carousel {
    display: flex;
    flex-direction: row;
    align-items: center;
    align-content: space-around;
-   top: auto;
+   top: 16px;
+   left: 94px;
+   padding-top: 16px;
+}
+
+.slideChildrenContainer--second-carousel {
+   display: flex;
+   flex-direction: row;
+   align-items: center;
+   align-content: space-around;
+   top: 16px;
+   left: 94px;
 }

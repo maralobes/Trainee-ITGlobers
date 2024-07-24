@@ -1,5 +1,5 @@
 {
-    "slider-layout#text-test": {
+    "slider-layout#infoCard": {
         "title": "slider layout home",
         "props": {
           "itemsPerPage": {
@@ -9,7 +9,7 @@
           },
           "infinite": false,
           "showNavigationArrows": "desktopOnly",
-          "blockClass": "carousel"
+          "blockClass": "first-carousel--text"
         },
         "children": [
             "flex-layout.row#test_one--slider-home",
@@ -60,7 +60,16 @@
             "flex-layout.col#carousel__one--slider-home",
             "flex-layout.col#carousel__one--slider-home",
             "flex-layout.col#carousel__one--slider-home"
-        ]
+        ],
+        "props":{
+          "borderWidth": 0,
+          "boder": "all",
+          "colJustify": "around",
+          "marginTop": 8,
+          "colGap": 0,
+          "colSizing": "auto",
+          "rowGap": 0
+        }
       },
 
       "flex-layout.col#carousel__one--slider-home": {

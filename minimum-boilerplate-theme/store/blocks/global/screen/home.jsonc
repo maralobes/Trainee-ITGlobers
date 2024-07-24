@@ -3,9 +3,16 @@
     "blocks": [
       "flex-layout.row#images__text--home",
       "rich-text#h1--before-slider",
-      "slider-layout#text-test",
+      "slider-layout#infoCard",
       "rich-text#h1--before-slider",
-      "slider-layout#text-test"
-    ]
+      "slider-layout#computer__carousel",
+      "rich-text#h1--before-slider",
+      "slider-layout#infoCard",
+      "rich-text#h1--before-slider",
+      "slider-layout#computer__carousel"
+    ],
+    "props": {
+      "blockClass": "home-container--text"
+    }
   }
 }
