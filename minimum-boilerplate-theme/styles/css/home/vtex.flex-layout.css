@@ -1,6 +1,12 @@
+.flexRow--container__banner--text{
+   background: #F0F0F2;
+   width: 100%;
+   height: 422px;
+   top: 168px;
+}
 
 .flexColChild--columns--text{
-   display: flexs;
+   display: flex;
    align-items: center;
    align-content: center;
    padding: auto;
@@ -8,7 +14,7 @@
 
 
 .flexRowContent--headings_container {
-   gap: 16px;
+   gap: 0px;
 }
 
 .slideChildrenContainer--carousel {
@@ -16,4 +22,5 @@
    flex-direction: row;
    align-items: center;
    align-content: space-around;
+   top: auto;
 }

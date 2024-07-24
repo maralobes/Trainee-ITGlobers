@@ -65,7 +65,8 @@
         ],
         "props": {
             "width": "100%",
-            "blockClass": "colums--text"
+            "blockClass": "colums--text",
+            "preventVerticalStretch": true
         }
     },
 

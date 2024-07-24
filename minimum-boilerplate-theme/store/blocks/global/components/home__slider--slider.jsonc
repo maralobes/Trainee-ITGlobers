@@ -7,17 +7,22 @@
             "tablet": 1,
             "phone": 1
           },
-          "infinite": true,
+          "infinite": false,
           "showNavigationArrows": "desktopOnly",
           "blockClass": "carousel"
         },
         "children": [
             "flex-layout.row#test_one--slider-home",
-            "flex-layout.row#test_two--slider-home"
+            "flex-layout.row#test_one--slider-home",
+            "flex-layout.row#test_one--slider-home",
+            "flex-layout.row#test_one--slider-home",
+            "flex-layout.row#test_one--slider-home",
+            "flex-layout.row#test_one--slider-home",
+            "flex-layout.row#test_one--slider-home"
         ]
       },
     
-      "rich-text#1": {
+      "rich-text#heading-slider": {
         "title": "slider layout home text h2",
         "props": {
           "text":  "Heading",
@@ -28,70 +33,48 @@
           ]
         }
       },
-      "rich-text#2": {
+
+      "rich-text#description-slider": {
         "title": "slider layout home text h3",
         "props": {
           "text": "Builder platform is made by, buildership platform is made by...",
-          "textAlignment": "CENTER",
-          "textPosition": "CENTER",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
           "blockClass": [
             "heading__slider__carousel--text"
           ]
         }
       },
+
       "image#home__carousel": {
         "title": "image card element 1",
         "props": {
           "src": "assets/img/3_image_card_element.png"
         }
       },
+
       "flex-layout.row#test_one--slider-home": {
         "title": "slider row test one",
         "children":[
             "flex-layout.col#carousel__one--slider-home",
-            "flex-layout.col#carousel__two--slider-home",
-            "flex-layout.col#carousel__three--slider-home"
-        ]
-      },
-      "flex-layout.row#test_two--slider-home": {
-        "title": "slider row test two",
-        "children":[
             "flex-layout.col#carousel__one--slider-home",
-            "flex-layout.col#carousel__two--slider-home",
-            "flex-layout.col#carousel__three--slider-home"
+            "flex-layout.col#carousel__one--slider-home",
+            "flex-layout.col#carousel__one--slider-home"
         ]
       },
+
       "flex-layout.col#carousel__one--slider-home": {
         "title": "slider col carousel one",
         "children": [
             "image#home__carousel",
-            "rich-text#1",
-            "rich-text#2"
+            "rich-text#heading-slider",
+            "rich-text#description-slider"
         ],
         "props":{
-            "width": "100%"
-        }
-      },
-      "flex-layout.col#carousel__two--slider-home": {
-        "title": "slider col carousel two",
-        "children": [
-            "image#home__carousel",
-            "rich-text#1",
-            "rich-text#2"
-        ],
-        "props":{
-            "width": "100%"
-        }
-      },
-      "flex-layout.col#carousel__three--slider-home": {
-        "title": "slider col carousel three",
-        "children": [
-            "image#home__carousel",
-            "rich-text#1",
-            "rich-text#2"
-        ],
-        "props":{
-            "width": "100%"
+            "width": "100%",
+            "border": "all",
+            "borderColor": "white",
+            "horizontalAlign": "LEFT"
         }
       }
 }

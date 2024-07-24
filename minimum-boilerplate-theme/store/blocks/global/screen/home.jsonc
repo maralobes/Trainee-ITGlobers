@@ -3,6 +3,8 @@
     "blocks": [
       "flex-layout.row#images__text--home",
       "rich-text#h1--before-slider",
+      "slider-layout#text-test",
+      "rich-text#h1--before-slider",
       "slider-layout#text-test"
     ]
   }

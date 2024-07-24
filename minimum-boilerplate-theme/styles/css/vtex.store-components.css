@@ -1,7 +1,10 @@
-.imageElement{
-   width: 100%;
+.imageElement--watch_image_1{
+   width: 464px;
+   height: 422px;
 }
 
 .imageElement--watch_image_2 {
    transform: rotate(180deg);
+   width: 414px;
+   height: 422px;
 }
