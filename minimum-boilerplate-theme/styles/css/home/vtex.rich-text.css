@@ -23,26 +23,26 @@
     margin: 0;
 }
 
-.paragraph--second__colum__text__first--text .upper-text{
-    font-size: 48px;
+.paragraph--amazing__product__slider__heading--text {
+    font-weight: 500px;
+    font-size: 16px;
+    line-height: 16.8px;
+    margin: 2.5rem;
+    padding-left: 72px;
+    padding-bottom: 16px;
+    color: #1D2734;
 }
 
-.paragraph--second__colum__text__first--text .mini-text{
-    font-size: 10px;
+.paragraph--heading__slider__carousel--text {
+    font-weight: 600px;
+    font-size: 16px;
+    line-height: 25px;
+    padding-bottom: 16px;
 }
 
-.container--amazing_product_slider_heading--text {
-    width: 500px;
-    height: 17px;
-    top: 630px;
-    left: 72px;
-}
-.paragraph--amazing_product_slider_heading--text {
-   font-weight: 500;
-   font-size: 16px;
-   line-height: 16.8px;
-   margin: 2.5rem;
-   padding-left: 72px;
-   padding-bottom: 16px;
-
+.paragraph--description__slider__carousel--text {
+    font-weight: 400px;
+    font-size: 14px;
+    line-height: 16.8px;
+    padding-bottom: 14px;
 }

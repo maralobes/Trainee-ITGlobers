@@ -5,7 +5,7 @@
           "text": "An amazing product.",
           "textAlignment": "LEFT",
           "textPosition": "LEFT",
-          "blockClass": "amazing_product_slider_heading--text"
+          "blockClass": "amazing__product__slider__heading--text"
         }
     }
 }

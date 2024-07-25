@@ -7,7 +7,7 @@
             "tablet": 1,
             "phone": 1
           },
-          "infinite": false,
+          "infinite": true,
           "showNavigationArrows": "desktopOnly",
           "blockClass": "first-carousel--text"
         },
@@ -21,7 +21,61 @@
             "flex-layout.row#test_one--slider-home"
         ]
       },
-    
+
+      "flex-layout.row#test_one--slider-home": {
+        "title": "slider row test one",
+        "children":[
+            "flex-layout.col#carousel__one--slider-home",
+            "flex-layout.col#carousel__one--slider-home",
+            "flex-layout.col#carousel__one--slider-home"
+        ],
+        "props":{
+          "boder": "all",
+          "colJustify": "around",
+          "marginTop": 8,
+          "marginBottom": 9,
+          "colGap": 9,
+          "colSizing": "auto",
+          "rowGap": 0,
+          "blockClass": "infoCard__main__row--text"
+        }
+      },
+
+      "flex-layout.col#carousel__one--slider-home": {
+        "title": "slider col carousel one",
+        "children": [
+            "image#home__carousel",
+            "rich-text#heading-slider",
+            "flex-layout.row#description__and__image__award--slider-home",
+            "rich-text#buy__button-slider"
+        ],
+        "props":{
+            "width": "100%",
+            "border": "all",
+            "borderColor": "white",
+            "horizontalAlign": "LEFT",
+            "blockClass": "infoCard__main__col--text"
+        }
+      },
+
+      "flex-layout.row#description__and__image__award--slider-home": {
+        "title": "slider row test one",
+        "children":[
+          "rich-text#description-slider",
+          "image#award__image"
+        ],
+        "props":{
+          "borderWidth": 0,
+          "boder": "all",
+          "colJustify": "around",
+          "marginTop": 7,
+          "colGap": 5,
+          "colSizing": "auto",
+          "rowGap": 0,
+          "blockClass": "product__description__award__image--text"
+        }
+      },
+
       "rich-text#heading-slider": {
         "title": "slider layout home text h2",
         "props": {
@@ -41,7 +95,19 @@
           "textAlignment": "LEFT",
           "textPosition": "LEFT",
           "blockClass": [
-            "heading__slider__carousel--text"
+            "description__slider__carousel--text"
+          ]
+        }
+      },
+
+      "rich-text#buy__button-slider": {
+        "title": "buy button",
+        "props": {
+          "text": "Comprar",
+          "textAlignment": "LEFT",
+          "textPosition": "LEFT",
+          "blockClass": [
+            "buy__button__infoCard__carousel--text"
           ]
         }
       },
@@ -53,37 +119,10 @@
         }
       },
 
-      "flex-layout.row#test_one--slider-home": {
-        "title": "slider row test one",
-        "children":[
-            "flex-layout.col#carousel__one--slider-home",
-            "flex-layout.col#carousel__one--slider-home",
-            "flex-layout.col#carousel__one--slider-home",
-            "flex-layout.col#carousel__one--slider-home"
-        ],
-        "props":{
-          "borderWidth": 0,
-          "boder": "all",
-          "colJustify": "around",
-          "marginTop": 8,
-          "colGap": 0,
-          "colSizing": "auto",
-          "rowGap": 0
-        }
-      },
-
-      "flex-layout.col#carousel__one--slider-home": {
-        "title": "slider col carousel one",
-        "children": [
-            "image#home__carousel",
-            "rich-text#heading-slider",
-            "rich-text#description-slider"
-        ],
-        "props":{
-            "width": "100%",
-            "border": "all",
-            "borderColor": "white",
-            "horizontalAlign": "LEFT"
+      "image#award__image": {
+        "title": "award image",
+        "props": {
+          "src": "assets/img/1_image_award.png"
         }
       }
 }

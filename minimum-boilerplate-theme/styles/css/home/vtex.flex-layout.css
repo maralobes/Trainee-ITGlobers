@@ -1,8 +1,15 @@
 .flexRow--container__banner--text{
+   display: flex;
+   flex-direction: row;
+   justify-content:flex-end;
+   align-items: flex-start;
    background: #F0F0F2;
-   width: 100%;
+   padding: 0;
+   width: 1280px;
    height: 422px;
    top: 168px;
+   left: 0px;
+   isolation: isolate;
 }
 
 .flexColChild--columns--text{
@@ -29,4 +36,17 @@
    align-content: space-around;
    top: 16px;
    left: 94px;
+}
+
+.flexRow--infoCard__main__row--text{
+   display: flexbox;
+   align-items: flex-start;
+}
+.flexCol--infoCard__main__col--text {
+   background-color: white;
+   border-radius: 14px;
+}
+.flexColChild--infoCard__main__col--text {
+   width: 324px;
+   height: 336px;
 }
