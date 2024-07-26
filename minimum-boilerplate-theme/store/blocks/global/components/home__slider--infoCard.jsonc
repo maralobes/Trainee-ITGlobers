@@ -30,11 +30,9 @@
             "flex-layout.col#carousel__one--slider-home"
         ],
         "props":{
-          "boder": "all",
-          "colJustify": "around",
-          "marginTop": 8,
+          "marginTop": 0,
           "marginBottom": 9,
-          "colGap": 9,
+          "colGap": 6,
           "colSizing": "auto",
           "rowGap": 0,
           "blockClass": "infoCard__main__row--text"
@@ -50,8 +48,6 @@
         ],
         "props":{
             "width": "100%",
-            "border": "all",
-            "borderColor": "white",
             "horizontalAlign": "LEFT",
             "blockClass": "infoCard__main__col--text"
         }

@@ -1,14 +1,7 @@
-/* .paginationDot--first-carousel--text {
-    background-color: black;
-}
-
-.paginationDot--second-carousel--text {
-    background-color: black;
-} */
-
 .sliderLayoutContainer--first-carousel--text {
     margin: 0 auto;
     max-width: 1280px;
+    padding-top: -3%;
 
 }
 
@@ -46,4 +39,11 @@
     align-items: center;
     justify-content: center;
     margin: 0 2px;
+}
+
+.sliderLeftArrow {
+    left: 80px;
+}
+.sliderRightArrow {
+    right: 80px;
 }

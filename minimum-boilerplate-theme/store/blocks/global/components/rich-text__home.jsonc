@@ -16,7 +16,7 @@
     "flex-layout.col#headings--home": {
         "title": "Row for headings",
         "children": [
-            "rich-text#h1",
+            "flex-layout.row#iwatch__text--home",
             "rich-text#h2",
             "rich-text#h3",
             "image#home__image__button"
@@ -26,6 +26,40 @@
             "preventVerticalStretch": true
         }
     }, 
+
+    "flex-layout.row#iwatch__text--home": {
+        "title": "iWatch row text home",
+        "children": [
+            "flex-layout.col#i__text--home",
+            "flex-layout.col#watch__text--home"
+        ],
+        "props": {
+            "blockClass": "iwatch__banner--text",
+            "fullWidth": true
+        }
+    },
+
+    "flex-layout.col#i__text--home": {
+        "title": "Letter i",
+        "children": [
+            "rich-text#h1__i"
+        ],
+        "props": {
+            "blockClass": "letter__i__container",
+            "preventVerticalStretch": true
+        }
+    }, 
+
+    "flex-layout.col#watch__text--home": {
+        "title": "Letter watch",
+        "children": [
+            "rich-text#h1__watch"
+        ],
+        "props": {
+            "blockClass": "word___watch__container",
+            "preventVerticalStretch": true
+        }
+    },
 
     "flex-layout.col#text__one--home": {
         "title": "Text col one home",
@@ -62,14 +96,25 @@
         }
     },
 
-    "rich-text#h1": {
-        "title": "iWatch heading",
+    "rich-text#h1__i": {
+        "title": "i letter heading",
         "props": {
-            "text": "<span class='mini-text' style='font-size: 24px'>i</span><span class='upper-text'>WATCH</span>",
+            "text": "i",
             "textAlignment": "CENTER",
             "textPosition": "CENTER",
             "font": "t-heading-1",
-            "blockClass": "second__colum__text__first--text"
+            "blockClass": "second__colum__letter__i--text"
+        }
+    },
+
+    "rich-text#h1__watch": {
+        "title": "watch word heading",
+        "props": {
+            "text": "WATCH",
+            "textAlignment": "CENTER",
+            "textPosition": "CENTER",
+            "font": "t-heading-1",
+            "blockClass": "second__colum__word__watch--text"
         }
     },
 

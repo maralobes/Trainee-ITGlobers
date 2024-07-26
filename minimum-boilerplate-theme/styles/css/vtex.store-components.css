@@ -18,6 +18,7 @@
 .imageElement--button-banner{
    position: relative;
    padding-left: 25%;
+   top: 4px;
 }
 
 .container {

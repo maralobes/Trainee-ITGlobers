@@ -1,17 +1,33 @@
-.paragraph--second__colum__text__first--text{
+.paragraph--second__colum__letter__i--text {
     font-weight: 600;
     line-height: 40px;
+    font-size: 24px;
     color: #1D2734;
-    padding-bottom: 8px;
+    padding-bottom: 2px;
+    padding-left: 50px;
     margin: 0;
+    top: 50%;
+    margin-top: 8px;
 }
+
+.paragraph--second__colum__word__watch--text {
+    font-weight: 600;
+    line-height: 40px;
+    font-size: 48px;
+    color: #1D2734;
+    padding-bottom: 2px;
+    padding-right: 200px;
+    margin: 0
+}
+
 .paragraph--second__colum__text__second--text{
     font-weight: 300;
     font-size: 16px;
     line-height: 19px;
-    color: #FF8324;
+    color: hsl(26, 100%, 57%);
     padding-bottom: 16px;
     margin: 0;
+    margin-top: 0px;
 }
 
 .paragraph--second__colum__text__third--text{
@@ -19,7 +35,7 @@
     font-size: 16px;
     line-height: 16.8px;
     color: #1D2734;
-    padding-bottom: 32px;
+    padding-bottom: 24px;
     margin: 0;
 }
 
@@ -28,8 +44,9 @@
     font-size: 16px;
     line-height: 16.8px;
     margin: 2.5rem;
-    padding-left: 72px;
-    padding-bottom: 16px;
+    margin-bottom: 1.3rem;
+    padding-left: 20px;
+    padding-bottom: 0px;
     color: #1D2734;
 }
 

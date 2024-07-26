@@ -17,10 +17,18 @@
 
 }
 
+.flexRow--iwatch__banner--text {
+   display: flex;
+   align-items: baseline;
+   align-content: flex-start;
+   justify-content:end;
+}
+
 .flexColChild--columns--text{
    display: flex;
    align-items: center;
    align-content: center;
+   top: 121px;
 }
 
 .slideChildrenContainer--first-carousel {
