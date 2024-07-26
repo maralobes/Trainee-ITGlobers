@@ -46,8 +46,7 @@
         "children": [
             "image#home__carousel",
             "rich-text#heading-slider",
-            "flex-layout.row#description__and__image__award--slider-home",
-            "rich-text#buy__button-slider"
+            "flex-layout.row#description__and__image__award--slider-home"
         ],
         "props":{
             "width": "100%",
@@ -96,18 +95,6 @@
           "textPosition": "LEFT",
           "blockClass": [
             "description__slider__carousel--text"
-          ]
-        }
-      },
-
-      "rich-text#buy__button-slider": {
-        "title": "buy button",
-        "props": {
-          "text": "Comprar",
-          "textAlignment": "LEFT",
-          "textPosition": "LEFT",
-          "blockClass": [
-            "buy__button__infoCard__carousel--text"
           ]
         }
       },

@@ -18,22 +18,13 @@
         "children": [
             "rich-text#h1",
             "rich-text#h2",
-            "rich-text#h3",
-            "flex-layout.row#buy__button--home"
+            "rich-text#h3"
         ],
         "props": {
             "blockClass": "headings_container",
             "preventVerticalStretch": true
         }
-    },
-    
-    "flex-layout.row#buy__button--home": {
-        "title": "Row for buy button",
-        "children": [
-        ],
-        "props": {
-        }
-    },
+    }, 
 
     "flex-layout.col#text__one--home": {
         "title": "Text col one home",
