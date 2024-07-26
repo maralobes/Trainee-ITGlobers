@@ -18,7 +18,8 @@
         "children": [
             "rich-text#h1",
             "rich-text#h2",
-            "rich-text#h3"
+            "rich-text#h3",
+            "image#home__image__button"
         ],
         "props": {
             "blockClass": "headings_container",
@@ -112,5 +113,14 @@
             "maxHeight": "100%",
             "blockClass": "watch_image_2"
         }
+    },
+
+    "image#home__image__button": {
+        "title": "image button",
+        "props": {
+            "src": "assets/img/7_image_button.png",
+            "blockClass": "button-banner"
+        }
     }
+
 }

@@ -8,11 +8,13 @@
 
 .sliderLayoutContainer--first-carousel--text {
     margin: 0 auto;
+    max-width: 1280px;
 
 }
 
 .sliderLayoutContainer--second-carousel--text {
     margin: 0 auto;
+    max-width: 1350px;
 }
 
 .paginationDot--isActive::before {
