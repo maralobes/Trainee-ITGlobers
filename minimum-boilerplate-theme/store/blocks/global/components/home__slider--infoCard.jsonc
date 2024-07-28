@@ -43,8 +43,8 @@
         "title": "slider col carousel one",
         "children": [
             "image#home__carousel",
-            "rich-text#heading-slider",
-            "flex-layout.row#description__and__image__award--slider-home"
+            "flex-layout.row#description__and__image__award--slider-home",
+            "flex-layout.row#price__button--slider-home"
         ],
         "props":{
             "width": "100%",
@@ -56,18 +56,78 @@
       "flex-layout.row#description__and__image__award--slider-home": {
         "title": "slider row test one",
         "children":[
-          "rich-text#description-slider",
-          "image#award__image"
+          "flex-layout.col#infocard__text--slider-home",
+          "flex-layout.col#infocard__award__image--slider-home"
         ],
         "props":{
           "borderWidth": 0,
           "boder": "all",
           "colJustify": "around",
-          "marginTop": 7,
-          "colGap": 5,
+          "marginTop": 0,
+          "colGap": 6,
           "colSizing": "auto",
           "rowGap": 0,
           "blockClass": "product__description__award__image--text"
+        }
+      },
+
+      "flex-layout.row#price__button--slider-home": {
+        "title": "slider row price button carousel one",
+        "children": [
+          "image#price__button__image"
+        ],
+        "props":{
+            "width": "100%",
+            "horizontalAlign": "CENTER",
+            "blockClass": "price__button__row--text"
+        }
+      },
+
+      "flex-layout.col#infocard__text--slider-home": {
+        "title": "slider col heading and description texts inforcard carousel one",
+        "children": [
+          "flex-layout.row#infocard__heading__text--slider-home",
+          "flex-layout.row#infocard__description__text--slider-home"
+        ],
+        "props":{
+            "width": "100%",
+            "horizontalAlign": "LEFT",
+            "blockClass": "infocard__texts__col--text"
+        }
+      },
+
+      "flex-layout.row#infocard__heading__text--slider-home": {
+        "title": "slider row heading text infocard carousel one",
+        "children": [
+          "rich-text#heading-slider"
+        ],
+        "props":{
+            "width": "100%",
+            "horizontalAlign": "LEFT",
+            "blockClass": "heading__infocard__row--text"
+        }
+      },
+
+      "flex-layout.row#infocard__description__text--slider-home": {
+        "title": "slider row description text infocard carousel one",
+        "children": [
+          "rich-text#description-slider"
+        ],
+        "props":{
+            "width": "100%",
+            "horizontalAlign": "LEFT",
+            "blockClass": "description__infocard__row--text"
+        }
+      },
+
+      "flex-layout.col#infocard__award__image--slider-home": {
+        "title": "slider col award image inforcard carousel one",
+        "children": [
+          "image#award__image"
+        ],
+        "props":{
+            "horizontalAlign": "RIGHT",
+            "blockClass": "infocard__award__image__col--text"
         }
       },
 
@@ -98,14 +158,24 @@
       "image#home__carousel": {
         "title": "image card element 1",
         "props": {
-          "src": "assets/img/3_image_card_element.png"
+          "src": "assets/img/3_image_card_element.png",
+          "blockClass": "infocard__product__image--text"
         }
       },
 
       "image#award__image": {
         "title": "award image",
         "props": {
-          "src": "assets/img/1_image_award.png"
+          "src": "assets/img/1_image_award.png",
+          "blockClass": "award__image--text"
+        }
+      },
+
+      "image#price__button__image": {
+        "title": "price button image",
+        "props": {
+          "src": "assets/img/10_image_infocard_button.png",
+          "blockClass": "price__button--text"
         }
       }
 }

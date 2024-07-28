@@ -52,8 +52,8 @@
 }
 
 .flexRow--infoCard__main__row--text{
-   display: flexbox;
-   align-items: flex-start;
+   display: flex;
+   align-items:center;
 }
 .flexCol--infoCard__main__col--text {
    background-color: white;
@@ -61,6 +61,14 @@
    padding-left: 0px;
 }
 .flexColChild--infoCard__main__col--text {
-   width: 324px;
+   width: 344px;
    height: 336px;
+   margin: 0px;
+}
+
+.flexColChild--infocard__award__image__col--text {
+}
+
+.flexCol--infocard__texts__col--text {
+   
 }

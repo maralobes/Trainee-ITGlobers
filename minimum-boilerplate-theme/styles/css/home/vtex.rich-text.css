@@ -51,15 +51,24 @@
 }
 
 .paragraph--heading__slider__carousel--text {
-    font-weight: 600px;
+    font-weight: bolder;
     font-size: 16px;
     line-height: 25px;
-    padding-bottom: 16px;
+    padding-bottom: 0px;
+    margin-left: 22px;
 }
 
 .paragraph--description__slider__carousel--text {
-    font-weight: 400px;
+    font-weight: 320;
     font-size: 14px;
     line-height: 16.8px;
     padding-bottom: 14px;
+    padding-top: 0px;
+    margin-left: 22px;
+    margin-bottom: 10px;
+}
+
+.wrapper--description__slider__carousel--text {
+    margin: 0px;
+    margin-bottom: 0;
 }
