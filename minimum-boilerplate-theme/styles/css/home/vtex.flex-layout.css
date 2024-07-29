@@ -53,7 +53,7 @@
 
 .flexRow--infoCard__main__row--text{
    display: flex;
-   align-items:center;
+   align-items: center;
 }
 .flexCol--infoCard__main__col--text {
    background-color: white;

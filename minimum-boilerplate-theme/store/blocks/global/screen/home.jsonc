@@ -5,11 +5,11 @@
       "rich-text#h1--before-slider",
       "slider-layout#infoCard",
       "rich-text#h1--before-slider",
-      "slider-layout#computer__carousel",
+      "list-context.product-list#demo1",
       "rich-text#h1--before-slider",
       "slider-layout#infoCard",
       "rich-text#h1--before-slider",
-      "slider-layout#computer__carousel"
+      "list-context.product-list#demo1"
     ],
     "props": {
       "blockClass": "home-container--text"

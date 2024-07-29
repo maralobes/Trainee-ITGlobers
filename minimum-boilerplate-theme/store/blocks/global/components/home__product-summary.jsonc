@@ -1,0 +1,87 @@
+{
+    "list-context.product-list#demo1": {
+      "blocks": ["product-summary.shelf#demo1"],
+      "children": ["slider-layout#product__summary__carousel"]
+    },
+
+    "product-summary.shelf#demo1": {
+        "children": [
+            "add-to-list-btn",
+            "product-summary-image",
+            "product-summary-description",
+            "product-list-price",
+            "product-price",
+            "rich-text#envio__gratis__text-slider-home",
+            "add-to-cart-button"
+        ]
+    },
+    "vtex.product-highlights@2.x:product-highlights": {
+        "props": {
+          "type": "teaser",
+          "filter": {
+            "type": "show",
+            "highlightNames": ["20% OFF"]
+          }
+        },
+        "children": ["product-highlight-text"]
+      },
+      "product-highlight-text": {
+        "props": {
+          "message": "{highlightName}",
+          "blockClass": "boleto"
+        }
+      },
+
+    "slider-layout#product__summary__carousel": {
+        "title": "Computer carousel",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 1,
+                "phone": 1
+            },
+            "infinite": false,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "second-carousel--text"
+            },
+        "children": [
+
+        ]
+    },
+      
+    "product-summary-image": {
+        "title": "computer image",
+        "props": {
+            "blockClass": "computer--text"
+        }
+    },
+
+      
+    "rich-text#envio__gratis__text-slider-home": {
+        "title": "New price",
+        "props": {
+            "text": "Envío gratis",
+            "textAlignment": "LEFT",
+            "textPosition": "LEFT",
+            "blockClass": []
+        }
+    },
+
+    "add-to-cart-button": {
+        "title": "Buy button",
+        "props":{
+            "text": "Comprar"
+        }
+    },
+    
+    "product-spot-price-savings#summary": {
+        "props": {
+          "markers": [
+            "highlight"
+          ],
+          "blockClass": "summary_price__savings",
+          "message": "20%OFF"
+        }
+    }
+}
+  
