@@ -15,16 +15,32 @@
             "add-to-cart-button"
         ]
     },
+    "vtex.product-highlights@2.x:product-highlights": {
+        "props": {
+          "type": "teaser",
+          "filter": {
+            "type": "show",
+            "highlightNames": ["20% OFF"]
+          }
+        },
+        "children": ["product-highlight-text"]
+      },
+      "product-highlight-text": {
+        "props": {
+          "message": "{highlightName}",
+          "blockClass": "boleto"
+        }
+      },
 
     "slider-layout#product__summary__carousel": {
         "title": "Computer carousel",
         "props": {
             "itemsPerPage": {
                 "desktop": 5,
-                "tablet": 1,
-                "phone": 1
+                "tablet": 2,
+                "phone": 2
             },
-            "infinite": false,
+            "infinite": true,
             "showNavigationArrows": "desktopOnly",
             "blockClass": "second-carousel--text"
             },
@@ -41,7 +57,7 @@
     },
 
       
-    "rich-text#envio__gratis__text2-slider-home": {
+    "rich-text#envio__gratis__text-slider-home": {
         "title": "New price",
         "props": {
             "text": "Envío gratis",

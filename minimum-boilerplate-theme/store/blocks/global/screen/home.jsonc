@@ -9,7 +9,9 @@
       "rich-text#h1--before-slider",
       "slider-layout#infoCard",
       "rich-text#h1--before-slider",
-      "list-context.product-list#demo1"
+      "list-context.product-list#demo1",
+      "responsive-layout.desktop#desktop__home__v1",
+      "responsive-layout.mobile#mobile__home__v1"
     ],
     "props": {
       "blockClass": "home-container--text"

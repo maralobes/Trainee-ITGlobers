@@ -32,3 +32,9 @@
 .imageElement--infocard__product__image--text {
    width: 100%;
 }
+
+.infoCardContainer--info-card-example {
+   display: flex;
+   flex-direction: column-reverse;
+   width: 100%;
+}

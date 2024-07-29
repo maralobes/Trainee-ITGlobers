@@ -1,6 +1,6 @@
 {
-    "responsive-layout.desktop#desktop__home__v1": {
-        "title": "Home screen Desktop",
+    "responsive-layout.mobile#mobile__home__v1": {
+        "title": "Home screen Mobile",
         "children": [
             "flex-layout.row#images__text--home",
             "rich-text#h1--before-slider",
