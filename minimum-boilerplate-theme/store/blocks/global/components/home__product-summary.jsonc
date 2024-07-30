@@ -8,10 +8,11 @@
         "children": [
             "add-to-list-btn",
             "product-summary-image",
+            "product-summary-space",
             "product-summary-description",
             "product-list-price",
             "product-price",
-            "rich-text#envio__gratis__text-slider-home",
+            "rich-text#envio__gratis__text2-slider-home",
             "add-to-cart-button"
         ]
     },
@@ -26,10 +27,13 @@
             },
             "infinite": false,
             "showNavigationArrows": "desktopOnly",
-            "blockClass": "second-carousel--text"
+            "navigationStep": 1,
+            "blockClass": "second-carousel--text",
+            "centerMode": "to-the-left",
+            "centerModeSlidesGap": 7,
+            "fullWidth": false
             },
         "children": [
-
         ]
     },
       

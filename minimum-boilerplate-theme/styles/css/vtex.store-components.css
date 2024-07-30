@@ -25,16 +25,34 @@
    top: 4px;
 }
 
-.imageElement--award__image--text {
-   width: 100%;
-}
-
 .imageElement--infocard__product__image--text {
    width: 100%;
 }
 
-.infoCardContainer--info-card-example {
+.infoCardContainer--info-card-first-carousel {
    display: flex;
    flex-direction: column-reverse;
-   width: 100%;
+}
+
+.infoCardContainer--info-card-banner {
+   display: flex;
+   flex-direction: row;
+   justify-content:center;
+   align-items: center;
+   background: #F0F0F2;
+   padding: 0;
+   height: 422px;
+   top: 168px;
+   left: 0px;
+   isolation: isolate;
+}
+
+.infoCardCallActionContainer--info-card-banner {
+   visibility: hidden;
+}
+
+.imageElement--price__button--text {
+   margin: auto;
+   padding-bottom: 20px;
+
 }

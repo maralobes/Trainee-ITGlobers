@@ -1,129 +1,152 @@
-{
-    "slider-layout#infoCard": {
-        "title": "slider layout home",
+{ 
+  "slider-layout#mobile_infoCard": {
+        "title": "slider layout home infocard",
         "props": {
           "itemsPerPage": {
-            "desktop": 1,
+            "desktop": 3,
             "tablet": 1,
             "phone": 1
           },
           "infinite": true,
           "showNavigationArrows": "desktopOnly",
-          "blockClass": "first-carousel--text"
+          "blockClass": "first-carousel--text",
+          "centerMode": "to-the-left",
+          "centerModeSlidesGap": 1,
+          "fullWidth": false
         },
         "children": [
-            "flex-layout.row#test_one--slider-home"
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home",
+          "flex-layout.row#mobile_test_one--slider-home"
         ]
       },
 
-      "flex-layout.row#test_one--slider-home": {
+      "flex-layout.row#mobile_test_one--slider-home": {
         "title": "slider row test one",
         "children":[
-            "flex-layout.col#carousel__one--slider-home"
+          "flex-layout.col#mobile_carousel__one--slider-home"
         ],
         "props":{
-          "marginTop": 0,
+          "marginTop": 5,
           "marginBottom": 9,
-          "colGap": 6,
           "colSizing": "auto",
           "rowGap": 0,
           "blockClass": "infoCard__main__row--text"
         }
       },
 
-      "flex-layout.col#carousel__one--slider-home": {
+      "flex-layout.col#mobile_carousel__one--slider-home": {
         "title": "slider col carousel one",
         "children": [
-            "image#home__carousel",
-            "flex-layout.row#description__and__image__award--slider-home",
-            "flex-layout.row#price__button--slider-home"
+            "image#mobile_home__carousel",
+            "flex-layout.row#mobile_description__and__image__award--slider-home",
+            "flex-layout.row#mobile_price__button--slider-home"
         ],
         "props":{
-            "width": "100%",
-            "horizontalAlign": "LEFT",
-            "blockClass": "infoCard__main__col--text"
+          "width": "70%",
+          "horizontalAlign": "LEFT",
+          "colGap": 0,
+          "preventVerticalStretch": true,
+          "marginLeft": 8,
+          "blockClass": "infoCard__main__col--text"
         }
       },
 
-      "flex-layout.row#description__and__image__award--slider-home": {
+      "flex-layout.row#mobile_description__and__image__award--slider-home": {
         "title": "slider row test one",
         "children":[
-          "flex-layout.col#infocard__text--slider-home",
-          "flex-layout.col#infocard__award__image--slider-home"
+          "flex-layout.col#mobile_infocard__text--slider-home",
+          "flex-layout.col#mobile_infocard__award__image--slider-home"
         ],
         "props":{
-          "borderWidth": 0,
-          "boder": "all",
-          "colJustify": "around",
           "marginTop": 0,
-          "colGap": 6,
-          "colSizing": "auto",
+          "horizontalAlign": "right",
           "rowGap": 0,
+          "colGap": 1,
+          "colSizing": "equal",
           "blockClass": "product__description__award__image--text"
         }
       },
 
-      "flex-layout.row#price__button--slider-home": {
+      "flex-layout.row#mobile_price__button--slider-home": {
         "title": "slider row price button carousel one",
         "children": [
-          "image#price__button__image"
+          "image#mobile_price__button__image"
         ],
         "props":{
-            "width": "100%",
-            "horizontalAlign": "CENTER",
-            "blockClass": "price__button__row--text"
+          "width": "100%",
+          "horizontalAlign": "CENTER",
+          "blockClass": "price__button__row--text"
         }
       },
 
-      "flex-layout.col#infocard__text--slider-home": {
+      "flex-layout.col#mobile_infocard__text--slider-home": {
         "title": "slider col heading and description texts inforcard carousel one",
         "children": [
-          "flex-layout.row#infocard__heading__text--slider-home",
-          "flex-layout.row#infocard__description__text--slider-home"
+          "flex-layout.row#mobile_infocard__heading__text--slider-home",
+          "flex-layout.row#mobile_infocard__description__text--slider-home"
         ],
         "props":{
-            "width": "100%",
-            "horizontalAlign": "LEFT",
-            "blockClass": "infocard__texts__col--text"
+          "horizontalAlign": "LEFT",
+          "verticalAlign": "top",
+          "blockClass": "infocard__texts__col--text"
         }
       },
 
-      "flex-layout.row#infocard__heading__text--slider-home": {
+      "flex-layout.row#mobile_infocard__heading__text--slider-home": {
         "title": "slider row heading text infocard carousel one",
         "children": [
-          "rich-text#heading-slider"
+          "rich-text#mobile_heading-slider"
         ],
         "props":{
-            "width": "100%",
-            "horizontalAlign": "LEFT",
-            "blockClass": "heading__infocard__row--text"
+          "horizontalAlign": "LEFT",
+          "rowGap": 5,
+          "blockClass": "heading__infocard__row--text"
         }
       },
 
-      "flex-layout.row#infocard__description__text--slider-home": {
+      "flex-layout.row#mobile_infocard__description__text--slider-home": {
         "title": "slider row description text infocard carousel one",
         "children": [
-          "rich-text#description-slider"
+          "rich-text#mobile_description-slider"
         ],
         "props":{
-            "width": "100%",
-            "horizontalAlign": "LEFT",
-            "blockClass": "description__infocard__row--text"
+          "blockClass": "description__infocard__row--text"
         }
       },
 
-      "flex-layout.col#infocard__award__image--slider-home": {
+      "flex-layout.col#mobile_infocard__award__image--slider-home": {
         "title": "slider col award image inforcard carousel one",
         "children": [
-          "image#award__image"
+          "image#mobile_award__image"
         ],
         "props":{
-            "horizontalAlign": "RIGHT",
-            "blockClass": "infocard__award__image__col--text"
+          "marginRight": 1,
+          "paddingRight": 1,
+          "blockClass": "infocard__award__image__col--text"
         }
       },
 
-      "rich-text#heading-slider": {
+      "rich-text#mobile_heading-slider": {
         "title": "slider layout home text h2",
         "props": {
           "text":  "Heading",
@@ -135,10 +158,10 @@
         }
       },
 
-      "rich-text#description-slider": {
+      "rich-text#mobile_description-slider": {
         "title": "slider layout home text h3",
         "props": {
-          "text": "Builder platform is made by, buildership platform is made by...",
+          "text": "Builder platform is made by...",
           "textAlignment": "LEFT",
           "textPosition": "LEFT",
           "blockClass": [
@@ -147,7 +170,7 @@
         }
       },
 
-      "image#home__carousel": {
+      "image#mobile_home__carousel": {
         "title": "image card element 1",
         "props": {
           "src": "assets/img/3_image_card_element.png",
@@ -155,7 +178,7 @@
         }
       },
 
-      "image#award__image": {
+      "image#mobile_award__image": {
         "title": "award image",
         "props": {
           "src": "assets/img/1_image_award.png",
@@ -163,7 +186,7 @@
         }
       },
 
-      "image#price__button__image": {
+      "image#mobile_price__button__image": {
         "title": "price button image",
         "props": {
           "src": "assets/img/10_image_infocard_button.png",

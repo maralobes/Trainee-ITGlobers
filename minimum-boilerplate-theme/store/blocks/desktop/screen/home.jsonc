@@ -2,7 +2,7 @@
     "responsive-layout.desktop#desktop__home__v1": {
         "title": "Home screen Desktop",
         "children": [
-            "flex-layout.row#images__text--home",
+            "info-card#banner-home",
             "rich-text#h1--before-slider",
             "slider-layout#infoCard",
             "rich-text#h1--before-slider",

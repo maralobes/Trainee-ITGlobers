@@ -2,15 +2,16 @@
     "responsive-layout.mobile#mobile__home__v1": {
         "title": "Home screen Mobile",
         "children": [
-            "flex-layout.row#images__text--home",
-            "rich-text#h1--before-slider",
-            "slider-layout#infoCard",
-            "rich-text#h1--before-slider",
-            "list-context.product-list#demo1",
-            "rich-text#h1--before-slider",
-            "slider-layout#infoCard",
-            "rich-text#h1--before-slider",
-            "list-context.product-list#demo1"
+            "info-card#mobile_banner-home",
+            "rich-text#mobile_h1--before-slider",
+            "slider-layout#mobile_infoCard",
+            "rich-text#mobile_h1--before-slider",
+            "list-context.product-list#mobile_demo1",
+            "rich-text#mobile_h1--before-slider",
+            "slider-layout#mobile_infoCard",
+            "rich-text#mobile_h1--before-slider",
+            "list-context.product-list#mobile_demo1"
+
         ]
     }
 }

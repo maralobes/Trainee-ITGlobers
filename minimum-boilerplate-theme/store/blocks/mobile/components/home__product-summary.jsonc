@@ -1,39 +1,24 @@
 {
-    "list-context.product-list#demo1": {
-      "blocks": ["product-summary.shelf#demo1"],
-      "children": ["slider-layout#product__summary__carousel"]
+    "list-context.product-list#mobile_demo1": {
+      "blocks": ["product-summary.shelf#mobile_demo1"],
+      "children": ["slider-layout#mobile_product__summary__carousel"]
     },
 
-    "product-summary.shelf#demo1": {
+    "product-summary.shelf#mobile_demo1": {
         "children": [
             "add-to-list-btn",
             "product-summary-image",
+            "product-summary-space",
             "product-summary-description",
             "product-list-price",
             "product-price",
-            "rich-text#envio__gratis__text-slider-home",
-            "add-to-cart-button"
+            "rich-text#mobile_envio__gratis__text2-slider-home",
+            "add-to-cart-button#mobile"
         ]
     },
-    "vtex.product-highlights@2.x:product-highlights": {
-        "props": {
-          "type": "teaser",
-          "filter": {
-            "type": "show",
-            "highlightNames": ["20% OFF"]
-          }
-        },
-        "children": ["product-highlight-text"]
-      },
-      "product-highlight-text": {
-        "props": {
-          "message": "{highlightName}",
-          "blockClass": "boleto"
-        }
-      },
 
-    "slider-layout#product__summary__carousel": {
-        "title": "Computer carousel",
+    "slider-layout#mobile_product__summary__carousel": {
+        "title": "Computer carousel mobile",
         "props": {
             "itemsPerPage": {
                 "desktop": 5,
@@ -42,22 +27,14 @@
             },
             "infinite": true,
             "showNavigationArrows": "desktopOnly",
+            "navigationStep": 1,
             "blockClass": "second-carousel--text"
             },
         "children": [
-
         ]
     },
       
-    "product-summary-image": {
-        "title": "computer image",
-        "props": {
-            "blockClass": "computer--text"
-        }
-    },
-
-      
-    "rich-text#envio__gratis__text-slider-home": {
+    "rich-text#mobile_envio__gratis__text2-slider-home": {
         "title": "New price",
         "props": {
             "text": "Envío gratis",
@@ -67,20 +44,10 @@
         }
     },
 
-    "add-to-cart-button": {
+    "add-to-cart-button#mobile": {
         "title": "Buy button",
         "props":{
             "text": "Comprar"
-        }
-    },
-    
-    "product-spot-price-savings#summary": {
-        "props": {
-          "markers": [
-            "highlight"
-          ],
-          "blockClass": "summary_price__savings",
-          "message": "20%OFF"
         }
     }
 }
