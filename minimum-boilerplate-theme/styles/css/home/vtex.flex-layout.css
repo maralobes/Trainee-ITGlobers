@@ -1,4 +1,4 @@
-.flexRow--container__banner--text{
+/* .flexRow--container__banner--text{
    display: flex;
    flex-direction: row;
    justify-content:center;
@@ -28,7 +28,7 @@
    align-items: center;
    align-content: center;
    top: 121px;
-}
+} */
 
 /* .slideChildrenContainer--first-carousel {
    display: flex;
@@ -40,7 +40,7 @@
    right: 94px;
 } */
 
-.slideChildrenContainer--second-carousel {
+/* .slideChildrenContainer--second-carousel {
    display: flex;
    flex-direction: row;
    align-items: center;
@@ -48,16 +48,16 @@
    top: 16px;
    left: 94px;
    padding-top: 16px;
-}
+} */
 
 /* .flexRow--infoCard__main__row--text{
    display: flex;
    align-items: center;
 } */
-.flexCol--infoCard__main__col--text {
+/* .flexCol--infoCard__main__col--text {
    background-color: white;
    border-radius: 14px;
-}
+} */
 /* .flexColChild--infoCard__main__col--text {
    width: 344px;
    height: 336px;

@@ -4,13 +4,13 @@
         "children": [
             "info-card#banner-home",
             "rich-text#h1--before-slider",
-            "slider-layout#infoCard",
+            "flex-layout.row#test_one--slider-home",
             "rich-text#h1--before-slider",
-            "list-context.product-list#demo1",
+            "flex-layout.row#second__carousel--slider-home",
             "rich-text#h1--before-slider",
-            "slider-layout#infoCard",
+            "flex-layout.row#test_one--slider-home",
             "rich-text#h1--before-slider",
-            "list-context.product-list#demo1"
+            "flex-layout.row#second__carousel--slider-home"
         ]
     }
 }

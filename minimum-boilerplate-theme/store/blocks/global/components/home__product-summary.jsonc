@@ -1,75 +1,149 @@
 {
-    "list-context.product-list#demo1": {
-      "blocks": ["product-summary.shelf#demo1"],
-      "children": ["slider-layout#product__summary__carousel"]
+  "flex-layout.row#second__carousel--slider-home": {
+    "title": "slider row second carousel",
+    "children":[
+        "slider-layout#product__second__carousel"
+      ],
+    "props":{
+      "marginTop": 0,
+      "marginBottom": 1,
+      "paddingBottom": 5,
+      "fullWidth": false,
+      "preventHorizontalStretch": true,
+      "blockClass": "infoCard__main__row--text"
+      }
     },
-
-    "product-summary.shelf#demo1": {
+  
+    "slider-layout#product__second__carousel": {
+        "title": "slider layout home product summary",
+        "props": {
+          "itemsPerPage": {
+            "desktop": 5,
+            "tablet": 2,
+            "phone": 2
+          },
+          "infinite": true,
+          "fullWidth": false,
+          "showNavigationArrows": "desktopOnly",
+          "blockClass": "first-carousel--text"
+        },
         "children": [
-            "add-to-list-btn",
-            "product-summary-image",
-            "product-summary-space",
-            "product-summary-description",
-            "product-list-price",
-            "product-price",
-            "rich-text#envio__gratis__text2-slider-home",
-            "add-to-cart-button"
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home",
+          "flex-layout.col#carousel__two--slider-home"
         ]
-    },
+      },
 
-    "slider-layout#product__summary__carousel": {
-        "title": "Computer carousel",
-        "props": {
-            "itemsPerPage": {
-                "desktop": 5,
-                "tablet": 1,
-                "phone": 1
-            },
-            "infinite": false,
-            "showNavigationArrows": "desktopOnly",
-            "navigationStep": 1,
-            "blockClass": "second-carousel--text",
-            "centerMode": "to-the-left",
-            "centerModeSlidesGap": 7,
-            "fullWidth": false
-            },
+      "flex-layout.col#carousel__two--slider-home": {
+        "title": "slider col carousel two",
         "children": [
-        ]
-    },
-      
-    "product-summary-image": {
-        "title": "computer image",
-        "props": {
-            "blockClass": "computer--text"
-        }
-    },
-
-      
-    "rich-text#envio__gratis__text2-slider-home": {
-        "title": "New price",
-        "props": {
-            "text": "Envío gratis",
-            "textAlignment": "LEFT",
-            "textPosition": "LEFT",
-            "blockClass": []
-        }
-    },
-
-    "add-to-cart-button": {
-        "title": "Buy button",
+            "image#second-carousel-home"
+        ],
         "props":{
-            "text": "Comprar"
+          "horizontalAlign": "center",
+          "blockClass": "infoCard__main__col--text"
         }
-    },
-    
-    "product-spot-price-savings#summary": {
+      },
+
+      "image#second-carousel-home": {
+        "title": "second carousel infocard image",
         "props": {
-          "markers": [
-            "highlight"
-          ],
-          "blockClass": "summary_price__savings",
-          "message": "20%OFF"
+          "src": "assets/img/14_image_shelf.png",
+          "link": "https://mariavillalobos--itgloberspartnercl.myvtex.com/"
         }
-    }
+      }
 }
+
+// {
+//     "list-context.product-list#demo1": {
+//       "blocks": ["product-summary.shelf#demo1"],
+//       "children": ["slider-layout#product__summary__carousel"]
+//     },
+
+//     "product-summary.shelf#demo1": {
+//         "children": [
+//             "add-to-list-btn",
+//             "product-summary-image",
+//             "product-summary-space",
+//             "product-summary-description",
+//             "product-list-price",
+//             "product-price",
+//             "rich-text#envio__gratis__text2-slider-home",
+//             "add-to-cart-button"
+//         ]
+//     },
+
+//     "slider-layout#product__summary__carousel": {
+//         "title": "Computer carousel",
+//         "props": {
+//             "itemsPerPage": {
+//                 "desktop": 5,
+//                 "tablet": 1,
+//                 "phone": 1
+//             },
+//             "infinite": false,
+//             "fullWidth": false,
+//             "showNavigationArrows": "desktopOnly",
+//             "blockClass": "second-carousel--text"
+//             },
+//         "children": [
+//         ]
+//     },
+      
+//     "product-summary-image": {
+//         "title": "computer image",
+//         "props": {
+//             "blockClass": "computer--text"
+//         }
+//     },
+
+      
+//     "rich-text#envio__gratis__text2-slider-home": {
+//         "title": "New price",
+//         "props": {
+//             "text": "Envío gratis",
+//             "textAlignment": "LEFT",
+//             "textPosition": "LEFT",
+//             "blockClass": []
+//         }
+//     },
+
+//     "add-to-cart-button": {
+//         "title": "Buy button",
+//         "props":{
+//             "text": "Comprar"
+//         }
+//     },
+    
+//     "product-spot-price-savings#summary": {
+//         "props": {
+//           "markers": [
+//             "highlight"
+//           ],
+//           "blockClass": "summary_price__savings",
+//           "message": "20%OFF"
+//         }
+//     }
+// }
   

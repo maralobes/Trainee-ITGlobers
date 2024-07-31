@@ -281,13 +281,13 @@
       <path d="M7.26254 2.80524C7.65892 2.37243 8.34108 2.37243 8.73746 2.80525L16 10.7353L13.9259 13L8 6.52941L2.07407 13L0 10.7353L7.26254 2.80524Z" fill="currentColor"/>
     </g>
     <g id="nav-thin-caret--left">
-      <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M7 14L8.41 12.59L3.83 8L20 8L20 6L3.83 6L8.42 1.41L7 -1.1365e-06L6.11959e-07 7L7 14Z" fill="#1D2734"/>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#1D2734" class="bi bi-arrow-left" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M15 8a.5.5 0 0 0-.5-.5H2.707l3.147-3.146a.5.5 0 1 0-.708-.708l-4 4a.5.5 0 0 0 0 .708l4 4a.5.5 0 0 0 .708-.708L2.707 8.5H14.5A.5.5 0 0 0 15 8"/>
       </svg>
     </g>
     <g id="nav-thin-caret--right">
-      <svg width="20" height="14" viewBox="0 0 20 14" fill="none" xmlns="http://www.w3.org/2000/svg">
-        <path d="M13 0L11.59 1.41L16.17 6L0 6L0 8L16.17 8L11.58 12.59L13 14L20 7L13 0Z" fill="#1D2734"/>
+      <svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="#1D2734" class="bi bi-arrow-right" viewBox="0 0 16 16">
+        <path fill-rule="evenodd" d="M1 8a.5.5 0 0 1 .5-.5h11.793l-3.147-3.146a.5.5 0 0 1 .708-.708l4 4a.5.5 0 0 1 0 .708l-4 4a.5.5 0 0 1-.708-.708L13.293 8.5H1.5A.5.5 0 0 1 1 8"/>
       </svg>
     </g>
     <g id="nav-arrow--left">
