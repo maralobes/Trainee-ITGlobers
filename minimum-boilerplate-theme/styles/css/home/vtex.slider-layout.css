@@ -9,7 +9,7 @@
     max-width: 1350px;
 } */
 
-.paginationDot--isActive::before {
+/* .paginationDot--isActive::before {
     content: "";
     position: absolute;
     right: -8px;
@@ -39,36 +39,64 @@
     margin: 0 2px;
 }
 
+.sliderLayoutContainer {
+    margin: 0 40px;
+    padding: 0 38px;
+}
+
+.slideChildrenContainer {
+    margin-bottom: 40px;
+} */
+
+/* .sliderLeftArrow {
+    left: 60px;
+    position: absolute;
+}
+.sliderRightArrow {
+    right: 70px;
+    position: absolute;
+} */
+
+.paginationDot--isActive::before {
+    content: "";
+    position: absolute;
+    right: -8px;
+    width: 16px;
+    height: 16px;
+    background-color: #1D2734;
+    border-radius: 50%;
+}
+.paginationDot::after {
+    width: 44px;
+    height: 2px;
+    content: "";
+    font-size: 0;
+    background-color: #1D2734;
+    position: absolute;
+}
+.paginationDot {
+    width: 44px !important;
+    height: 40px !important;
+    border-radius: 0;
+    background-color: transparent;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 0 2px;
+}
+
 @media screen and (max-width: 1280px) {
     .paginationDot--isActive::before {
-        content: "";
-        position: absolute;
-        right: -8px;
-        width: 12px;
+        width: 16px;
         height: 12px;
-        background-color: #1D2734;
-        border-radius: 50%;
     }
-    
     .paginationDot::after {
         width: 16px;
-        height: 2px;
-        content: "";
-        font-size: 0;
-        background-color: #1D2734;
-        position: absolute;
     }
-
     .paginationDot {
         width: 16px !important;
         height: 12px !important;
-        border-radius: 0;
-        background-color: transparent;
-        position: relative;
-        display: flex;
-        align-items: center;
-        justify-content: center;
-        margin: 0 2px;
     }
 }
 
@@ -80,12 +108,3 @@
 .slideChildrenContainer {
     margin-bottom: 40px;
 }
-
-/* .sliderLeftArrow {
-    left: 60px;
-    position: absolute;
-}
-.sliderRightArrow {
-    right: 70px;
-    position: absolute;
-} */

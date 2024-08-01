@@ -51,6 +51,12 @@
    visibility: hidden;
 }
 
+@media screen and (max-width:1024px) {
+   .imageElement--info-card-banner {
+      width: 100%;
+      }
+}
+
 /* .imageElement--price__button--text {
    margin: auto;
    padding-bottom: 20px;
