@@ -6,11 +6,11 @@
             "rich-text#h1--before-slider",
             "flex-layout.row#test_one--slider-home",
             "rich-text#h1--before-slider",
-            "flex-layout.row#second__carousel--slider-home",
+            "list-context.product-list#demo1",
             "rich-text#h1--before-slider",
             "flex-layout.row#test_one--slider-home",
             "rich-text#h1--before-slider",
-            "flex-layout.row#second__carousel--slider-home"
+            "list-context.product-list#demo1"
         ]
     }
 }

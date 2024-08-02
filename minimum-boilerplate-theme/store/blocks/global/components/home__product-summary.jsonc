@@ -1,149 +1,173 @@
+// {
+//   "flex-layout.row#second__carousel--slider-home": {
+//     "title": "slider row second carousel",
+//     "children":[
+//         "slider-layout#product__second__carousel"
+//       ],
+//     "props":{
+//       "marginTop": 0,
+//       "marginBottom": 1,
+//       "paddingBottom": 5,
+//       "fullWidth": false,
+//       "preventHorizontalStretch": true,
+//       "blockClass": "infoCard__main__row--text"
+//       }
+//     },
+  
+//     "slider-layout#product__second__carousel": {
+//         "title": "slider layout home product summary",
+//         "props": {
+//           "itemsPerPage": {
+//             "desktop": 5,
+//             "tablet": 2,
+//             "phone": 2
+//           },
+//           "infinite": true,
+//           "fullWidth": false,
+//           "showNavigationArrows": "desktopOnly",
+//           "blockClass": "first-carousel--text"
+//         },
+//         "children": [
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home",
+//           "flex-layout.col#carousel__two--slider-home"
+//         ]
+//       },
+
+//       "flex-layout.col#carousel__two--slider-home": {
+//         "title": "slider col carousel two",
+//         "children": [
+//             "image#second-carousel-home"
+//         ],
+//         "props":{
+//           "horizontalAlign": "center",
+//           "blockClass": "infoCard__main__col--text"
+//         }
+//       },
+
+//       "image#second-carousel-home": {
+//         "title": "second carousel infocard image",
+//         "props": {
+//           "src": "assets/img/14_image_shelf.png",
+//           "link": "https://mariavillalobos--itgloberspartnercl.myvtex.com/"
+//         }
+//       }
+// }
+
 {
-  "flex-layout.row#second__carousel--slider-home": {
-    "title": "slider row second carousel",
-    "children":[
-        "slider-layout#product__second__carousel"
+    "list-context.product-list#demo1": {
+      "blocks": ["product-summary.shelf#demo1"],
+      "children": ["slider-layout#product__summary__carousel"]
+    },
+
+    "product-summary.shelf#demo1": {
+        "children": [
+          "flex-layout.row#savings__and_wishlist-summary",
+          "product-summary-image",
+          "product-summary-space",
+          "product-summary-description",
+          "product-list-price",
+          "product-selling-price",
+          "add-to-cart-button"
+        ]
+    },
+
+    "slider-layout#product__summary__carousel": {
+        "title": "product summary carousel",
+        "props": {
+            "itemsPerPage": {
+                "desktop": 5,
+                "tablet": 2,
+                "phone": 2
+            },
+            "infinite": false,
+            "fullWidth": false,
+            "centerMode": "center",
+            "centerModeSlidesGap": 1,
+            "showNavigationArrows": "desktopOnly",
+            "blockClass": "second-carousel--text"
+            },
+        "children": [
+        ]
+    },
+      
+    "flex-layout.row#savings__and_wishlist-summary": {
+      "children":[
+        "product-price-savings",
+        "add-to-list-btn"
       ],
-    "props":{
-      "marginTop": 0,
-      "marginBottom": 1,
-      "paddingBottom": 5,
-      "fullWidth": false,
-      "preventHorizontalStretch": true,
-      "blockClass": "infoCard__main__row--text"
+      "props":{
+        "horizontalAlign": "between",
+        "colSizing": "auto",
+        "marginBottom": 5,
+        "blockClass": "savings__and__wishlist__row--text"
       }
     },
-  
-    "slider-layout#product__second__carousel": {
-        "title": "slider layout home product summary",
-        "props": {
-          "itemsPerPage": {
-            "desktop": 5,
-            "tablet": 2,
-            "phone": 2
-          },
-          "infinite": true,
-          "fullWidth": false,
-          "showNavigationArrows": "desktopOnly",
-          "blockClass": "first-carousel--text"
-        },
-        "children": [
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home",
-          "flex-layout.col#carousel__two--slider-home"
-        ]
-      },
 
-      "flex-layout.col#carousel__two--slider-home": {
-        "title": "slider col carousel two",
-        "children": [
-            "image#second-carousel-home"
-        ],
-        "props":{
-          "horizontalAlign": "center",
-          "blockClass": "infoCard__main__col--text"
-        }
-      },
-
-      "image#second-carousel-home": {
-        "title": "second carousel infocard image",
+    "product-summary-image": {
+        "title": "image list",
         "props": {
-          "src": "assets/img/14_image_shelf.png",
-          "link": "https://mariavillalobos--itgloberspartnercl.myvtex.com/"
+          "showBadge": false,
+          "maxHeight": 210,
+          "aspectRatio": "1:1",
+          "blockClass": "computer--text"
         }
+    },
+
+    "product-price-savings": {
+      "title": "discount text",
+      "props":{
+        "message": "{savingsPercentage} OFF"
       }
+    },
+
+    "product-list-price": {
+      "title": "old price",
+      "props":{
+        "message": "{listPriceValue}"
+      }
+    },
+
+    "product-selling-price": {
+      "title": "actual price",
+      "props":{
+        "message": "{sellingPriceValue}"
+      }
+    },
+
+    "add-to-cart-button": {
+        "title": "Buy button",
+        "props":{
+            "text": "Comprar",
+            "blockClass": "shelf-button--text"
+        }
+    },
+
+    "add-to-list-btn": {
+      "props":{
+        "blockClass": "wishlist__button-text"
+      }
+    }
 }
-
-// {
-//     "list-context.product-list#demo1": {
-//       "blocks": ["product-summary.shelf#demo1"],
-//       "children": ["slider-layout#product__summary__carousel"]
-//     },
-
-//     "product-summary.shelf#demo1": {
-//         "children": [
-//             "add-to-list-btn",
-//             "product-summary-image",
-//             "product-summary-space",
-//             "product-summary-description",
-//             "product-list-price",
-//             "product-price",
-//             "rich-text#envio__gratis__text2-slider-home",
-//             "add-to-cart-button"
-//         ]
-//     },
-
-//     "slider-layout#product__summary__carousel": {
-//         "title": "Computer carousel",
-//         "props": {
-//             "itemsPerPage": {
-//                 "desktop": 5,
-//                 "tablet": 1,
-//                 "phone": 1
-//             },
-//             "infinite": false,
-//             "fullWidth": false,
-//             "showNavigationArrows": "desktopOnly",
-//             "blockClass": "second-carousel--text"
-//             },
-//         "children": [
-//         ]
-//     },
-      
-//     "product-summary-image": {
-//         "title": "computer image",
-//         "props": {
-//             "blockClass": "computer--text"
-//         }
-//     },
-
-      
-//     "rich-text#envio__gratis__text2-slider-home": {
-//         "title": "New price",
-//         "props": {
-//             "text": "Envío gratis",
-//             "textAlignment": "LEFT",
-//             "textPosition": "LEFT",
-//             "blockClass": []
-//         }
-//     },
-
-//     "add-to-cart-button": {
-//         "title": "Buy button",
-//         "props":{
-//             "text": "Comprar"
-//         }
-//     },
-    
-//     "product-spot-price-savings#summary": {
-//         "props": {
-//           "markers": [
-//             "highlight"
-//           ],
-//           "blockClass": "summary_price__savings",
-//           "message": "20%OFF"
-//         }
-//     }
-// }
   

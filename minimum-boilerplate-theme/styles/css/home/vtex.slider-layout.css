@@ -95,14 +95,29 @@
     margin-bottom: 40px;
 }
 
-@media screen and (max-width: 1280px){
-    .sliderTrack--first-carousel--text {
-        width: 100%;
+.slide {
+    margin: 1px 3px;
+}
+/* 
+@media screen and (min-width: 768px){
+    .sliderTrackContainer--first-carousel--text {
+        margin: auto;
+    }
+} */
+
+@media screen and (max-width: 1024px){
+    .sliderLayoutContainer {
+        margin: auto;
+        padding: auto;
     }
 
-    .sliderLayoutContainer {
-        margin: 0;
-        padding: 0;
+    .slideChildrenContainer {
+        margin: auto;
+        margin-bottom: 35px;
+    }
+
+    .slide {
+        margin: auto;
     }
 
     .paginationDot--isActive::before {

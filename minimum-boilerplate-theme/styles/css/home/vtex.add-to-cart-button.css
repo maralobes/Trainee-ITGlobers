@@ -1,0 +1,14 @@
+.buttonText {
+    color: #1D2734;
+    text-transform: capitalize;
+}
+
+.shelf-button--text {
+    border: 1px solid #1D2734;
+    width: 212px;
+    height: 48px;
+    gap: 10px;
+    padding: 10px;
+    border-radius: 8px;
+    background-color: #F0F0F2;
+} 

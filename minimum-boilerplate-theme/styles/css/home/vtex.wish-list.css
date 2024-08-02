@@ -1,0 +1,44 @@
+.wishlistIconContainer {
+    width: 50%;
+}
+
+.wishlistIconContainer :global(.vtex-button) {
+    border: 1px solid #1D2734;
+    width: 44px;
+}
+
+.wishlistIcon {
+    background: url("/arquivos/add-to--favorites.svg");
+    background-repeat: no-repeat;
+    background-position: center;
+    margin: 5px;
+}
+
+.iconSize {
+    padding-left: 1rem;
+    padding-right: 1.2rem;
+}
+.outline {
+    width: 100%;
+}
+
+@media screen and (max-width: 1024) {
+    
+    .wishlistIconContainer :global(.vtex-button) {
+        border: 1px solid #1D2734;
+        width: 15px;
+    }
+    
+    .wishlistIcon {
+        margin: 5px;
+    }
+    
+    .iconSize {
+        padding-left: 1rem;
+        padding-right: 1.2rem;
+    }
+    .outline {
+        width: 100%;
+    }
+    
+}

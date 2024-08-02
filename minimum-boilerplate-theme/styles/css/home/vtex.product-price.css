@@ -1,0 +1,45 @@
+.savings {
+    font-size: 14px;
+    text-align: center;
+    border: 1px solid #1D2734;
+    background-color: #1D2734;
+    border-radius: 4px;
+    color: white;
+    height: 32px;
+    width: 88px;
+    padding: 4px 16px;
+    padding-top: 12px;
+}
+
+.listPrice {
+    font-size: 14px;
+    text-align: left;
+    color: #1D2734 40%;
+    margin: 8px 0px;
+}
+
+.sellingPrice {
+    font-size: 20px;
+    text-align: left;
+    line-height: 22px;
+    font-weight: 600;
+    margin: 8px 0;
+}
+
+@media screen and (max-width: 1024) {
+    .savings {
+        height: 24px;
+        width: 70px;
+        padding: 4px 10px;
+        padding-top: 12px;
+    }
+
+    .listPrice {
+        margin: 4px 0px;
+    }
+    
+    .sellingPrice {
+        margin: 4px 0;
+    }
+    
+}
