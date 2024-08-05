@@ -63,7 +63,11 @@
    height: 336px;
 } */
 
-
+.flexRowContent--savings__and__wishlist__row--text {
+   display: flex;
+   align-items:flex-end;
+   justify-content: flex-end;
+}
 @media screen and (max-width: 1024px) {
    .flexCol--infoCard__main__col--text {
       width: 100%;
@@ -71,10 +75,18 @@
       position: center;
    }
 
-   .flexRowContent--savings__and__wishlist__row--text {
+   /* .flexRowContent--savings__and__wishlist__row--text {
       display: flex;
       flex-direction: row;
-      align-items: center;
       justify-content: space-between;
+      margin: 0px;
+      width: fit-content;
+      padding: auto;
+      padding-bottom: 0px;
+      background-color: blue;
+   } */
+
+   .flexRow--savings__and__wishlist__row--text{
+      background-color: blue;
    }
 }

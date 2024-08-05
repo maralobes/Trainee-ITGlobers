@@ -87,8 +87,10 @@
           "product-summary-image",
           "product-summary-space",
           "product-summary-description",
+          "product-summary-space",
           "product-list-price",
           "product-selling-price",
+          "product-summary-space",
           "add-to-cart-button"
         ]
     },
@@ -102,9 +104,7 @@
                 "phone": 2
             },
             "infinite": false,
-            "fullWidth": false,
-            "centerMode": "center",
-            "centerModeSlidesGap": 1,
+            "fullWidth": true,
             "showNavigationArrows": "desktopOnly",
             "blockClass": "second-carousel--text"
             },
@@ -119,7 +119,7 @@
       ],
       "props":{
         "horizontalAlign": "between",
-        "colSizing": "auto",
+        "colSizing": "equal",
         "marginBottom": 5,
         "blockClass": "savings__and__wishlist__row--text"
       }
@@ -129,7 +129,6 @@
         "title": "image list",
         "props": {
           "showBadge": false,
-          "maxHeight": 210,
           "aspectRatio": "1:1",
           "blockClass": "computer--text"
         }
@@ -138,7 +137,8 @@
     "product-price-savings": {
       "title": "discount text",
       "props":{
-        "message": "{savingsPercentage} OFF"
+        "message": "{savingsPercentage} OFF",
+        "blockClass": "savings--text"
       }
     },
 

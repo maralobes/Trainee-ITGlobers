@@ -1,10 +1,12 @@
-.wishlistIconContainer {
-    width: 50%;
+.vtex-wish-list-1-x-wishlistIconContainer .vtex-button {
+    padding: 0;
+    width: 100%;
 }
 
 .wishlistIconContainer :global(.vtex-button) {
     border: 1px solid #1D2734;
     width: 44px;
+
 }
 
 .wishlistIcon {
@@ -15,8 +17,7 @@
 }
 
 .iconSize {
-    padding-left: 1rem;
-    padding-right: 1.2rem;
+    padding-left: 1.3rem;
 }
 .outline {
     width: 100%;
