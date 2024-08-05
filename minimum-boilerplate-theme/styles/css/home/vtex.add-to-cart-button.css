@@ -2,10 +2,3 @@
     color: #1D2734;
     text-transform: capitalize;
 }
-
-:global(.vtex-add-to-cart-button-0-x-buttonDataContainer) {
-    width: 212px;
-    height: 48px;
-    gap: 10px;
-    padding: 16px;
-} 
