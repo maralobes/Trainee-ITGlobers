@@ -63,11 +63,50 @@
    height: 336px;
 } */
 
-.flexRowContent--savings__and__wishlist__row--text {
+.flexRow--savings__and__wishlist__row--text {
+   display: flex;
+   align-items: flex-end;
+   justify-content: flex-end;
+   position: relative;
+}
+ .flexRowContent--savings__and__wishlist__row--text {
    display: flex;
    align-items:flex-end;
    justify-content: flex-end;
+   padding-right: 8px;
+   margin-bottom: 6px;
 }
+
+.flexRow--savings__and__wishlist__row--text :global(.vtex-button) {
+   border: 1px solid #1D2734;
+   height: 32px;
+   border-radius: 4px;
+   padding: 6px 12px 6px 12px;
+   background-color: #F0F0F2;
+   gap: 10px;
+}
+
+.flexRow--savings__and__wishlist__row--text :global(.vtex-button__label) {
+   padding: 0;
+}
+
+.flexRow--add-to-car-button-summary :global(.vtex-button) {
+   max-width: 100%;
+   height: 48px;
+   background: #F0F0F2;
+   border: 1px solid #1D2734;
+   border-radius: 8px;
+   margin: 10px;
+}
+
+.flexCol--infoCard__main__col--text {
+   /* background-color: violet; */
+   width: 324px;
+   height: 336.46px;
+   border-radius: 12px;
+}
+
+
 @media screen and (max-width: 1024px) {
    .flexCol--infoCard__main__col--text {
       width: 100%;
@@ -75,18 +114,15 @@
       position: center;
    }
 
-   /* .flexRowContent--savings__and__wishlist__row--text {
-      display: flex;
-      flex-direction: row;
-      justify-content: space-between;
-      margin: 0px;
-      width: fit-content;
-      padding: auto;
-      padding-bottom: 0px;
-      background-color: blue;
-   } */
+}
 
-   .flexRow--savings__and__wishlist__row--text{
-      background-color: blue;
-   }
+.flexRowContent--infoCard__main__row--text {
+   justify-content: center;
+}
+
+.flexRowContent--description__prices__row--text{
+   display: flex;
+   flex-direction: column;
+   justify-content: flex-start;
+   padding-left: 8px;
 }

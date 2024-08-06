@@ -51,6 +51,11 @@
    visibility: hidden;
 }
 
+.imageElement--infocard-image--text {
+   width: 324px;
+   height: 336.46px;
+
+}
 
 @media screen and (max-width:1024px) {
    .imageElement--info-card-banner {

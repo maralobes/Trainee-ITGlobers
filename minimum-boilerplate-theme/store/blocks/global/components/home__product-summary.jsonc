@@ -76,6 +76,18 @@
 // }
 
 {
+  "flex-layout.row#second__carousel--slider-home": {
+      "title": "slider row second carousel",
+      "children":[
+        "list-context.product-list#demo1"
+      ],
+      "props":{
+        "fullWidth": false,
+        "preventHorizontalStretch": true,
+        "blockClass": "infoCard__main__row--text"
+        }
+      },
+  
     "list-context.product-list#demo1": {
       "blocks": ["product-summary.shelf#demo1"],
       "children": ["slider-layout#product__summary__carousel"]
@@ -86,12 +98,8 @@
           "flex-layout.row#savings__and_wishlist-summary",
           "product-summary-image",
           "product-summary-space",
-          "product-summary-description",
-          "product-summary-space",
-          "product-list-price",
-          "product-selling-price",
-          "product-summary-space",
-          "add-to-cart-button"
+          "flex-layout.row#description_and_prices_summary",
+          "flex-layout.row#add-to-car-button-summary"
         ]
     },
 
@@ -100,11 +108,10 @@
         "props": {
             "itemsPerPage": {
                 "desktop": 5,
-                "tablet": 2,
+                "tablet": 3,
                 "phone": 2
             },
             "infinite": false,
-            "fullWidth": true,
             "showNavigationArrows": "desktopOnly",
             "blockClass": "second-carousel--text"
             },
@@ -118,10 +125,27 @@
         "add-to-list-btn"
       ],
       "props":{
-        "horizontalAlign": "between",
-        "colSizing": "equal",
-        "marginBottom": 5,
         "blockClass": "savings__and__wishlist__row--text"
+      }
+    },
+
+    "flex-layout.row#description_and_prices_summary": {
+      "children":[
+        "product-summary-description",
+        "product-list-price",
+        "product-selling-price"
+      ],
+      "props":{
+        "blockClass": "description__prices__row--text"
+      }
+    },
+
+    "flex-layout.row#add-to-car-button-summary": {
+      "children":[
+        "add-to-cart-button"
+      ],
+      "props":{
+        "blockClass": "add-to-car-button-summary"
       }
     },
 

@@ -86,50 +86,65 @@
     margin: 0 2px;
 }
 
+.paginationDotsContainer {
+    max-width: 232px;
+    height: 51px;
+    /* margin-left: 524px;
+    margin-right: 524px; */
+    /* position:absolute; */
+    margin-left: auto;
+    margin-right: auto;
+    bottom: -51px;
+}
+
+.sliderLeftArrow {
+    left: -35px;
+}
+
+.sliderRightArrow {
+    right: -38px;
+}
 .sliderLayoutContainer {
-    margin: 0 40px;
-    padding: 0 38px;
+    margin: auto;
+    margin-top: 16px;
+    margin-bottom: 16px;
+    padding: 0px;
+    max-width: 1156px;
+    /* height: 378px; */
+    /* background-color: aquamarine; */
+    /* left: 94px;
+    right: 94px; */
+    gap: 24px;
 }
-
-.slideChildrenContainer {
-    margin-bottom: 40px;
-}
-
-.slide {
-    margin: 1px 3px;
-}
-
-/* 
-@media screen and (min-width: 768px){
-    .sliderTrackContainer--first-carousel--text {
-        margin: auto;
-    }
-} */
 
 @media screen and (max-width: 1024px){
-    .sliderLayoutContainer {
-        margin: auto;
-        padding: auto;
+    .paginationDot {
+        width: 16px !important;
+        height: 14px !important;
     }
 
+    .paginationDotsContainer {
+        bottom: -61px;
+    }
+    
+
+    /* .sliderLayoutContainer {
+        margin: 0 20px;
+        padding: 0 8px;
+    }
+    
     .slideChildrenContainer {
-        margin: auto;
-        margin-bottom: 35px;
+        margin-bottom: 20px;
     }
-
+    
     .slide {
         margin: auto;
     }
-
-    .paginationDot--isActive::before {
-        width: 16px;
-        height: 12px;
-    }
-    .paginationDot::after {
-        width: 16px;
-    }
-    .paginationDot {
-        width: 16px !important;
-        height: 12px !important;
-    }
+    
+    .sliderLayoutContainer--second-carousel--text{
+        width: 328px;
+        height: 292px;
+        max-width: 100%;
+        gap: 7px;
+    } */
 }

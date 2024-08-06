@@ -1,29 +1,12 @@
-.vtex-wish-list-1-x-wishlistIconContainer .vtex-button {
-    padding: 0;
-    width: 100%;
-}
-
-.wishlistIconContainer :global(.vtex-button) {
-    border: 1px solid #1D2734;
-    width: 44px;
-
-}
-
 .wishlistIcon {
     background: url("/arquivos/add-to--favorites.svg");
     background-repeat: no-repeat;
-    background-position: center;
-    margin: 5px;
+    width: 17px;
+    margin-top: 6px;
+    margin-right: -2px;
 }
 
-.iconSize {
-    padding-left: 1.3rem;
-}
-.outline {
-    width: 100%;
-}
-
-@media screen and (max-width: 1024) {
+/* @media screen and (max-width: 1024) {
     
     .wishlistIconContainer :global(.vtex-button) {
         border: 1px solid #1D2734;
@@ -42,4 +25,4 @@
         width: 100%;
     }
     
-}
+} */
