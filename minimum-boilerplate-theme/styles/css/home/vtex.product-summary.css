@@ -24,6 +24,10 @@
     margin-top: 36px;
  }
  
+ /* .tooltipLabelText {
+   background: url("assets/img/2_image_add_shopping_car.svg");
+   background-repeat: no-repeat;
+ } */
 
 @media screen and (max-width: 1024) {
     .description {
