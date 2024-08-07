@@ -6,7 +6,9 @@
     border-radius: 4px;
     color: white;
     height: 32px;
-    padding-top: 7px;
+    position: absolute;
+    left: 0;
+    top: 0
 }
 
 .listPrice {

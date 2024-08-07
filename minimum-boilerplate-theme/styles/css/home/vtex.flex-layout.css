@@ -83,7 +83,9 @@
    border-radius: 4px;
    padding: 6px 12px 6px 12px;
    background-color: #F0F0F2;
-   gap: 10px;
+   position: absolute;
+   right: 0;
+   top: 0
 }
 
 .flexRow--savings__and__wishlist__row--text :global(.vtex-button__label) {
@@ -106,16 +108,6 @@
    border-radius: 12px;
 }
 
-
-@media screen and (max-width: 1024px) {
-   .flexCol--infoCard__main__col--text {
-      width: 100%;
-      margin: 0 6;
-      position: center;
-   }
-
-}
-
 .flexRowContent--infoCard__main__row--text {
    justify-content: center;
 }
@@ -126,3 +118,16 @@
    justify-content: flex-start;
    padding-left: 8px;
 }
+
+.flexRowContent--description__prices__row--text :global(.vtex-stretchChildrenWidth){
+   width: 100%;
+}
+
+/* @media screen and (max-width: 1024px) {
+   .flexCol--infoCard__main__col--text {
+      width: 100%;
+      margin: 0 6;
+      position: center;
+   }
+
+} */

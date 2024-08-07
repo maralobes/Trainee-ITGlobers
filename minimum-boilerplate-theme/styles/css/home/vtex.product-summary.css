@@ -12,11 +12,13 @@
  } */
 
  .image--computer--text {
-    padding: auto;
+    /* padding: auto; */
     width: 178px !important;
-    height: 140px;
+    /* height: 140px; */
     margin: auto;
+    margin-top: 36px;
  }
+ 
 
 @media screen and (max-width: 1024) {
     .description {
