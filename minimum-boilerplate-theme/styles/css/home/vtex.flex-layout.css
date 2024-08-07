@@ -68,14 +68,17 @@
    align-items: flex-end;
    justify-content: flex-end;
    position: relative;
+   padding-right: 8px;
+   margin-bottom: 6px;
 }
- .flexRowContent--savings__and__wishlist__row--text {
+
+ /* .flexRowContent--savings__and__wishlist__row--text {
    display: flex;
    align-items:flex-end;
    justify-content: flex-end;
    padding-right: 8px;
    margin-bottom: 6px;
-}
+} */
 
 .flexRow--savings__and__wishlist__row--text :global(.vtex-button) {
    border: 1px solid #1D2734;
@@ -117,11 +120,12 @@
    flex-direction: column;
    justify-content: flex-start;
    padding-left: 8px;
+   min-height: 130px;
 }
 
-.flexRowContent--description__prices__row--text :global(.vtex-stretchChildrenWidth){
+/* .flexRowContent--description__prices__row--text :global(.vtex-stretchChildrenWidth){
    width: 100%;
-}
+} */
 
 /* @media screen and (max-width: 1024px) {
    .flexCol--infoCard__main__col--text {

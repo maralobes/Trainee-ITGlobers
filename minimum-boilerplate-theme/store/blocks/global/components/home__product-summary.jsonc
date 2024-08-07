@@ -124,6 +124,7 @@
         "add-to-list-btn"
       ],
       "props":{
+        "colSizing": "auto",
         "blockClass": "savings__and__wishlist__row--text"
       }
     },
@@ -135,7 +136,8 @@
         "product-selling-price"
       ],
       "props":{
-        "blockClass": "description__prices__row--text"
+        "blockClass": "description__prices__row--text",
+        "colSizing": "auto"
       }
     },
 
@@ -161,7 +163,7 @@
       "title": "discount text",
       "props":{
         "message": "{savingsPercentage} OFF",
-        "blockClass": "savings--text"
+        "blockClass": ["savings--text", "label"]
       }
     },
 

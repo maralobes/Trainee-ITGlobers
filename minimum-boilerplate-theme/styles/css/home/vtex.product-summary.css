@@ -1,5 +1,10 @@
 .description {
     text-align: left;
+    max-height: 3.1rem;
+    overflow: hidden;
+    margin-right: 22px;
+    margin-bottom: 7px;
+    margin-top: 12px;
 }
 
  /* .element {
