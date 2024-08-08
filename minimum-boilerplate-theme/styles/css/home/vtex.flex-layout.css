@@ -104,6 +104,13 @@
    margin: 10px;
 }
 
+/* .flexRow--add-to-car-button-summary::before :global(.vtex-button__label)  {
+   background: url("assets/img/2_image_add_shopping_car.svg");
+   background-repeat: no-repeat;
+   width: 17px;
+   border: 1px solid black;
+} */
+
 .flexCol--infoCard__main__col--text {
    /* background-color: violet; */
    width: 324px;

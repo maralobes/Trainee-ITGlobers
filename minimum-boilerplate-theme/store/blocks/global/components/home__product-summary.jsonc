@@ -98,6 +98,7 @@
           "flex-layout.row#savings__and_wishlist-summary",
           "product-summary-image",
           "flex-layout.row#description_and_prices_summary",
+          "product-specification-badges",
           "flex-layout.row#add-to-car-button-summary"
         ]
     },
@@ -181,11 +182,22 @@
       }
     },
 
+    "product-specification-badges": {
+      "props": {
+        "specificationGroupName": "allSpecifications",
+        "specificationsOptions": [{
+          "specificationName": "Envío gratis",
+          "displayValue": "SPECIFICATION_NAME",
+          "visibleWhen": "True"
+        }]
+      }
+    },
+
     "add-to-cart-button": {
         "title": "Buy button",
         "props":{
-            "text": "Comprar",
-            "blockClass": "shelf-button--text"
+          "text": "Comprar",
+          "blockClass": "shelf-button--text"
         }
     },
 
@@ -194,5 +206,12 @@
         "blockClass": "wishlist__button-text"
       }
     }
+    // "image#icon-car-button": {
+    //   "title": "add to car button icon",
+    //   "props":{
+    //     "src": "assets/img/2_image_add_shopping_car.svg",
+    //     "blockClass": "icon-car-button--text"
+    //   }
+    // }
 }
   

@@ -1,4 +1,24 @@
 .buttonText {
+    color: rgba(29, 39, 52, 1);
+    text-transform: capitalize;
+    font-size: 14px;
+    text-align: center;
+    line-height: 17.5px;
+    font-weight: 400;
+}
+
+/* .buttonDataContainer--shelf-button--text {
+    background: url("assets/img/2_image_add_shopping_car.svg");
+    background-repeat: no-repeat;
+    width: 17px;
+    border: 1px solid black;
+} */
+
+.buttonText::before {
     color: #1D2734;
     text-transform: capitalize;
+    background: url("assets/img/2_image_add_shopping_car.svg");
+    background-repeat: no-repeat;
+    width: 17px;
+    border: 1px solid black;
 }
