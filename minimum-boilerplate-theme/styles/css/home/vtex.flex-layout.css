@@ -104,12 +104,18 @@
    margin: 10px;
 }
 
-/* .flexRow--add-to-car-button-summary::before :global(.vtex-button__label)  {
+.flexRow--add-to-car-button-summary :global(.vtex-button__label) {
    background: url("assets/img/2_image_add_shopping_car.svg");
    background-repeat: no-repeat;
-   width: 17px;
-   border: 1px solid black;
-} */
+   /* width: 13rem; */
+   display: flex;
+   flex-direction: row;
+   justify-content: center;
+   background-position: center;
+   background-position-x: 44px;
+   background-position-y: 11px;
+   padding-left: 38px;
+}
 
 .flexCol--main__row__container--text {
    /* background-color: violet; */

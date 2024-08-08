@@ -14,11 +14,11 @@
     border: 1px solid black;
 } */
 
-.buttonText::before {
+/* .buttonText::before {
     color: #1D2734;
     text-transform: capitalize;
     background: url("assets/img/2_image_add_shopping_car.svg");
     background-repeat: no-repeat;
     width: 17px;
     border: 1px solid black;
-}
+} */
