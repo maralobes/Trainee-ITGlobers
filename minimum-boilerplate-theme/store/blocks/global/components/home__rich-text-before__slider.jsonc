@@ -1,4 +1,14 @@
 {
+  "flex-layout.row#heading-home": {
+    "title": "heading amazing row",
+    "children":[
+      "rich-text#h1--before-slider"
+      ],
+    "props":{
+      "preventHorizontalStretch": true,
+      "blockClass": ["amazing--text"]
+      }
+    },
     "rich-text#h1--before-slider": { 
         "title": "slider layout home text h1",
         "props": { 
