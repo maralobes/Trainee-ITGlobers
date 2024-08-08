@@ -6,7 +6,7 @@
       ],
     "props":{
       "preventHorizontalStretch": true,
-      "blockClass": "infoCard__main__row--text"
+      "blockClass": ["infoCard__main__row--text", "main__row__container--text"]
       }
     },
   

@@ -111,14 +111,14 @@
    border: 1px solid black;
 } */
 
-.flexCol--infoCard__main__col--text {
+.flexCol--main__row__container--text {
    /* background-color: violet; */
    width: 324px;
    height: 336.46px;
    border-radius: 12px;
 }
 
-.flexRowContent--infoCard__main__row--text {
+.flexRowContent--main__row__container--text {
    justify-content: center;
 }
 

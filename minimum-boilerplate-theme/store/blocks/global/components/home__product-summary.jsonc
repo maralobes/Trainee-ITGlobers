@@ -84,7 +84,7 @@
       "props":{
         "fullWidth": false,
         "preventHorizontalStretch": true,
-        "blockClass": "infoCard__main__row--text"
+        "blockClass": ["product__summary__main__row--text", "main__row__container--text"]
         }
       },
   
@@ -98,7 +98,6 @@
           "flex-layout.row#savings__and_wishlist-summary",
           "product-summary-image",
           "flex-layout.row#description_and_prices_summary",
-          "product-specification-badges",
           "flex-layout.row#add-to-car-button-summary"
         ]
     },
@@ -182,16 +181,16 @@
       }
     },
 
-    "product-specification-badges": {
-      "props": {
-        "specificationGroupName": "allSpecifications",
-        "specificationsOptions": [{
-          "specificationName": "Envío gratis",
-          "displayValue": "SPECIFICATION_NAME",
-          "visibleWhen": "True"
-        }]
-      }
-    },
+    // "product-specification-badges": {
+    //   "props": {
+    //     "specificationGroupName": "allSpecifications",
+    //     "specificationsOptions": [{
+    //       "specificationName": "Envío gratis",
+    //       "displayValue": "SPECIFICATION_NAME",
+    //       "visibleWhen": "True"
+    //     }]
+    //   }
+    // },
 
     "add-to-cart-button": {
         "title": "Buy button",
