@@ -150,9 +150,9 @@
       position: center;
    }
 
-   .flexRow--add-to-car-button-summary :global(.vtex-button__label) {
+   /* .flexRow--add-to-car-button-summary :global(.vtex-button__label) {
       background-position-x: 20%;
       background-position-y: 11px;
       padding-left: 38px;
-   }
+   } */
 }
