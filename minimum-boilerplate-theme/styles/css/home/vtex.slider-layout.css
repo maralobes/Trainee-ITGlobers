@@ -120,6 +120,11 @@
 .slideChildrenContainer--second-carousel--text {
     padding: 0 9px;
   }
+
+
+/* :global(.vtex-slider-layout-0-x-slide--mobile-slider--text) {
+    width:auto;
+} */
   
 @media screen and (max-width: 1024px){
     .paginationDot {

@@ -4,11 +4,11 @@
         "children": [
             "image#mobile_banner_home",
             "rich-text#h1--before-slider",
-            "flex-layout.row#test_one--slider-home",
+            "flex-layout.row#mobile__test_one--slider-home",
             "rich-text#h1--before-slider",
             "flex-layout.row#second__carousel--slider-home",
             "rich-text#h1--before-slider",
-            "flex-layout.row#test_one--slider-home",
+            "flex-layout.row#mobile__test_one--slider-home",
             "rich-text#h1--before-slider",
             "flex-layout.row#second__carousel--slider-home"
         ]
