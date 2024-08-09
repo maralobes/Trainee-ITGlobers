@@ -50,6 +50,9 @@
 .infoCardCallActionContainer--info-card-banner {
    visibility: hidden;
 }
+.imageElement--infocard-imag-mobile--text {
+   width: 100%;
+}
 
 .imageElement--infocard-image--text {
    width: 324px;
@@ -57,11 +60,11 @@
 
 }
 
-@media screen and (max-width:1024px) {
+/* @media screen and (max-width:1024px) {
    .imageElement--info-card-banner {
       width: 100%;
       }
-}
+} */
 
 /* .imageElement--price__button--text {
    margin: auto;

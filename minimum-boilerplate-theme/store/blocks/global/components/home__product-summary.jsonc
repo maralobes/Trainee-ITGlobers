@@ -98,6 +98,7 @@
           "flex-layout.row#savings__and_wishlist-summary",
           "product-summary-image",
           "flex-layout.row#description_and_prices_summary",
+          "flex-layout.row#envio-gratis",
           "flex-layout.row#add-to-car-button-summary"
         ]
     },
@@ -204,12 +205,46 @@
       "props":{
         "blockClass": "wishlist__button-text"
       }
-    }
+    },
     // "image#icon-car-button": {
     //   "title": "add to car button icon",
     //   "props":{
     //     "src": "assets/img/2_image_add_shopping_car.svg",
     //     "blockClass": "icon-car-button--text"
+    //   }
+    // }
+
+    "flex-layout.row#envio-gratis": {
+      "title": "envio gratis row",
+      "children":[
+        "vtex.product-highlights@2.x:product-highlights#envio-gratis"
+      ],
+      "props":{
+        "blockClass": "envio-gratis-row--text"
+      }
+    },
+
+    "vtex.product-highlights@2.x:product-highlights#envio-gratis": {
+      "children": ["product-highlight-wrapper"]
+    },
+
+    "product-highlight-wrapper#envio-gratis": {
+      "children": [
+        "product-highlight-text"
+        // "icon-flash#envio-gratis" // You can add anything inside a product-highlight-wrapper
+      ]
+    },
+
+    "product-highlight-text#envio-gratis": {
+      "props": {
+        "message": "{highlightName}"
+      }
+    }
+    // "icon-flash#envio-gratis": {
+    //   "title": "icon flash",
+    //   "props":{
+    //     "id": "flash",
+    //     "blockClass": "icon-flash--text"
     //   }
     // }
 }

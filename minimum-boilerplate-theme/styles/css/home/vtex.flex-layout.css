@@ -112,9 +112,9 @@
    flex-direction: row;
    justify-content: center;
    background-position: center;
-   background-position-x: 44px;
+   background-position-x: 20%;
    background-position-y: 11px;
-   padding-left: 38px;
+   /* padding-left: 38px; */
 }
 
 .flexCol--main__row__container--text {
@@ -136,6 +136,9 @@
    min-height: 130px;
 }
 
+.flexColChild--mobile-col-infoCard {
+   width: 100%;
+}
 /* .flexRowContent--description__prices__row--text :global(.vtex-stretchChildrenWidth){
    width: 100%;
 } */
@@ -147,4 +150,9 @@
       position: center;
    }
 
+   .flexRow--add-to-car-button-summary :global(.vtex-button__label) {
+      background-position-x: 20%;
+      background-position-y: 11px;
+      padding-left: 38px;
+   }
 }

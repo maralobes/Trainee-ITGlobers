@@ -57,6 +57,11 @@
     position: absolute;
 } */
 
+.slide {
+    width: 62vw!important;
+    margin: 0;
+}
+
 .paginationDot--isActive::before {
     content: "";
     position: absolute;
