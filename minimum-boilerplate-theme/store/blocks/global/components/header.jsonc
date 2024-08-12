@@ -1,0 +1,16 @@
+{
+    "logo": {
+        "props": {
+          "title": "Logo",
+          "href": "/",
+          "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
+          "width": "80",
+          "src": "assets/img/Icon_Black.svg"
+        }
+      },
+      "flex-layout.col#spacer": {
+        "props": {
+          "width": "grow"
+        }
+      }
+}
