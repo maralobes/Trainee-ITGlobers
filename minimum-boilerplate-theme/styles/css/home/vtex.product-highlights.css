@@ -1,0 +1,11 @@
+.productHighlightText--free-delivery--text {
+    color: rgba(250, 32, 128, 1);
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16.8px;
+}
+
+.productHighlightWrapper--icon-wrapper--text {
+    display: flex;
+    gap: 4px;
+}

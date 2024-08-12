@@ -101,10 +101,9 @@
    background: #F0F0F2;
    border: 1px solid #1D2734;
    border-radius: 8px;
-   margin: 10px;
 }
 
-.flexRow--add-to-car-button-summary :global(.vtex-button__label) {
+.flexRow--add-to-car-button-summary :global(.vtex-buttonDataContainer) {
    background: url("assets/img/2_image_add_shopping_car.svg");
    background-repeat: no-repeat;
    /* width: 13rem; */
@@ -134,6 +133,7 @@
    justify-content: flex-start;
    padding-left: 8px;
    min-height: 130px;
+   margin-bottom: 7px;
 }
 
 .flexColChild--mobile-col-infoCard {

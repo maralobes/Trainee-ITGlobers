@@ -98,7 +98,6 @@
           "flex-layout.row#savings__and_wishlist-summary",
           "product-summary-image",
           "flex-layout.row#description_and_prices_summary",
-          "flex-layout.row#envio-gratis",
           "flex-layout.row#add-to-car-button-summary"
         ]
     },
@@ -134,7 +133,8 @@
       "children":[
         "product-summary-description",
         "product-list-price",
-        "product-selling-price"
+        "product-selling-price",
+        "vtex.product-highlights@2.x:product-highlights"
       ],
       "props":{
         "blockClass": "description__prices__row--text",
@@ -214,38 +214,51 @@
     //   }
     // }
 
-    "flex-layout.row#envio-gratis": {
-      "title": "envio gratis row",
-      "children":[
-        "vtex.product-highlights@2.x:product-highlights#envio-gratis"
-      ],
-      "props":{
-        "blockClass": "envio-gratis-row--text"
-      }
-    },
+    // "flex-layout.row#envio-gratis": {
+    //   "title": "envio gratis row",
+    //   "children":[
+    //     "product-highlight-text",
+    //     "icon#envio-gratis"
+    //   ],
+    //   "props":{
+    //     "blockClass": "envio-gratis-row--text"
+    //   }
+    // },
 
-    "vtex.product-highlights@2.x:product-highlights#envio-gratis": {
-      "children": ["product-highlight-wrapper"]
-    },
-
-    "product-highlight-wrapper#envio-gratis": {
+    "vtex.product-highlights@2.x:product-highlights": {
+      "props": {
+        "filter": {
+          "type": "hide",
+          "highlightNames": ["20% OFF"]
+        }
+      },
       "children": [
-        "product-highlight-text"
-        // "icon-flash#envio-gratis" // You can add anything inside a product-highlight-wrapper
+        "product-highlight-wrapper"
       ]
     },
 
-    "product-highlight-text#envio-gratis": {
+    "product-highlight-wrapper": {
+      "children": [
+        "product-highlight-text",
+        "icon#envio-gratis"
+      ],
+      "props":{
+        "blockClass": "icon-wrapper--text"
+      }
+    },
+    "product-highlight-text": {
       "props": {
-        "message": "{highlightName}"
+        "message": "{highlightName}",
+        "blockClass": "free-delivery--text"
+        }
+    },
+
+    "icon#envio-gratis": {
+      "title": "icon flash",
+      "props":{
+        "id": "flash",
+        "blockClass": "icon-flash--text"
       }
     }
-    // "icon-flash#envio-gratis": {
-    //   "title": "icon flash",
-    //   "props":{
-    //     "id": "flash",
-    //     "blockClass": "icon-flash--text"
-    //   }
-    // }
 }
   
