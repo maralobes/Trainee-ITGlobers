@@ -1,0 +1,11 @@
+.flexCol--menu_icon_text_column--text {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    /* margin-right: 20px;
+    margin-bottom: 10px; */
+}
+
+.flexColChild--menu_icon_text_column--text {
+    max-height: 20px;
+}

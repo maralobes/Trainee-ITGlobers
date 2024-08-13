@@ -1,7 +1,7 @@
 {
     "sticky-layout#desktop": {
         "props": {
-          "blockClass": "sticky-header"
+          "blockClass": "sticky-header-desktop"
         },
         "children": [
           "flex-layout.row#desktop_search",
@@ -12,9 +12,12 @@
         "props": {
           "horizontalAlign": "center",
           "verticalAlign": "center",
+          "marginBottom": 3,
+          "paddingBottom": 4,
           "preventHorizontalStretch": true,
           "preventVerticalStretch": true,
-          "fullWidth": true
+          "blockClass": "search_header_desktop--text"
+          // "fullWidth": true
         },
         "children": [
           "header-row#1-desktop"
@@ -23,10 +26,12 @@
       "flex-layout.row#desktop_menu": {
         "props": {
           "horizontalAlign": "center",
-          "verticalAlign": "center",
+          "marginBottom": 3,
+          "paddingBottom": 6,
           "preventHorizontalStretch": true,
           "preventVerticalStretch": true,
-          "fullWidth": true
+          "blockClass": "menu_header_desktop--text"
+          // "fullWidth": true
         },
         "children": [
           "header-row#2-desktop"
@@ -39,9 +44,11 @@
           "search-bar",
           "locale-switcher",
           "login",
-          "minicart.v2",
-          "flex-layout.col#food"
-        ]
+          "minicart.v2"
+        ],
+        "props":{
+          "blockClass": "header_one_row--text"
+        }
       },
 
       "header-row#2-desktop": {
@@ -58,8 +65,12 @@
           "flex-layout.col#beaches_container",
           "flex-layout.col#climbing_container",
           "flex-layout.col#delivery_container",
-          "flex-layout.col#beer_container"
-        ]
+          "flex-layout.col#beer_container",
+          "header-spacer"
+        ],
+        "props":{
+          "blockClass": "header_two_row--text"
+        }
       },
      
       "flex-layout.col#logo-desktop": {

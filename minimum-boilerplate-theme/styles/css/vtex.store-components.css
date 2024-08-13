@@ -60,6 +60,16 @@
 
 }
 
+/* 
+Header styles
+*/
+
+.headerRowContentContainer--header_two_row_mobile--text {
+   overflow-x: scroll;
+   width: 100vw;
+   overflow-y: hidden;
+}
+
 /* @media screen and (max-width:1024px) {
    .imageElement--info-card-banner {
       width: 100%;
