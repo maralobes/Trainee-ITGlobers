@@ -1,21 +1,59 @@
 {
     "sticky-layout#mobile": {
-        "children": ["flex-layout.row#mobile"]
+        "children": [
+          "flex-layout.row#mobile_search",
+          "flex-layout.row#mobile_menu"
+        ]
       },
-      "flex-layout.row#mobile": {
+      "flex-layout.row#mobile_search": {
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+          "header-row#1-mobile"
+        ]
+      },
+      "flex-layout.row#mobile_menu": {
+        "props": {
+          "horizontalAlign": "center",
+          "verticalAlign": "center",
+          "preventHorizontalStretch": true,
+          "preventVerticalStretch": true,
+          "fullWidth": true
+        },
+        "children": [
+          "header-row#2-mobile"
+        ]
+      },
+      "header-row#1-mobile": {
         "children": [
           "drawer",
           "logo",
           "flex-layout.col#spacer",
           "login",
           "minicart.v2"
-        ],
-        "props": {
-          "blockClass": "main-header-mobile",
-          "preventHorizontalStretch": true,
-          "preserveLayoutOnMobile": true,
-          "fullWidth": true
-        }
+        ]
+      },
+      "header-row#2-mobile": {
+        "children":[
+          "flex-layout.col#food",
+          "flex-layout.col#fitness_container",
+          "flex-layout.col#artic_container",
+          "flex-layout.col#poolday_container",
+          "flex-layout.col#hotels_container",
+          "flex-layout.col#houses_container",
+          "flex-layout.col#hotels_container",
+          "flex-layout.col#natural_container",
+          "flex-layout.col#closet_container",
+          "flex-layout.col#beaches_container",
+          "flex-layout.col#climbing_container",
+          "flex-layout.col#delivery_container",
+          "flex-layout.col#beer_container"
+        ]
       },
       "drawer": {
         "children": []

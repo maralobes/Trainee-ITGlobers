@@ -2,15 +2,279 @@
     "logo": {
         "props": {
           "title": "Logo",
-          "href": "/",
-          "url": "https://brand.vtex.com/static/media/VTEX_pink_RGB.751a9fb5.svg",
-          "width": "80",
-          "src": "assets/img/Icon_Black.svg"
+          // "href": "/",
+          "url": "file:///Users/mariavillalobos/Downloads/Icon_Black%20(1).svg",
+          "width": "80"
+          // "src": "assets/img/Icon_Black.svg"
         }
       },
       "flex-layout.col#spacer": {
         "props": {
           "width": "grow"
+        }
+      },
+      "flex-layout.col#food":{
+        "children": [
+          "icon#food",
+          "rich-text#food"
+        ]
+      },
+      "icon#food": {
+        "title": "icon food",
+        "props":{
+          "id": "fastfood",
+          "blockClass": "icon-fastfood--text"
+        }
+      },
+      "rich-text#food": {
+        "title": "fast food text",
+        "props": {
+          "text": "Food",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "food_rich-text--text"
+        }
+      },
+      "flex-layout.col#fitness_container":{
+        "children": [
+          "icon#fitness",
+          "rich-text#fitness"
+        ]
+      },
+      "icon#fitness": {
+        "title": "icon fitness",
+        "props":{
+          "id": "fitness",
+          "blockClass": "icon-fitness--text"
+        }
+      },
+      "rich-text#fitness": {
+        "title": "fitness text",
+        "props": {
+          "text": "Fitness",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "fitness_rich-text--text"
+        }
+      },
+      "flex-layout.col#artic_container":{
+        "children": [
+          "icon#artic",
+          "rich-text#artic"
+        ]
+      },
+      "icon#artic": {
+        "title": "icon artic",
+        "props":{
+          "id": "artic",
+          "blockClass": "icon-artic--text"
+        }
+      },
+      "rich-text#artic": {
+        "title": "artic text",
+        "props": {
+          "text": "En el Ártico",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "artic_rich-text--text"
+        }
+      },
+      "flex-layout.col#poolday_container":{
+        "children": [
+          "icon#poolday",
+          "rich-text#poolday"
+        ]
+      },
+      "icon#poolday": {
+        "title": "icon poolday",
+        "props":{
+          "id": "beach_access",
+          "blockClass": "icon-poolday--text"
+        }
+      },
+      "rich-text#poolday": {
+        "title": "poolday text",
+        "props": {
+          "text": "Poolday",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "poolday_rich-text--text"
+        }
+      },
+      "flex-layout.col#hotels_container":{
+        "children": [
+          "icon#hotels",
+          "rich-text#hotels"
+        ]
+      },
+      "icon#hotels": {
+        "title": "icon hotels",
+        "props":{
+          "id": "hotel",
+          "blockClass": "icon-hotels--text"
+        }
+      },
+      "rich-text#hotels": {
+        "title": "hotels text",
+        "props": {
+          "text": "Hoteles",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "hotels_rich-text--text"
+        }
+      },
+      "flex-layout.col#houses_container":{
+        "children": [
+          "icon#houses",
+          "rich-text#houses"
+        ]
+      },
+      "icon#houses": {
+        "title": "icon houses",
+        "props":{
+          "id": "house",
+          "blockClass": "icon-houses--text"
+        }
+      },
+      "rich-text#houses": {
+        "title": "houses text",
+        "props": {
+          "text": "Casas",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "houses_rich-text--text"
+        }
+      },
+      "flex-layout.col#natural_container":{
+        "children": [
+          "icon#natural",
+          "rich-text#natural"
+        ]
+      },
+      "icon#natural": {
+        "title": "icon natural",
+        "props":{
+          "id": "natural",
+          "blockClass": "icon-natural--text"
+        }
+      },
+      "rich-text#natural": {
+        "title": "natural text",
+        "props": {
+          "text": "Naturales",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "natural_rich-text--text"
+        }
+      },
+      "flex-layout.col#closet_container":{
+        "children": [
+          "icon#closet",
+          "rich-text#closet"
+        ]
+      },
+      "icon#closet": {
+        "title": "icon closet",
+        "props":{
+          "id": "closet",
+          "blockClass": "icon-closet--text"
+        }
+      },
+      "rich-text#closet": {
+        "title": "closet text",
+        "props": {
+          "text": "Closet",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "closet_rich-text--text"
+        }
+      },
+      "flex-layout.col#beaches_container":{
+        "children": [
+          "icon#beaches",
+          "rich-text#beaches"
+        ]
+      },
+      "icon#beaches": {
+        "title": "icon beaches",
+        "props":{
+          "id": "beach_umbrella",
+          "blockClass": "icon-beaches--text"
+        }
+      },
+      "rich-text#beaches": {
+        "title": "beaches text",
+        "props": {
+          "text": "Playas",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "beaches_rich-text--text"
+        }
+      },
+      "flex-layout.col#climbing_container":{
+        "children": [
+          "icon#climbing",
+          "rich-text#climbing"
+        ]
+      },
+      "icon#climbing": {
+        "title": "icon climbing",
+        "props":{
+          "id": "climbing",
+          "blockClass": "icon-climbing--text"
+        }
+      },
+      "rich-text#climbing": {
+        "title": "climbing text",
+        "props": {
+          "text": "Alpinismo",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "climbing_rich-text--text"
+        }
+      },
+      "flex-layout.col#delivery_container":{
+        "children": [
+          "icon#delivery",
+          "rich-text#delivery"
+        ]
+      },
+      "icon#delivery": {
+        "title": "icon delivery",
+        "props":{
+          "id": "delivery",
+          "blockClass": "icon-delivery--text"
+        }
+      },
+      "rich-text#delivery": {
+        "title": "delivery text",
+        "props": {
+          "text": "Delivery",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "delivery_rich-text--text"
+        }
+      },
+      "flex-layout.col#beer_container":{
+        "children": [
+          "icon#beer",
+          "rich-text#beer"
+        ]
+      },
+      "icon#beer": {
+        "title": "icon beer",
+        "props":{
+          "id": "beer",
+          "blockClass": "icon-beer--text"
+        }
+      },
+      "rich-text#beer": {
+        "title": "beer text",
+        "props": {
+          "text": "Cervezas",
+          "textAlignment": "CENTER",
+          "textPosition": "CENTER",
+          "blockClass": "beer_rich-text--text"
         }
       }
 }
