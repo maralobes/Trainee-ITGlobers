@@ -1,0 +1,11 @@
+.headerRowContentContainer--header_two_row_mobile--text {
+    overflow-x: scroll;
+    width: 100vw;
+    overflow-y: hidden;
+ }
+ 
+.headerRowContainer--header_two_row_mobile--text {
+    display: flex;
+    justify-content: space-between;
+    column-gap: 6px;
+}

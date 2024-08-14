@@ -25,6 +25,7 @@
         "props": {
           "horizontalAlign": "center",
           "verticalAlign": "center",
+          "paddingBottom": 5,
           "preserveLayoutOnMobile": true,
           "preventHorizontalStretch": true,
           "preventVerticalStretch": true,
@@ -39,7 +40,7 @@
         "children": [
           "drawer",
           "logo",
-          "header-spacer",
+          "flex-layout.col#spacer",
           "login",
           "minicart.v2"
         ],

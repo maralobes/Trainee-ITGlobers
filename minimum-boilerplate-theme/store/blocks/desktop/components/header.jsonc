@@ -39,17 +39,19 @@
       },
       "header-row#1-desktop": {
         "children": [
+          "drawer",
           "flex-layout.col#logo-desktop",
-          "flex-layout.col#spacer",
           "search-bar",
-          "locale-switcher",
-          "login",
-          "minicart.v2"
+          "flex-layout.col#spacer",
+          "vtex.menu@2.x:menu#desktop_items",
+          "minicart.v2",
+          "login"
         ],
         "props":{
           "blockClass": "header_one_row--text"
         }
       },
+
 
       "header-row#2-desktop": {
         "children":[
@@ -66,7 +68,7 @@
           "flex-layout.col#climbing_container",
           "flex-layout.col#delivery_container",
           "flex-layout.col#beer_container",
-          "header-spacer"
+          "flex-layout.col#spacer"
         ],
         "props":{
           "blockClass": "header_two_row--text"
@@ -78,5 +80,73 @@
           "verticalAlign": "middle"
         },
         "children": ["logo"]
+      },
+
+      "vtex.menu@2.x:menu#desktop_items": {
+        "props": {
+          "items": [
+            {
+              "id": "menu-item-ITG-trends",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "#",
+                "noFollow": false,
+                "tagTitle": "ITG-trends",
+                "text": "Tendendencias de ITGlobers"
+              }
+            },
+            {
+              "id": "menu-item-month-collection",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/month-collection",
+                "noFollow": false,
+                "tagTitle": "month-collection",
+                "text": "Colección del mes"
+              }
+            },
+            {
+              "id": "menu-item-january-sales",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/january-sales",
+                "noFollow": false,
+                "tagTitle": "january-sales",
+                "text": "Ofertas de enero"
+              }
+            },
+            {
+              "id": "menu-item-cyber-monday",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/cyber-monday",
+                "noFollow": false,
+                "tagTitle": "cyber-monday",
+                "text": "Cyber Monday"
+              }
+            },
+            {
+              "id": "menu-item-never-say-never",
+              "type": "custom",
+              "highlight": false,
+              "itemProps": {
+                "type": "internal",
+                "href": "/never-say-never",
+                "noFollow": false,
+                "tagTitle": "never-say-never",
+                "text": "Never say never"
+              }
+            }
+          ]
+        }
       }
+      
 }
