@@ -14,8 +14,8 @@
           "verticalAlign": "center",
           "preventHorizontalStretch": true,
           "preventVerticalStretch": true,
-          "blockClass": "search_header_mobile--text"
-          // "fullWidth": true
+          "blockClass": "search_header_mobile--text",
+          "fullWidth": true
         },
         "children": [
           "header-row#1-mobile"
@@ -25,12 +25,12 @@
         "props": {
           "horizontalAlign": "center",
           "verticalAlign": "center",
-          "paddingBottom": 5,
+          // "paddingBottom": 5,
           "preserveLayoutOnMobile": true,
           "preventHorizontalStretch": true,
           "preventVerticalStretch": true,
-          "blockClass": "menu_header_desktop--text"
-          // "fullWidth": true
+          "blockClass": "menu_header_desktop--text",
+          "fullWidth": true
         },
         "children": [
           "header-row#2-mobile"

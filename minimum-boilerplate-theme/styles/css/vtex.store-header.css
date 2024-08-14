@@ -4,8 +4,12 @@
     overflow-y: hidden;
  }
  
-.headerRowContainer--header_two_row_mobile--text {
+/* .headerRowContainer--header_two_row_mobile--text {
     display: flex;
     justify-content: space-between;
     column-gap: 6px;
+} */
+
+.headerRowContentContainer {
+    background-color: rgba(255, 255, 255, 1);
 }

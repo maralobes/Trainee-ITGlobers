@@ -3,3 +3,14 @@
     flex-direction: column;
     align-items: center;
 }
+
+.styledLinkContent {
+    font-weight: 300;
+    font-size: 12px;
+    line-height: 15px;
+    margin: 0;
+}
+
+.menuItem {
+    max-width: 80px;
+}

@@ -12,12 +12,14 @@
         "props": {
           "horizontalAlign": "center",
           "verticalAlign": "center",
-          "marginBottom": 3,
-          "paddingBottom": 4,
+          // "marginBottom": 3,
+          // "paddingBottom": 4,
+          "marginTop": 1,
+          "paddingTop": 6,
           "preventHorizontalStretch": true,
           "preventVerticalStretch": true,
-          "blockClass": "search_header_desktop--text"
-          // "fullWidth": true
+          "blockClass": "search_header_desktop--text",
+          "fullWidth": true
         },
         "children": [
           "header-row#1-desktop"
@@ -26,12 +28,13 @@
       "flex-layout.row#desktop_menu": {
         "props": {
           "horizontalAlign": "center",
-          "marginBottom": 3,
-          "paddingBottom": 6,
+          // "marginBottom": 3,
+          // "paddingBottom": 6,
+          "paddingTop": 2,
           "preventHorizontalStretch": true,
           "preventVerticalStretch": true,
-          "blockClass": "menu_header_desktop--text"
-          // "fullWidth": true
+          "blockClass": "menu_header_desktop--text",
+          "fullWidth": true
         },
         "children": [
           "header-row#2-desktop"
