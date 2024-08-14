@@ -55,20 +55,21 @@
 
       "header-row#2-desktop": {
         "children":[
-          "flex-layout.col#food",
-          "flex-layout.col#fitness_container",
-          "flex-layout.col#artic_container",
-          "flex-layout.col#poolday_container",
-          "flex-layout.col#hotels_container",
-          "flex-layout.col#houses_container",
-          "flex-layout.col#hotels_container",
-          "flex-layout.col#natural_container",
-          "flex-layout.col#closet_container",
-          "flex-layout.col#beaches_container",
-          "flex-layout.col#climbing_container",
-          "flex-layout.col#delivery_container",
-          "flex-layout.col#beer_container",
-          "flex-layout.col#spacer"
+          "vtex.menu@2.x:menu#menu-categories"
+          // "flex-layout.col#food",
+          // "flex-layout.col#fitness_container",
+          // "flex-layout.col#artic_container",
+          // "flex-layout.col#poolday_container",
+          // "flex-layout.col#hotels_container",
+          // "flex-layout.col#houses_container",
+          // "flex-layout.col#hotels_container",
+          // "flex-layout.col#natural_container",
+          // "flex-layout.col#closet_container",
+          // "flex-layout.col#beaches_container",
+          // "flex-layout.col#climbing_container",
+          // "flex-layout.col#delivery_container",
+          // "flex-layout.col#beer_container",
+          // "flex-layout.col#spacer"
         ],
         "props":{
           "blockClass": "header_two_row--text"
