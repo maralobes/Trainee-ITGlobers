@@ -4,7 +4,8 @@
           "title": "Logo",
           // "href": "/",
           "url": "assets/img/Icon_Black.svg",
-          "width": "40"
+          "width": "32",
+          "height": "16"
         }
       },
       "flex-layout.col#spacer": {
@@ -12,6 +13,12 @@
           "width": "grow"
         }
       },
+      "login": {
+        "props": {
+          "iconLabel": "Login",
+          "blockClass": "login--text"
+        }
+      },      
       "vtex.menu@2.x:menu#menu-categories": {
         "children": [
           "menu-item#food",

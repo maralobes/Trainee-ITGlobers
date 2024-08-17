@@ -70,3 +70,25 @@
    padding-bottom: 20px;
 
 } */
+/* 
+.sizeMobile {
+   width: 24px;
+   height: 24px;
+}
+
+.sizeDesktop {
+   width: 20px;
+   height: 20px;
+} */
+
+.logoContainer {
+   padding: 0px;
+}
+
+.searchBarContainer {
+   /* max-width: 300px; */
+   margin-left: 30px;
+   margin-right: 30px;
+   width: 280px;
+   flex-shrink: 0;
+}  

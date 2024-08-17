@@ -16,6 +16,8 @@
           // "paddingBottom": 4,
           "marginTop": 1,
           "paddingTop": 6,
+          "colGap": 5,
+          "colSizing": "equal",
           "preventHorizontalStretch": true,
           "preventVerticalStretch": true,
           "blockClass": "search_header_desktop--text",
@@ -44,7 +46,7 @@
         "children": [
           "drawer",
           "flex-layout.col#logo-desktop",
-          "search-bar",
+          "search-bar#desktop-header",
           "flex-layout.col#spacer",
           "vtex.menu@2.x:menu#desktop_items",
           "minicart.v2",
@@ -54,8 +56,6 @@
           "blockClass": "header_one_row--text"
         }
       },
-
-
       "header-row#2-desktop": {
         "children":[
           "vtex.menu@2.x:menu#menu-categories"
@@ -151,6 +151,16 @@
             }
           ]
         }
+      },
+      "search-bar#desktop-header": {
+        "title": "search bar on desktop",
+        "props":{
+          "placeholder": "Search products..."
+        }
       }
-      
+      // "icon-cart#desktop-minicart-icon": {
+      //   "props": {
+      //     "size": 20
+      //   }
+      // }
 }

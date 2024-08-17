@@ -41,8 +41,9 @@
           "drawer",
           "logo",
           "flex-layout.col#spacer",
-          "login",
-          "minicart.v2"
+          "icon#search-mobile",
+          "minicart.v2",
+          "login"
         ],
         "props":{
           "blockClass": "header_one_row_mobile--text"
@@ -71,5 +72,23 @@
       },
       "drawer": {
         "children": []
+      },
+      "icon#search-mobile": {
+        "title": "icon search",
+        "props":{
+           "name": "MagnifyingGlas",
+           "weight": "bold"
+        }
       }
+      // "search-bar#mobile-header": {
+      //   "title": "search bar on desktop",
+      //   "props":{
+      //     "placeholder": "Search products..."
+      //   }
+      // }
+      // "icon-cart#mobile-minicart-icon": {
+      //   "props": {
+      //     "size": 24
+      //   }
+      // }
 }

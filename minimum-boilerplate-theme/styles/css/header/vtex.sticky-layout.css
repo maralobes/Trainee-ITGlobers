@@ -1,3 +1,7 @@
 .container--sticky-header-desktop {
     background-color: rgba(255, 255, 255, 1);
 }
+
+.container--sticky-header-mobile {
+    background-color: rgba(255, 255, 255, 1);
+}
