@@ -41,7 +41,7 @@
           "drawer",
           "logo",
           "flex-layout.col#spacer",
-          "icon#search-mobile",
+          "flex-layout.col#search_container",
           "minicart.v2",
           "login"
         ],
@@ -73,13 +73,26 @@
       "drawer": {
         "children": []
       },
-      "icon#search-mobile": {
-        "title": "icon search",
-        "props":{
-           "name": "MagnifyingGlas",
-           "weight": "bold"
+      "flex-layout.col#search_container":{
+          "children": [
+            "icon#search-mobile"
+          ],
+          "props":{
+            "preventVerticalStretch": true,
+            "blockClass": "search_icon_row--text"
+          }
+        },
+        "icon#search-mobile": {
+          "title": "icon search",
+          "props":{
+            "id": "MagnifyingGlas",
+            "weight": "bold",
+            "viewBox": "0 0 24 24",
+            "size": 24,
+            "height": "18",
+            "width": "18"
+          }
         }
-      }
       // "search-bar#mobile-header": {
       //   "title": "search bar on desktop",
       //   "props":{

@@ -155,7 +155,8 @@
       "search-bar#desktop-header": {
         "title": "search bar on desktop",
         "props":{
-          "placeholder": "Search products..."
+          "placeholder": "Search products...",
+          "blockClass": "search-bar--text"
         }
       }
       // "icon-cart#desktop-minicart-icon": {

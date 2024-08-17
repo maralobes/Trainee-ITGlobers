@@ -81,14 +81,22 @@
    height: 20px;
 } */
 
-.logoContainer {
+/* .logoContainer {
    padding: 0px;
-}
+} */
 
 .searchBarContainer {
    /* max-width: 300px; */
    margin-left: 30px;
    margin-right: 30px;
    width: 280px;
+   /* height: 40px; */
    flex-shrink: 0;
 }  
+
+/* .autoCompleteOuterContainer--search-bar--text {
+   border-radius: 40px;
+} */
+.searchBarContainer :global(.vtex-input-prefix__group) {
+   border-radius: 40px;
+}

@@ -10,7 +10,13 @@
     line-height: 15px;
 
 }
-
-.menuItem {
-    max-width: 80px;
+.styledLinkContent:hover {
+    border-bottom: 3px solid #1D2734;
 }
+.styledLinkContainer {
+    margin-left: 0.3rem;
+    margin-right: 0.3rem;
+}
+/* .menuItem {
+    max-width: 80px;
+} */

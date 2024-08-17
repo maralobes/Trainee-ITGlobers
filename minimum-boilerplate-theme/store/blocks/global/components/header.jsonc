@@ -4,13 +4,13 @@
           "title": "Logo",
           // "href": "/",
           "url": "assets/img/Icon_Black.svg",
-          "width": "32",
-          "height": "16"
+          "blockClass": "logo--text"
         }
       },
       "flex-layout.col#spacer": {
         "props": {
-          "width": "grow"
+          "width": "grow",
+          "blockClass": "spacer-header--text"
         }
       },
       "login": {

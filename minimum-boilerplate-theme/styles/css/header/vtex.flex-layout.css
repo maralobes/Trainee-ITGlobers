@@ -19,3 +19,13 @@
     border-radius: 40px;
     border: 1px;
 } */
+
+.flexCol--search_icon_row--text {
+    height: 20px;
+}
+
+.flexCol--spacer-header--text {
+    /* width: auto; */
+    padding-right: 20px;
+    /* margin-right: 60px; */
+}
