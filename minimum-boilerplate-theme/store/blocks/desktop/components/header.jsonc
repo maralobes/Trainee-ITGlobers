@@ -12,10 +12,8 @@
         "props": {
           "horizontalAlign": "center",
           "verticalAlign": "center",
-          // "marginBottom": 3,
-          // "paddingBottom": 4,
           "marginTop": 1,
-          "paddingTop": 6,
+          "paddingTop": 8,
           "colGap": 5,
           "colSizing": "equal",
           "preventHorizontalStretch": true,
@@ -30,13 +28,11 @@
       "flex-layout.row#desktop_menu": {
         "props": {
           "horizontalAlign": "center",
-          // "marginBottom": 3,
-          // "paddingBottom": 6,
-          "paddingTop": 2,
+          // "paddingTop": 2,
           "preventHorizontalStretch": true,
           "preventVerticalStretch": true,
-          "blockClass": "menu_header_desktop--text",
-          "fullWidth": true
+          "blockClass": "menu_header_desktop--text"
+          // "fullWidth": true
         },
         "children": [
           "header-row#2-desktop"
@@ -81,13 +77,15 @@
      
       "flex-layout.col#logo-desktop": {
         "props": {
-          "verticalAlign": "middle"
+          "verticalAlign": "middle",
+          "blockClass": "logo-desktop"
         },
         "children": ["logo"]
       },
 
       "vtex.menu@2.x:menu#desktop_items": {
         "props": {
+          "blockClass": "menu-row-one--text",
           "items": [
             {
               "id": "menu-item-ITG-trends",
@@ -98,7 +96,8 @@
                 "href": "#",
                 "noFollow": false,
                 "tagTitle": "ITG-trends",
-                "text": "Tendendencias de ITGlobers"
+                "text": "Tendencias de ITGlobers"
+                // "blockClass": "menu-row-one--text"
               }
             },
             {
@@ -111,6 +110,7 @@
                 "noFollow": false,
                 "tagTitle": "month-collection",
                 "text": "Colección del mes"
+                // "blockClass": "menu-row-one--text"
               }
             },
             {
@@ -123,6 +123,7 @@
                 "noFollow": false,
                 "tagTitle": "january-sales",
                 "text": "Ofertas de enero"
+                // "blockClass": "menu-row-one--text"
               }
             },
             {
@@ -135,6 +136,7 @@
                 "noFollow": false,
                 "tagTitle": "cyber-monday",
                 "text": "Cyber Monday"
+                // "blockClass": "menu-row-one--text"
               }
             },
             {
@@ -147,6 +149,7 @@
                 "noFollow": false,
                 "tagTitle": "never-say-never",
                 "text": "Never say never"
+                // "blockClass": "menu-row-one--text"
               }
             }
           ]
@@ -157,6 +160,7 @@
         "props":{
           "placeholder": "Search products...",
           "blockClass": "search-bar--text"
+          // "classes": ["placeholder"]
         }
       }
       // "icon-cart#desktop-minicart-icon": {

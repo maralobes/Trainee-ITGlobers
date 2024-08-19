@@ -2,21 +2,41 @@
     display: flex;
     flex-direction: column;
     align-items: center;
-}
-
-.styledLinkContent {
     font-weight: 300;
     font-size: 12px;
     line-height: 15px;
-
+    height: 41px;
 }
 .styledLinkContent:hover {
     border-bottom: 3px solid #1D2734;
 }
 .styledLinkContainer {
-    margin-left: 0.3rem;
+    margin-left: 0.2rem;
     margin-right: 0.3rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .styledLinkContainer {
+        margin-left: 0.5rem;
+        padding-left: 33px;
+    }
 }
 /* .menuItem {
     max-width: 80px;
 } */
+
+.menuContainer--menu-categories--text .menuItem { 
+    width: 70px;
+    height: 57px;
+    box-sizing: border-box;
+}
+.styledLinkContent--menu-row-one--text {
+    font-weight: 400;
+    height: 18px;
+}
+
+.menuContainerNav--menu-row-one--text {
+    min-width: 560px;
+    overflow: hidden;
+
+}

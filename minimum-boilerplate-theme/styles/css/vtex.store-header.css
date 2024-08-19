@@ -13,3 +13,27 @@
 .headerRowContentContainer {
     background-color: rgba(255, 255, 255, 1);
 }
+
+
+/* SMALL DESKTOP - Between 1025px and 1280px */
+.headerRowContentContainer {
+    width: 100vw;
+    overflow: hidden;
+}
+
+/* LASRGE DESKTOP - Equal or largen than 1280px */
+@media screen and (min-width:1280px) {
+    .headerRowContentContainer {
+        width: 90vw;
+        overflow: hidden;
+        padding: 0;
+    }
+}
+
+
+
+.headerStickyRow--header_one_row_mobile--text {
+    max-width: 1280px;
+    margin: auto;
+    /* width: 360px; */
+}

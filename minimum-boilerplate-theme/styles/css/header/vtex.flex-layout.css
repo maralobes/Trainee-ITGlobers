@@ -24,8 +24,23 @@
     height: 20px;
 }
 
+@media screen and (max-width: 1025px)  {
+    .flexCol--search_icon_row--text {
+        width: 44px;
+    }
+}
+.flexCol--search_icon_row--text {
+    height: 20px;
+}
+
+
 .flexCol--spacer-header--text {
     /* width: auto; */
     padding-right: 20px;
     /* margin-right: 60px; */
+}
+
+.flexRowContent--menu_header_desktop--text {
+    /* padding-bottom: 12px; */
+    margin-top: -8px;
 }

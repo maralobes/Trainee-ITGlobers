@@ -81,13 +81,16 @@
    height: 20px;
 } */
 
-/* .logoContainer {
-   padding: 0px;
-} */
+
+@media screen and (min-width: 1026px) {
+   .logoContainer {
+      padding: 0px;
+   }
+}
 
 .searchBarContainer {
    /* max-width: 300px; */
-   margin-left: 30px;
+   margin-left: 16px;
    margin-right: 30px;
    width: 280px;
    /* height: 40px; */
@@ -99,4 +102,27 @@
 } */
 .searchBarContainer :global(.vtex-input-prefix__group) {
    border-radius: 40px;
+   border: none
 }
+
+.searchBarContainer :global(.vtex-styleguide-9-x-input) {
+   font-weight: 300;
+   font-size: 12px;
+   line-height: 15px;
+}
+
+/* .searchBarContainer :global(.vtex-input__suffix) {
+   
+} */
+
+.logoImage {
+   /* width: 100%; */
+}
+
+.sizeMobile {
+   min-width: 50px;
+}
+
+/* .headerRowContentContainer--header_two_row--text .styledLinkContent {
+   height: 41px;
+} */
