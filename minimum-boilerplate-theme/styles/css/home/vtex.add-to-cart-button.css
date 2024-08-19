@@ -1,21 +1,21 @@
 .buttonText {
-    color: rgba(29, 39, 52, 1);
+    color         : rgba(29, 39, 52, 1);
     text-transform: capitalize;
-    font-size: 14px;
-    text-align: center;
-    line-height: 17.5px;
-    font-weight: 400;
+    font-size     : 14px;
+    text-align    : center;
+    line-height   : 17.5px;
+    font-weight   : 400;
 }
 
 .buttonDataContainer--shelf-button--text {
-    background: transparent url("assets/img/2_image_add_shopping_car.svg");
+    background       : transparent url("assets/img/2_image_add_shopping_car.svg");
     background-repeat: no-repeat;
-    display: flex;
-    flex-direction: row;
-    min-height: 20px;
-    height: 20px;
-    align-items: center;
-    padding-left: 27px;
+    display          : flex;
+    flex-direction   : row;
+    min-height       : 20px;
+    height           : 20px;
+    align-items      : center;
+    padding-left     : 27px;
 }
 
 /* .buttonDataContainer--shelf-button--text {

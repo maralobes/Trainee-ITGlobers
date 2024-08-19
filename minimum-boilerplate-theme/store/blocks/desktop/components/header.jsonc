@@ -1,171 +1,167 @@
 {
-    "sticky-layout#desktop": {
-        "props": {
-          "blockClass": "sticky-header-desktop"
-        },
-        "children": [
-          "flex-layout.row#desktop_search",
-          "flex-layout.row#desktop_menu"
-        ]
-      },
-      "flex-layout.row#desktop_search": {
-        "props": {
-          "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "marginTop": 1,
-          "paddingTop": 8,
-          "colGap": 5,
-          "colSizing": "equal",
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "blockClass": "search_header_desktop--text",
-          "fullWidth": true
-        },
-        "children": [
-          "header-row#1-desktop"
-        ]
-      },
-      "flex-layout.row#desktop_menu": {
-        "props": {
-          "horizontalAlign": "center",
-          // "paddingTop": 2,
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "blockClass": "menu_header_desktop--text"
-          // "fullWidth": true
-        },
-        "children": [
-          "header-row#2-desktop"
-        ]
-      },
-      "header-row#1-desktop": {
-        "children": [
-          "drawer",
-          "flex-layout.col#logo-desktop",
-          "search-bar#desktop-header",
-          "flex-layout.col#spacer",
-          "vtex.menu@2.x:menu#desktop_items",
-          "minicart.v2",
-          "login"
-        ],
-        "props":{
-          "blockClass": "header_one_row--text"
-        }
-      },
-      "header-row#2-desktop": {
-        "children":[
-          "vtex.menu@2.x:menu#menu-categories"
-          // "flex-layout.col#food",
-          // "flex-layout.col#fitness_container",
-          // "flex-layout.col#artic_container",
-          // "flex-layout.col#poolday_container",
-          // "flex-layout.col#hotels_container",
-          // "flex-layout.col#houses_container",
-          // "flex-layout.col#hotels_container",
-          // "flex-layout.col#natural_container",
-          // "flex-layout.col#closet_container",
-          // "flex-layout.col#beaches_container",
-          // "flex-layout.col#climbing_container",
-          // "flex-layout.col#delivery_container",
-          // "flex-layout.col#beer_container",
-          // "flex-layout.col#spacer"
-        ],
-        "props":{
-          "blockClass": "header_two_row--text"
-        }
-      },
-     
-      "flex-layout.col#logo-desktop": {
-        "props": {
-          "verticalAlign": "middle",
-          "blockClass": "logo-desktop"
-        },
-        "children": ["logo"]
-      },
+  "sticky-layout#desktop": {
+    "props": {
+      "blockClass": "sticky-header-desktop"
+    },
+    "children": [
+      "flex-layout.row#desktop_search",
+      "flex-layout.row#desktop_menu"
+    ]
+  },
+  "flex-layout.row#desktop_search": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "marginTop": 1,
+      "paddingTop": 8,
+      "colGap": 5,
+      "colSizing": "equal",
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "search_header_desktop--text",
+      "fullWidth": true
+    },
+    "children": ["header-row#1-desktop"]
+  },
+  "flex-layout.row#desktop_menu": {
+    "props": {
+      "horizontalAlign": "center",
+      // "paddingTop": 2,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "menu_header_desktop--text"
+      // "fullWidth": true
+    },
+    "children": ["header-row#2-desktop"]
+  },
+  "header-row#1-desktop": {
+    "children": [
+      "drawer",
+      "flex-layout.col#logo-desktop",
+      "search-bar#desktop-header",
+      "flex-layout.col#spacer",
+      "vtex.menu@2.x:menu#desktop_items",
+      "minicart.v2",
+      "login"
+    ],
+    "props": {
+      "blockClass": "header_one_row--text"
+    }
+  },
+  "header-row#2-desktop": {
+    "children": [
+      "vtex.menu@2.x:menu#menu-categories"
+      // "flex-layout.col#food",
+      // "flex-layout.col#fitness_container",
+      // "flex-layout.col#artic_container",
+      // "flex-layout.col#poolday_container",
+      // "flex-layout.col#hotels_container",
+      // "flex-layout.col#houses_container",
+      // "flex-layout.col#hotels_container",
+      // "flex-layout.col#natural_container",
+      // "flex-layout.col#closet_container",
+      // "flex-layout.col#beaches_container",
+      // "flex-layout.col#climbing_container",
+      // "flex-layout.col#delivery_container",
+      // "flex-layout.col#beer_container",
+      // "flex-layout.col#spacer"
+    ],
+    "props": {
+      "blockClass": "header_two_row--text"
+    }
+  },
 
-      "vtex.menu@2.x:menu#desktop_items": {
-        "props": {
-          "blockClass": "menu-row-one--text",
-          "items": [
-            {
-              "id": "menu-item-ITG-trends",
-              "type": "custom",
-              "highlight": false,
-              "itemProps": {
-                "type": "internal",
-                "href": "#",
-                "noFollow": false,
-                "tagTitle": "ITG-trends",
-                "text": "Tendencias de ITGlobers"
-                // "blockClass": "menu-row-one--text"
-              }
-            },
-            {
-              "id": "menu-item-month-collection",
-              "type": "custom",
-              "highlight": false,
-              "itemProps": {
-                "type": "internal",
-                "href": "/month-collection",
-                "noFollow": false,
-                "tagTitle": "month-collection",
-                "text": "Colección del mes"
-                // "blockClass": "menu-row-one--text"
-              }
-            },
-            {
-              "id": "menu-item-january-sales",
-              "type": "custom",
-              "highlight": false,
-              "itemProps": {
-                "type": "internal",
-                "href": "/january-sales",
-                "noFollow": false,
-                "tagTitle": "january-sales",
-                "text": "Ofertas de enero"
-                // "blockClass": "menu-row-one--text"
-              }
-            },
-            {
-              "id": "menu-item-cyber-monday",
-              "type": "custom",
-              "highlight": false,
-              "itemProps": {
-                "type": "internal",
-                "href": "/cyber-monday",
-                "noFollow": false,
-                "tagTitle": "cyber-monday",
-                "text": "Cyber Monday"
-                // "blockClass": "menu-row-one--text"
-              }
-            },
-            {
-              "id": "menu-item-never-say-never",
-              "type": "custom",
-              "highlight": false,
-              "itemProps": {
-                "type": "internal",
-                "href": "/never-say-never",
-                "noFollow": false,
-                "tagTitle": "never-say-never",
-                "text": "Never say never"
-                // "blockClass": "menu-row-one--text"
-              }
-            }
-          ]
+  "flex-layout.col#logo-desktop": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "logo-desktop"
+    },
+    "children": ["logo"]
+  },
+
+  "vtex.menu@2.x:menu#desktop_items": {
+    "props": {
+      "blockClass": "menu-row-one--text",
+      "items": [
+        {
+          "id": "menu-item-ITG-trends",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "#",
+            "noFollow": false,
+            "tagTitle": "ITG-trends",
+            "text": "Tendencias de ITGlobers"
+            // "blockClass": "menu-row-one--text"
+          }
+        },
+        {
+          "id": "menu-item-month-collection",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/month-collection",
+            "noFollow": false,
+            "tagTitle": "month-collection",
+            "text": "Colección del mes"
+            // "blockClass": "menu-row-one--text"
+          }
+        },
+        {
+          "id": "menu-item-january-sales",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/january-sales",
+            "noFollow": false,
+            "tagTitle": "january-sales",
+            "text": "Ofertas de enero"
+            // "blockClass": "menu-row-one--text"
+          }
+        },
+        {
+          "id": "menu-item-cyber-monday",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/cyber-monday",
+            "noFollow": false,
+            "tagTitle": "cyber-monday",
+            "text": "Cyber Monday"
+            // "blockClass": "menu-row-one--text"
+          }
+        },
+        {
+          "id": "menu-item-never-say-never",
+          "type": "custom",
+          "highlight": false,
+          "itemProps": {
+            "type": "internal",
+            "href": "/never-say-never",
+            "noFollow": false,
+            "tagTitle": "never-say-never",
+            "text": "Never say never"
+            // "blockClass": "menu-row-one--text"
+          }
         }
-      },
-      "search-bar#desktop-header": {
-        "title": "search bar on desktop",
-        "props":{
-          "placeholder": "Search products...",
-          "blockClass": "search-bar--text"
-          // "classes": ["placeholder"]
-        }
-      }
-      // "icon-cart#desktop-minicart-icon": {
-      //   "props": {
-      //     "size": 20
-      //   }
-      // }
+      ]
+    }
+  },
+  "search-bar#desktop-header": {
+    "title": "search bar on desktop",
+    "props": {
+      "placeholder": "Search products...",
+      "blockClass": "search-bar--text"
+      // "classes": ["placeholder"]
+    }
+  }
+  // "icon-cart#desktop-minicart-icon": {
+  //   "props": {
+  //     "size": 20
+  //   }
+  // }
 }

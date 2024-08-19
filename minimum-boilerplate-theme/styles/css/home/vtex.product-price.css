@@ -1,57 +1,56 @@
 .savings {
-    font-size: 14px;
-    text-align: center;
-    border: 1px solid #1D2734;
+    font-size       : 14px;
+    text-align      : center;
+    border          : 1px solid #1D2734;
     background-color: #1D2734;
-    border-radius: 4px;
-    color: white;
-    height: 30px;
-    position: absolute;
-    left: 0;
-    top: 0;
-    width: 45% !important;
-    /* padding-top: 4px; */
-    align-content: center;
+    border-radius   : 4px;
+    color           : white;
+    height          : 30px;
+    position        : absolute;
+    left            : 0;
+    top             : 0;
+    width           : 45% !important;
+    /* padding-top  : 4px; */
+    align-content   : center;
 }
 
-.savings
-.savings--savings--text {
+.savings .savings--savings--text {
     width: 35%
 }
 
 .listPrice {
-    font-size: 14px;
+    font-size : 14px;
     text-align: left;
-    color: rgba(29, 39, 52, 0.4);
-    margin: 0px;
+    color     : rgba(29, 39, 52, 0.4);
+    margin    : 0px;
 }
 
 .sellingPrice {
-    font-size: 24px;
-    text-align: left;
-    line-height: 28.8px;
-    font-weight: 600;
-    margin: 4px 6px 0;
+    font-size     : 24px;
+    text-align    : left;
+    line-height   : 28.8px;
+    font-weight   : 600;
+    margin        : 4px 6px 0;
     padding-bottom: 10px;
-    color: rgba(29, 39, 52, 1);
+    color         : rgba(29, 39, 52, 1);
 
 }
 
 @media screen and (max-width: 1024) {
     .savings {
         padding-top: 10px;
-        width: 40px;
-        height: 30px;
-        font-size: 12px;
+        width      : 40px;
+        height     : 30px;
+        font-size  : 12px;
     }
 
     .listPrice {
-        margin: 4px 0px;
+        margin   : 4px 0px;
         font-size: 12px;
     }
-    
+
     .sellingPrice {
-        margin: 4px 0;
+        margin   : 4px 0;
         font-size: 20px;
     }
 }

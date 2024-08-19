@@ -58,48 +58,50 @@
 } */
 
 .slide--first-carousel--text {
-    width: 62vw!important;
+    width : 62vw !important;
     margin: 0;
 }
 
 .paginationDot--isActive::before {
-    content: "";
-    position: absolute;
-    right: -8px;
-    width: 16px;
-    height: 16px;
+    content         : "";
+    position        : absolute;
+    right           : -8px;
+    width           : 16px;
+    height          : 16px;
     background-color: #1D2734;
-    border-radius: 50%;
+    border-radius   : 50%;
 }
+
 .paginationDot::after {
-    width: 44px;
-    height: 2px;
-    content: "";
-    font-size: 0;
+    width           : 44px;
+    height          : 2px;
+    content         : "";
+    font-size       : 0;
     background-color: #1D2734;
-    position: absolute;
+    position        : absolute;
 }
+
 .paginationDot {
-    width: 44px !important;
-    height: 40px !important;
-    border-radius: 0;
+    width           : 44px !important;
+    height          : 40px !important;
+    border-radius   : 0;
     background-color: transparent;
-    position: relative;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin: 0 2px;
+    position        : relative;
+    display         : flex;
+    align-items     : center;
+    justify-content : center;
+    margin          : 0 2px;
 }
 
 .paginationDotsContainer {
-    max-width: 232px;
-    height: 51px;
+    max-width     : 232px;
+    height        : 51px;
     /* margin-left: 524px;
-    margin-right: 524px; */
-    /* position:absolute; */
-    margin-left: auto;
-    margin-right: auto;
-    bottom: -51px;
+    margin-right  : 524px; */
+    /* position   :absolute; */
+    margin-left   : auto;
+    margin-right  : auto;
+    bottom        : -51px;
 }
 
 .sliderLeftArrow {
@@ -109,38 +111,39 @@
 .sliderRightArrow {
     right: -38px;
 }
+
 .sliderLayoutContainer {
-    margin: auto;
-    margin-top: 16px;
-    margin-bottom: 16px;
-    padding: 0px;
-    max-width: 1156px;
-    /* height: 378px; */
+    margin             : auto;
+    margin-top         : 16px;
+    margin-bottom      : 16px;
+    padding            : 0px;
+    max-width          : 1156px;
+    /* height          : 378px; */
     /* background-color: aquamarine; */
-    /* left: 94px;
-    right: 94px; */
-    gap: 24px;
+    /* left            : 94px;
+    right              : 94px; */
+    gap                : 24px;
 }
 
 .slideChildrenContainer--second-carousel--text {
     padding: 0 9px;
-  }
+}
 
 
 /* :global(.vtex-slider-layout-0-x-slide--mobile-slider--text) {
     width:auto;
 } */
-  
-@media screen and (max-width: 1024px){
+
+@media screen and (max-width: 1024px) {
     .paginationDot {
-        width: 16px !important;
+        width : 16px !important;
         height: 14px !important;
     }
 
     .paginationDotsContainer {
         bottom: -61px;
     }
-    
+
 
     /* .sliderLayoutContainer {
         margin: 0 20px;

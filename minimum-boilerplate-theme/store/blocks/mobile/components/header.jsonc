@@ -1,108 +1,102 @@
 {
-    "sticky-layout#mobile": {
-        "children": [
-          "flex-layout.row#mobile_search",
-          "flex-layout.row#mobile_menu"
-        ],
-        "props": {
-          "blockClass": "sticky-header-mobile"
-        }
-      },
-      "flex-layout.row#mobile_search": {
-        "props": {
-          "horizontalAlign": "center",
-          "verticalAlign": "center",
-          "marginTop": 2,
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "blockClass": "search_header_mobile--text"
-          // "fullWidth": true
-        },
-        "children": [
-          "header-row#1-mobile"
-        ]
-      },
-      "flex-layout.row#mobile_menu": {
-        "props": {
-          "horizontalAlign": "center",
-          "verticalAlign": "center",
-          // "paddingBottom": 5,
-          "preserveLayoutOnMobile": true,
-          "preventHorizontalStretch": true,
-          "preventVerticalStretch": true,
-          "blockClass": "menu_header_desktop--text"
-          // "fullWidth": true
-        },
-        "children": [
-          "header-row#2-mobile"
-        ]
-      },
-      "header-row#1-mobile": {
-        "children": [
-          "drawer",
-          "logo",
-          "flex-layout.col#spacer",
-          "flex-layout.col#search_container",
-          "minicart.v2",
-          "login"
-        ],
-        "props":{
-          "blockClass": "header_one_row_mobile--text"
-        }
-      },
-      "header-row#2-mobile": {
-        "children":[
-          "vtex.menu@2.x:menu#menu-categories"
-          // "flex-layout.col#food",
-          // "flex-layout.col#fitness_container",
-          // "flex-layout.col#artic_container",
-          // "flex-layout.col#poolday_container",
-          // "flex-layout.col#hotels_container",
-          // "flex-layout.col#houses_container",
-          // "flex-layout.col#hotels_container",
-          // "flex-layout.col#natural_container",
-          // "flex-layout.col#closet_container",
-          // "flex-layout.col#beaches_container",
-          // "flex-layout.col#climbing_container",
-          // "flex-layout.col#delivery_container",
-          // "flex-layout.col#beer_container"
-        ],
-        "props":{
-          "blockClass": "header_two_row_mobile--text"
-        }
-      },
-      "drawer": {
-        "children": []
-      },
-      "flex-layout.col#search_container":{
-          "children": [
-            "icon#search-mobile"
-          ],
-          "props":{
-            "preventVerticalStretch": true,
-            "blockClass": "search_icon_row--text"
-          }
-        },
-        "icon#search-mobile": {
-          "title": "icon search",
-          "props":{
-            "id": "MagnifyingGlas",
-            "weight": "bold",
-            "viewBox": "0 0 24 24",
-            "size": 24,
-            "height": "18",
-            "width": "18"
-          }
-        }
-      // "search-bar#mobile-header": {
-      //   "title": "search bar on desktop",
-      //   "props":{
-      //     "placeholder": "Search products..."
-      //   }
-      // }
-      // "icon-cart#mobile-minicart-icon": {
-      //   "props": {
-      //     "size": 24
-      //   }
-      // }
+  "sticky-layout#mobile": {
+    "children": [
+      "flex-layout.row#mobile_search",
+      "flex-layout.row#mobile_menu"
+    ],
+    "props": {
+      "blockClass": "sticky-header-mobile"
+    }
+  },
+  "flex-layout.row#mobile_search": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      "marginTop": 2,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "search_header_mobile--text"
+      // "fullWidth": true
+    },
+    "children": ["header-row#1-mobile"]
+  },
+  "flex-layout.row#mobile_menu": {
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "center",
+      // "paddingBottom": 5,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "menu_header_desktop--text"
+      // "fullWidth": true
+    },
+    "children": ["header-row#2-mobile"]
+  },
+  "header-row#1-mobile": {
+    "children": [
+      "drawer",
+      "logo",
+      "flex-layout.col#spacer",
+      "flex-layout.col#search_container",
+      "minicart.v2",
+      "login"
+    ],
+    "props": {
+      "blockClass": "header_one_row_mobile--text"
+    }
+  },
+  "header-row#2-mobile": {
+    "children": [
+      "vtex.menu@2.x:menu#menu-categories"
+      // "flex-layout.col#food",
+      // "flex-layout.col#fitness_container",
+      // "flex-layout.col#artic_container",
+      // "flex-layout.col#poolday_container",
+      // "flex-layout.col#hotels_container",
+      // "flex-layout.col#houses_container",
+      // "flex-layout.col#hotels_container",
+      // "flex-layout.col#natural_container",
+      // "flex-layout.col#closet_container",
+      // "flex-layout.col#beaches_container",
+      // "flex-layout.col#climbing_container",
+      // "flex-layout.col#delivery_container",
+      // "flex-layout.col#beer_container"
+    ],
+    "props": {
+      "blockClass": "header_two_row_mobile--text"
+    }
+  },
+  "drawer": {
+    "children": []
+  },
+  "flex-layout.col#search_container": {
+    "children": ["icon#search-mobile"],
+    "props": {
+      "preventVerticalStretch": true,
+      "blockClass": "search_icon_row--text"
+    }
+  },
+  "icon#search-mobile": {
+    "title": "icon search",
+    "props": {
+      "id": "MagnifyingGlas",
+      "weight": "bold",
+      "viewBox": "0 0 24 24",
+      "size": 24,
+      "height": "18",
+      "width": "18"
+    }
+  }
+  // "search-bar#mobile-header": {
+  //   "title": "search bar on desktop",
+  //   "props":{
+  //     "placeholder": "Search products..."
+  //   }
+  // }
+  // "icon-cart#mobile-minicart-icon": {
+  //   "props": {
+  //     "size": 24
+  //   }
+  // }
 }

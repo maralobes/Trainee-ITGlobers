@@ -3,8 +3,8 @@
 } */
 
 .cartIcon {
-    color: #1D2734;
-    width: 16px;
+    color : #1D2734;
+    width : 16px;
     height: 16px;
 }
 
@@ -23,6 +23,6 @@
     padding: 0;
 }
 
-.openIconContainer .vtex-button__label{
+.openIconContainer .vtex-button__label {
     padding: 0;
 }

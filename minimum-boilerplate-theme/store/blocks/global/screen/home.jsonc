@@ -1,5 +1,5 @@
 {
-  "store.home": { 
+  "store.home": {
     "blocks": [
       "responsive-layout.desktop#desktop__home__v1",
       "responsive-layout.mobile#mobile__home__v1"

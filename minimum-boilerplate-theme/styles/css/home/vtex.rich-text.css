@@ -68,14 +68,15 @@
 } */
 
 .paragraph--amazing__product__slider__heading--text {
-    font-size: 16px;
+    font-size          : 16px;
     /* background-color: blue; */
-    color: #1D2734;
-    margin-bottom: 0.3rem;
-    padding-left: 1.5rem;
-    font-weight: 500;
-    line-height: 16.8px;
+    color              : #1D2734;
+    margin-bottom      : 0.3rem;
+    padding-left       : 1.5rem;
+    font-weight        : 500;
+    line-height        : 16.8px;
 }
+
 /* @media screen and (max-width: 1024px) {
     .paragraph--amazing__product__slider__heading--text {
         margin: 1.5rem;

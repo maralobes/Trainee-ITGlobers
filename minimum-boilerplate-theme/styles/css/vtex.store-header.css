@@ -1,9 +1,9 @@
 .headerRowContentContainer--header_two_row_mobile--text {
     overflow-x: scroll;
-    width: 100vw;
+    width     : 100vw;
     overflow-y: hidden;
- }
- 
+}
+
 /* .headerRowContainer--header_two_row_mobile--text {
     display: flex;
     justify-content: space-between;
@@ -17,16 +17,16 @@
 
 /* SMALL DESKTOP - Between 1025px and 1280px */
 .headerRowContentContainer {
-    width: 100vw;
+    width   : 100vw;
     overflow: hidden;
 }
 
 /* LASRGE DESKTOP - Equal or largen than 1280px */
 @media screen and (min-width:1280px) {
     .headerRowContentContainer {
-        width: 90vw;
+        width   : 90vw;
         overflow: hidden;
-        padding: 0;
+        padding : 0;
     }
 }
 
@@ -34,6 +34,6 @@
 
 .headerStickyRow--header_one_row_mobile--text {
     max-width: 1280px;
-    margin: auto;
-    /* width: 360px; */
+    margin   : auto;
+    /* width : 360px; */
 }

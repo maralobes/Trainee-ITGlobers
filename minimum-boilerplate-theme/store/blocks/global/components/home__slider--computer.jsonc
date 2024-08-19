@@ -1,172 +1,164 @@
 {
   "slider-layout#computer__carousel": {
-      "title": "Computer carousel",
-      "props": {
-        "itemsPerPage": {
-          "desktop": 1,
-          "tablet": 1,
-          "phone": 1
-        },
-        "infinite": false,
-        "showNavigationArrows": "desktopOnly",
-        "blockClass": "second-carousel--text"
+    "title": "Computer carousel",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 1,
+        "tablet": 1,
+        "phone": 1
       },
-      "children": [
-        "flex-layout.row#computer__carousel--second-slider-home",
-        "flex-layout.row#computer__carousel--second-slider-home",
-        "flex-layout.row#computer__carousel--second-slider-home",
-        "flex-layout.row#computer__carousel--second-slider-home",
-        "flex-layout.row#computer__carousel--second-slider-home",
-        "flex-layout.row#computer__carousel--second-slider-home",
-        "flex-layout.row#computer__carousel--second-slider-home"
-      ]
+      "infinite": false,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "second-carousel--text"
     },
+    "children": [
+      "flex-layout.row#computer__carousel--second-slider-home",
+      "flex-layout.row#computer__carousel--second-slider-home",
+      "flex-layout.row#computer__carousel--second-slider-home",
+      "flex-layout.row#computer__carousel--second-slider-home",
+      "flex-layout.row#computer__carousel--second-slider-home",
+      "flex-layout.row#computer__carousel--second-slider-home",
+      "flex-layout.row#computer__carousel--second-slider-home"
+    ]
+  },
 
-    "flex-layout.row#computer__carousel--second-slider-home": {
-      "title": "Second slider container",
-      "children":[
-        "flex-layout.col#second__carousel--second-slider-home",
-        "flex-layout.col#second__carousel--second-slider-home",
-        "flex-layout.col#second__carousel--second-slider-home",
-        "flex-layout.col#second__carousel--second-slider-home",
-        "flex-layout.col#second__carousel--second-slider-home"
-      ],
-      "props":{
-        "borderWidth": 0,
-        "boder": "all",
-        "colJustify": "around",
-        "marginTop": 8,
-        "colGap": 5,
-        "colSizing": "auto",
-        "rowGap": 0,
-        "preventVerticalStretch": true
-      }
-    },
-
-    "flex-layout.col#second__carousel--second-slider-home": {
-      "title": "slider col second carousel",
-      "children": [
-        "flex-layout.row#computer__image--second-slider-home",
-        "flex-layout.row#computer__text--second-slider-home"
-      ],
-      "props":{
-        "borderWidth": 0,
-        "boder": "all",
-        "colJustify": "around",
-        "marginTop": 8,
-        "colGap": 5,
-        "colSizing": "auto",
-        "rowGap": 0,
-        "preventVerticalStretch": true
-      }
-    },
-  
-    "flex-layout.row#computer__image--second-slider-home": {
-      "title": "Second slider computer image",
-      "children":[
-        "image#home__second__carousel-slider-home"
-      ],
-      "props":{
-          "horizontalAlign": "center",
-          "borderWidth": 0,
-          "boder": "all",
-          "colJustify": "around",
-          "marginTop": 8,
-          "colGap": 5,
-          "colSizing": "auto",
-          "rowGap": 0,
-          "preventVerticalStretch": true
-      }
-    },
-     
-    "flex-layout.row#computer__text--second-slider-home": {
-      "title": "Second slider row computer text",
-      "children":[
-        "flex-layout.col#computer__text--second-slider-home"
-      ],
-      "props":{
-        "borderWidth": 0,
-        "boder": "all",
-        "colJustify": "around",
-        "marginTop": 0,
-        "colGap": 5,
-        "colSizing": "auto",
-        "rowGap": 0,
-        "preventVerticalStretch": true
-      }
-    },
-
-    "flex-layout.col#computer__text--second-slider-home": {
-      "title": "Second slider col computer text",
-      "children": [
-        "rich-text#description-slider-home",
-        "rich-text#old__price-slider-home",
-        "rich-text#new__price-slider-home"
-        // "rich-text#envio__gratis__text-slider-home"
-      ],
-      "props":{
-        "width": "100%",
-        "borderWidth": 0,
-        "boder": "all",
-        "colJustify": "around",
-        "marginTop": 0,
-        "colGap": 5,
-        "colSizing": "auto",
-        "rowGap": 0,
-        "preventVerticalStretch": true
-        }
-    },
-
-    "rich-text#description-slider-home": {
-      "title": "Product description for second carousel",
-      "props": {
-        "text":  "Descripción del producto en hasta tres líneas de texto explicativo",
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "blockClass": [
-
-        ]
-      }
-    },
-
-    "rich-text#old__price-slider-home": {
-      "title": "Old price",
-      "props": {
-        "text": "$ 836.900",
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "blockClass": [
-        ]
-      }
-    },
-
-    "rich-text#new__price-slider-home": {
-      "title": "New price",
-      "props": {
-        "text": "$ 636.900",
-        "textAlignment": "LEFT",
-        "textPosition": "LEFT",
-        "blockClass": [
-        ]
-      }
-    },
-
-    // "rich-text#envio__gratis__text-slider-home": {
-    //   "title": "New price",
-    //   "props": {
-    //     "text": "Envío gratis",
-    //     "textAlignment": "LEFT",
-    //     "textPosition": "LEFT",
-    //     "blockClass": [
-    //     ]
-    //   }
-    // },
-
-    "image#home__second__carousel-slider-home": {
-      "title": "computer image",
-      "props": {
-        "src": "assets/img/6_image_desktop_computer.png",
-        "blockClass": "computer--text"
-      }
+  "flex-layout.row#computer__carousel--second-slider-home": {
+    "title": "Second slider container",
+    "children": [
+      "flex-layout.col#second__carousel--second-slider-home",
+      "flex-layout.col#second__carousel--second-slider-home",
+      "flex-layout.col#second__carousel--second-slider-home",
+      "flex-layout.col#second__carousel--second-slider-home",
+      "flex-layout.col#second__carousel--second-slider-home"
+    ],
+    "props": {
+      "borderWidth": 0,
+      "boder": "all",
+      "colJustify": "around",
+      "marginTop": 8,
+      "colGap": 5,
+      "colSizing": "auto",
+      "rowGap": 0,
+      "preventVerticalStretch": true
     }
+  },
+
+  "flex-layout.col#second__carousel--second-slider-home": {
+    "title": "slider col second carousel",
+    "children": [
+      "flex-layout.row#computer__image--second-slider-home",
+      "flex-layout.row#computer__text--second-slider-home"
+    ],
+    "props": {
+      "borderWidth": 0,
+      "boder": "all",
+      "colJustify": "around",
+      "marginTop": 8,
+      "colGap": 5,
+      "colSizing": "auto",
+      "rowGap": 0,
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.row#computer__image--second-slider-home": {
+    "title": "Second slider computer image",
+    "children": ["image#home__second__carousel-slider-home"],
+    "props": {
+      "horizontalAlign": "center",
+      "borderWidth": 0,
+      "boder": "all",
+      "colJustify": "around",
+      "marginTop": 8,
+      "colGap": 5,
+      "colSizing": "auto",
+      "rowGap": 0,
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.row#computer__text--second-slider-home": {
+    "title": "Second slider row computer text",
+    "children": ["flex-layout.col#computer__text--second-slider-home"],
+    "props": {
+      "borderWidth": 0,
+      "boder": "all",
+      "colJustify": "around",
+      "marginTop": 0,
+      "colGap": 5,
+      "colSizing": "auto",
+      "rowGap": 0,
+      "preventVerticalStretch": true
+    }
+  },
+
+  "flex-layout.col#computer__text--second-slider-home": {
+    "title": "Second slider col computer text",
+    "children": [
+      "rich-text#description-slider-home",
+      "rich-text#old__price-slider-home",
+      "rich-text#new__price-slider-home"
+      // "rich-text#envio__gratis__text-slider-home"
+    ],
+    "props": {
+      "width": "100%",
+      "borderWidth": 0,
+      "boder": "all",
+      "colJustify": "around",
+      "marginTop": 0,
+      "colGap": 5,
+      "colSizing": "auto",
+      "rowGap": 0,
+      "preventVerticalStretch": true
+    }
+  },
+
+  "rich-text#description-slider-home": {
+    "title": "Product description for second carousel",
+    "props": {
+      "text": "Descripción del producto en hasta tres líneas de texto explicativo",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": []
+    }
+  },
+
+  "rich-text#old__price-slider-home": {
+    "title": "Old price",
+    "props": {
+      "text": "$ 836.900",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": []
+    }
+  },
+
+  "rich-text#new__price-slider-home": {
+    "title": "New price",
+    "props": {
+      "text": "$ 636.900",
+      "textAlignment": "LEFT",
+      "textPosition": "LEFT",
+      "blockClass": []
+    }
+  },
+
+  // "rich-text#envio__gratis__text-slider-home": {
+  //   "title": "New price",
+  //   "props": {
+  //     "text": "Envío gratis",
+  //     "textAlignment": "LEFT",
+  //     "textPosition": "LEFT",
+  //     "blockClass": [
+  //     ]
+  //   }
+  // },
+
+  "image#home__second__carousel-slider-home": {
+    "title": "computer image",
+    "props": {
+      "src": "assets/img/6_image_desktop_computer.png",
+      "blockClass": "computer--text"
+    }
+  }
 }

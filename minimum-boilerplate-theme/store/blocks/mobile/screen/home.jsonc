@@ -1,16 +1,16 @@
 {
-    "responsive-layout.mobile#mobile__home__v1": {
-        "title": "Home screen Mobile",
-        "children": [
-            "image#mobile_banner_home",
-            "rich-text#h1--before-slider",
-            "flex-layout.row#mobile__test_one--slider-home",
-            "rich-text#h1--before-slider",
-            "flex-layout.row#second__carousel--slider-home",
-            "rich-text#h1--before-slider",
-            "flex-layout.row#mobile__test_one--slider-home",
-            "rich-text#h1--before-slider",
-            "flex-layout.row#second__carousel--slider-home"
-        ]
-    }
+  "responsive-layout.mobile#mobile__home__v1": {
+    "title": "Home screen Mobile",
+    "children": [
+      "image#mobile_banner_home",
+      "rich-text#h1--before-slider",
+      "flex-layout.row#mobile__test_one--slider-home",
+      "rich-text#h1--before-slider",
+      "flex-layout.row#second__carousel--slider-home",
+      "rich-text#h1--before-slider",
+      "flex-layout.row#mobile__test_one--slider-home",
+      "rich-text#h1--before-slider",
+      "flex-layout.row#second__carousel--slider-home"
+    ]
+  }
 }

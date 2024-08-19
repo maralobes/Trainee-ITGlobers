@@ -1,225 +1,229 @@
-{ 
+{
   "flex-layout.row#mobile__test_one--slider-home": {
     "title": "mobile slider row test one",
-    "children":[
-      "slider-layout#mobile__infoCard"
-      ],
-    "props":{
-      "blockClass": ["infoCard__main__row--text", "main__row__container--text", "mobile-row-container--text"]
-      }
+    "children": ["slider-layout#mobile__infoCard"],
+    "props": {
+      "blockClass": [
+        "infoCard__main__row--text",
+        "main__row__container--text",
+        "mobile-row-container--text"
+      ]
+    }
+  },
+
+  "slider-layout#mobile__infoCard": {
+    "title": "slider layout home infocard",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": false,
+      "centerMode": "to-the-left",
+      "centerModeSlidesGap": 0,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": [
+        "first-carousel--text",
+        "mobile-slider--text",
+        "mobile-column-container--text"
+      ]
     },
-  
-    "slider-layout#mobile__infoCard": {
-        "title": "slider layout home infocard",
-        "props": {
-          "itemsPerPage": {
-            "desktop": 3,
-            "tablet": 2,
-            "phone": 1
-          },
-          "infinite": false,
-          "centerMode": "to-the-left",
-          "centerModeSlidesGap": 0,
-          "showNavigationArrows": "desktopOnly",
-          "blockClass": ["first-carousel--text", "mobile-slider--text", "mobile-column-container--text"]
-        },
-        "children": [
-          "flex-layout.col#mobile__carousel__one--slider-home",
-          "flex-layout.col#mobile__carousel__one--slider-home",
-          "flex-layout.col#mobile__carousel__one--slider-home",
-          "flex-layout.col#mobile__carousel__one--slider-home",
-          "flex-layout.col#mobile__carousel__one--slider-home",
-          "flex-layout.col#mobile__carousel__one--slider-home",
-          "flex-layout.col#mobile__carousel__one--slider-home",
-          "flex-layout.col#mobile__carousel__one--slider-home",
-          "flex-layout.col#mobile__carousel__one--slider-home",
-          "flex-layout.col#mobile__carousel__one--slider-home",
-          "flex-layout.col#mobile__carousel__one--slider-home",
-          "flex-layout.col#mobile__carousel__one--slider-home",
-          "flex-layout.col#mobile__carousel__one--slider-home",
-          "flex-layout.col#mobile__carousel__one--slider-home"
-        ]
-      },
+    "children": [
+      "flex-layout.col#mobile__carousel__one--slider-home",
+      "flex-layout.col#mobile__carousel__one--slider-home",
+      "flex-layout.col#mobile__carousel__one--slider-home",
+      "flex-layout.col#mobile__carousel__one--slider-home",
+      "flex-layout.col#mobile__carousel__one--slider-home",
+      "flex-layout.col#mobile__carousel__one--slider-home",
+      "flex-layout.col#mobile__carousel__one--slider-home",
+      "flex-layout.col#mobile__carousel__one--slider-home",
+      "flex-layout.col#mobile__carousel__one--slider-home",
+      "flex-layout.col#mobile__carousel__one--slider-home",
+      "flex-layout.col#mobile__carousel__one--slider-home",
+      "flex-layout.col#mobile__carousel__one--slider-home",
+      "flex-layout.col#mobile__carousel__one--slider-home",
+      "flex-layout.col#mobile__carousel__one--slider-home"
+    ]
+  },
 
-      "flex-layout.col#mobile__carousel__one--slider-home": {
-        "title": "slider col carousel one",
-        "children": [
-          "image#mobile__first-carousel-home"
-        ],
-        "props":{
-          "horizontalAlign": "center",
-          "blockClass": ["infoCard__main__col__mobile--text", "mobile-col-infoCard"]
-        }
-      },
+  "flex-layout.col#mobile__carousel__one--slider-home": {
+    "title": "slider col carousel one",
+    "children": ["image#mobile__first-carousel-home"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": ["infoCard__main__col__mobile--text", "mobile-col-infoCard"]
+    }
+  },
 
-      "image#mobile__first-carousel-home": {
-        "title": "first carousel infocard image",
-        "props": {
-          "src": "assets/img/15_image_infocard_element_phone.png",
-          "link": "https://mariavillalobos--itgloberspartnercl.myvtex.com/",
-          "blockClass": "infocard-imag-mobile--text"
-        }
-      }
+  "image#mobile__first-carousel-home": {
+    "title": "first carousel infocard image",
+    "props": {
+      "src": "assets/img/15_image_infocard_element_phone.png",
+      "link": "https://mariavillalobos--itgloberspartnercl.myvtex.com/",
+      "blockClass": "infocard-imag-mobile--text"
+    }
+  }
 
-      // "flex-layout.row#test_one--slider-home": {
-      //   "title": "slider row test one",
-      //   "children":[
-      //       "flex-layout.col#carousel__one--slider-home"
-      //   ],
-      //   "props":{
-      //     "marginTop": 0,
-      //     "marginBottom": 9,
-      //     "colSizing": "auto",
-      //     "rowGap": 0,
-      //     "preventVerticalStretch": true,
-      //     "preventHorizontalStretch": true,
-      //     "blockClass": "infoCard__main__row--text"
-      //   }
-      // },
+  // "flex-layout.row#test_one--slider-home": {
+  //   "title": "slider row test one",
+  //   "children":[
+  //       "flex-layout.col#carousel__one--slider-home"
+  //   ],
+  //   "props":{
+  //     "marginTop": 0,
+  //     "marginBottom": 9,
+  //     "colSizing": "auto",
+  //     "rowGap": 0,
+  //     "preventVerticalStretch": true,
+  //     "preventHorizontalStretch": true,
+  //     "blockClass": "infoCard__main__row--text"
+  //   }
+  // },
 
-      // "flex-layout.col#carousel__one--slider-home": {
-      //   "title": "slider col carousel one",
-      //   "children": [
-      //       "image#home__carousel",
-      //       "flex-layout.row#description__and__image__award--slider-home",
-      //       "flex-layout.row#price__button--slider-home"
-      //   ],
-      //   "props":{
-      //       "width": "grow",
-      //       "horizontalAlign": "LEFT",
-      //       "colGap": 0,
-      //       "preventVerticalStretch": true,
-      //       "marginLeft": 7,
-      //       "marginRight": 7,
-      //       "blockClass": "infoCard__main__col--text"
-      //   }
-      // },
+  // "flex-layout.col#carousel__one--slider-home": {
+  //   "title": "slider col carousel one",
+  //   "children": [
+  //       "image#home__carousel",
+  //       "flex-layout.row#description__and__image__award--slider-home",
+  //       "flex-layout.row#price__button--slider-home"
+  //   ],
+  //   "props":{
+  //       "width": "grow",
+  //       "horizontalAlign": "LEFT",
+  //       "colGap": 0,
+  //       "preventVerticalStretch": true,
+  //       "marginLeft": 7,
+  //       "marginRight": 7,
+  //       "blockClass": "infoCard__main__col--text"
+  //   }
+  // },
 
-      // "flex-layout.row#description__and__image__award--slider-home": {
-      //   "title": "slider row test one",
-      //   "children":[
-      //     "flex-layout.col#infocard__text--slider-home",
-      //     "flex-layout.col#infocard__award__image--slider-home"
-      //   ],
-      //   "props":{
-      //     "marginTop": 0,
-      //     "colGap": 5,
-      //     "colJustify": "around",
-      //     "horizontalAlign": "left",
-      //     "rowGap": 0,
-      //     "preventHorizontalStretch": true,
-      //     "blockClass": "product__description__award__image--text"
-      //   }
-      // },
+  // "flex-layout.row#description__and__image__award--slider-home": {
+  //   "title": "slider row test one",
+  //   "children":[
+  //     "flex-layout.col#infocard__text--slider-home",
+  //     "flex-layout.col#infocard__award__image--slider-home"
+  //   ],
+  //   "props":{
+  //     "marginTop": 0,
+  //     "colGap": 5,
+  //     "colJustify": "around",
+  //     "horizontalAlign": "left",
+  //     "rowGap": 0,
+  //     "preventHorizontalStretch": true,
+  //     "blockClass": "product__description__award__image--text"
+  //   }
+  // },
 
-      // "flex-layout.row#price__button--slider-home": {
-      //   "title": "slider row price button carousel one",
-      //   "children": [
-      //     "image#price__button__image"
-      //   ],
-      //   "props":{
-      //       "width": "100%",
-      //       "horizontalAlign": "CENTER",
-      //       "blockClass": "price__button__row--text"
-      //   }
-      // },
+  // "flex-layout.row#price__button--slider-home": {
+  //   "title": "slider row price button carousel one",
+  //   "children": [
+  //     "image#price__button__image"
+  //   ],
+  //   "props":{
+  //       "width": "100%",
+  //       "horizontalAlign": "CENTER",
+  //       "blockClass": "price__button__row--text"
+  //   }
+  // },
 
-      // "flex-layout.col#infocard__text--slider-home": {
-      //   "title": "slider col heading and description texts inforcard carousel one",
-      //   "children": [
-      //     "flex-layout.row#infocard__heading__text--slider-home",
-      //     "flex-layout.row#infocard__description__text--slider-home"
-      //   ],
-      //   "props":{
-      //       "width": "100%",
-      //       "horizontalAlign": "LEFT",
-      //       "blockClass": "infocard__texts__col--text"
-      //   }
-      // },
+  // "flex-layout.col#infocard__text--slider-home": {
+  //   "title": "slider col heading and description texts inforcard carousel one",
+  //   "children": [
+  //     "flex-layout.row#infocard__heading__text--slider-home",
+  //     "flex-layout.row#infocard__description__text--slider-home"
+  //   ],
+  //   "props":{
+  //       "width": "100%",
+  //       "horizontalAlign": "LEFT",
+  //       "blockClass": "infocard__texts__col--text"
+  //   }
+  // },
 
-      // "flex-layout.row#infocard__heading__text--slider-home": {
-      //   "title": "slider row heading text infocard carousel one",
-      //   "children": [
-      //     "rich-text#heading-slider"
-      //   ],
-      //   "props":{
-      //       "fullWidth": true,
-      //       "horizontalAlign": "LEFT",
-      //       "rowGap": 0,
-      //       "preventVerticalStretch": true,
-      //       "blockClass": "heading__infocard__row--text"
-      //   }
-      // },
+  // "flex-layout.row#infocard__heading__text--slider-home": {
+  //   "title": "slider row heading text infocard carousel one",
+  //   "children": [
+  //     "rich-text#heading-slider"
+  //   ],
+  //   "props":{
+  //       "fullWidth": true,
+  //       "horizontalAlign": "LEFT",
+  //       "rowGap": 0,
+  //       "preventVerticalStretch": true,
+  //       "blockClass": "heading__infocard__row--text"
+  //   }
+  // },
 
-      // "flex-layout.row#infocard__description__text--slider-home": {
-      //   "title": "slider row description text infocard carousel one",
-      //   "children": [
-      //     "rich-text#description-slider"
-      //   ],
-      //   "props":{
-      //       "blockClass": "description__infocard__row--text"
-      //   }
-      // },
+  // "flex-layout.row#infocard__description__text--slider-home": {
+  //   "title": "slider row description text infocard carousel one",
+  //   "children": [
+  //     "rich-text#description-slider"
+  //   ],
+  //   "props":{
+  //       "blockClass": "description__infocard__row--text"
+  //   }
+  // },
 
-      // "flex-layout.col#infocard__award__image--slider-home": {
-      //   "title": "slider col award image inforcard carousel one",
-      //   "children": [
-      //     "image#award__image"
-      //   ],
-      //   "props":{
-      //       "horizontalAlign": "RIGHT",
-      //       "marginRight": 2,
-      //       "paddingRight": 2,
-      //       "verticalAlign": "middle",
-      //       "blockClass": "infocard__award__image__col--text"
-      //   }
-      // },
+  // "flex-layout.col#infocard__award__image--slider-home": {
+  //   "title": "slider col award image inforcard carousel one",
+  //   "children": [
+  //     "image#award__image"
+  //   ],
+  //   "props":{
+  //       "horizontalAlign": "RIGHT",
+  //       "marginRight": 2,
+  //       "paddingRight": 2,
+  //       "verticalAlign": "middle",
+  //       "blockClass": "infocard__award__image__col--text"
+  //   }
+  // },
 
-      // "rich-text#heading-slider": {
-      //   "title": "slider layout home text h2",
-      //   "props": {
-      //     "text":  "Heading",
-      //     "textAlignment": "LEFT",
-      //     "textPosition": "LEFT",
-      //     "blockClass": [
-      //       "heading__slider__carousel--text"
-      //     ]
-      //   }
-      // },
+  // "rich-text#heading-slider": {
+  //   "title": "slider layout home text h2",
+  //   "props": {
+  //     "text":  "Heading",
+  //     "textAlignment": "LEFT",
+  //     "textPosition": "LEFT",
+  //     "blockClass": [
+  //       "heading__slider__carousel--text"
+  //     ]
+  //   }
+  // },
 
-      // "rich-text#description-slider": {
-      //   "title": "slider layout home text h3",
-      //   "props": {
-      //     "text": "Builder platform is made by, buildership platform is made by...",
-      //     "textAlignment": "LEFT",
-      //     "textPosition": "LEFT",
-      //     "blockClass": [
-      //       "description__slider__carousel--text"
-      //     ]
-      //   }
-      // },
+  // "rich-text#description-slider": {
+  //   "title": "slider layout home text h3",
+  //   "props": {
+  //     "text": "Builder platform is made by, buildership platform is made by...",
+  //     "textAlignment": "LEFT",
+  //     "textPosition": "LEFT",
+  //     "blockClass": [
+  //       "description__slider__carousel--text"
+  //     ]
+  //   }
+  // },
 
-      // "image#home__carousel": {
-      //   "title": "image card element 1",
-      //   "props": {
-      //     "src": "assets/img/3_image_card_element.png",
-      //     "blockClass": "infocard__product__image--text"
-      //   }
-      // },
+  // "image#home__carousel": {
+  //   "title": "image card element 1",
+  //   "props": {
+  //     "src": "assets/img/3_image_card_element.png",
+  //     "blockClass": "infocard__product__image--text"
+  //   }
+  // },
 
-      // "image#award__image": {
-      //   "title": "award image",
-      //   "props": {
-      //     "src": "assets/img/1_image_award.png",
-      //     "blockClass": "award__image--text"
-      //   }
-      // },
+  // "image#award__image": {
+  //   "title": "award image",
+  //   "props": {
+  //     "src": "assets/img/1_image_award.png",
+  //     "blockClass": "award__image--text"
+  //   }
+  // },
 
-      // "image#price__button__image": {
-      //   "title": "price button image",
-      //   "props": {
-      //     "src": "assets/img/10_image_infocard_button.png",
-      //     "blockClass": "price__button--text"
-      //   }
-      // }
+  // "image#price__button__image": {
+  //   "title": "price button image",
+  //   "props": {
+  //     "src": "assets/img/10_image_infocard_button.png",
+  //     "blockClass": "price__button--text"
+  //   }
+  // }
 }
