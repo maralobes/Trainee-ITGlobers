@@ -1,80 +1,3 @@
-// {
-//   "flex-layout.row#second__carousel--slider-home": {
-//     "title": "slider row second carousel",
-//     "children":[
-//         "slider-layout#product__second__carousel"
-//       ],
-//     "props":{
-//       "marginTop": 0,
-//       "marginBottom": 1,
-//       "paddingBottom": 5,
-//       "fullWidth": false,
-//       "preventHorizontalStretch": true,
-//       "blockClass": "infoCard__main__row--text"
-//       }
-//     },
-
-//     "slider-layout#product__second__carousel": {
-//         "title": "slider layout home product summary",
-//         "props": {
-//           "itemsPerPage": {
-//             "desktop": 5,
-//             "tablet": 2,
-//             "phone": 2
-//           },
-//           "infinite": true,
-//           "fullWidth": false,
-//           "showNavigationArrows": "desktopOnly",
-//           "blockClass": "first-carousel--text"
-//         },
-//         "children": [
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home",
-//           "flex-layout.col#carousel__two--slider-home"
-//         ]
-//       },
-
-//       "flex-layout.col#carousel__two--slider-home": {
-//         "title": "slider col carousel two",
-//         "children": [
-//             "image#second-carousel-home"
-//         ],
-//         "props":{
-//           "horizontalAlign": "center",
-//           "blockClass": "infoCard__main__col--text"
-//         }
-//       },
-
-//       "image#second-carousel-home": {
-//         "title": "second carousel infocard image",
-//         "props": {
-//           "src": "assets/img/14_image_shelf.png",
-//           "link": "https://mariavillalobos--itgloberspartnercl.myvtex.com/"
-//         }
-//       }
-// }
-
 {
   "flex-layout.row#second__carousel--slider-home": {
     "title": "slider row second carousel",
@@ -177,17 +100,6 @@
     }
   },
 
-  // "product-specification-badges": {
-  //   "props": {
-  //     "specificationGroupName": "allSpecifications",
-  //     "specificationsOptions": [{
-  //       "specificationName": "Envío gratis",
-  //       "displayValue": "SPECIFICATION_NAME",
-  //       "visibleWhen": "True"
-  //     }]
-  //   }
-  // },
-
   "add-to-cart-button": {
     "title": "Buy button",
     "props": {
@@ -201,24 +113,6 @@
       "blockClass": "wishlist__button-text"
     }
   },
-  // "image#icon-car-button": {
-  //   "title": "add to car button icon",
-  //   "props":{
-  //     "src": "assets/img/2_image_add_shopping_car.svg",
-  //     "blockClass": "icon-car-button--text"
-  //   }
-  // }
-
-  // "flex-layout.row#envio-gratis": {
-  //   "title": "envio gratis row",
-  //   "children":[
-  //     "product-highlight-text",
-  //     "icon#envio-gratis"
-  //   ],
-  //   "props":{
-  //     "blockClass": "envio-gratis-row--text"
-  //   }
-  // },
 
   "vtex.product-highlights@2.x:product-highlights": {
     "props": {

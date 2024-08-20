@@ -4,12 +4,6 @@
     overflow-y: hidden;
 }
 
-/* .headerRowContainer--header_two_row_mobile--text {
-    display: flex;
-    justify-content: space-between;
-    column-gap: 6px;
-} */
-
 .headerRowContentContainer {
     background-color: rgba(255, 255, 255, 1);
 }
@@ -30,10 +24,7 @@
     }
 }
 
-
-
 .headerStickyRow--header_one_row_mobile--text {
     max-width: 1280px;
     margin   : auto;
-    /* width : 360px; */
 }

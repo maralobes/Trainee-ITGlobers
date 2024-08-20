@@ -98,7 +98,6 @@
       "rich-text#mobiel__description-slider-home",
       "rich-text#mobile__old__price-slider-home",
       "rich-text#mobile__new__price-slider-home"
-      // "rich-text#envio__gratis__text-slider-home"
     ],
     "props": {
       "width": "100%",
@@ -142,18 +141,7 @@
       "blockClass": []
     }
   },
-
-  // "rich-text#envio__gratis__text-slider-home": {
-  //   "title": "New price",
-  //   "props": {
-  //     "text": "Envío gratis",
-  //     "textAlignment": "LEFT",
-  //     "textPosition": "LEFT",
-  //     "blockClass": [
-  //     ]
-  //   }
-  // },
-
+  
   "image#mobile__home__second__carousel-slider-home": {
     "title": "computer image",
     "props": {

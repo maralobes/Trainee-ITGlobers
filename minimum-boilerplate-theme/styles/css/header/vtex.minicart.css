@@ -1,19 +1,8 @@
-/* .openIconContainer {
-    background-color: #F0F0F2;
-} */
-
 .cartIcon {
     color : #1D2734;
     width : 16px;
     height: 16px;
 }
-
-/* @media screen  and (max-width: 1280){
-    .cartIcon {
-        width: 20px;
-        height: 20px;
-    }
-} */
 
 .minicartWrapperContainer {
     width: 44px;

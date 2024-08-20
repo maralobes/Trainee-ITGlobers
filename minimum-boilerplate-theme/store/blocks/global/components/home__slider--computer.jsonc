@@ -143,17 +143,6 @@
     }
   },
 
-  // "rich-text#envio__gratis__text-slider-home": {
-  //   "title": "New price",
-  //   "props": {
-  //     "text": "Envío gratis",
-  //     "textAlignment": "LEFT",
-  //     "textPosition": "LEFT",
-  //     "blockClass": [
-  //     ]
-  //   }
-  // },
-
   "image#home__second__carousel-slider-home": {
     "title": "computer image",
     "props": {

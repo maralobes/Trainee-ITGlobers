@@ -16,7 +16,6 @@
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "blockClass": "search_header_mobile--text"
-      // "fullWidth": true
     },
     "children": ["header-row#1-mobile"]
   },
@@ -24,12 +23,10 @@
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
-      // "paddingBottom": 5,
       "preserveLayoutOnMobile": true,
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "blockClass": "menu_header_desktop--text"
-      // "fullWidth": true
     },
     "children": ["header-row#2-mobile"]
   },
@@ -49,19 +46,6 @@
   "header-row#2-mobile": {
     "children": [
       "vtex.menu@2.x:menu#menu-categories"
-      // "flex-layout.col#food",
-      // "flex-layout.col#fitness_container",
-      // "flex-layout.col#artic_container",
-      // "flex-layout.col#poolday_container",
-      // "flex-layout.col#hotels_container",
-      // "flex-layout.col#houses_container",
-      // "flex-layout.col#hotels_container",
-      // "flex-layout.col#natural_container",
-      // "flex-layout.col#closet_container",
-      // "flex-layout.col#beaches_container",
-      // "flex-layout.col#climbing_container",
-      // "flex-layout.col#delivery_container",
-      // "flex-layout.col#beer_container"
     ],
     "props": {
       "blockClass": "header_two_row_mobile--text"
@@ -88,15 +72,4 @@
       "width": "18"
     }
   }
-  // "search-bar#mobile-header": {
-  //   "title": "search bar on desktop",
-  //   "props":{
-  //     "placeholder": "Search products..."
-  //   }
-  // }
-  // "icon-cart#mobile-minicart-icon": {
-  //   "props": {
-  //     "size": 24
-  //   }
-  // }
 }

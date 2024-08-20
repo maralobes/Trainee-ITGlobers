@@ -26,11 +26,9 @@
   "flex-layout.row#desktop_menu": {
     "props": {
       "horizontalAlign": "center",
-      // "paddingTop": 2,
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
       "blockClass": "menu_header_desktop--text"
-      // "fullWidth": true
     },
     "children": ["header-row#2-desktop"]
   },
@@ -51,20 +49,6 @@
   "header-row#2-desktop": {
     "children": [
       "vtex.menu@2.x:menu#menu-categories"
-      // "flex-layout.col#food",
-      // "flex-layout.col#fitness_container",
-      // "flex-layout.col#artic_container",
-      // "flex-layout.col#poolday_container",
-      // "flex-layout.col#hotels_container",
-      // "flex-layout.col#houses_container",
-      // "flex-layout.col#hotels_container",
-      // "flex-layout.col#natural_container",
-      // "flex-layout.col#closet_container",
-      // "flex-layout.col#beaches_container",
-      // "flex-layout.col#climbing_container",
-      // "flex-layout.col#delivery_container",
-      // "flex-layout.col#beer_container",
-      // "flex-layout.col#spacer"
     ],
     "props": {
       "blockClass": "header_two_row--text"
@@ -159,9 +143,4 @@
       // "classes": ["placeholder"]
     }
   }
-  // "icon-cart#desktop-minicart-icon": {
-  //   "props": {
-  //     "size": 20
-  //   }
-  // }
 }

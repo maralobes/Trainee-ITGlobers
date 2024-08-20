@@ -1,25 +1,3 @@
-/* .flexCol--menu_icon_text_column--text {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    min-width: 87px;
-    height: 47px;
-}    */
-/* margin-right: 20px;
-    margin-bottom: 10px; */
-
-
-/* .menu_icon_text_column--text .svg {
-    height: 20px;
-    width: 20px;
-} */
-
-/* .flexRowContent--search_header_desktop--text :global(.vtex-button) {
-    background-color: #1D2734;
-    border-radius: 40px;
-    border: 1px;
-} */
-
 .flexCol--search_icon_row--text {
     height: 20px;
 }
@@ -36,12 +14,9 @@
 
 
 .flexCol--spacer-header--text {
-    /* width: auto; */
     padding-right  : 20px;
-    /* margin-right: 60px; */
 }
 
 .flexRowContent--menu_header_desktop--text {
-    /* padding-bottom: 12px; */
     margin-top: -8px;
 }
