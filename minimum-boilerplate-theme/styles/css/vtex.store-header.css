@@ -2,6 +2,12 @@
     overflow-x: scroll;
     width     : 100vw;
     overflow-y: hidden;
+    max-width: 1280px;
+}
+
+.headerRowBackground--header_one_row--text {
+    max-width: 1280px;
+    margin: auto;
 }
 
 .headerRowContentContainer {
@@ -27,4 +33,21 @@
 .headerStickyRow--header_one_row_mobile--text {
     max-width: 1280px;
     margin   : auto;
+}
+
+.headerStickyRow--header_two_row--text {
+    max-width: 1280px;
+}
+
+.headerRowContentContainer--header_two_row--text {
+    max-width: 1280px;
+}
+
+.headerRowContentContainer--header_one_row--text {
+    max-width: 1280px;
+}
+
+.headerRowContainer--header_one_row--text {
+    max-width: 95%;
+    margin: auto;
 }

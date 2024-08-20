@@ -1,5 +1,7 @@
 .container--sticky-header-desktop {
     background-color: rgba(255, 255, 255, 1);
+    max-width: 1280px;
+    margin: auto;
 }
 
 .container--sticky-header-mobile {
