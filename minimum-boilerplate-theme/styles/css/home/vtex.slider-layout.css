@@ -112,6 +112,23 @@
     right: -38px;
 }
 
+@media screen and (max-width: 1280px) {
+    .sliderLeftArrow {
+        left: -21px;
+    }
+
+    .sliderRightArrow {
+        right: -25px;
+    }
+
+    .sliderLayoutContainer {
+        max-width: 1080px;
+    }
+    .slide--first-carousel--text {
+        width : 100% !important;
+    }
+}
+
 .sliderLayoutContainer {
     margin             : auto;
     margin-top         : 16px;
