@@ -53,7 +53,10 @@
     "title": "first carousel infocard image",
     "props": {
       "src": "assets/img/13_image_infocard.png",
-      "link": "https://mariavillalobos--itgloberspartnercl.myvtex.com/",
+      "link": {
+        "url": "https://mariavillalobos--itgloberspartnercl.myvtex.com/",
+        "newTab": true
+      },
       "blockClass": "infocard-image--text"
     }
   }
