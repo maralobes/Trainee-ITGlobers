@@ -25,6 +25,10 @@
 
 }
 
+.imageElement--info-card-banner {
+   min-width: 100%;
+}
+
 @media screen and (min-width: 1026px) {
    .logoContainer {
       padding: 0px;
@@ -36,6 +40,12 @@
    margin-right: 30px;
    width       : 280px;
    flex-shrink : 0;
+}
+@media screen and (max-width: 1222px) {
+   .searchBarContainer {
+      margin-right: 5px;
+      width: 11rem;
+   }
 }
 
 .searchBarContainer :global(.vtex-input-prefix__group) {
