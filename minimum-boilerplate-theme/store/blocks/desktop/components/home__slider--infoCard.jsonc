@@ -1,14 +1,14 @@
 {
-  "flex-layout.row#test_one--slider-home": {
+  "flex-layout.row#desktop__row-container-home": {
     "title": "Row container for slider on desktop",
-    "children": ["slider-layout#infoCard"],
+    "children": ["slider-layout#desktop__infoCard"],
     "props": {
       "preventHorizontalStretch": true,
-      "blockClass": ["infoCard__main__row--text", "main__row__container--text"]
+      "blockClass": ["row-container-home--text"]
     }
   },
 
-  "slider-layout#infoCard": {
+  "slider-layout#desktop__infoCard": {
     "title": "Slider layout infocard container on desktop",
     "props": {
       "itemsPerPage": {
@@ -23,33 +23,33 @@
       "blockClass": "first-carousel--text"
     },
     "children": [
-      "flex-layout.col#carousel__one--slider-home",
-      "flex-layout.col#carousel__one--slider-home",
-      "flex-layout.col#carousel__one--slider-home",
-      "flex-layout.col#carousel__one--slider-home",
-      "flex-layout.col#carousel__one--slider-home",
-      "flex-layout.col#carousel__one--slider-home",
-      "flex-layout.col#carousel__one--slider-home",
-      "flex-layout.col#carousel__one--slider-home",
-      "flex-layout.col#carousel__one--slider-home",
-      "flex-layout.col#carousel__one--slider-home",
-      "flex-layout.col#carousel__one--slider-home",
-      "flex-layout.col#carousel__one--slider-home",
-      "flex-layout.col#carousel__one--slider-home",
-      "flex-layout.col#carousel__one--slider-home"
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col"
     ]
   },
 
-  "flex-layout.col#carousel__one--slider-home": {
+  "flex-layout.col#desktop__slider-infocard-col": {
     "title": "Column container for infocard on desktop",
-    "children": ["image#first-carousel-home"],
+    "children": ["image#desktop__slider-image"],
     "props": {
       "horizontalAlign": "center",
-      "blockClass": "infoCard__main__col--text"
+      "blockClass": "desktop__slider-infocard-col"
     }
   },
 
-  "image#first-carousel-home": {
+  "image#desktop__slider-image": {
     "title": "Infocard image on desktop",
     "props": {
       "src": "assets/img/13_image_infocard.png",
@@ -57,7 +57,7 @@
         "url": "https://mariavillalobos--itgloberspartnercl.myvtex.com/",
         "newTab": true
       },
-      "blockClass": "infocard-image--text"
+      "blockClass": "desktop__slider-image"
     }
   }
 }

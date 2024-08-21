@@ -1,17 +1,16 @@
 {
-  "flex-layout.row#mobile__test_one--slider-home": {
+  "flex-layout.row#mobile__row-container-home": {
     "title": "Row container for slider on mobile",
-    "children": ["slider-layout#mobile__infoCard"],
+    "children": ["slider-layout#mobile__slider-infoCard"],
     "props": {
       "blockClass": [
-        "infoCard__main__row--text",
-        "main__row__container--text",
-        "mobile-row-container--text"
+        "row-container-home--text",
+        "mobile__slider-container-home"
       ]
     }
   },
 
-  "slider-layout#mobile__infoCard": {
+  "slider-layout#mobile__slider-infoCard": {
     "title": "Slider layout infocard container on mobile",
     "props": {
       "itemsPerPage": {
@@ -23,45 +22,41 @@
       "centerMode": "to-the-left",
       "centerModeSlidesGap": 0,
       "showNavigationArrows": "desktopOnly",
-      "blockClass": [
-        "first-carousel--text",
-        "mobile-slider--text",
-        "mobile-column-container--text"
-      ]
+      "blockClass": ["first-carousel--text"]
     },
     "children": [
-      "flex-layout.col#mobile__carousel__one--slider-home",
-      "flex-layout.col#mobile__carousel__one--slider-home",
-      "flex-layout.col#mobile__carousel__one--slider-home",
-      "flex-layout.col#mobile__carousel__one--slider-home",
-      "flex-layout.col#mobile__carousel__one--slider-home",
-      "flex-layout.col#mobile__carousel__one--slider-home",
-      "flex-layout.col#mobile__carousel__one--slider-home",
-      "flex-layout.col#mobile__carousel__one--slider-home",
-      "flex-layout.col#mobile__carousel__one--slider-home",
-      "flex-layout.col#mobile__carousel__one--slider-home",
-      "flex-layout.col#mobile__carousel__one--slider-home",
-      "flex-layout.col#mobile__carousel__one--slider-home",
-      "flex-layout.col#mobile__carousel__one--slider-home",
-      "flex-layout.col#mobile__carousel__one--slider-home"
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col"
     ]
   },
 
-  "flex-layout.col#mobile__carousel__one--slider-home": {
+  "flex-layout.col#mobile__slider-infocard-col": {
     "title": "Column container for infocard on mobile",
-    "children": ["image#mobile__first-carousel-home"],
+    "children": ["image#mobile__slider-image"],
     "props": {
       "horizontalAlign": "center",
-      "blockClass": ["infoCard__main__col__mobile--text", "mobile-col-infoCard"]
+      "blockClass": ["mobile__slider-infocard-col"]
     }
   },
 
-  "image#mobile__first-carousel-home": {
+  "image#mobile__slider-image": {
     "title": "Infocard image on mobile",
     "props": {
       "src": "assets/img/15_image_infocard_element_phone.png",
       "link": "https://mariavillalobos--itgloberspartnercl.myvtex.com/",
-      "blockClass": "infocard-imag-mobile--text"
+      "blockClass": "mobile__slider-image--text"
     }
   }
 }

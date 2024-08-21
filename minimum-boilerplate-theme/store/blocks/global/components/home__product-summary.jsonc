@@ -1,24 +1,23 @@
 {
   "flex-layout.row#second__carousel--slider-home": {
     "title": "Product summary list row container on global",
-    "children": ["list-context.product-list#demo1"],
+    "children": ["list-context.product-list#context-product-global"],
     "props": {
       "fullWidth": false,
       "preventHorizontalStretch": true,
       "blockClass": [
-        "product__summary__main__row--text",
-        "main__row__container--text"
+        "row-container-home--text"
       ]
     }
   },
 
-  "list-context.product-list#demo1": {
+  "list-context.product-list#context-product-global": {
     "title": "List context product on global",
-    "blocks": ["product-summary.shelf#demo1"],
+    "blocks": ["product-summary.shelf#shelf__product-summary"],
     "children": ["slider-layout#product__summary__carousel"]
   },
 
-  "product-summary.shelf#demo1": {
+  "product-summary.shelf#shelf__product-summary": {
     "title": "Product summary shelf on global",
     "children": [
       "flex-layout.row#savings__and_wishlist-summary",

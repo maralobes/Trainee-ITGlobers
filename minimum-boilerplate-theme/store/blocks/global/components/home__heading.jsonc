@@ -1,19 +1,19 @@
 {
   "flex-layout.row#heading-home": {
     "title": "Heading amazing row",
-    "children": ["rich-text#h1--before-slider"],
+    "children": ["rich-text#heading-amazing"],
     "props": {
       "preventHorizontalStretch": true,
-      "blockClass": ["amazing--text"]
+      "blockClass": ["heading-home--text"]
     }
   },
-  "rich-text#h1--before-slider": {
+  "rich-text#heading-amazing": {
     "title": "Heading amazing text",
     "props": {
       "text": "An amazing product.",
       "textAlignment": "LEFT",
       "textPosition": "LEFT",
-      "blockClass": "amazing__product__slider__heading--text"
+      "blockClass": "heading-amazing--text"
     }
   }
 }

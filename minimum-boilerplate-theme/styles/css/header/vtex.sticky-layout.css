@@ -1,4 +1,4 @@
-.container--sticky-header-desktop {
+.container--desktop__header {
     background-color: rgba(255, 255, 255, 1);
     max-width: 1280px;
     margin: auto;
@@ -8,6 +8,6 @@
     background-color: rgba(255, 255, 255, 1);
 }
 
-.wrapper--sticky-header-desktop {
+.wrapper--desktop__header {
     height: 168px;
 }

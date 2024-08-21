@@ -1,4 +1,4 @@
-.infoCardContainer--info-card-banner {
+.infoCardContainer--banner-home--text {
    display        : flex;
    flex-direction : row;
    justify-content: center;
@@ -11,21 +11,21 @@
    isolation      : isolate;
 }
 
-.infoCardCallActionContainer--info-card-banner {
+.infoCardCallActionContainer--banner-home--text {
    visibility: hidden;
 }
 
-.imageElement--infocard-imag-mobile--text {
+.imageElement--mobile__slider-image--text {
    width: 100%;
 }
 
-.imageElement--infocard-image--text {
+.imageElement--desktop__slider-image {
    width : 324px;
    height: 336.46px;
 
 }
 
-.imageElement--info-card-banner {
+.imageElement--banner-home--text {
    min-width: 100%;
 }
 

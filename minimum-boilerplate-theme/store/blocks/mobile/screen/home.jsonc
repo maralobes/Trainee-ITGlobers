@@ -3,13 +3,13 @@
     "title": "Home screen mobile",
     "children": [
       "image#mobile_banner_home",
-      "rich-text#h1--before-slider",
-      "flex-layout.row#mobile__test_one--slider-home",
-      "rich-text#h1--before-slider",
+      "flex-layout.row#heading-home",
+      "flex-layout.row#mobile__row-container-home",
+      "flex-layout.row#heading-home",
       "flex-layout.row#second__carousel--slider-home",
-      "rich-text#h1--before-slider",
-      "flex-layout.row#mobile__test_one--slider-home",
-      "rich-text#h1--before-slider",
+      "flex-layout.row#heading-home",
+      "flex-layout.row#mobile__row-container-home",
+      "flex-layout.row#heading-home",
       "flex-layout.row#second__carousel--slider-home"
     ]
   }

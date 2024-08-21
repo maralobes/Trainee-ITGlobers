@@ -1,14 +1,14 @@
 {
-  "responsive-layout.desktop#desktop__home__v1": {
+  "responsive-layout.desktop#desktop__home-v1": {
     "title": "Home screen desktop",
     "children": [
-      "image#desktop_banner_home",
+      "image#desktop__banner-home",
       "flex-layout.row#heading-home",
-      "flex-layout.row#test_one--slider-home",
+      "flex-layout.row#desktop__row-container-home",
       "flex-layout.row#heading-home",
       "flex-layout.row#second__carousel--slider-home",
       "flex-layout.row#heading-home",
-      "flex-layout.row#test_one--slider-home",
+      "flex-layout.row#desktop__row-container-home",
       "flex-layout.row#heading-home",
       "flex-layout.row#second__carousel--slider-home"
     ]

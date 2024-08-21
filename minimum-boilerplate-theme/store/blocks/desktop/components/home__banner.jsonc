@@ -1,5 +1,5 @@
 {
-  "image#desktop_banner_home": {
+  "image#desktop__banner-home": {
     "title": "Infocard banner on desktop",
     "props": {
       "src": "assets/img/11_image_banner_desktop.png",
@@ -9,7 +9,7 @@
       },
       "maxHeight": "100%",
       "maxWidth": "100%",
-      "blockClass": "info-card-banner"
+      "blockClass": "banner-home--text"
     }
   }
 }

@@ -2,7 +2,7 @@
   "store.home": {
     "title": "Home screen",
     "blocks": [
-      "responsive-layout.desktop#desktop__home__v1",
+      "responsive-layout.desktop#desktop__home-v1",
       "responsive-layout.mobile#mobile__home__v1"
     ],
     "props": {
