@@ -1,0 +1,63 @@
+{
+  "flex-layout.row#desktop__row-container-home": {
+    "title": "Row container for slider on desktop",
+    "children": ["slider-layout#desktop__infoCard"],
+    "props": {
+      "preventHorizontalStretch": true,
+      "blockClass": ["row-container-home--text"]
+    }
+  },
+
+  "slider-layout#desktop__infoCard": {
+    "title": "Slider layout infocard container on desktop",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": false,
+      "centerMode": "to-the-left",
+      "centerModeSlidesGap": 0,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": "first-carousel--text"
+    },
+    "children": [
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col",
+      "flex-layout.col#desktop__slider-infocard-col"
+    ]
+  },
+
+  "flex-layout.col#desktop__slider-infocard-col": {
+    "title": "Column container for infocard on desktop",
+    "children": ["image#desktop__slider-image"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": "desktop__slider-infocard-col"
+    }
+  },
+
+  "image#desktop__slider-image": {
+    "title": "Infocard image on desktop",
+    "props": {
+      "src": "assets/img/13_image_infocard.png",
+      "link": {
+        "url": "https://mariavillalobos--itgloberspartnercl.myvtex.com/",
+        "newTab": true
+      },
+      "blockClass": "desktop__slider-image"
+    }
+  }
+}

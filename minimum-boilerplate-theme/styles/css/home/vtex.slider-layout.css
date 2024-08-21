@@ -147,10 +147,6 @@
 }
 
 
-/* :global(.vtex-slider-layout-0-x-slide--mobile-slider--text) {
-    width:auto;
-} */
-
 @media screen and (max-width: 1024px) {
     .paginationDot {
         width : 16px !important;

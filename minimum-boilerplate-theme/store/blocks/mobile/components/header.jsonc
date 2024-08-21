@@ -1,5 +1,6 @@
 {
   "sticky-layout#mobile": {
+    "title": "Sticky header container on mobile",
     "children": [
       "flex-layout.row#mobile_search",
       "flex-layout.row#mobile_menu"
@@ -9,6 +10,7 @@
     }
   },
   "flex-layout.row#mobile_search": {
+    "title": "First header row container on mobile",
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
@@ -20,6 +22,7 @@
     "children": ["header-row#1-mobile"]
   },
   "flex-layout.row#mobile_menu": {
+    "title": "Second header row container on mobile",
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
@@ -31,8 +34,9 @@
     "children": ["header-row#2-mobile"]
   },
   "header-row#1-mobile": {
+    "title": "First header row child on mobile",
     "children": [
-      "drawer",
+      "drawer#mobile__header-drawer",
       "logo",
       "flex-layout.col#spacer",
       "flex-layout.col#search_container",
@@ -44,6 +48,7 @@
     }
   },
   "header-row#2-mobile": {
+    "title": "Second header row child on mobile",
     "children": [
       "vtex.menu@2.x:menu#menu-categories"
     ],
@@ -51,10 +56,8 @@
       "blockClass": "header_two_row_mobile--text"
     }
   },
-  "drawer": {
-    "children": []
-  },
   "flex-layout.col#search_container": {
+    "title": "MagnifyingGlas icon container mobile",
     "children": ["icon#search-mobile"],
     "props": {
       "preventVerticalStretch": true,
@@ -62,7 +65,7 @@
     }
   },
   "icon#search-mobile": {
-    "title": "icon search",
+    "title": "Icon search mobile",
     "props": {
       "id": "MagnifyingGlas",
       "weight": "bold",

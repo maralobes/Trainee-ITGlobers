@@ -5,7 +5,7 @@
     max-width: 1280px;
 }
 
-.headerRowBackground--header_one_row--text {
+.headerRowBackground--desktop__header-row-one {
     max-width: 1280px;
     margin: auto;
 }
@@ -35,19 +35,19 @@
     margin   : auto;
 }
 
-.headerStickyRow--header_two_row--text {
+.headerStickyRow--desktop__header-row-two--text {
     max-width: 1280px;
 }
 
-.headerRowContentContainer--header_two_row--text {
+.headerRowContentContainer--desktop__header-row-two--text {
     max-width: 1280px;
 }
 
-.headerRowContentContainer--header_one_row--text {
+.headerRowContentContainer--desktop__header-row-one--text {
     max-width: 1280px;
 }
 
-.headerRowContainer--header_one_row--text {
+.headerRowContainer--desktop__header-row-one--text {
     max-width: 95%;
     margin: auto;
 }

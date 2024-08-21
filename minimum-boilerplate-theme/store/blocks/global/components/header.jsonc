@@ -1,5 +1,6 @@
 {
   "logo": {
+    "title": "ITG logo on global",
     "props": {
       "title": "Logo",
       "url": "assets/img/Icon_Black.svg",
@@ -7,18 +8,21 @@
     }
   },
   "flex-layout.col#spacer": {
+    "title": "Header spacer on global",
     "props": {
       "width": "grow",
       "blockClass": "spacer-header--text"
     }
   },
   "login": {
+    "title": "Login on global",
     "props": {
       "iconLabel": "Login",
       "blockClass": "login--text"
     }
   },
   "vtex.menu@2.x:menu#menu-categories": {
+    "title": "Menu categories on global",
     "children": [
       "menu-item#food",
       "menu-item#fitness",
@@ -39,6 +43,7 @@
     }
   },
   "menu-item#food": {
+    "title": "Menu item food on global",
     "props": {
       "id": "menu-item-food",
       "type": "custom",
@@ -51,6 +56,7 @@
         "text": "Food"
       },
       "iconProps": {
+        "title": "Menu item icon food on global",
         "id": "fastfood",
         "size": 20,
         "viewBox": "0 0 20 20",
@@ -60,6 +66,7 @@
     }
   },
   "menu-item#fitness": {
+    "title": "Menu item fitness on global",
     "props": {
       "id": "menu-item-fitness",
       "type": "custom",
@@ -72,6 +79,7 @@
         "text": "Fitness"
       },
       "iconProps": {
+        "title": "Menu item icon fitness on global",
         "id": "fitness",
         "size": 20,
         "viewBox": "0 0 20 20",
@@ -81,6 +89,7 @@
     }
   },
   "menu-item#artic": {
+    "title": "Menu item artic on global",
     "props": {
       "id": "menu-item-artic",
       "type": "custom",
@@ -93,6 +102,7 @@
         "text": "En el Ártico"
       },
       "iconProps": {
+        "title": "Menu item icon artic on global",
         "id": "artic",
         "size": 20,
         "viewBox": "0 0 20 20",
@@ -102,6 +112,7 @@
     }
   },
   "menu-item#poolday": {
+    "title": "Menu item poolday on global",
     "props": {
       "id": "menu-item-poolday",
       "type": "custom",
@@ -114,6 +125,7 @@
         "text": "Poolday"
       },
       "iconProps": {
+        "title": "Menu item icon poolday on global",
         "id": "poolday",
         "size": 20,
         "viewBox": "0 0 20 20",
@@ -123,6 +135,7 @@
     }
   },
   "menu-item#hotels": {
+    "title": "Menu item hotels on global",
     "props": {
       "id": "menu-item-hotels",
       "type": "custom",
@@ -135,6 +148,7 @@
         "text": "Hoteles"
       },
       "iconProps": {
+        "title": "Menu item icon hotels on global",
         "id": "hotel",
         "size": 20,
         "viewBox": "0 0 20 20",
@@ -144,6 +158,7 @@
     }
   },
   "menu-item#houses": {
+    "title": "Menu item houses on global",
     "props": {
       "id": "menu-item-houses",
       "type": "custom",
@@ -156,6 +171,7 @@
         "text": "Casas"
       },
       "iconProps": {
+        "title": "Menu item icon house on global",
         "id": "house",
         "size": 20,
         "viewBox": "0 0 20 20",
@@ -165,6 +181,7 @@
     }
   },
   "menu-item#hotels-two": {
+    "title": "Menu item hotels-two on global",
     "props": {
       "id": "menu-item-hotels-two",
       "type": "custom",
@@ -177,6 +194,7 @@
         "text": "Hoteles"
       },
       "iconProps": {
+        "title": "Menu item icon hotel-two on global",
         "id": "hotel",
         "size": 20,
         "viewBox": "0 0 20 20",
@@ -186,6 +204,7 @@
     }
   },
   "menu-item#natural": {
+    "title": "Menu item natural on global",
     "props": {
       "id": "menu-item-natural",
       "type": "custom",
@@ -198,6 +217,7 @@
         "text": "Naturales"
       },
       "iconProps": {
+        "title": "Menu item icon natural on global",
         "id": "natural",
         "size": 20,
         "viewBox": "0 0 20 20",
@@ -207,6 +227,7 @@
     }
   },
   "menu-item#closet": {
+    "title": "Menu item closet on global",
     "props": {
       "id": "menu-item-closet",
       "type": "custom",
@@ -219,6 +240,7 @@
         "text": "Closet"
       },
       "iconProps": {
+        "title": "Menu item icon closet on global",
         "id": "closet",
         "size": 20,
         "viewBox": "0 0 20 20",
@@ -228,6 +250,7 @@
     }
   },
   "menu-item#beaches": {
+    "title": "Menu item beaches on global",
     "props": {
       "id": "menu-item-beaches",
       "type": "custom",
@@ -240,6 +263,7 @@
         "text": "Playas"
       },
       "iconProps": {
+        "title": "Menu item icon beaches on global",
         "id": "beach_umbrella",
         "size": 20,
         "viewBox": "0 0 20 20",
@@ -249,6 +273,7 @@
     }
   },
   "menu-item#climbing": {
+    "title": "Menu item climbing on global",
     "props": {
       "id": "menu-item-climbing",
       "type": "custom",
@@ -261,6 +286,7 @@
         "text": "Alpinismo"
       },
       "iconProps": {
+        "title": "Menu item icon poolday on global",
         "id": "climbing",
         "size": 20,
         "viewBox": "0 0 20 20",
@@ -270,6 +296,7 @@
     }
   },
   "menu-item#delivery": {
+    "title": "Menu item delivery on global",
     "props": {
       "id": "menu-item-delivery",
       "type": "custom",
@@ -282,6 +309,7 @@
         "text": "Delivery"
       },
       "iconProps": {
+        "title": "Menu item icon delivery on global",
         "id": "delivery",
         "size": 20,
         "viewBox": "0 0 20 20",
@@ -291,6 +319,7 @@
     }
   },
   "menu-item#beer": {
+    "title": "Menu item beer on global",
     "props": {
       "id": "menu-item-beer",
       "type": "custom",
@@ -303,6 +332,7 @@
         "text": "Cervezas"
       },
       "iconProps": {
+        "title": "Menu item icon beer on global",
         "id": "beer",
         "size": 20,
         "viewBox": "0 0 20 20",

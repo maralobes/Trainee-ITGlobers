@@ -1,12 +1,12 @@
 {
   "image#mobile_banner_home": {
-    "title": "mobile-info-card-banner",
+    "title": "InfoCard banner on mobile",
     "props": {
       "src": "assets/img/12_image_banner_mobile.png",
       "link": "https://mariavillalobos--itgloberspartnercl.myvtex.com",
       "maxHeight": "100%",
       "maxWidth": "100%",
-      "blockClass": "info-card-banner"
+      "blockClass": "banner-home--text"
     }
   }
 }
