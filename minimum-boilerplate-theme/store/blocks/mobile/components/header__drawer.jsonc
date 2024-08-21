@@ -1,0 +1,68 @@
+{
+  "drawer#mobile__header-drawer": {
+    "title": "Drawer on mobile",
+    "children": ["menu#drawer__header-drawer"]
+  },
+
+  "menu#drawer__header-drawer": {
+    "title": "Menu drawer on mobile",
+    "children": [
+      "menu-item#account",
+      "menu-item#wishlist",
+      "menu-item#help",
+      "menu-item#food",
+      "menu-item#fitness",
+      "menu-item#artic",
+      "menu-item#poolday",
+      "menu-item#hotels"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#account": {
+    "title": "Menu drawer item on mobile",
+    "props": {
+      "id": "menu-item-account",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "account",
+        "text": "Account"
+      }
+    }
+  },
+  "menu-item#wishlist": {
+    "title": "Menu drawer item on mobile",
+    "props": {
+      "id": "menu-item-wishlist",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "wishlist",
+        "text": "Wishlist"
+      }
+    }
+  },
+  "menu-item#help": {
+    "title": "Menu drawer item on mobile",
+    "props": {
+      "id": "menu-item-help",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "help",
+        "text": "Help"
+      }
+    }
+  }
+}

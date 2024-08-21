@@ -1,6 +1,6 @@
 {
   "flex-layout.row#test_one--slider-home": {
-    "title": "slider row test one",
+    "title": "Row container for slider on desktop",
     "children": ["slider-layout#infoCard"],
     "props": {
       "preventHorizontalStretch": true,
@@ -9,7 +9,7 @@
   },
 
   "slider-layout#infoCard": {
-    "title": "slider layout home infocard",
+    "title": "Slider layout infocard container on desktop",
     "props": {
       "itemsPerPage": {
         "desktop": 3,
@@ -41,7 +41,7 @@
   },
 
   "flex-layout.col#carousel__one--slider-home": {
-    "title": "slider col carousel one",
+    "title": "Column container for infocard on desktop",
     "children": ["image#first-carousel-home"],
     "props": {
       "horizontalAlign": "center",
@@ -50,7 +50,7 @@
   },
 
   "image#first-carousel-home": {
-    "title": "first carousel infocard image",
+    "title": "Infocard image on desktop",
     "props": {
       "src": "assets/img/13_image_infocard.png",
       "link": {

@@ -1,6 +1,6 @@
 {
   "flex-layout.row#mobile__test_one--slider-home": {
-    "title": "mobile slider row test one",
+    "title": "Row container for slider on mobile",
     "children": ["slider-layout#mobile__infoCard"],
     "props": {
       "blockClass": [
@@ -12,7 +12,7 @@
   },
 
   "slider-layout#mobile__infoCard": {
-    "title": "slider layout home infocard",
+    "title": "Slider layout infocard container on mobile",
     "props": {
       "itemsPerPage": {
         "desktop": 3,
@@ -48,7 +48,7 @@
   },
 
   "flex-layout.col#mobile__carousel__one--slider-home": {
-    "title": "slider col carousel one",
+    "title": "Column container for infocard on mobile",
     "children": ["image#mobile__first-carousel-home"],
     "props": {
       "horizontalAlign": "center",
@@ -57,7 +57,7 @@
   },
 
   "image#mobile__first-carousel-home": {
-    "title": "first carousel infocard image",
+    "title": "Infocard image on mobile",
     "props": {
       "src": "assets/img/15_image_infocard_element_phone.png",
       "link": "https://mariavillalobos--itgloberspartnercl.myvtex.com/",

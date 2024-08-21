@@ -1,6 +1,6 @@
 {
   "flex-layout.row#heading-home": {
-    "title": "heading amazing row",
+    "title": "Heading amazing row",
     "children": ["rich-text#h1--before-slider"],
     "props": {
       "preventHorizontalStretch": true,
@@ -8,7 +8,7 @@
     }
   },
   "rich-text#h1--before-slider": {
-    "title": "slider layout home text h1",
+    "title": "Heading amazing text",
     "props": {
       "text": "An amazing product.",
       "textAlignment": "LEFT",

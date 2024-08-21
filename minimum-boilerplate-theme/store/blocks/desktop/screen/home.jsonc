@@ -1,6 +1,6 @@
 {
   "responsive-layout.desktop#desktop__home__v1": {
-    "title": "Home screen Desktop",
+    "title": "Home screen desktop",
     "children": [
       "image#desktop_banner_home",
       "flex-layout.row#heading-home",

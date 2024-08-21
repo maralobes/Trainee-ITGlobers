@@ -1,6 +1,6 @@
 {
   "responsive-layout.mobile#mobile__home__v1": {
-    "title": "Home screen Mobile",
+    "title": "Home screen mobile",
     "children": [
       "image#mobile_banner_home",
       "rich-text#h1--before-slider",

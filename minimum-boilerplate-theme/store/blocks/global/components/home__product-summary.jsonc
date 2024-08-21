@@ -1,6 +1,6 @@
 {
   "flex-layout.row#second__carousel--slider-home": {
-    "title": "slider row second carousel",
+    "title": "Product summary list row container on global",
     "children": ["list-context.product-list#demo1"],
     "props": {
       "fullWidth": false,
@@ -13,11 +13,13 @@
   },
 
   "list-context.product-list#demo1": {
+    "title": "List context product on global",
     "blocks": ["product-summary.shelf#demo1"],
     "children": ["slider-layout#product__summary__carousel"]
   },
 
   "product-summary.shelf#demo1": {
+    "title": "Product summary shelf on global",
     "children": [
       "flex-layout.row#savings__and_wishlist-summary",
       "product-summary-image",
@@ -27,7 +29,7 @@
   },
 
   "slider-layout#product__summary__carousel": {
-    "title": "product summary carousel",
+    "title": "Product summary slider on global",
     "props": {
       "itemsPerPage": {
         "desktop": 5,
@@ -42,6 +44,7 @@
   },
 
   "flex-layout.row#savings__and_wishlist-summary": {
+    "title": "Savings and wishlist row container on global",
     "children": ["product-price-savings", "add-to-list-btn"],
     "props": {
       "colSizing": "auto",
@@ -50,6 +53,7 @@
   },
 
   "flex-layout.row#description_and_prices_summary": {
+    "title": "Description and prices row container on global",
     "children": [
       "product-summary-description",
       "product-list-price",
@@ -63,6 +67,7 @@
   },
 
   "flex-layout.row#add-to-car-button-summary": {
+    "title": "Add to car button row container on global",
     "children": ["add-to-cart-button"],
     "props": {
       "blockClass": "add-to-car-button-summary"
@@ -70,7 +75,7 @@
   },
 
   "product-summary-image": {
-    "title": "image list",
+    "title": "Image on product summary on global",
     "props": {
       "showBadge": false,
       "aspectRatio": "1:1",
@@ -79,7 +84,7 @@
   },
 
   "product-price-savings": {
-    "title": "discount text",
+    "title": "Savings price product on global",
     "props": {
       "message": "{savingsPercentage} OFF",
       "blockClass": ["savings--text", "label"]
@@ -87,21 +92,21 @@
   },
 
   "product-list-price": {
-    "title": "old price",
+    "title": "List price product on global",
     "props": {
       "message": "{listPriceValue}"
     }
   },
 
   "product-selling-price": {
-    "title": "actual price",
+    "title": "Selling price product on global",
     "props": {
       "message": "{sellingPriceValue}"
     }
   },
 
   "add-to-cart-button": {
-    "title": "Buy button",
+    "title": "Add to cart button on global",
     "props": {
       "text": "Comprar",
       "blockClass": "shelf-button--text"
@@ -109,12 +114,14 @@
   },
 
   "add-to-list-btn": {
+    "title": "Wishlist button on global",
     "props": {
       "blockClass": "wishlist__button-text"
     }
   },
 
   "vtex.product-highlights@2.x:product-highlights": {
+    "title": "Highlight product summary on global",
     "props": {
       "filter": {
         "type": "hide",
@@ -125,12 +132,14 @@
   },
 
   "product-highlight-wrapper": {
+    "title": "Highlight wrapper product summary on global",
     "children": ["product-highlight-text", "icon#envio-gratis"],
     "props": {
       "blockClass": "icon-wrapper--text"
     }
   },
   "product-highlight-text": {
+    "title": "Highlight text product summary on global",
     "props": {
       "message": "{highlightName}",
       "blockClass": "free-delivery--text"
@@ -138,7 +147,7 @@
   },
 
   "icon#envio-gratis": {
-    "title": "icon flash",
+    "title": "Icon flash roduct summary on global",
     "props": {
       "id": "flash",
       "blockClass": "icon-flash--text"

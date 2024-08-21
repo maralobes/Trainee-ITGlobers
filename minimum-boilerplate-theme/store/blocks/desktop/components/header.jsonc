@@ -1,5 +1,6 @@
 {
   "sticky-layout#desktop": {
+    "title": "Sticky header container on desktop",
     "props": {
       "blockClass": "sticky-header-desktop"
     },
@@ -9,6 +10,7 @@
     ]
   },
   "flex-layout.row#desktop_search": {
+    "title": "First header row container on desktop",
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
@@ -24,6 +26,7 @@
     "children": ["header-row#1-desktop"]
   },
   "flex-layout.row#desktop_menu": {
+    "title": "Second header row container on desktop",
     "props": {
       "horizontalAlign": "center",
       "preventHorizontalStretch": true,
@@ -33,6 +36,7 @@
     "children": ["header-row#2-desktop"]
   },
   "header-row#1-desktop": {
+    "title": "First header row child on desktop",
     "children": [
       "drawer",
       "flex-layout.col#logo-desktop",
@@ -47,6 +51,7 @@
     }
   },
   "header-row#2-desktop": {
+    "title": "Second header row child on desktop",
     "children": [
       "vtex.menu@2.x:menu#menu-categories"
     ],
@@ -56,6 +61,7 @@
   },
 
   "flex-layout.col#logo-desktop": {
+    "title": "Logo container desktop",
     "props": {
       "verticalAlign": "middle",
       "blockClass": "logo-desktop"
@@ -64,6 +70,7 @@
   },
 
   "vtex.menu@2.x:menu#desktop_items": {
+    "title": "Menu on first row header desktop",
     "props": {
       "blockClass": "menu-row-one--text",
       "items": [
@@ -136,7 +143,7 @@
     }
   },
   "search-bar#desktop-header": {
-    "title": "search bar on desktop",
+    "title": "Search bar on desktop",
     "props": {
       "placeholder": "Search products...",
       "blockClass": "search-bar--text"
