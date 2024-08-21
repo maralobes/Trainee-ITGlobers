@@ -33,18 +33,15 @@
 .flexRow--add-to-car-button-summary :global(.vtex-buttonDataContainer) {
    background           : url("assets/img/2_image_add_shopping_car.svg");
    background-repeat    : no-repeat;
-   /* width             : 13rem; */
    display              : flex;
    flex-direction       : row;
    justify-content      : center;
    background-position  : center;
    background-position-x: 20%;
    background-position-y: 11px;
-   /* padding-left      : 38px; */
 }
 
 .flexCol--row-container-home--text {
-   /* background-color: violet; */
    width        : 324px;
    height       : 336.46px;
    border-radius: 12px;
@@ -67,22 +64,12 @@
    width: 100%;
 }
 
-/* .flexRowContent--description__prices__row--text :global(.vtex-stretchChildrenWidth){
-   width: 100%;
-} */
-
 @media screen and (max-width: 1024px) {
    .flexCol--desktop__slider-infocard-col {
       width   : 100%;
       margin  : 0 6;
       position: center;
    }
-
-   /* .flexRow--add-to-car-button-summary :global(.vtex-button__label) {
-      background-position-x: 20%;
-      background-position-y: 11px;
-      padding-left: 38px;
-   } */
 }
 
 
