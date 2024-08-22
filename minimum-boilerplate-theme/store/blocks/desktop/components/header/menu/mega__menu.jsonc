@@ -1,14 +1,20 @@
 {
     "sticky-layout#4-desktop": {
-      "children": ["flex-layout.row#4-desktop", "flex-layout.row#mega-menu"]
+      "children": [
+        "flex-layout.row#4-desktop", 
+        "flex-layout.row#mega-menu"
+      ]
     },
     "flex-layout.row#4-desktop": {
       "children": [
-        "flex-layout.col#trigger-mega-menu"
+        "mega-menu-trigger-btn"
       ]
     },
-  
     "flex-layout.row#mega-menu": {
+      "children": ["drawer#desktop"]
+    },
+    
+    "drawer#desktop":{
       "children": ["mega-menu#desktop"]
     },
     "mega-menu#desktop": {
@@ -16,15 +22,15 @@
         "openOnly": "horizontal"
       }
     },
-    "flex-layout.col#trigger-mega-menu": {
-      "props": {
-        "verticalAlign": "middle"
-      },
-      "children": ["mega-menu-trigger-btn"]
-    },
+    // "flex-layout.col#desktop__trigger-mega-menu": {
+    //   "props": {
+    //     "verticalAlign": "middle"
+    //   },
+    //   "children": ["mega-menu-trigger-btn"]
+    // },
     "mega-menu-trigger-btn": {
       "props": {
-        "Drawer": "drawer"
+        "Drawer": "drawer#desktop"
       }
     }
   }

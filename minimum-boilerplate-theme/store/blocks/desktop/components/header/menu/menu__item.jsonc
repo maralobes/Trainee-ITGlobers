@@ -1,5 +1,5 @@
 {
-  "drawer#desktop__header-drawer": {
+  "drawer#desktop__header-drawer-test": {
     "title": "Menu on desktop",
     "children": ["vtex.menu@2.x:menu#desktop__menu-categories"]
   },
@@ -42,40 +42,25 @@
         "menu-item#deals__category",
         "menu-item#grocery__category",
         "menu-item#new-year-goals__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category"
+        "menu-item#valentine__day__category",
+        "menu-item#game__time__category",
+        "menu-item#clothing__shoes__accesories__category",
+        "menu-item#electronics__category",
+        "menu-item#home__furniture__appliances__category",
+        "menu-item#toys__videogames__category",
+        "menu-item#baby__category",
+        "menu-item#kids__category",
+        "menu-item#auto__tires__category",
+        "menu-item#pharmacy__health__wellness__category",
+        "menu-item#personalcare__category",
+        "menu-item#beauty__category",
+        "menu-item#pets__category",
+        "menu-item#home__improvement__category",
+        "menu-item#patio__garden__category",
+        "menu-item#household__essentials__category"
     ],
     "props": {
       "orientation": "vertical"
-    }
-  },
-  "menu-item#new-year-goals__category": {
-    "title": "Item new year goals submenu all categories on desktop",
-    "props": {
-      "id": "new-year-goals__category-item",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "new-year-goals__category-item",
-        "text": "New Year Goals"
-      }
     }
   }
 //   "menu-item#department-user": {

@@ -1,0 +1,17 @@
+{
+  "menu-item#personalcare__category": {
+    "title": "Item personal care submenu all categories on desktop",
+    "props": {
+      "id": "personalcare__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "personalcare__category-item",
+        "text": "Personal Care"
+      }
+    }
+  }
+}

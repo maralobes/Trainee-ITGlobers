@@ -1,0 +1,17 @@
+{
+  "menu-item#valentine__day__category": {
+    "title": "Item valentine's day submenu all categories on desktop",
+    "props": {
+      "id": "valentine__day__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "valentine__day__category-item",
+        "text": "Valentine's Day"
+      }
+    }
+  }
+}

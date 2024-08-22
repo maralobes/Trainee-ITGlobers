@@ -1,0 +1,17 @@
+{
+  "menu-item#new-year-goals__category": {
+    "title": "Item new year goals submenu all categories on desktop",
+    "props": {
+      "id": "new-year-goals__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "new-year-goals__category-item",
+        "text": "New Year Goals"
+      }
+    }
+  }
+}

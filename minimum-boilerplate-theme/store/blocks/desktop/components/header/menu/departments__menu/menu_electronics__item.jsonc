@@ -1,0 +1,17 @@
+{
+  "menu-item#electronics__category": {
+    "title": "Item electronics submenu all categories on desktop",
+    "props": {
+      "id": "electronics__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "electronics__category-item",
+        "text": "Electronics"
+      }
+    }
+  }
+}

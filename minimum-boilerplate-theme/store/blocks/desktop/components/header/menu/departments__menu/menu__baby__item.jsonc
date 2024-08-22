@@ -1,0 +1,17 @@
+{
+  "menu-item#baby__category": {
+    "title": "Item baby submenu all categories on desktop",
+    "props": {
+      "id": "baby__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "baby__category-item",
+        "text": "Baby"
+      }
+    }
+  }
+}

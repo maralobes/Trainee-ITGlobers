@@ -1,0 +1,17 @@
+{
+  "menu-item#kids__category": {
+    "title": "Item kids submenu all categories on desktop",
+    "props": {
+      "id": "kids__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "kids__category-item",
+        "text": "Kids"
+      }
+    }
+  }
+}

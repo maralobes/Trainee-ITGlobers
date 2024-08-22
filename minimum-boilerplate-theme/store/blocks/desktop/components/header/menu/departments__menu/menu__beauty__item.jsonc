@@ -1,0 +1,17 @@
+{
+  "menu-item#beauty__category": {
+    "title": "Item beauty submenu all categories on desktop",
+    "props": {
+      "id": "beauty__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "beauty__category-item",
+        "text": "Beauty"
+      }
+    }
+  }
+}
