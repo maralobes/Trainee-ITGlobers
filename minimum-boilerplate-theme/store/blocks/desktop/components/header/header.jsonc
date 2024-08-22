@@ -38,7 +38,7 @@
   "header-row#desktop__header-row-one": {
     "title": "First header row child on desktop",
     "children": [
-      "drawer",
+      "drawer#desktop__header-drawer",
       "flex-layout.col#logo-desktop",
       "search-bar#desktop__header-search-bar",
       "flex-layout.col#spacer",
