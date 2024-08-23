@@ -1,0 +1,14 @@
+.backdropContainer{
+    max-width: 1280px;
+    transform: translate(-48px, 10px);
+}
+
+@media screen and (max-width: 1281px) {
+    .backdropContainer{
+        transform: translate(-108px, 10px);
+    }
+}@media screen and (min-width: 1282px) {
+    .backdropContainer{
+        transform: translate(-108px, 10px);
+    }
+}

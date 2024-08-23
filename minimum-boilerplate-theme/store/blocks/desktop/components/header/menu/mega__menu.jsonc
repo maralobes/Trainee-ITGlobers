@@ -12,18 +12,24 @@
   "overlay-trigger": {
     "children": ["mega-menu-trigger-btn", "overlay-layout"]
   },
+  
   "overlay-layout": {
     "props": {
       "placement": "bottom",
-      "backdrop": "visible"
+      "backdrop": "visible",
+      "offsets": { 
+        "skidding": 2,
+        "distance": 8
+      }
     },
     "children": [
-      "mega-menu#desktop"
+      "mega-menu#desktop__mega-menu"
     ]
   },
-  "mega-menu#desktop": {
+  "mega-menu#desktop__mega-menu": {
     "props": {
-      "openOnly": "horizontal"
+      "openOnly": "horizontal",
+      "blockClass": "desktop__mega-menu"
     }
   }
 }
