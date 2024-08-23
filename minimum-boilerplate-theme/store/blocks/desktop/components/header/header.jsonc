@@ -5,6 +5,8 @@
       "blockClass": "desktop__header"
     },
     "children": [
+      "flex-layout.row#4-desktop", 
+      "flex-layout.row#mega-menu",
       "flex-layout.row#desktop__header-search",
       "flex-layout.row#desktop__header-menu"
     ]
@@ -38,7 +40,6 @@
   "header-row#desktop__header-row-one": {
     "title": "First header row child on desktop",
     "children": [
-      "drawer#desktop__header-drawer-test",
       "flex-layout.col#logo-desktop",
       "search-bar#desktop__header-search-bar",
       "flex-layout.col#spacer",

@@ -6,6 +6,7 @@
       "id": "deals__category-item",
       "type": "custom",
       "highlight": false,
+      "onMountBehavior": "open",
       "itemProps": {
         "type": "internal",
         "href": "#",

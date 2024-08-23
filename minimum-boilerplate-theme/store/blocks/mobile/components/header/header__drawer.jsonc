@@ -1,8 +1,8 @@
 {
-  "drawer#mobile__header-drawer": {
-    "title": "Drawer on mobile",
-    "children": ["vtex.menu@2.x:menu#mobile__menu-departments"]
-  },
+  // "drawer#mobile__header-drawer": {
+  //   "title": "Drawer on mobile",
+  //   "children": ["vtex.menu@2.x:menu#mobile__menu-departments"]
+  // },
 
   "vtex.menu@2.x:menu#mobile__menu-departments": {
     "title": "Departments menu on mobile",

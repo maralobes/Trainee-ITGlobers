@@ -1,10 +1,10 @@
 {
     "flex-layout.row#1-mobile": {
       "children": [
-        "flex-layout.col#trigger-mega-menu"
+        "flex-layout.col#mobile__trigger-mega-menu"
       ]
     },
-    "flex-layout.col#trigger-mega-menu": {
+    "flex-layout.col#mobile__trigger-mega-menu": {
       "children": [
         "drawer#mobile"
       ]

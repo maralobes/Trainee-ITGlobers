@@ -3,12 +3,31 @@
     padding: 0;
 }
 
-.opened {
-    top: 6.4rem;
-    left: 14.8rem;
+.opened--desktop__header-drawer {
+    top: 6.7rem;
+    left: 5.8rem;
+    width: 13.7rem !important;
+    min-width: 13.7rem !important;
+    height: 40.4rem;
+    border-radius: 0 0 16px 16px;
 }
-.overlay {
+.overlay--desktop__header-drawer {
     max-width: 1280px;
     margin: auto;
-    top: 6.4rem;
+    top: 6.7rem;
+}
+
+.childrenContainer--desktop__header-drawer {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: yellow;
+    /* height: 100%; */
+    width: 13.7rem;
+    height: 40.4rem;
+    border-radius: 0 0 16px 16px;
+}
+
+.closeIconContainer--desktop__header-drawer {
+    display: none;
 }
