@@ -1,59 +1,29 @@
 {
   "flex-layout.row#4-desktop": {
-    "children": [
-      "flex-layout.col#trigger-mega-menu"
-    ]
+    "children": ["flex-layout.col#trigger-mega-menu"]
   },
-  "flex-layout.row#mega-menu": {
-    "children": ["mega-menu#desktop"]
+
+  "flex-layout.col#trigger-mega-menu": {
+    "props": {
+      "verticalAlign": "middle"
+    },
+    "children": ["overlay-trigger"]
+  },
+  "overlay-trigger": {
+    "children": ["mega-menu-trigger-btn", "overlay-layout"]
+  },
+  "overlay-layout": {
+    "props": {
+      "placement": "bottom",
+      "backdrop": "visible"
+    },
+    "children": [
+      "mega-menu#desktop"
+    ]
   },
   "mega-menu#desktop": {
     "props": {
       "openOnly": "horizontal"
     }
-  },
-  "flex-layout.col#trigger-mega-menu": {
-    "props": {
-      "verticalAlign": "middle"
-    },
-    "children": ["mega-menu-trigger-btn"]
-  },
-  "mega-menu-trigger-btn": {
-    "props": {
-      "Drawer": "drawer"
-    }
   }
-  // "sticky-layout#4-desktop": {
-  //   "children": [
-  //     "mega-menu#desktop"
-  //   ]
-  // },
-  // "flex-layout.row#4-desktop": {
-  //   "children": [
-  //     "mega-menu-trigger-btn"
-  //   ]
-  // },
-  // "flex-layout.row#mega-menu": {
-  //   "children": ["drawer#desktop"]
-  // },
-
-  // "drawer#desktop":{
-  //   "children": ["mega-menu#desktop"]
-  // },
-  // "mega-menu#desktop": {
-  //   "props": {
-  //     "openOnly": "horizontal"
-  //   }
-  // },
-  // "flex-layout.col#desktop__trigger-mega-menu": {
-  //   "props": {
-  //     "verticalAlign": "middle"
-  //   },
-  //   "children": ["mega-menu-trigger-btn"]
-  // },
-  // "mega-menu-trigger-btn": {
-  //   "props": {
-  //     "Drawer": "drawer#desktop"
-  //   }
-  // }
 }

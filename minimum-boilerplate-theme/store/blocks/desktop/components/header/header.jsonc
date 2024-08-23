@@ -6,7 +6,7 @@
     },
     "children": [
       "flex-layout.row#4-desktop", 
-      "flex-layout.row#mega-menu",
+      // "flex-layout.row#mega-menu",
       "flex-layout.row#desktop__header-search",
       "flex-layout.row#desktop__header-menu"
     ]
