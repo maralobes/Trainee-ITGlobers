@@ -2,7 +2,11 @@
     max-width: 1280px;
     transform: translate(-48px, 10px);
 }
-
+.overlay--desktop__header-drawer {
+    max-width: 1280px;
+    margin: auto;
+    top: 6.7rem;
+}
 @media screen and (max-width: 1281px) {
     .backdropContainer{
         transform: translate(-108px, 10px);

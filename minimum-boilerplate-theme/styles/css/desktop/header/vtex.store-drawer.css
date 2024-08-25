@@ -11,11 +11,6 @@
     height: 40.4rem;
     border-radius: 0 0 16px 16px;
 }
-.overlay--desktop__header-drawer {
-    max-width: 1280px;
-    margin: auto;
-    top: 6.7rem;
-}
 
 .childrenContainer--desktop__header-drawer {
     display: flex;
@@ -29,27 +24,4 @@
 
 .closeIconContainer--desktop__header-drawer {
     display: none;
-}
-
-.opened--mobile__drawer {
-    width: 70% !important;
-    max-width: 390px !important;
-    min-width: 220px !important;
-    background: #FFFFFF;
-}
-
-.drawerContent--mobile__drawer {
-    overflow-y: hidden;
-    height: 450px;
-}
-
-.drawerHeader--my-drawer__header {
-    padding-top: 20px;
-}
-
-.childrenContainer--mobile__drawer {
-    display: flex;
-    flex-direction: column;
-    align-items: flex-start;
-    margin-left: 3px;
 }

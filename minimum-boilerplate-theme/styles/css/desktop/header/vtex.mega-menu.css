@@ -1,0 +1,34 @@
+.menuContainerNav--desktop__mega-menu {
+    width: 13.7rem;
+    height: 40.4rem;
+    border-radius: 0 0 16px 16px;
+}
+.menuContainerNav--desktop__mega-menu :global(.vtex-mega-menu-2-x-menuContainer){
+    overflow: hidden;
+    height: 80vh;
+    height: 647px;
+    max-height: 80vh !important;
+}
+
+.submenuContainer {
+    background: #FFE6D3;
+}
+
+.menuItem--desktop__mega-menu:hover {
+    background-color: rgba(255, 131, 36, 0.2);
+    border-left: 6px solid #FF8324;
+}
+
+.caretIcon--desktop__mega-menu {
+    display: none;
+}
+
+.accordionIconContainer--desktop__mega-menu--isOpen {
+    display: none;
+}
+
+.styledLinkContent--desktop__mega-menu {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+}

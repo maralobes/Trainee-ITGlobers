@@ -1,26 +1,33 @@
 {
-  "flex-layout.row#4-desktop": {
-    "children": ["flex-layout.col#trigger-mega-menu"]
-  },
-
-  "flex-layout.col#trigger-mega-menu": {
-    "props": {
-      "verticalAlign": "middle"
+  "flex-layout.row#desktop__row__container__mega-menu": {
+    "props":{
+      "blockClass": "desktop__row__container__mega-menu"
     },
-    "children": ["overlay-trigger"]
+    "children": [ "flex-layout.col#desktop__trigger-mega-menu"]
   },
-  "overlay-trigger": {
-    "children": ["mega-menu-trigger-btn", "overlay-layout"]
+  "flex-layout.col#desktop__trigger-mega-menu": {
+    "props": {
+      "verticalAlign": "middle",
+      "blockClass": "desktop__trigger-mega-menu"
+    },
+    "children": ["overlay-trigger#desktop__overlay-trigger"]
+  },
+  "overlay-trigger#desktop__overlay-trigger": {
+    "props":{
+      "blockClass": "desktop__overlay-trigger"
+    },
+    "children": ["mega-menu-trigger-btn", "overlay-layout#desktop__overlay__mega-menu"]
   },
   
-  "overlay-layout": {
+  "overlay-layout#desktop__overlay__mega-menu": {
     "props": {
       "placement": "bottom",
       "backdrop": "visible",
       "offsets": { 
         "skidding": 2,
         "distance": 8
-      }
+      },
+      "blockClass": "desktop__overlay__mega-menu"
     },
     "children": [
       "mega-menu#desktop__mega-menu"
