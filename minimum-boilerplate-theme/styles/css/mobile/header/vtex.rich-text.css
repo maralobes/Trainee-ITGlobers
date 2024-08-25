@@ -1,0 +1,11 @@
+.container--mobile__itglobers__heading {
+    width: 100%;
+    margin-left: 18px;
+}
+
+.paragraph--mobile__itglobers__heading {
+    font-size: 12px;
+    font-weight: 300;
+    line-height: 15px;
+    padding-top: 18px;
+}

@@ -12,3 +12,7 @@
         width: 16px;
     }
 }
+
+:global(.vtex-mega-menu-2-x-styledLinkContainer--mobile__mega-menu) {
+    padding-bottom: 0.3rem;
+}
