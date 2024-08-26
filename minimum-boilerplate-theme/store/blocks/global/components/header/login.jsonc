@@ -1,0 +1,18 @@
+{
+  "login#global__login": {
+    "title": "Global login",
+    "props": {
+      "emailAndPasswordTitle": "Continue with e-mail and password",
+      "accessCodeTitle": "Receive access code by email",
+      "emailPlaceholder": "Enter your e-mail",
+      "passwordPlaceholder": "Enter your password",
+      "showPasswordVerificationIntoTooltip": true
+    }
+  },
+  "login-content#global__login-content": {
+    "title": "Global login content",
+    "props":{
+
+    }
+  }
+}

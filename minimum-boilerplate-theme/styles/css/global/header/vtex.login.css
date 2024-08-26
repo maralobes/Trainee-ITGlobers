@@ -1,0 +1,72 @@
+.formTitle {
+    text-transform: uppercase;
+    font-size     : 20px;
+    font-weight   : 300;
+    line-height   : 22.92px;
+    text-align    : center;
+}
+
+.optionsListItem :global(.vtex-button) {
+    border          : 1px solid #1D2734;
+    width           : 100%;
+    min-height      : 2.5rem;
+    border-radius   : 40px;
+    background-color: #F5F4F6;
+    text-transform  : initial;
+}
+
+.optionsListItem :global(.vtex-button__label) {
+    font-size  : 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align : center;
+    color      : #1D2734;
+}
+
+.arrowUp {
+    display: none;
+}
+
+.box {
+    right: -84px !important;
+    top  : 52px;
+}
+
+.facebookOptionBtn :global(.vtex-button) {
+    background-color: #1877F2;
+    color           : #FFFFFF;
+    border: 1px #FFFFFF;
+}
+
+.facebookOptionBtn :global(.vtex-button__label) {
+    color      : #FFFFFF;
+    font-size  : 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align : center;
+    text-transform  : initial;
+
+}
+
+.googleOptionBtn :global(.vtex-button) {
+    background-color: #FFFFFF;
+    border: 1px #FFFFFF;
+}
+
+.googleOptionBtn :global(.vtex-button__label) {
+    color      : #5E636E;
+    font-size  : 16px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align : center;
+    text-transform  : initial;
+
+}
+
+.oauthLabel {
+    text-transform: initial;
+}
+
+.content--loginOptions {
+    width: 26.5rem;
+}
