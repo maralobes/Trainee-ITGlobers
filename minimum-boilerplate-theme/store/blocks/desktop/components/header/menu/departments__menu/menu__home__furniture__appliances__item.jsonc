@@ -1,0 +1,17 @@
+{
+  "menu-item#home__furniture__appliances__category": {
+    "title": "Item home, furniture and appliances submenu all categories on desktop",
+    "props": {
+      "id": "home__furniture__appliances__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "home__furniture__appliances__category-item",
+        "text": "Home, Furniture and Appliances"
+      }
+    }
+  }
+}

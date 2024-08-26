@@ -1,0 +1,17 @@
+{
+  "menu-item#home__improvement__category": {
+    "title": "Item home improvement submenu all categories on desktop",
+    "props": {
+      "id": "home__improvement__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "home__improvement__category-item",
+        "text": "Home Improvement"
+      }
+    }
+  }
+}

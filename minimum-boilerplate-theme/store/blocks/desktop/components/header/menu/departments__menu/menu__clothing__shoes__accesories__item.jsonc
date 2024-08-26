@@ -1,0 +1,17 @@
+{
+  "menu-item#clothing__shoes__accesories__category": {
+    "title": "Item clothing, shoes and accesories submenu all categories on desktop",
+    "props": {
+      "id": "clothing__shoes__accesories__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "clothing__shoes__accesories__category-item",
+        "text": "Clothing, Shoes and Accesories"
+      }
+    }
+  }
+}

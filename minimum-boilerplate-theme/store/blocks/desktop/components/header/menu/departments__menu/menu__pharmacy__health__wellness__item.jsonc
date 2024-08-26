@@ -1,0 +1,17 @@
+{
+  "menu-item#pharmacy__health__wellness__category": {
+    "title": "Item pharmacy, health and wellness submenu all categories on desktop",
+    "props": {
+      "id": "pharmacy__health__wellness__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "pharmacy__health__wellness__category-item",
+        "text": "Pharmacy, Health and Wellness"
+      }
+    }
+  }
+}

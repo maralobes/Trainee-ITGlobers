@@ -1,0 +1,17 @@
+{
+  "menu-item#toys__videogames__category": {
+    "title": "Item toys & videogames submenu all categories on desktop",
+    "props": {
+      "id": "toys__videogames__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "toys__videogames__category-item",
+        "text": "Toys & Videogames"
+      }
+    }
+  }
+}

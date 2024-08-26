@@ -1,11 +1,17 @@
 {
-  "drawer#desktop__header-drawer": {
-    "title": "Menu on desktop",
-    "children": ["vtex.menu@2.x:menu#desktop__menu-categories"]
-  },
+  // "drawer#desktop__header-drawer": {
+  //   "title": "Menu on desktop",
+  //   "props":{
+  //     "blockClass": "desktop__header-drawer"
+  //   },
+  //   "children": ["vtex.menu@2.x:menu#desktop__menu-categories"]
+  // },
 
   "vtex.menu@2.x:menu#desktop__menu-categories": {
     "title": "Categories menu on desktop",
+    "props":{
+      "blockClass": "desktop__menu-categories"
+    },
     "children": ["menu-item#item-all-categories"]
   },
   "menu-item#item-all-categories": {
@@ -14,6 +20,7 @@
       "id": "menu-item-categories",
       "type": "custom",
       "highlight": false,
+      "blockClass": "item-all-categories",
       "itemProps": {
         "type": "internal",
         "href": "#",
@@ -35,6 +42,9 @@
 
   "vtex.menu@2.x:submenu#desktop__item-category": {
     "title": "Category of the department All Categories on desktop",
+    "props":{
+      "blockClass": "desktop__item-category"
+    },
     "children": ["vtex.menu@2.x:menu#submenu__category"]
   },
   "vtex.menu@2.x:menu#submenu__category": {
@@ -42,40 +52,26 @@
         "menu-item#deals__category",
         "menu-item#grocery__category",
         "menu-item#new-year-goals__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category",
-        "menu-item#grocery__category"
+        "menu-item#valentine__day__category",
+        "menu-item#game__time__category",
+        "menu-item#clothing__shoes__accesories__category",
+        "menu-item#electronics__category",
+        "menu-item#home__furniture__appliances__category",
+        "menu-item#toys__videogames__category",
+        "menu-item#baby__category",
+        "menu-item#kids__category",
+        "menu-item#auto__tires__category",
+        "menu-item#pharmacy__health__wellness__category",
+        "menu-item#personalcare__category",
+        "menu-item#beauty__category",
+        "menu-item#pets__category",
+        "menu-item#home__improvement__category",
+        "menu-item#patio__garden__category",
+        "menu-item#household__essentials__category"
     ],
     "props": {
-      "orientation": "vertical"
-    }
-  },
-  "menu-item#new-year-goals__category": {
-    "title": "Item new year goals submenu all categories on desktop",
-    "props": {
-      "id": "new-year-goals__category-item",
-      "type": "custom",
-      "highlight": false,
-      "itemProps": {
-        "type": "internal",
-        "href": "#",
-        "noFollow": false,
-        "tagTitle": "new-year-goals__category-item",
-        "text": "New Year Goals"
-      }
+      "orientation": "vertical",
+      "blockClass": "submenu__category"
     }
   }
 //   "menu-item#department-user": {

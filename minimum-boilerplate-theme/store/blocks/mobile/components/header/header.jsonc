@@ -36,7 +36,7 @@
   "header-row#1-mobile": {
     "title": "First header row child on mobile",
     "children": [
-      "drawer",
+      "flex-layout.row#mobile__menu__container",
       "logo",
       "flex-layout.col#spacer",
       "flex-layout.col#search_container",

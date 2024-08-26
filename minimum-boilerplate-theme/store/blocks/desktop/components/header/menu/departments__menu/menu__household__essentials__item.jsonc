@@ -1,0 +1,17 @@
+{
+  "menu-item#household__essentials__category": {
+    "title": "Item household essentials submenu all categories on desktop",
+    "props": {
+      "id": "household__essentials__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "household__essentials__category-item",
+        "text": "Household Essentials"
+      }
+    }
+  }
+}

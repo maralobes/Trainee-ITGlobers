@@ -11,6 +11,10 @@
     "title": "Header spacer on global",
     "props": {
       "width": "grow",
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "paddingLeft": 4,
+      "paddingRight": 4,
       "blockClass": "spacer-header--text"
     }
   },
