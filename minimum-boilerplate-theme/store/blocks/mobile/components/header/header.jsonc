@@ -2,6 +2,7 @@
   "sticky-layout#mobile": {
     "title": "Sticky header container on mobile",
     "children": [
+      "flex-layout.row#global__row__container__notification",
       "flex-layout.row#mobile_search",
       "flex-layout.row#mobile_menu"
     ],
@@ -41,7 +42,7 @@
       "flex-layout.col#spacer",
       "flex-layout.col#search_container",
       "minicart.v2",
-      "login"
+      "login#global__login"
     ],
     "props": {
       "blockClass": "header_one_row_mobile--text"
