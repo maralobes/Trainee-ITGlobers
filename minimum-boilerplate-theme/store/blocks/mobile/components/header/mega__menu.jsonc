@@ -1,5 +1,6 @@
 {
     "flex-layout.row#mobile__menu__container": {
+      "title": "Row container for mega-menu on mobile",
       "children": [
         "flex-layout.col#mobile__trigger-mega-menu"
       ],
@@ -8,6 +9,7 @@
       }
     },
     "flex-layout.col#mobile__trigger-mega-menu": {
+      "title": "Col trigger container for mega-menu on mobile",
       "children": [
         "drawer#mobile__drawer"
       ],
@@ -16,6 +18,7 @@
       }
     },
     "drawer#mobile__drawer": {
+      "title": "Drawer component for mega-menu on mobile",
       "children": [
         "flex-layout.row#itglobers-header",
         "mega-menu#mobile__mega-menu"
@@ -27,6 +30,7 @@
       }
     },
     "mega-menu#mobile__mega-menu": {
+      "title": "Mega-menu component on mobile",
       "props": {
         "defaultDepartmentActive": "...",
         "orientation": "vertical",
@@ -35,12 +39,14 @@
       }
     },
     "drawer-header#my-drawer__header": {
+      "title": "Drawer header for mega-menu on mobile",
       "children": ["flex-layout.row#drawer-header"],
       "props":{
         "blockClass": "my-drawer__header"
       }
     },
     "flex-layout.row#drawer-header": {
+      "title": "Row container drawer header for mega-menu on mobile",
       "children": [
         "flex-layout.col#mega-menu-logo",
         "flex-layout.col#spacer",
@@ -55,6 +61,7 @@
       }
     },
     "flex-layout.col#mobile__login": {
+      "title": "Col container login for mega-menu on mobile",
       "children": ["login"],
       "props": {
         "verticalAlign": "middle",
@@ -64,6 +71,7 @@
       }
     },
     "flex-layout.col#mega-menu-logo": {
+      "title": "Col container logo for mega-menu on mobile",
       "children": ["logo"],
       "props": {
         "verticalAlign": "middle",
@@ -73,6 +81,7 @@
       }
     },
     "flex-layout.row#itglobers-header": {
+      "title": "Row container rich-text itglobers for mega-menu on mobile",
       "children": [
         "rich-text#mobile__itglobers__heading"
       ],

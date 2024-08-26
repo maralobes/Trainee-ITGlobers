@@ -16,3 +16,8 @@
 :global(.vtex-mega-menu-2-x-styledLinkContainer--mobile__mega-menu) {
     padding-bottom: 0.3rem;
 }
+
+:global(.bg-black-05){
+    background-color: rgba(255, 131, 36, 0.2);
+    border-left: 6px solid #FF8324;
+}

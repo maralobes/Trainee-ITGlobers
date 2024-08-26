@@ -1,11 +1,13 @@
 {
   "flex-layout.row#desktop__row__container__mega-menu": {
+    "title": "Row container for mega-menu on desktop",
     "props":{
       "blockClass": "desktop__row__container__mega-menu"
     },
     "children": [ "flex-layout.col#desktop__trigger-mega-menu"]
   },
   "flex-layout.col#desktop__trigger-mega-menu": {
+    "title": "Col trigger for mega-menu on desktop",
     "props": {
       "verticalAlign": "middle",
       "blockClass": "desktop__trigger-mega-menu"
@@ -13,6 +15,7 @@
     "children": ["overlay-trigger#desktop__overlay-trigger"]
   },
   "overlay-trigger#desktop__overlay-trigger": {
+    "title": "Overlay trigger for mega-menu on desktop",
     "props":{
       "blockClass": "desktop__overlay-trigger"
     },
@@ -20,11 +23,12 @@
   },
   
   "overlay-layout#desktop__overlay__mega-menu": {
+    "title": "Overlay layout for mega-menu on desktop",
     "props": {
       "placement": "bottom",
       "backdrop": "visible",
       "offsets": { 
-        "skidding": 2,
+        "skidding": -7,
         "distance": 8
       },
       "blockClass": "desktop__overlay__mega-menu"
@@ -34,6 +38,7 @@
     ]
   },
   "mega-menu#desktop__mega-menu": {
+    "title": "Mega-menu component on desktop",
     "props": {
       "openOnly": "horizontal",
       "blockClass": "desktop__mega-menu"

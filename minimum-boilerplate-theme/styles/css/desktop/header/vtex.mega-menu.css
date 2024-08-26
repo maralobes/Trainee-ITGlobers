@@ -1,17 +1,26 @@
 .menuContainerNav--desktop__mega-menu {
-    width: 13.7rem;
-    height: 40.4rem;
+    min-width: 12rem;
+    max-width: 34rem;
+    max-height: 40rem;
     border-radius: 0 0 16px 16px;
+    border-bottom: none;
 }
 .menuContainerNav--desktop__mega-menu :global(.vtex-mega-menu-2-x-menuContainer){
-    overflow: hidden;
-    height: 80vh;
+    overflow: scroll;
+    height: 100vh;
     height: 647px;
-    max-height: 80vh !important;
+    max-height: 90vh !important;
+    max-width: 14rem;
+    border-right-style: none;
+    border-right-width: none;
 }
 
 .submenuContainer {
     background: #FFE6D3;
+    overflow: scroll;
+    max-width: 13rem;
+    max-height: 100vh !important;
+    border-radius: 0px 0px 16px 0px;
 }
 
 .menuItem--desktop__mega-menu:hover {
@@ -23,12 +32,29 @@
     display: none;
 }
 
-.accordionIconContainer--desktop__mega-menu--isOpen {
+/* .accordionIconContainer--desktop__mega-menu--isOpen {
     display: none;
-}
+} */
 
 .styledLinkContent--desktop__mega-menu {
     font-size: 12px;
     font-weight: 300;
     line-height: 15px;
+}
+
+.styledLinkText--desktop__mega-menu {
+    color: #1D2734 !important;
+}
+
+.menuItem--desktop__mega-menu .bg-black-05{
+    background-color: rgba(255, 131, 36, 0.2);
+    border-left: 6px solid #FF8324;
+}
+
+.seeAllLink--desktop__mega-menu {
+    display: none;
+}
+
+.submenuList {
+    gap: 0.5rem;
 }
