@@ -1,0 +1,195 @@
+.container :global(.vtex-button) {
+    background-color: #1D2734;
+    border-radius   : 40px;
+    border          : 1px;
+    min-width       : 80px;
+    height          : 40px;
+    margin-right    : 2px;
+}
+
+.label {
+    color         : #F0F0F2;
+    text-transform: capitalize;
+    font-size     : 14px;
+    line-height   : 17.5px;
+    text-align    : center;
+    font-weight   : 300;
+    min-width     : 37px;
+    height        : 18px;
+    padding-left  : 6px;
+    display       : inline;
+}
+.formTitle {
+    text-transform: uppercase;
+    font-size     : 20px;
+    font-weight   : 300;
+    line-height   : 22.92px;
+    text-align    : center;
+    margin-top    : 8px;
+}
+
+.optionsListItem :global(.vtex-button) {
+    border          : 1px solid #1D2734;
+    width           : 100%;
+    height          : 3rem;
+    border-radius   : 40px;
+    background-color: #F5F4F6;
+    text-transform  : initial;
+}
+
+.optionsListItem :global(.vtex-button__label) {
+    font-size  : 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align : center;
+    color      : #1D2734;
+}
+
+.arrowUp {
+    display: none;
+}
+
+.box {
+    right: -84px !important;
+    top  : 52px;
+}
+
+.facebookOptionBtn :global(.vtex-button) {
+    background-color: #1877F2;
+    color           : #FFFFFF;
+    border          : 1px #FFFFFF;
+}
+
+.facebookOptionBtn :global(.vtex-button__label) {
+    color         : #FFFFFF;
+    font-size     : 16px;
+    font-weight   : 400;
+    line-height   : 20px;
+    text-align    : center;
+    text-transform: initial;
+
+}
+
+.googleOptionBtn :global(.vtex-button) {
+    background-color: #FFFFFF;
+    border          : 1px solid rgba(174, 186, 206, 0.5);
+}
+
+.googleOptionBtn :global(.vtex-button__label) {
+    color         : #5E636E;
+    font-size     : 16px;
+    font-weight   : 400;
+    line-height   : 20px;
+    text-align    : center;
+    text-transform: initial;
+
+}
+
+.oauthLabel {
+    text-transform: initial;
+}
+
+.content--loginOptions {
+    width        : 26.5rem;
+    border-radius: 0px 0px 8px 8px;
+}
+
+.contentContainer,
+.content--emailVerification,
+.content--emailAndPassword,
+.content--beginCreatePass,
+.content--recoveryPassword {
+    border-radius: 0px 0px 8px 8px;
+}
+
+.content--emailVerification,
+.content--beginCreatePass {
+    height: 219px;
+    width : 423px;
+}
+
+.content--emailAndPassword {
+    /* max-width : 423px;
+    min-width: ; */
+    height: 100%;
+    margin: auto;
+}
+
+.inputContainer :global(.vtex-input-prefix__group) {
+    border-radius: 40px;
+    height       : 48px;
+    border       : 1px solid #1D2734;
+}
+
+.inputContainer {
+    height        : 55px;
+    padding-bottom: 1rem;
+}
+
+.eyeIcon--invisible {
+    display: none;
+}
+
+.backButton {
+    display: none;
+}
+
+.sendButton {
+    margin: auto;
+}
+
+.sendButton :global(.vtex-button) {
+    background-color: rgba(29, 39, 52, 1);
+    border-radius   : 50px;
+    height          : 48px;
+    width           : 368px;
+    border          : 1px solid rgba(29, 39, 52, 1);
+}
+
+.sendButton :global(.vtex-button__label) {
+    color      : #FFFFFF;
+    font-size  : 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align : center;
+
+}
+
+.formFooter {
+    border-top-style: none;
+    border-top-width: none;
+    padding-top     : 0.1rem;
+}
+
+.forgotPasswordLink {
+    color      : #0C2340;
+    margin     : auto;
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align : center;
+    margin-top : 6px;
+}
+
+.formError {
+    margin-top   : 0.5rem;
+    margin-bottom: 0rem;
+}
+
+.dontHaveAccount {
+    font-size  : 14px;
+    font-weight: 400;
+    line-height: 17.5px;
+    text-align : center;
+    color      : #1D2734;
+    margin-top : 8px;
+}
+
+.formSubtitle {
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align : center;
+    width: 221px;
+    height: 40px;
+}

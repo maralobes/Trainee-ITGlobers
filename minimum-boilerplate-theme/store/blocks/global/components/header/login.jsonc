@@ -1,0 +1,24 @@
+{
+  "login#global__login": {
+    "title": "Login on global",
+    "props": {
+      "emailAndPasswordTitle": "Continue with e-mail and password",
+      "accessCodeTitle": "Receive access code by email",
+      "emailPlaceholder": "Enter your e-mail",
+      "passwordPlaceholder": "Enter your password",
+      "showPasswordVerificationIntoTooltip": true,
+      "iconLabel": "Login",
+      "optionsTitle": "LOG IN"
+    }
+  },
+  "login-content#global__login-content": {
+    "title": "Global login content",
+    "props": {
+      "optionsTitle": "LOG IN",
+      "emailAndPasswordTitle": "Continue with e-mail and password",
+      "emailPlaceholder": "Enter your e-mail",
+      "passwordPlaceholder": "Enter your password",
+      "accessCodeTitle": "Receive access code by email"
+    }
+  }
+}

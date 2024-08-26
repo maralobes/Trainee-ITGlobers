@@ -13,16 +13,9 @@
       "width": "grow",
       "verticalAlign": "middle",
       "horizontalAlign": "center",
-      "paddingLeft": 4,
-      "paddingRight": 4,
+      // "paddingLeft": 1,
+      // "paddingRight": 1,
       "blockClass": "spacer-header--text"
-    }
-  },
-  "login": {
-    "title": "Login on global",
-    "props": {
-      "iconLabel": "Login",
-      "blockClass": "login--text"
     }
   },
   "vtex.menu@2.x:menu#menu-categories": {
@@ -343,6 +336,69 @@
         "activeClassName": "rebel-pink",
         "mutedClassName": "c-action-primary"
       }
+    }
+  },
+  "flex-layout.row#global__row__container__notification": {
+    "title": "Row container notification on global",
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "left",
+      "fullWidth": true,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "global__row__container__notification"
+    },
+    "children":[
+      "flex-layout.col#global__col__container__icon-notification",
+      "flex-layout.col#global__col__container__text-notification"
+    ]
+  },
+  "flex-layout.col#global__col__container__icon-notification": {
+    "title": "Col container icon notification on global",
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "paddingLeft": 4,
+      "paddingRight": 4,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "global__col__container__icon-notification"
+    },
+    "children":[
+      "icon#global__success"
+    ]
+  },
+
+  "icon#global__success": {
+    "title": "Icon success global",
+    "props": {
+      "id": "success",
+      "weight": "bold",
+      "viewBox": "0 0 17 17",
+      "size": 16,
+      "height": "16",
+      "width": "16"
+    }
+  },
+  "flex-layout.col#global__col__container__text-notification": {
+    "title": "Col container text notification on global",
+    "props": {
+      "verticalAlign": "middle",
+      "horizontalAlign": "center",
+      "paddingLeft": 4,
+      "paddingRight": 4,
+      "preventHorizontalStretch": true,
+      "preventVerticalStretch": true,
+      "blockClass": "global__col__container__text-notification"
+    },
+    "children":[
+      "notification.bar#global__action-completed"
+    ]
+  },
+  "notification.bar#global__action-completed": {
+    "title": "Notification action completed on global",
+    "props":{
+      "content": "Your action was completed."
     }
   }
 }

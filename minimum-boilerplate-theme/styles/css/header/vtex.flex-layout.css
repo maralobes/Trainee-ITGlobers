@@ -20,3 +20,8 @@
 .flexRowContent--desktop__header-menu--text {
     margin-top: -8px;
 }
+
+/* Flex layout props notification bar*/
+.flexRow--global__row__container__notification {
+    background-color: rgba(147, 255, 150, 0.2)
+}

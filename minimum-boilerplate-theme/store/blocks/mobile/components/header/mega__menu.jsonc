@@ -62,7 +62,7 @@
     },
     "flex-layout.col#mobile__login": {
       "title": "Col container login for mega-menu on mobile",
-      "children": ["login"],
+      "children": ["login#global__login"],
       "props": {
         "verticalAlign": "middle",
         "horizontalAlign": "right",
