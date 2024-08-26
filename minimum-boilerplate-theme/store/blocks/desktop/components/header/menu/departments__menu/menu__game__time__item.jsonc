@@ -1,0 +1,17 @@
+{
+  "menu-item#game__time__category": {
+    "title": "Item game time submenu all categories on desktop",
+    "props": {
+      "id": "game__time__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "game__time__category-item",
+        "text": "Game Time"
+      }
+    }
+  }
+}

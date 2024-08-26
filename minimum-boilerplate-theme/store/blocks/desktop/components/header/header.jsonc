@@ -1,14 +1,16 @@
 {
-  "sticky-layout#desktop": {
+  "sticky-layout#desktop__header": {
+    "title": "Sticky header container on desktop",
     "props": {
-      "blockClass": "sticky-header-desktop"
+      "blockClass": "desktop__header"
     },
     "children": [
-      "flex-layout.row#desktop_search",
-      "flex-layout.row#desktop_menu"
+      "flex-layout.row#desktop__header-search",
+      "flex-layout.row#desktop__header-menu"
     ]
   },
-  "flex-layout.row#desktop_search": {
+  "flex-layout.row#desktop__header-search": {
+    "title": "First header row container on desktop",
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "center",
@@ -18,44 +20,48 @@
       "colSizing": "equal",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "blockClass": "search_header_desktop--text",
+      "blockClass": "desktop__header-search--text",
       "fullWidth": true
     },
-    "children": ["header-row#1-desktop"]
+    "children": ["header-row#desktop__header-row-one"]
   },
-  "flex-layout.row#desktop_menu": {
+  "flex-layout.row#desktop__header-menu": {
+    "title": "Second header row container on desktop",
     "props": {
       "horizontalAlign": "center",
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
-      "blockClass": "menu_header_desktop--text"
+      "blockClass": "desktop__header-menu--text"
     },
-    "children": ["header-row#2-desktop"]
+    "children": ["header-row#desktop__header-row-two"]
   },
-  "header-row#1-desktop": {
+  "header-row#desktop__header-row-one": {
+    "title": "First header row child on desktop",
     "children": [
-      "drawer",
+      "flex-layout.row#desktop__row__container__mega-menu",
       "flex-layout.col#logo-desktop",
-      "search-bar#desktop-header",
+      "search-bar#desktop__header-search-bar",
       "flex-layout.col#spacer",
-      "vtex.menu@2.x:menu#desktop_items",
+      "vtex.menu@2.x:menu#desktop__header-menu-one",
       "minicart.v2",
       "login"
     ],
     "props": {
-      "blockClass": "header_one_row--text"
+      "blockClass": "desktop__header-row-one--text"
     }
   },
-  "header-row#2-desktop": {
+  "header-row#desktop__header-row-two": {
+    "title": "Second header row child on desktop",
     "children": [
       "vtex.menu@2.x:menu#menu-categories"
     ],
     "props": {
-      "blockClass": "header_two_row--text"
+      "blockClass": "desktop__header-row-two--text"
     }
   },
 
   "flex-layout.col#logo-desktop": {
+    "title": "Logo container desktop",
     "props": {
       "verticalAlign": "middle",
       "blockClass": "logo-desktop"
@@ -63,9 +69,10 @@
     "children": ["logo"]
   },
 
-  "vtex.menu@2.x:menu#desktop_items": {
+  "vtex.menu@2.x:menu#desktop__header-menu-one": {
+    "title": "Menu on first row header desktop",
     "props": {
-      "blockClass": "menu-row-one--text",
+      "blockClass": "desktop__header-menu-one--text",
       "items": [
         {
           "id": "menu-item-ITG-trends",
@@ -135,11 +142,11 @@
       ]
     }
   },
-  "search-bar#desktop-header": {
-    "title": "search bar on desktop",
+  "search-bar#desktop__header-search-bar": {
+    "title": "Search bar on desktop",
     "props": {
       "placeholder": "Search products...",
-      "blockClass": "search-bar--text"
+      "blockClass": "desktop__header-search-bar--text"
       // "classes": ["placeholder"]
     }
   }

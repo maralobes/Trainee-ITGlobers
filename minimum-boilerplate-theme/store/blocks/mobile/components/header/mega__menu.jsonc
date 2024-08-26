@@ -1,0 +1,103 @@
+{
+    "flex-layout.row#mobile__menu__container": {
+      "title": "Row container for mega-menu on mobile",
+      "children": [
+        "flex-layout.col#mobile__trigger-mega-menu"
+      ],
+      "props":{
+        "blockClass": "mobile__menu__container"
+      }
+    },
+    "flex-layout.col#mobile__trigger-mega-menu": {
+      "title": "Col trigger container for mega-menu on mobile",
+      "children": [
+        "drawer#mobile__drawer"
+      ],
+      "props":{
+        "blockClass": "mobile__trigger-mega-menu"
+      }
+    },
+    "drawer#mobile__drawer": {
+      "title": "Drawer component for mega-menu on mobile",
+      "children": [
+        "flex-layout.row#itglobers-header",
+        "mega-menu#mobile__mega-menu"
+      ],
+      "blocks": [
+        "drawer-header#my-drawer__header"],
+      "props":{
+        "blockClass": "mobile__drawer"
+      }
+    },
+    "mega-menu#mobile__mega-menu": {
+      "title": "Mega-menu component on mobile",
+      "props": {
+        "defaultDepartmentActive": "...",
+        "orientation": "vertical",
+        "openOnly": "vertical",
+        "blockClass": "mobile__mega-menu"
+      }
+    },
+    "drawer-header#my-drawer__header": {
+      "title": "Drawer header for mega-menu on mobile",
+      "children": ["flex-layout.row#drawer-header"],
+      "props":{
+        "blockClass": "my-drawer__header"
+      }
+    },
+    "flex-layout.row#drawer-header": {
+      "title": "Row container drawer header for mega-menu on mobile",
+      "children": [
+        "flex-layout.col#mega-menu-logo",
+        "flex-layout.col#spacer",
+        "flex-layout.col#mobile__login"
+      ],
+      "props": {
+        "blockClass": "drawer-header",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "fullWidth": true
+      }
+    },
+    "flex-layout.col#mobile__login": {
+      "title": "Col container login for mega-menu on mobile",
+      "children": ["login"],
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "right",
+        "paddingLeft": 4,
+        "paddingRight": 4
+      }
+    },
+    "flex-layout.col#mega-menu-logo": {
+      "title": "Col container logo for mega-menu on mobile",
+      "children": ["logo"],
+      "props": {
+        "verticalAlign": "middle",
+        "horizontalAlign": "left",
+        "paddingLeft": 1,
+        "paddingRight": 9
+      }
+    },
+    "flex-layout.row#itglobers-header": {
+      "title": "Row container rich-text itglobers for mega-menu on mobile",
+      "children": [
+        "rich-text#mobile__itglobers__heading"
+      ],
+      "props": {
+        "blockClass": "itglobers-header",
+        "preventHorizontalStretch": true,
+        "preventVerticalStretch": true,
+        "preserveLayoutOnMobile": true,
+        "fullWidth": true
+      }
+    },
+    "rich-text#mobile__itglobers__heading": {
+      "title": "ITGlobers heading on mobile menu",
+      "props":{
+        "text": "ITGlobers+",
+        "blockClass": "mobile__itglobers__heading"
+      }
+    }
+}

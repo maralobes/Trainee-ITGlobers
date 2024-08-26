@@ -1,0 +1,217 @@
+{
+  //Deals department
+  "menu-item#deals__category": {
+    "title": "Item deals submenu all categories  on desktop",
+    "props": {
+      "id": "deals__category-item",
+      "type": "custom",
+      "highlight": false,
+      "onMountBehavior": "open",
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "deals__category-item",
+        "text": "Deals"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#deals__subcategories"]
+  },
+
+  //Deals subcategory of deals department
+  "vtex.menu@2.x:submenu#deals__subcategories": {
+    "title": "Subcategories deals department on desktop",
+    "children": [
+      "vtex.menu@2.x:menu#submenu__deals"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu__deals": {
+    "title": "Submenu deals department on desktop",
+    "children": [
+      "menu-item#deals__subcategories",
+      "menu-item#end__of__year__clearance__subcategories",
+      "menu-item#more__deals__subcategories"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#deals__subcategories": {
+    "title": "Deals subcategories menu on desktop",
+    "props": {
+      "id": "deals__subcategories",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "deals__subcategories",
+        "text": "Deals"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#deals__item-subcategory"]
+  },
+
+  "vtex.menu@2.x:submenu#deals__item-subcategory": {
+    "title": "Subcategory of the deals department on desktop",
+    "children": ["vtex.menu@2.x:menu#submenu__deals__category"]
+  },
+  "vtex.menu@2.x:menu#submenu__deals__category": {
+    "children": [
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory",
+      "menu-item#shop__all__deals__subcategory"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#shop__all__deals__subcategory": {
+    "title": "Shop All Deals subcategory menu on desktop",
+    "props": {
+      "id": "shop__all__deals__subcategory",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "shop__all__deals__subcategory",
+        "text": "Shop All Deals"
+      }
+    }
+  },
+  //End of the Year subcategory of deals department
+  "menu-item#end__of__year__clearance__subcategories": {
+    "title": "End of year clearance subcategories menu on desktop",
+    "props": {
+      "id": "end__of__year__clearance__subcategories",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "end__of__year__clearance__subcategories",
+        "text": "End Of Year Clearance"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#deals__item-subcategory"]
+  },
+
+  "vtex.menu@2.x:submenu#end__of__year__clearance__item-subcategory": {
+    "title": "Subcategory of the deals department on desktop",
+    "children": [
+      "vtex.menu@2.x:menu#submenu__end__of__year__clearance__category"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu__end__of__year__clearance__category": {
+    "children": [
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory",
+      "menu-item#shop_all__subcategory"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#shop_all__subcategory": {
+    "title": "Shop All subcategory menu on desktop",
+    "props": {
+      "id": "shop_all__subcategory",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "shop_all__subcategory",
+        "text": "Shop All"
+      }
+    }
+  },
+  //More deals subcategory of deals department
+  "menu-item#more__deals__subcategories": {
+    "title": "More deals subcategories menu on desktop",
+    "props": {
+      "id": "more__deals__subcategories",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "more__deals__subcategories",
+        "text": "More Deals"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#more__deals__item-subcategory"]
+  },
+
+  "vtex.menu@2.x:submenu#more__deals__item-subcategory": {
+    "title": "More deals subcategory of the deals department on desktop",
+    "children": [
+      "vtex.menu@2.x:menu#submenu__more__deals__category"
+    ]
+  },
+  "vtex.menu@2.x:menu#submenu__more__deals__category": {
+    "children": [
+      "menu-item#flash_deals__subcategory",
+      "menu-item#flash_deals__subcategory",
+      "menu-item#flash_deals__subcategory",
+      "menu-item#flash_deals__subcategory",
+      "menu-item#flash_deals__subcategory"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#flash_deals__subcategory": {
+    "title": "Flash deals subcategory menu on desktop",
+    "props": {
+      "id": "flash_deals__subcategory",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "flash_deals__subcategory",
+        "text": "Flash Deals"
+      }
+    }
+  }
+}

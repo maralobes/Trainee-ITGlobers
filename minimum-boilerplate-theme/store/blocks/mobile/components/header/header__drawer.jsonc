@@ -1,0 +1,211 @@
+{
+  // "drawer#mobile__header-drawer": {
+  //   "title": "Drawer on mobile",
+  //   "children": ["vtex.menu@2.x:menu#mobile__menu-departments"]
+  // },
+
+  "vtex.menu@2.x:menu#mobile__menu-departments": {
+    "title": "Departments menu on mobile",
+    "children": ["menu-item#department-itglobers+", "menu-item#department-user"]
+  },
+  "menu-item#department-itglobers+": {
+    "title": "Department ITGlobers+ on mobile",
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "department"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#itglobers+__category"] // Defining a submenu
+  },
+
+  "vtex.menu@2.x:submenu#itglobers+__category": {
+    "title": "Category of the department ITGlobers+ on mobile",
+    "children": ["vtex.menu@2.x:menu#submenu__itglobers-category"]
+  },
+  "vtex.menu@2.x:menu#submenu__itglobers-category": {
+    "children": ["menu-item#itglobers+__category"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#itglobers+__category": {
+    "title": "Item submenu ITGlobers department on mobile",
+    "props": {
+      "id": "itglobers+__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "itglobers+__category-item",
+        "text": "ITGlobers+"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheLeft": true
+    }
+  },
+  "menu-item#department-user": {
+    "title": "Department user on mobile",
+    "props": {
+      "id": "menu-item-department",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "department"
+      }
+    },
+    "blocks": ["vtex.menu@2.x:submenu#user__category"]
+  },
+
+  "vtex.menu@2.x:submenu#user__category": {
+    "title": "Category of the department user on mobile",
+    "children": ["vtex.menu@2.x:menu#submenu__user-category"]
+  },
+  "vtex.menu@2.x:menu#submenu__user-category": {
+    "children": ["menu-item#account__category"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#account__category": {
+    "title": "Account item submenu user department on mobile",
+    "props": {
+      "id": "account__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "account__category-item",
+        "text": "Account"
+      },
+      "iconProps": {
+        "id": "bnd-logo",
+        "size": 16,
+        "viewBox": "0 0 16 16",
+        "activeClassName": "rebel-pink",
+        "mutedClassName": "c-action-primary"
+      },
+      "iconToTheLeft": true
+    }
+  },
+
+  "vtex.menu@2.x:menu#mobile__header-menu": {
+    "children": [
+      "menu-item#account",
+      "menu-item#wishlist",
+      "menu-item#help",
+      "menu-item#food",
+      "menu-item#fitness",
+      "menu-item#artic",
+      "menu-item#poolday",
+      "menu-item#hotels"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+
+  "menu#drawer__header-drawer": {
+    "title": "Menu drawer on mobile",
+    "children": [
+      "menu-item#account",
+      "menu-item#wishlist",
+      "menu-item#help",
+      "menu-item#food",
+      "menu-item#fitness",
+      "menu-item#artic",
+      "menu-item#poolday",
+      "menu-item#hotels"
+    ],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#account": {
+    "title": "Menu drawer item on mobile",
+    "props": {
+      "id": "menu-item-account",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "account",
+        "text": "Account"
+      }
+    }
+  },
+  "vtex.menu@2.x:submenu#account__category": {
+    "children": ["vtex.menu@2.x:menu#submenu__account-subcategory"]
+  },
+  "vtex.menu@2.x:menu#submenu__account-subcategory": {
+    "children": ["menu-item#sub-category", "menu-item#account"],
+    "props": {
+      "orientation": "vertical"
+    }
+  },
+  "menu-item#sub-category": {
+    "title": "Subcategory item on mobile",
+    "props": {
+      "id": "subcategory-item-account",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "profile",
+        "text": "Profile"
+      }
+    }
+  },
+  "menu-item#wishlist": {
+    "title": "Menu drawer item on mobile",
+    "props": {
+      "id": "menu-item-wishlist",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "wishlist",
+        "text": "Wishlist"
+      }
+    }
+  },
+  "menu-item#help": {
+    "title": "Menu drawer item on mobile",
+    "props": {
+      "id": "menu-item-help",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "help",
+        "text": "Help"
+      }
+    }
+  }
+}

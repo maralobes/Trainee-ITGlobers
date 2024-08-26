@@ -1,0 +1,62 @@
+{
+  "flex-layout.row#mobile__row-container-home": {
+    "title": "Row container for slider on mobile",
+    "children": ["slider-layout#mobile__slider-infoCard"],
+    "props": {
+      "blockClass": [
+        "row-container-home--text",
+        "mobile__slider-container-home"
+      ]
+    }
+  },
+
+  "slider-layout#mobile__slider-infoCard": {
+    "title": "Slider layout infocard container on mobile",
+    "props": {
+      "itemsPerPage": {
+        "desktop": 3,
+        "tablet": 2,
+        "phone": 1
+      },
+      "infinite": false,
+      "centerMode": "to-the-left",
+      "centerModeSlidesGap": 0,
+      "showNavigationArrows": "desktopOnly",
+      "blockClass": ["first-carousel--text"]
+    },
+    "children": [
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col",
+      "flex-layout.col#mobile__slider-infocard-col"
+    ]
+  },
+
+  "flex-layout.col#mobile__slider-infocard-col": {
+    "title": "Column container for infocard on mobile",
+    "children": ["image#mobile__slider-image"],
+    "props": {
+      "horizontalAlign": "center",
+      "blockClass": ["mobile__slider-infocard-col"]
+    }
+  },
+
+  "image#mobile__slider-image": {
+    "title": "Infocard image on mobile",
+    "props": {
+      "src": "assets/img/15_image_infocard_element_phone.png",
+      "link": "https://mariavillalobos--itgloberspartnercl.myvtex.com/",
+      "blockClass": "mobile__slider-image--text"
+    }
+  }
+}

@@ -1,86 +1,8 @@
-/* .paragraph--second__colum__letter__i--text {
-    font-weight: 600;
-    line-height: 40px;
-    font-size: 24px;
-    color: #1D2734;
-    padding-bottom: 2px;
-    padding-left: 50px;
-    margin: 0;
-    top: 50%;
-    margin-top: 8px;
-}
-
-.paragraph--second__colum__word__watch--text {
-    font-weight: 600;
-    line-height: 40px;
-    font-size: 48px;
-    color: #1D2734;
-    padding-bottom: 2px;
-    padding-right: 200px;
-    margin: 0
-}
-
-.paragraph--second__colum__text__second--text{
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 19px;
-    color: hsl(26, 100%, 57%);
-    padding-bottom: 16px;
-    margin: 0;
-    margin-top: 0px;
-}
-
-.paragraph--second__colum__text__third--text{
-    font-weight: 300;
-    font-size: 16px;
-    line-height: 16.8px;
-    color: #1D2734;
-    padding-bottom: 24px;
-    margin: 0;
-}
-
-
-.paragraph--heading__slider__carousel--text {
-    font-weight: bolder;
-    font-size: 16px;
-    line-height: 25px;
-    padding-bottom: 0px;
-    margin-left: 22px;
-}
-
-.paragraph--description__slider__carousel--text {
-    font-weight: 320;
-    font-size: 14px;
-    line-height: 16.8px;
-    padding-bottom: 14px;
-    padding-top: 0px;
-    margin-left: 22px;
-    margin-bottom: 10px;
-}
-
-.wrapper--description__slider__carousel--text {
-    margin: 0px;
-    margin-bottom: 0;
-} */
-
-/* .wrapper--amazing__product__slider__heading--text{
-    background-color: pink;
-} */
-
-.paragraph--amazing__product__slider__heading--text {
+.paragraph--heading-amazing--text {
     font-size          : 16px;
-    /* background-color: blue; */
     color              : #1D2734;
     margin-bottom      : 0.3rem;
     padding-left       : 1.5rem;
     font-weight        : 500;
     line-height        : 16.8px;
 }
-
-/* @media screen and (max-width: 1024px) {
-    .paragraph--amazing__product__slider__heading--text {
-        margin: 1.5rem;
-        margin-bottom: 1rem;
-        padding-left: 4px;
-    }
-} */

@@ -11,29 +11,11 @@
    font-weight  : 400;
 
 }
-
-/* .element {
-    width: 212px;
-    max-width: 100%;
-    height: 378px;
-    padding-bottom: 0px;
-    margin-bottom: 40px;
-    margin-top: 60px;
- } */
-
 .image--computer--text {
-   /* padding: auto; */
    width     : 178px !important;
-   /* height : 140px; */
    margin    : auto;
    margin-top: 46px;
 }
-
-/* .tooltipLabelText {
-   background: url("assets/img/2_image_add_shopping_car.svg");
-   background-repeat: no-repeat;
- } */
-
 @media screen and (max-width: 1024) {
    .description {
       width  : 100%;
@@ -44,5 +26,4 @@
       width     : 100%;
       max-height: 100%;
    }
-
 }

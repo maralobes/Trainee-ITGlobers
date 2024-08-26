@@ -1,0 +1,17 @@
+{
+  "menu-item#auto__tires__category": {
+    "title": "Item auto & tires submenu all categories on desktop",
+    "props": {
+      "id": "auto__tires__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "auto__tires__category-item",
+        "text": "Auto & Tires"
+      }
+    }
+  }
+}

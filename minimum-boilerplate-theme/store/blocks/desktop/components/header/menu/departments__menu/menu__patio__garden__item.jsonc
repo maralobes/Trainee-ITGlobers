@@ -1,0 +1,17 @@
+{
+  "menu-item#patio__garden__category": {
+    "title": "Item patio & garden submenu all categories on desktop",
+    "props": {
+      "id": "patio__garden__category-item",
+      "type": "custom",
+      "highlight": false,
+      "itemProps": {
+        "type": "internal",
+        "href": "#",
+        "noFollow": false,
+        "tagTitle": "patio__garden__category-item",
+        "text": "Patio & Garden"
+      }
+    }
+  }
+}
