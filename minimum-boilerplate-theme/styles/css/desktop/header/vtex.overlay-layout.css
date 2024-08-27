@@ -1,8 +1,8 @@
 .backdropContainer{
-    max-width: 1280px;
-    transform: translate(-52px, 10px);
+    /* max-width: 1280px; */
+    transform: translate(-427px, 5px);
 }
-.overlay--desktop__header-drawer {
+/* .overlay--desktop__header-drawer {
     max-width: 1280px;
     margin: auto;
     top: 6.7rem;
@@ -15,4 +15,4 @@
     .backdropContainer{
         transform: translate(-108px, 10px);
     }
-}
+} */

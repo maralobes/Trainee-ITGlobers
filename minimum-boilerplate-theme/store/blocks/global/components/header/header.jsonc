@@ -346,6 +346,7 @@
       "fullWidth": true,
       "preventHorizontalStretch": true,
       "preventVerticalStretch": true,
+      "preserveLayoutOnMobile": true,
       "blockClass": "global__row__container__notification"
     },
     "children":[
