@@ -1,7 +1,7 @@
 .menuContainerNav--desktop__mega-menu {
     min-width: 12rem;
     max-width: 34rem;
-    max-height: 40rem;
+    max-height: 40.5rem;
     border-radius: 0 0 16px 16px;
     border-bottom: none;
 }
@@ -57,4 +57,7 @@
 
 .submenuList {
     gap: 0.5rem;
+}
+.vtex-mega-menu-2-x-submenuList .vtex-mega-menu-2-x-submenuItem {
+    max-width: 186px;
 }

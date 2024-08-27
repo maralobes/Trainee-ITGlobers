@@ -40,7 +40,10 @@
     },
     "drawer-header#my-drawer__header": {
       "title": "Drawer header for mega-menu on mobile",
-      "children": ["flex-layout.row#drawer-header"],
+      "children": [
+        "flex-layout.row#global__row__container__notification",
+        "flex-layout.row#drawer-header"
+      ],
       "props":{
         "blockClass": "my-drawer__header"
       }

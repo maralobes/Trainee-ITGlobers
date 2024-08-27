@@ -23,5 +23,6 @@
 
 /* Flex layout props notification bar*/
 .flexRow--global__row__container__notification {
-    background-color: rgba(147, 255, 150, 0.2)
+    background-color: rgba(147, 255, 150, 0.2);
+    margin-bottom: 20px;
 }

@@ -16,7 +16,8 @@
 }
 
 .drawerHeader--my-drawer__header {
-    padding-top: 20px;
+    /* padding-top: 56px; */
+    flex-direction: column;
 }
 
 .childrenContainer--mobile__drawer {
