@@ -1,0 +1,112 @@
+{
+  "flex-layout.row#global__list-row": {
+    "children": [
+      "flex-layout.col#global__image",
+      "flex-layout.col#global__main-container"
+    ],
+    "props": {
+      "fullWidth": true,
+      "paddingBottom": "7",
+      "paddingTop": "6",
+      "colSizing": "auto",
+      "preserveLayoutOnMobile": "true"
+    }
+  },
+  "flex-layout.col#global__image": {
+    "children": ["product-list-image"],
+    "props": {
+      "marginRight": "6"
+    }
+  },
+  "flex-layout.col#global__main-container": {
+    "children": [
+      "flex-layout.row#global__sub-container",
+      "flex-layout.row#remove"
+    ],
+    "props": {
+      "width": "grow"
+    }
+  },
+  "flex-layout.row#global__sub-container": {
+    "children": [
+      "flex-layout.col#product-description",
+      "flex-layout.col#global__quantity"
+    ],
+    "props": {
+      "preserveLayoutOnMobile": "true",
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.col#global__quantity": {
+    "children": [
+      "flex-layout.row#global__quantity-selector",
+      "flex-layout.col#global__price"
+    ],
+    "props": {
+      "marginLeft": "8"
+    }
+  },
+  "flex-layout.row#remove": {
+    "children": [
+      "flex-layout.col#global__remove-button"
+    ],
+    "props": {
+      "colSizing": "auto"
+    }
+  },
+  "flex-layout.row#global__quantity-selector": {
+    "children": ["quantity-selector"],
+    "props": {
+      "preventHorizontalStretch": "true"
+    }
+  },
+  // "flex-layout.row#global__unit-price": {
+  //   "children": ["unit-price#global"],
+  //   "props": {
+  //     "marginTop": "3",
+  //     "preventHorizontalStretch": "true"
+  //   }
+  // },
+  // "unit-price#global": {
+  //   "props": {
+  //     "textAlign": "center"
+  //   }
+  // },
+  "flex-layout.col#global__price": {
+    "children": ["price#global"],
+    "props": {
+      "blockClass": "priceWrapper",
+      "marginLeft": "6",
+      "preventHorizontalStretch": "true",
+      "verticalAlign": "middle"
+    }
+  },
+  "price#global": {
+    "props": {
+      "textAlign": "right"
+    }
+  },
+  "flex-layout.col#global__remove-button": {
+    "children": ["remove-button"],
+    "props": {
+      "marginLeft": "6",
+      "verticalAlign": "middle"
+    }
+  },
+  "remove-button#minicart":{
+    "props":{
+      "variation": "primary"
+    }
+  }
+  // "flex-layout.row#global__message": {
+  //   "children": ["message#global"],
+  //   "props": {
+  //     "marginTop": "4"
+  //   }
+  // },
+  // "message#global": {
+  //   "props": {
+  //     "layout": "cols"
+  //   }
+  // }
+}

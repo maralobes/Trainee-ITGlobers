@@ -41,7 +41,7 @@
       "logo",
       "flex-layout.col#spacer",
       "flex-layout.col#search_container",
-      "minicart.v2",
+      "minicart.v2#mobile__minicart",
       "login#global__login"
     ],
     "props": {

@@ -1,0 +1,90 @@
+{
+  "icon-cart#global__minicart-icon": {
+    "props": {
+      "id": "mini-cart",
+      "size": 20
+    }
+  },
+  "flex-layout.row#global__heading": {
+    "children": ["rich-text#global__minicart-heading"],
+    "props": {
+      "marginTop": "4"
+    }
+  },
+  "rich-text#global__minicart-heading": {
+    "props": {
+      "text": "Resumen de tu compra"
+    }
+  },
+  "flex-layout.row#global__minicart-footer": {
+    "props": {
+      "blockClass": "minicart-footer"
+    },
+    "children": ["flex-layout.col#global__minicart-footer"]
+  },
+  "flex-layout.col#global__minicart-footer": {
+    "children": [
+      "minicart-summary#global__summary"
+    ]
+  },
+  "minicart-product-list#global__minicart-product-list": {
+    "blocks": ["product-list#global__minicart"]
+  },
+  "minicart-summary#global__summary": {
+    "blocks": ["checkout-summary.compact#global__minicart"]
+  },
+  "minicart-checkout-button#global__checkout": {
+    "props": {
+      "finishShoppingButtonLink": "/checkout/#/orderform"
+    }
+  },
+  "checkout-summary.compact#global__minicart": {
+    "children": ["summary-totalizers#global__minicart"],
+    "props": {
+      "totalizersToShow": ["Items", "Discounts"],
+      "showDeliveryTotal": false
+    }
+  },
+  "summary-totalizers#global__minicart": {
+    "props": {
+      "showTotal": true,
+      "showDeliveryTotal": false,
+      "showOriginalTotal": false
+    }
+  },
+  "flex-layout.row#global__empty__minicart-text": {
+    "props": {
+      "blockClass": "global__empty__minicart-text"
+    },
+    "children": [
+      "flex-layout.col#global__minicart-question",
+      "flex-layout.col#global__minicart-subheading"
+    ]
+  },
+  "flex-layout.col#global__minicart-question": {
+    "props": {
+      "blockClass": "global__minicart-question"
+    },
+    "children": [
+      "rich-text#global__minicart-heading-empty-state"
+    ]
+  },
+  "rich-text#global__minicart-heading-empty-state": {
+    "props": {
+      "text": "¿Por qué tan solo?"
+    }
+  },
+  "flex-layout.col#global__minicart-subheading": {
+    "props": {
+      "blockClass": "global__minicart-subheading"
+    },
+    "children": [
+      "rich-text#global__minicart-subheading-empty-state"
+    ]
+  },
+  "rich-text#global__minicart-subheading-empty-state": {
+    "props": {
+      "text": "Tenemos ofertas del 50% este mes"
+    }
+  }
+}

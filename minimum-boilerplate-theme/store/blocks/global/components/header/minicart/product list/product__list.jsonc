@@ -1,0 +1,8 @@
+{
+  "product-list#global__minicart": {
+    "blocks": [
+        // "product-list-content-desktop", 
+        "product-list-content-mobile"
+    ]
+  }
+}
