@@ -1,0 +1,42 @@
+.flexRow--global__minicart-footer {
+    width     : 368px;
+    height    : 126px;
+    margin    : auto;
+    border    : 1px solid rgba(231, 231, 231, 1);
+    box-shadow: none;
+}
+
+
+.flexCol--desktop__logo-minicart {
+    height      : 30px;
+    padding-left: 16px;
+}
+
+.flexRowContent--global__empty__minicart-text {
+    flex-direction : column;
+    align-items    : center;
+    justify-content: space-between;
+    margin         : auto;
+}
+
+.flexRowContent--desktop__sub-container {
+    height: 34px;
+    width: 175px;
+    overflow: hidden;
+}
+.flexCol--desktop__main-container, .flexCol--mobile__main-container{
+    width: 182.81px;
+    height: 121px;
+}
+
+.flexCol--global__price-wrapper {
+    margin-left: 0;
+}
+.flexRowContent--desktop__list-row {
+    padding-top: 0;
+    padding-bottom: 1rem;
+}
+
+.flexRowContent--desktop__list-row .stretchChildrenWidth {
+    padding-right: 0;
+}

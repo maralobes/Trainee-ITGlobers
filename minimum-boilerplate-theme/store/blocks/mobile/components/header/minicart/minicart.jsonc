@@ -1,32 +1,44 @@
 {
   "minicart.v2#mobile__minicart": {
+    "title": "Minicart on mobile",
     "props": {
-      "MinicartIcon": "icon-cart#global__minicart-icon"
-      // "variation": "link",
-      // "linkVariationUrl": "https://mariavillalobos--itgloberspartnercl.myvtex.com"
+      "MinicartIcon": "icon-cart#global__minicart-icon",
+      "blockClass": "mobile__minicart"
     },
     "children": ["minicart-base-content#mobile__minicart-base-content"]
   },
-  
+
   "minicart-base-content#mobile__minicart-base-content": {
+    "title": "Minicart base content on mobile",
+    "props":{
+      "blockClass": "mobile__minicart-base-content"
+    },
     "blocks": ["minicart-empty-state#mobile__minicart-empty"],
     "children": [
-      "flex-layout.row#global__heading",
+      "flex-layout.row#global__heading-row",
       "minicart-product-list#global__minicart-product-list",
       "flex-layout.row#global__minicart-footer",
       "minicart-checkout-button#global__checkout"
     ]
   },
   "minicart-empty-state#mobile__minicart-empty": {
-    "children": ["flex-layout.row#mobile__empty-state"]
+    "title": "Minicart empty state container on mobile",
+    "props":{
+      "blockClass": "mobile__minicart-empty"
+    },
+    "children": ["flex-layout.row#mobile__row-empty-state"]
   },
-  "flex-layout.row#mobile__empty-state": {
-    "children": ["flex-layout.col#mobile__empty-state"]
+  "flex-layout.row#mobile__row-empty-state": {
+    "title": "Row minicart empty state on mobile",
+    "props":{
+      "blockClass": "mobile__row-empty-state"
+    },
+    "children": ["flex-layout.col#mobile__col-empty-state"]
   },
-  "flex-layout.col#mobile__empty-state": {
+  "flex-layout.col#mobile__col-empty-state": {
+    "title": "Col minicart empty state on mobile",
     "children": [
-      "flex-layout.row#global__heading",
-      "image#mobile__minicart-empty-state",
+      "image#mobile__image__minicart-empty-state",
       "flex-layout.row#global__empty__minicart-text",
       "flex-layout.row#global__minicart-footer",
       "minicart-checkout-button#global__checkout"
@@ -34,15 +46,16 @@
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "middle",
-      "rowGap": 5
+      "rowGap": 5,
+      "blockClass": "mobile__col-empty-state"
     }
   },
-  "image#mobile__minicart-empty-state": {
+  "image#mobile__image__minicart-empty-state": {
     "title": "Empty mini-cart image on mobile",
     "props": {
       "size": 148,
       "src": "assets/img/16_image_empty-minicart-mobile.png",
-      "blockClass": "minicart-empty-state"
+      "blockClass": "mobile__image__minicart-empty-state"
     }
   }
 }

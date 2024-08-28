@@ -1,0 +1,78 @@
+{
+  "flex-layout.col#global__image": {
+    "title": "Col product list image on global",
+    "children": ["product-list-image#global__minicart__image"],
+    "props": {
+      "marginRight": "6"
+    }
+  },
+  "product-list-image#global__minicart__image": {
+    "title": "Product list image on global",
+    "props": {
+      "width": 145,
+      "blockClass": "global__minicart__image"
+    }
+  },
+  "flex-layout.col#global__product-description": {
+    "title": "Col product list description on global",
+    "children": ["product-description"],
+    "props": {
+      "blockClass": "global__product-description"
+    }
+  },
+  "flex-layout.row#global__price-row": {
+    "title": "Row product list price on global",
+    "children": ["flex-layout.col#global__price-wrapper"],
+    "props": {
+      "colSizing": "auto",
+      "blockClass": "global__price-row"
+    }
+  },
+  "flex-layout.col#global__quantity-selector": {
+    "title": "Col product list quantity selector on global",
+    "children": ["quantity-selector#global__quantity"],
+    "props": {
+      "preventHorizontalStretch": "true",
+      "blockClass": "global__quantity-selector"
+    }
+  },
+  "quantity-selector#global__quantity": {
+    "title": "Product list quantity-selector component on global",
+    "props": {
+      "mode": "stepper",
+      "blockClass": "global quantity"
+    }
+  },
+  "flex-layout.col#global__price-wrapper": {
+    "title": "Col product list price wrapper on global",
+    "children": ["price#global__price"],
+    "props": {
+      "marginLeft": "6",
+      "preventHorizontalStretch": "true",
+      "verticalAlign": "middle",
+      "blockClass": "global__price-wrapper"
+    }
+  },
+  "price#global__price": {
+    "title": "Product list price component on global",
+    "props": {
+      "textAlign": "left",
+      "blockClass": "global__price"
+    }
+  },
+  "flex-layout.col#global__remove-button": {
+    "title": "Col product list remove button on global",
+    "children": ["remove-button#global__minicart__remove-button"],
+    "props": {
+      "marginLeft": "6",
+      "verticalAlign": "middle",
+      "blockClass": "global__remove-button"
+    }
+  },
+  "remove-button#global__minicart__remove-button": {
+    "title": "Product list remove-button component on global",
+    "props": {
+      "blockClass": "minicart__remove-button"
+    }
+  }
+}

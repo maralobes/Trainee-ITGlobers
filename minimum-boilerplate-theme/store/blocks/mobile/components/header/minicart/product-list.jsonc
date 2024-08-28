@@ -1,0 +1,75 @@
+{
+    "product-list#minicart-mobile": {
+        "title": "Minicart product list container on mobile",
+        "blocks": [
+          "product-list-content-mobile#mobile__product-list-content"
+        ],
+        "props":{
+          "blockClass": "minicart-mobile"
+        }
+      },
+    "product-list-content-mobile#mobile__product-list-content": {
+        "title": "Product list content on mobile",
+        "children": ["flex-layout.row#mobile__list-row"],
+        "props":{
+          "blockClass": "mobile__product-list-content"
+        }
+      },
+      "flex-layout.row#mobile__list-row": {
+        "title": "Row minicart product list on mobile",
+        "children": [
+          "flex-layout.col#global__image",
+          "flex-layout.col#mobile__main-container"
+        ],
+        "props": {
+          "fullWidth": true,
+          "paddingBottom": "6",
+          "paddingTop": "5",
+          "colSizing": "auto",
+          "preserveLayoutOnMobile": "true",
+          "blockClass": "mobile__list-row"
+        }
+      },
+      "flex-layout.col#mobile__main-container": {
+        "title": "Col product list info container on mobile",
+        "children": [
+          "flex-layout.row#mobile__top",
+          "flex-layout.row#mobile__price-row",
+          "flex-layout.row#mobile__quantity-selector"
+        ],
+        "props": {
+          "width": "grow",
+          "blockClass": "mobile__main-container"
+        }
+      },
+      "flex-layout.row#mobile__top": {
+        "title": "Row for remove-button and description on mobile",
+        "children": [
+          "flex-layout.col#product-description",
+          "flex-layout.col#global__remove-button"
+        ],
+        "props": {
+          "colSizing": "auto",
+          "preserveLayoutOnMobile": "true",
+          "blockClass": "mobile__top"
+        }
+      },
+      "flex-layout.row#mobile__quantity-selector": {
+        "title": "Row for quantity-selector on mobile",
+        "children": ["flex-layout.col#global__quantity-selector"],
+        "props": {
+          "marginTop": "5",
+          "preventHorizontalStretch": "true",
+          "blockClass": "mobile__quantity-selector"
+        }
+      },
+      "flex-layout.row#mobile__price-row": {
+        "title": "Row for price on mobile",
+        "children": ["flex-layout.col#global__price-wrapper"],
+        "props": {
+          "marginTop": "5",
+          "preventHorizontalStretch": "true",
+          "blockClass": "mobile__price-row"
+        }
+      }
+}

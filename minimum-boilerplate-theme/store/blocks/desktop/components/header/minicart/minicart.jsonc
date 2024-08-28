@@ -5,7 +5,7 @@
     },
     "children": [
       "flex-layout.col#desktop__logo-minicart",
-      "flex-layout.row#global__heading",
+      "flex-layout.row#global__heading-row",
       "minicart-base-content#desktop__minicart-base-content"
     ]
   },
@@ -17,12 +17,23 @@
   // },
   "flex-layout.col#desktop__logo-minicart": {
     "children": [
-      "logo"
+      "logo#minicart"
     ],
     "props": {
       "horizontalAlign": "left",
       "verticalAlign": "middle",
-      "rowGap": 0
+      "rowGap": 0,
+      "blockClass": "desktop__logo-minicart"
+    }
+  },
+  "logo#minicart": {
+    "title": "ITG logo on global",
+    "props": {
+      "title": "Logo",
+      "url": "assets/img/Icon_Black.svg",
+      "blockClass": [
+        "logo__minicart"
+      ]
     }
   },
   // "flex-layout.col#desktop__close-icon-minicart": {
@@ -60,7 +71,6 @@
   },
   "flex-layout.col#desktop__empty-state": {
     "children": [
-      "flex-layout.row#global__heading",
       "image#desktop__minicart-empty-state",
       "flex-layout.row#global__empty__minicart-text",
       "flex-layout.row#global__minicart-footer",

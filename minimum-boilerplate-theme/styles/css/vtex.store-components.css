@@ -76,3 +76,8 @@
    text-align : left;
 
 }
+
+.logoImage--logo__minicart {
+   width: 50px;
+   height: 25px;
+}
