@@ -4,6 +4,7 @@
     "props": {
       "id": "mini-cart",
       "size": 20,
+      "viewBox": "0 0 25 25",
       "blockClass": "global__minicart-icon"
     }
   },

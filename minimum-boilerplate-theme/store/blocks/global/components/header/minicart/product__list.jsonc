@@ -73,6 +73,14 @@
     "title": "Product list remove-button component on global",
     "props": {
       "blockClass": "minicart__remove-button"
+      // "icon": "icon-delete#global__minicart-remove-icon"
     }
   }
+  // "icon-delete#global__minicart-remove-icon": {
+  //   "title": "Remove icon",
+  //   "props": {
+  //     "id": "hp-delete",
+  //     "viewBox": "0 0 23 23"
+  //   }
+  // }
 }
