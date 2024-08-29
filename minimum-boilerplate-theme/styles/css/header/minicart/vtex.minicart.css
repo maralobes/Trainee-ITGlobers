@@ -17,22 +17,36 @@
 }
 
 .minicartCheckoutButton :global(.vtex-button) {
-    max-width          : 368px;
-    width              : 355px;
-    height             : 48px;
-    /* left            : 16px; */
-    /* padding         : 10px 0px 0px 0px; */
-    border-radius      : 40px;
-    border             : 1px;
-    background-color   : #1D2734;
+    max-width       : 368px;
+    min-width       : 368px;
+    width           : 355px;
+    height          : 48px;
+    border-radius   : 40px;
+    border          : 1px;
+    background-color: #1D2734;
+    /* padding-left    : 1rem; */
 }
 
+.minicartCheckoutButton--global__checkout {
+     padding-left    : 1rem;
+}
 .minicartCheckoutButton :global(.vtex-button__label) {
     font-size     : 14px;
     font-weight   : 400;
     line-height   : 17.5px;
     text-align    : center;
     text-transform: initial;
+}
+
+.minicartCheckoutButton--empty-state-checkout-button :global(.vtex-button) {
+    background-color: #FFFFFF;
+    border          : 1px solid #1D2734;
+    opacity         : 40%;
+}
+
+.minicartCheckoutButton--empty-state-checkout-button :global(.vtex-button__label) {
+    color  : #1D2734;
+    opacity: 40%;
 }
 
 .minicartTitle {
@@ -64,15 +78,9 @@
 }
 
 .minicartSideBarContentWrapper {
-    height  : calc(100vh - 60px) !important;
+    height  : calc(100vh - 5rem) !important;
     position: fixed;
 }
-
-/* @media screen (min-height: 747px) {
-    .minicartSideBarContentWrapper {
-        height: calc(100vh - 140px) !important;
-    }
-} */
 
 .minicartProductListContainer--global__minicart-product-list {
     padding-left : 0.8rem;
@@ -80,9 +88,8 @@
 }
 
 .closeIcon {
-    width       : 24px;
-    height      : 24px;
-    /* transform: scale(75%); */
+    width : 24px;
+    height: 24px;
 }
 
 :global(.vtex-minicart-2-x-drawer) {
@@ -91,14 +98,21 @@
     background-color: #FFFFFF;
 }
 
-/* .minicartEmptyStateContainer {
-    margin: 0;
+.closeIconButton--mobile__minicart {
+    display: none;
 }
 
-.minicartEmptyStateContainer .flexRowContent .stretchChildrenWidth {
-    height: 100%;
+.closeIconContainer--desktop__minicart {
+    background-image     : url("assets/img/Icon_Black.svg");
+    background-position-x: left;
+    background-position-y: center;
+    background-repeat    : no-repeat;
+    margin-left          : 1rem;
+    margin-right         : 1rem;
+    width                : 100%;
+    margin-top           : 1.5rem;
 }
 
-.minicartEmptyStateContainer .stretchChildrenWidth {
-    width: 100%
-} */
+.closeIcon--desktop__minicart {
+    margin-right: 1rem;
+}

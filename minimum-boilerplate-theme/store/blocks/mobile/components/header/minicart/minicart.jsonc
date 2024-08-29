@@ -5,7 +5,10 @@
       "MinicartIcon": "icon-cart#global__minicart-icon",
       "blockClass": "mobile__minicart"
     },
-    "children": ["minicart-base-content#mobile__minicart-base-content"]
+    "children": [
+      "flex-layout.row#global__heading-row",
+      "minicart-base-content#mobile__minicart-base-content"
+    ]
   },
 
   "minicart-base-content#mobile__minicart-base-content": {
@@ -15,7 +18,6 @@
     },
     "blocks": ["minicart-empty-state#mobile__minicart-empty"],
     "children": [
-      "flex-layout.row#global__heading-row",
       "minicart-product-list#global__minicart-product-list",
       "flex-layout.row#global__minicart-footer",
       "minicart-checkout-button#global__checkout"
@@ -35,7 +37,7 @@
     },
     "children": [
       "flex-layout.row#mobile__image__text__empty-state-row",
-      "flex-layout.row#global__ckeckout__empty-state"
+      "flex-layout.row#mobile__ckeckout__empty-state"
     ]
   },
   "flex-layout.row#mobile__image__text__empty-state-row": {
@@ -73,6 +75,37 @@
       "size": 148,
       "src": "assets/img/16_image_empty-minicart-mobile.png",
       "blockClass": "mobile__image__minicart-empty-state"
+    }
+  },
+  "flex-layout.row#mobile__ckeckout__empty-state": {
+    "title": "Row empty state checkout and button on desktop",
+    "props":{
+      "blockClass": "mobile__image__empty-state"
+    },
+    "children": [
+      "flex-layout.col#mobile__ckeckout__empty-state"
+    ]
+  },
+  "flex-layout.col#mobile__ckeckout__empty-state": {
+    "title": "Col empty state checkout and button on desktop",
+    "children": [
+      "flex-layout.row#global__minicart-footer",
+      "minicart-checkout-button#mobile__empty-state-checkout"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 0,
+      "blockClass": "global__ckeckout__empty-state"
+    }
+  },
+  "minicart-checkout-button#mobile__empty-state-checkout": {
+    "props": {
+      "finishShoppingButtonLink": "/checkout/#/orderform",
+      "blockClass": [
+        "global__checkout",
+        "empty-state-checkout-button"
+      ]
     }
   }
 }

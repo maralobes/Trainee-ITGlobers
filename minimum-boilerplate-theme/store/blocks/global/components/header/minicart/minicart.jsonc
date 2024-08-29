@@ -10,11 +10,17 @@
   },
   "flex-layout.row#global__heading-row": {
     "title": "Row heading minicart on global",
-    "children": ["rich-text#global__minicart__heading-rich-text"],
+    "children": ["flex-layout.col#global__heading-col"],
     "props": {
-      "marginTop": "4",
+      // "marginTop": "4",
       "blockClass": "global__heading-summary"
     }
+  },
+  "flex-layout.col#global__heading-col": {
+    "title": "Col minicart footer on global",
+    "children": [
+      "rich-text#global__minicart__heading-rich-text"
+    ]
   },
   "rich-text#global__minicart__heading-rich-text": {
     "title": "Rich-text heading minicart on global",

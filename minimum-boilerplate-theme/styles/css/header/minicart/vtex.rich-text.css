@@ -27,4 +27,8 @@
     font-weight: 300;
     line-height: 19px;
     text-align : center;
+    margin-top: 1rem;
 }
+/* .container--global__heading-summary {
+    margin-bottom: 2rem;
+} */

@@ -1,12 +1,14 @@
 .flexRow--global__minicart-footer {
     max-width     : 368px;
-    min-width     : 348px;
+    min-width     : 368px;
     height        : 126px;
     /* margin-left: 13px; */
     margin        : auto;
     border        : 1px solid rgba(231, 231, 231, 1);
     box-shadow    : none;
     flex-shrink   : 0;
+    align-content : center;
+    /* margin-left   : 0.8rem; */
 }
 
 
@@ -53,19 +55,17 @@
 
 
 .flexColChild--minicart-empty-row-wrapper:first-child {
-    display: flex;
-    flex-direction: column;
+    display        : flex;
+    flex-direction : column;
     justify-content: start;
-
 }
 
 
 .flexColChild--minicart-empty-row-wrapper:last-child {
-    height: auto !important;
-    display: flex;
-    flex-direction: column;
+    height         : auto !important;
+    display        : flex;
+    flex-direction : column;
     justify-content: end;
-
 }
 
 

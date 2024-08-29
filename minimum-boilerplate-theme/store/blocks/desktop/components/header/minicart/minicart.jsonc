@@ -6,32 +6,32 @@
       "blockClass": "desktop__minicart"
     },
     "children": [
-      "flex-layout.col#desktop__logo-minicart",
+      // "flex-layout.col#desktop__logo-minicart",
       "flex-layout.row#global__heading-row",
       "minicart-base-content#desktop__minicart-base-content"
     ]
   },
-  "flex-layout.col#desktop__logo-minicart": {
-    "children": [
-      "logo#minicart"
-    ],
-    "props": {
-      "horizontalAlign": "left",
-      "verticalAlign": "middle",
-      "rowGap": 0,
-      "blockClass": "desktop__logo-minicart"
-    }
-  },
-  "logo#minicart": {
-    "title": "ITG logo on global",
-    "props": {
-      "title": "Logo",
-      "url": "assets/img/Icon_Black.svg",
-      "blockClass": [
-        "logo__minicart"
-      ]
-    }
-  },
+  // "flex-layout.col#desktop__logo-minicart": {
+  //   "children": [
+  //     "logo#minicart"
+  //   ],
+  //   "props": {
+  //     "horizontalAlign": "left",
+  //     "verticalAlign": "middle",
+  //     "rowGap": 0,
+  //     "blockClass": "desktop__logo-minicart"
+  //   }
+  // },
+  // "logo#minicart": {
+  //   "title": "ITG logo on global",
+  //   "props": {
+  //     "title": "Logo",
+  //     "url": "assets/img/Icon_Black.svg",
+  //     "blockClass": [
+  //       "logo__minicart"
+  //     ]
+  //   }
+  // },
   // "flex-layout.col#desktop__close-icon-minicart": {
   //   "children": [
   //     "icon#desktop__close-icon"
@@ -106,15 +106,15 @@
       "blockClass": "desktop__image__empty-state"
     },
     "children": [
-      "image#desktop__minicart-empty-state"
+      "image#desktop__minicart-empty-state-image"
     ]
   },
-  "image#desktop__minicart-empty-state": {
+  "image#desktop__minicart-empty-state-image": {
     "title": "Empty mini-cart image on desktop",
     "props": {
       "size": 200,
       "src": "assets/img/17_image_empty-minicart-desktop.png",
-      "blockClass": "minicart-empty-state"
+      "blockClass": "minicart-empty-state-image"
     }
   }
 }
