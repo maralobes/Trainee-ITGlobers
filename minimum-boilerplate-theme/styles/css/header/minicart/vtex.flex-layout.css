@@ -1,13 +1,14 @@
 .flexRow--global__minicart-footer {
-    max-width     : 368px;
-    min-width     : 368px;
-    height        : 126px;
-    /* margin-left: 13px; */
-    margin        : auto;
-    border        : 1px solid rgba(231, 231, 231, 1);
-    box-shadow    : none;
-    flex-shrink   : 0;
-    align-content : center;
+    max-width        : 100vw;
+    min-width        : 368px;
+    /* width            : 100%; */
+    height           : 126px;
+    /* margin-left   : 13px; */
+    margin           : auto;
+    border           : 1px solid rgba(231, 231, 231, 1);
+    box-shadow       : none;
+    flex-shrink      : 0;
+    align-content    : center;
     /* margin-left   : 0.8rem; */
 }
 
@@ -58,6 +59,7 @@
     display        : flex;
     flex-direction : column;
     justify-content: start;
+    /* height         : calc(100% - 10rem); */
 }
 
 
@@ -78,3 +80,15 @@
 .flexRowContent--desktop__list-row .flexCol {
     margin-right: 0.5rem;
 }
+
+.flexCol--mobile__col-empty-state {
+    height: 362px;
+}
+
+.flexRow--global__heading-summary {
+    margin-top: 20px;
+}
+
+/* .flexCol--minicart-empty-row-wrapper {
+    height: 90vh;
+} */
