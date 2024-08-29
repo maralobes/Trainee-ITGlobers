@@ -26,22 +26,28 @@
     "props":{
       "blockClass": "mobile__minicart-empty"
     },
-    "children": ["flex-layout.row#mobile__row-empty-state"]
+    "children": ["flex-layout.col#mobile__row-empty-state"]
   },
-  "flex-layout.row#mobile__row-empty-state": {
-    "title": "Row minicart empty state on mobile",
+  "flex-layout.col#mobile__row-empty-state": {
+    "title": "Col minicart empty state on mobile",
     "props":{
-      "blockClass": "mobile__row-empty-state"
+      "blockClass": "minicart-empty-row-wrapper"
     },
     "children": [
-      "flex-layout.col#mobile__image__text__empty-state",
-      "flex-layout.col#global__ckeckout__empty-state"
+      "flex-layout.row#mobile__image__text__empty-state-row",
+      "flex-layout.row#global__ckeckout__empty-state"
     ]
   },
-  "flex-layout.col#mobile__image__text__empty-state": {
-    "title": "Col minicart empty state on mobile",
+  "flex-layout.row#mobile__image__text__empty-state-row": {
+    "title": "Row wrapper for image and text for empty state minicart",
     "children": [
-      "flex-layout.row#mobile__image__empty-state",
+      "flex-layout.col#mobile__image__text__empty-state-col"
+    ]
+  },
+  "flex-layout.col#mobile__image__text__empty-state-col": {
+    "title": "Col minicart empty state info on mobile",
+    "children": [
+      "flex-layout.row#mobile__image__empty-state-row",
       "flex-layout.row#global__empty__minicart-text"
     ],
     "props": {
@@ -51,7 +57,7 @@
       "blockClass": "mobile__col-empty-state"
     }
   },
-  "flex-layout.row#mobile__image__empty-state": {
+  "flex-layout.row#mobile__image__empty-state-row": {
     "title": "Row empty state image content on mobile",
     "props":{
       "blockClass": "mobile__image__empty-state"
@@ -60,6 +66,7 @@
       "image#mobile__image__minicart-empty-state"
     ]
   },
+  
   "image#mobile__image__minicart-empty-state": {
     "title": "Empty mini-cart image on mobile",
     "props": {

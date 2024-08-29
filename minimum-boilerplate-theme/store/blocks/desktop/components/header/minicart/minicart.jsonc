@@ -11,12 +11,6 @@
       "minicart-base-content#desktop__minicart-base-content"
     ]
   },
-  // "flex-layout.row#desktop__minicart-container": {
-  //   "children": [
-  //     "flex-layout.col#desktop__logo-minicart",
-  //     "minicart-base-content#desktop__minicart-base-content"
-  //   ]
-  // },
   "flex-layout.col#desktop__logo-minicart": {
     "children": [
       "logo#minicart"
@@ -77,14 +71,14 @@
     "children": ["flex-layout.col#desktop__empty-state"]
   },
   "flex-layout.col#desktop__empty-state": {
-    "title": "Row empty state content on desktop",
+    "title": "Col empty state content on desktop",
     "props":{
-      "blockClass": "desktop__minicart-empty-row-wrapper"
+      "blockClass": "minicart-empty-row-wrapper"
     },
   
     "children": [
       "flex-layout.row#desktop__image__text__empty-state-row",
-      "flex-layout.row#global__ckeckout__empty-state-row"
+      "flex-layout.row#global__ckeckout__empty-state"
     ]
   },
   "flex-layout.row#desktop__image__text__empty-state-row": {

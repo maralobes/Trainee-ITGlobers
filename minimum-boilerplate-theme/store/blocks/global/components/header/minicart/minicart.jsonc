@@ -128,7 +128,7 @@
     }
   },
 
-  "flex-layout.row#global__ckeckout__empty-state-row": {
+  "flex-layout.row#global__ckeckout__empty-state": {
     "title": "Row empty state checkout and button on desktop",
     "props":{
       "blockClass": "mobile__image__empty-state"
