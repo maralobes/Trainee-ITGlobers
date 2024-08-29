@@ -1,7 +1,9 @@
 .flexRow--global__minicart-footer {
     max-width  : 368px;
+    min-width: 348px;
     height     : 126px;
-    margin-left: 13px;
+    /* margin-left: 13px; */
+    margin: auto;
     border     : 1px solid rgba(231, 231, 231, 1);
     box-shadow : none;
     flex-shrink: 0;

@@ -18,13 +18,12 @@
 
 .minicartCheckoutButton :global(.vtex-button) {
     max-width          : 368px;
+    width              : 355px;
     height             : 48px;
     /* left            : 16px; */
     /* padding         : 10px 0px 0px 0px; */
-    gap                : 10px;
     border-radius      : 40px;
     border             : 1px;
-    opacity            : 0px;
     background-color   : #1D2734;
 }
 
@@ -41,12 +40,12 @@
 }
 
 .closeIconContainer {
-    display        : flex;
-    justify-content: flex-end;
-    width          : 32px;
-    height         : 32px;
-    padding-left   : 24rem;
-    padding-top    : 3rem;
+    display           : flex;
+    justify-content   : flex-end;
+    /* width          : 32px;
+    height            : 32px; */
+    /* padding-left   : 24rem;
+    padding-top       : 3rem; */
 }
 
 /* .Container :global(.vtex-button) {
@@ -81,12 +80,25 @@
 }
 
 .closeIcon {
-    width    : 24px;
-    height   : 24px;
-    transform: scale(75%);
+    width       : 24px;
+    height      : 24px;
+    /* transform: scale(75%); */
 }
 
-.drawer--mobile__minicart .closed--mobile__drawer {
-    min-width: none !important;
-    width: 100% !important;
+:global(.vtex-minicart-2-x-drawer) {
+    min-width       : none !important;
+    width           : 100% !important;
+    background-color: #FFFFFF;
+}
+
+.minicartEmptyStateContainer {
+    margin: 0;
+}
+
+.minicartEmptyStateContainer .flexRowContent .stretchChildrenWidth {
+    height: 100%;
+}
+
+.minicartEmptyStateContainer .stretchChildrenWidth {
+    width: 100%
 }
