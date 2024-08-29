@@ -1,7 +1,9 @@
 {
   "minicart.v2#desktop__minicart": {
+    "title": "Minicart on desktop",
     "props": {
-      "MinicartIcon": "icon-cart#global__minicart-icon"
+      "MinicartIcon": "icon-cart#global__minicart-icon",
+      "blockClass": "desktop__minicart"
     },
     "children": [
       "flex-layout.col#desktop__logo-minicart",
@@ -54,6 +56,10 @@
   //   }
   // },
   "minicart-base-content#desktop__minicart-base-content": {
+    "title": "Minicart base content on desktop",
+    "props":{
+      "blockClass": "desktop__minicart-base-content"
+    },
     "blocks": [
       "minicart-empty-state#desktop__minicart-empty"
     ],
@@ -64,23 +70,50 @@
     ]
   },
   "minicart-empty-state#desktop__minicart-empty": {
-    "children": ["flex-layout.row#desktop__empty-state"]
-  },
-  "flex-layout.row#desktop__empty-state": {
+    "title": "Minicart empty-state on desktop",
+    "props":{
+      "blockClass": "desktop__minicart-empty"
+    },
     "children": ["flex-layout.col#desktop__empty-state"]
   },
   "flex-layout.col#desktop__empty-state": {
+    "title": "Row empty state content on desktop",
+    "props":{
+      "blockClass": "desktop__minicart-empty-row-wrapper"
+    },
+  
     "children": [
-      "image#desktop__minicart-empty-state",
-      "flex-layout.row#global__empty__minicart-text",
-      "flex-layout.row#global__minicart-footer",
-      "minicart-checkout-button#global__checkout"
+      "flex-layout.row#desktop__image__text__empty-state-row",
+      "flex-layout.row#global__ckeckout__empty-state-row"
+    ]
+  },
+  "flex-layout.row#desktop__image__text__empty-state-row": {
+    "title": "Row wrapper for image and text for empty state minicart",
+    "children": [
+      "flex-layout.col#desktop__image__text__empty-state"
+    ]
+  },
+  "flex-layout.col#desktop__image__text__empty-state": {
+    "title": "Col empty state image and text content on desktop",
+    "children": [
+      "flex-layout.row#desktop__image__empty-state",
+      "flex-layout.row#global__empty__minicart-text"
     ],
     "props": {
       "horizontalAlign": "center",
       "verticalAlign": "middle",
-      "rowGap": 0
-    }
+      "rowGap": 0,
+      "blockClass": "desktop__image__text__empty-state"
+    } 
+  },
+  "flex-layout.row#desktop__image__empty-state": {
+    "title": "Row empty state image content on desktop",
+    "props":{
+      "blockClass": "desktop__image__empty-state"
+    },
+    "children": [
+      "image#desktop__minicart-empty-state"
+    ]
   },
   "image#desktop__minicart-empty-state": {
     "title": "Empty mini-cart image on desktop",

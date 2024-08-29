@@ -33,15 +33,16 @@
     "props":{
       "blockClass": "mobile__row-empty-state"
     },
-    "children": ["flex-layout.col#mobile__col-empty-state"]
+    "children": [
+      "flex-layout.col#mobile__image__text__empty-state",
+      "flex-layout.col#global__ckeckout__empty-state"
+    ]
   },
-  "flex-layout.col#mobile__col-empty-state": {
+  "flex-layout.col#mobile__image__text__empty-state": {
     "title": "Col minicart empty state on mobile",
     "children": [
-      "image#mobile__image__minicart-empty-state",
-      "flex-layout.row#global__empty__minicart-text",
-      "flex-layout.row#global__minicart-footer",
-      "minicart-checkout-button#global__checkout"
+      "flex-layout.row#mobile__image__empty-state",
+      "flex-layout.row#global__empty__minicart-text"
     ],
     "props": {
       "horizontalAlign": "center",
@@ -49,6 +50,15 @@
       "rowGap": 5,
       "blockClass": "mobile__col-empty-state"
     }
+  },
+  "flex-layout.row#mobile__image__empty-state": {
+    "title": "Row empty state image content on mobile",
+    "props":{
+      "blockClass": "mobile__image__empty-state"
+    },
+    "children": [
+      "image#mobile__image__minicart-empty-state"
+    ]
   },
   "image#mobile__image__minicart-empty-state": {
     "title": "Empty mini-cart image on mobile",
