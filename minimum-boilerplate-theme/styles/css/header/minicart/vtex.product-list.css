@@ -79,7 +79,7 @@
 .deleteIcon {
     width: 13px;
     height: 17px;
-    /* transform: scale(75%); */
+    transform: scale(2);
 }
 
 .productPriceCurrency--global__price {

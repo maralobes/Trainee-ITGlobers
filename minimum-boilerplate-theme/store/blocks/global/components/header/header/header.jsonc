@@ -15,8 +15,7 @@
       "width": "grow",
       "verticalAlign": "middle",
       "horizontalAlign": "center",
-      // "paddingLeft": 1,
-      // "paddingRight": 1,
+
       "blockClass": "spacer-header--text"
     }
   },
