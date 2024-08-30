@@ -154,7 +154,9 @@
       "horizontalAlign": "center",
       "verticalAlign": "middle",
       "rowGap": 0,
-      "blockClass": "global__ckeckout__empty-state"
+      "blockClass": [
+        "global__ckeckout__empty-state"
+      ]
     }
   }
 }
