@@ -27,8 +27,9 @@
 }
 
 .minicartCheckoutButton--global__checkout {
-     padding-left    : 0.5rem;
+    padding-left: 0.5rem;
 }
+
 .minicartCheckoutButton :global(.vtex-button__label) {
     font-size     : 14px;
     font-weight   : 400;
@@ -87,8 +88,11 @@
 }
 
 .closeIcon {
-    width : 24px;
-    height: 24px;
+    width           : 32px;
+    height          : 32px;
+    background-color: #F5F4F6;
+    border          : 1px solid #F5F4F6;
+    border-radius   : 30px;
 }
 
 :global(.vtex-minicart-2-x-drawer) {
@@ -110,6 +114,7 @@
     margin-right         : 1rem;
     width                : 100%;
     margin-top           : 1.5rem;
+    background-size      : 6vh 2vw;
 }
 
 .closeIcon--desktop__minicart {
