@@ -4,7 +4,9 @@
     "props": {
       "title": "Logo",
       "url": "assets/img/Icon_Black.svg",
-      "blockClass": "logo--text"
+      "blockClass": [
+        "logo--text"
+      ]
     }
   },
   "flex-layout.col#spacer": {

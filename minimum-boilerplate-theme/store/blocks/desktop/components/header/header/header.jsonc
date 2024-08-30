@@ -44,7 +44,7 @@
       "search-bar#desktop__header-search-bar",
       "flex-layout.col#spacer",
       "vtex.menu@2.x:menu#desktop__header-menu-one",
-      "minicart.v2",
+      "minicart.v2#desktop__minicart",
       "login#global__login"
     ],
     "props": {
