@@ -123,8 +123,8 @@
     "title": "Highlight product summary on global",
     "props": {
       "filter": {
-        "type": "hide",
-        "highlightNames": ["20% OFF"]
+        "type": "show",
+        "highlightNames": ["Envío Gratis"]
       }
     },
     "children": ["product-highlight-wrapper"]

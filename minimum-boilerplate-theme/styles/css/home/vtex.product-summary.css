@@ -27,3 +27,8 @@
       max-height: 100%;
    }
 }
+
+.containerNormal :global(.vtex-product-summary-2-x-element){
+   position: relative;
+   min-height: 28.5rem;
+}
