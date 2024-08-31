@@ -1,0 +1,51 @@
+{
+    "flex-layout.row#mobile__result-search--container": {
+        "title": "Col container search result on mobile",
+        "props": {
+          "blockClass": ""
+        },
+        "children": [
+          "flex-layout.col#mobile__result-search--title-row",
+          "flex-layout.col#mobile__result-search--filter--orderby-row"
+        ]
+      },
+      "flex-layout.col#mobile__result-search--title-row": {
+        "title": "Col container for title search result on mobile",
+        "props": {
+          "blockClass": ""
+        },
+        "children": ["search-title.v2"]
+      },
+      "flex-layout.col#mobile__result-search--filter--orderby-row": {
+        "title": "Col container for filter search and order by on mobile",
+        "props": {
+          "blockClass": ""
+        },
+        "children": [
+          "flex-layout.row#mobile__result-search--filter-row",
+          "flex-layout.row#mobile__result-search--orderby-row",
+          "gallery-layout-switcher"
+        ]
+      },
+      "flex-layout.row#mobile__result-search--filter-row": {
+        "title": "Row container for filter search result on mobile",
+        "props": {
+          "blockClass": ""
+        },
+        "children": ["filter-navigator.v3"]
+      },
+      "flex-layout.row#mobile__result-search--orderby-row": {
+        "title": "Row container for order by result on mobile",
+        "props": {
+          "blockClass": ""
+        },
+        "children": ["order-by.v2#global"]
+      },
+      "flex-layout.row#mobile__result-search--content-col": {
+        "title": "Row container for content search result on mobile",
+        "props": {
+          "blockClass": ""
+        },
+        "children": ["search-content#global__search--layout"]
+      }
+}
