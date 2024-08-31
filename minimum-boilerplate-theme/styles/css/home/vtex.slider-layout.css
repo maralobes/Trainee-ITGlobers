@@ -15,7 +15,7 @@
 
 .paginationDot::after {
     width           : 44px;
-    height          : 2px;
+    height          : 1px;
     content         : "";
     font-size       : 0;
     background-color: #1D2734;
@@ -77,11 +77,14 @@
 }
 
 .slideChildrenContainer--second-carousel--text {
-    padding: 0 9px;
+    padding: 0rem 0.3rem;
 }
 
+.paginationDot--first-carousel--text {
+    margin-right: 0.2rem;
+}
 
-@media screen and (max-width: 1024px) {
+@media screen and (max-width: 1025px) {
     .paginationDot {
         width : 16px !important;
         height: 14px !important;
@@ -90,4 +93,9 @@
     .paginationDotsContainer {
         bottom: -61px;
     }
+
+    .paginationDot::after {
+        width           : 27px;
+    }
 }
+

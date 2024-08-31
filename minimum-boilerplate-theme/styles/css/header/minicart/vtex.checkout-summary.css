@@ -1,0 +1,20 @@
+.summarySmallDisclaimer {
+    display: none;
+}
+
+.summaryItemContainer:last-child .summaryItemLabel,
+.summaryItemContainer:last-child .summaryItemPrice {
+    color      : rgba(227, 22, 22, 1);
+    font-size  : 16px;
+    font-weight: 600;
+    line-height: 19.2px;
+}
+
+.summaryItemContainer:first-child .summaryItemLabel,
+.summaryItemContainer:first-child .summaryItemPrice {
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    color      : rgba(29, 39, 52, 1);
+    opacity    : 60%;
+}

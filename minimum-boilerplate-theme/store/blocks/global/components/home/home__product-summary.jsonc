@@ -13,11 +13,11 @@
 
   "list-context.product-list#context-product-global": {
     "title": "List context product on global",
-    "blocks": ["product-summary.shelf#shelf__product-summary"],
+    "blocks": ["product-summary.shelf#shelf__product-summary-home"],
     "children": ["slider-layout#product__summary__carousel"]
   },
 
-  "product-summary.shelf#shelf__product-summary": {
+  "product-summary.shelf#shelf__product-summary-home": {
     "title": "Product summary shelf on global",
     "children": [
       "flex-layout.row#savings__and_wishlist-summary",
@@ -123,8 +123,8 @@
     "title": "Highlight product summary on global",
     "props": {
       "filter": {
-        "type": "hide",
-        "highlightNames": ["20% OFF"]
+        "type": "show",
+        "highlightNames": ["Envío Gratis"]
       }
     },
     "children": ["product-highlight-wrapper"]

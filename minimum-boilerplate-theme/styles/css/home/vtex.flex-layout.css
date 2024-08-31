@@ -72,10 +72,15 @@
    }
 }
 
-
-
 .flexCol--logo-desktop {
    width      : 32px;
    flex-shrink: 0;
    margin-left: 8px;
+}
+
+.flexRow--add-to-car-button-summary {
+   position: absolute;
+   bottom: 12px;
+   width: 100%;
+   max-width: 100%;
 }

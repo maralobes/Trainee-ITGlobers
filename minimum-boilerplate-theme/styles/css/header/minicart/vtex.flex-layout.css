@@ -1,0 +1,111 @@
+.flexRow--global__minicart-footer {
+    max-width           : 100vw;
+    min-width           : 368px;
+    /* width            : 100%; */
+    height              : 126px;
+    /* margin-left      : 13px; */
+    margin              : auto;
+    border              : 1px solid rgba(231, 231, 231, 1);
+    box-shadow          : none;
+    flex-shrink         : 0;
+    align-content       : center;
+    /* margin-left      : 0.8rem; */
+}
+
+
+.flexCol--desktop__logo-minicart {
+    height      : 30px;
+    padding-left: 16px;
+}
+
+.flexRowContent--global__empty__minicart-text {
+    flex-direction : column;
+    align-items    : center;
+    justify-content: space-between;
+    margin         : auto;
+}
+
+.flexRowContent--desktop__sub-container,
+.flexRowContent--mobile__sub-container {
+    height  : 34px;
+    width   : 175px;
+    overflow: hidden;
+}
+
+.flexCol--desktop__main-container,
+.flexCol--mobile__main-container {
+    width : 182.81px;
+    height: 121px;
+}
+
+.flexCol--global__price-wrapper {
+    margin-left: 0;
+}
+
+.flexRowContent--desktop__list-row,
+.flexRowContent--mobile__list-row {
+    padding-top   : 0;
+    padding-bottom: 1rem;
+}
+
+.flexRowContent--desktop__list-row .stretchChildrenWidth,
+.flexRowContent--mobile__list-row .stretchChildrenWidth {
+    padding-right: 0;
+}
+
+
+.flexColChild--minicart-empty-row-wrapper:first-child {
+    display           : flex;
+    flex-direction    : column;
+    justify-content   : start;
+    /* height         : calc(100% - 10rem); */
+}
+
+
+.flexColChild--minicart-empty-row-wrapper:last-child {
+    height         : auto !important;
+    display        : flex;
+    flex-direction : column;
+    justify-content: end;
+}
+
+
+.flexColChild--desktop__main-container,
+.flexColChild--mobile__main-containe {
+    width : 140px;
+    height: 32px;
+}
+
+.flexRowContent--desktop__list-row .flexCol {
+    margin-right: 0.5rem;
+}
+
+.flexCol--mobile__col-empty-state {
+    height: 362px;
+}
+
+.flexRow--global__heading-summary {
+    margin-top: 20px;
+}
+
+/* .flexCol--minicart-empty-row-wrapper {
+    height: 90vh;
+} */
+
+/* .flexCol--global__ckeckout__empty-state {
+    height     : 200px;
+} */
+
+@media screen and (max-width: 1025px) {
+    .flexCol--global__ckeckout__empty-state {
+        position   : absolute;
+        /* top     : 21rem; */
+        bottom     : 0px;
+        height     : 200px;
+    }
+
+    .flexRow--global__minicart-footer {
+        min-width: 328px;
+        margin: auto;
+    }
+}

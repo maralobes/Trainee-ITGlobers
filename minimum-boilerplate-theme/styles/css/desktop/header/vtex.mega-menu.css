@@ -1,12 +1,12 @@
 .menuContainerNav--desktop__mega-menu {
     min-width: 12rem;
     max-width: 34rem;
-    max-height: 40rem;
+    max-height: 40.5rem;
     border-radius: 0 0 16px 16px;
     border-bottom: none;
 }
 .menuContainerNav--desktop__mega-menu :global(.vtex-mega-menu-2-x-menuContainer){
-    overflow: scroll;
+    overflow: hidden;
     height: 100vh;
     height: 647px;
     max-height: 90vh !important;
@@ -17,7 +17,7 @@
 
 .submenuContainer {
     background: #FFE6D3;
-    overflow: scroll;
+    overflow: hidden;
     max-width: 13rem;
     max-height: 100vh !important;
     border-radius: 0px 0px 16px 0px;
@@ -57,4 +57,7 @@
 
 .submenuList {
     gap: 0.5rem;
+}
+.vtex-mega-menu-2-x-submenuList .vtex-mega-menu-2-x-submenuItem {
+    max-width: 186px;
 }

@@ -52,6 +52,8 @@
   "image#desktop__slider-image": {
     "title": "Infocard image on desktop",
     "props": {
+      "maxHeight": "100%",
+      "maxWidth": "100%",
       "src": "assets/img/13_image_infocard.png",
       "link": {
         "url": "https://mariavillalobos--itgloberspartnercl.myvtex.com/",

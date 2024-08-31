@@ -1,0 +1,120 @@
+{
+  "minicart.v2#desktop__minicart": {
+    "title": "Minicart on desktop",
+    "props": {
+      "MinicartIcon": "icon-cart#global__minicart-icon",
+      "blockClass": "desktop__minicart"
+    },
+    "children": [
+      // "flex-layout.col#desktop__logo-minicart",
+      "flex-layout.row#global__heading-row",
+      "minicart-base-content#desktop__minicart-base-content"
+    ]
+  },
+  // "flex-layout.col#desktop__logo-minicart": {
+  //   "children": [
+  //     "logo#minicart"
+  //   ],
+  //   "props": {
+  //     "horizontalAlign": "left",
+  //     "verticalAlign": "middle",
+  //     "rowGap": 0,
+  //     "blockClass": "desktop__logo-minicart"
+  //   }
+  // },
+  // "logo#minicart": {
+  //   "title": "ITG logo on global",
+  //   "props": {
+  //     "title": "Logo",
+  //     "url": "assets/img/Icon_Black.svg",
+  //     "blockClass": [
+  //       "logo__minicart"
+  //     ]
+  //   }
+  // },
+  // "flex-layout.col#desktop__close-icon-minicart": {
+  //   "children": [
+  //     "icon#desktop__close-icon"
+  //   ],
+  //   "props": {
+  //     "horizontalAlign": "center",
+  //     "verticalAlign": "middle",
+  //     "rowGap": 0
+  //   }
+  // },
+  // "icon#desktop__close-icon": {
+  //   "props": {
+  //     "id": "close-x",
+  //     "size": 32,
+  //     "viewBox": "0 0 30 30"
+  //   }
+  // },
+  "minicart-base-content#desktop__minicart-base-content": {
+    "title": "Minicart base content on desktop",
+    "props":{
+      "blockClass": "desktop__minicart-base-content"
+    },
+    "blocks": [
+      "minicart-empty-state#desktop__minicart-empty"
+    ],
+    "children": [
+      "minicart-product-list#global__minicart-product-list",
+      "flex-layout.row#global__minicart-footer",
+      "minicart-checkout-button#global__checkout"
+    ]
+  },
+  "minicart-empty-state#desktop__minicart-empty": {
+    "title": "Minicart empty-state on desktop",
+    "props":{
+      "blockClass": "desktop__minicart-empty"
+    },
+    "children": ["flex-layout.col#desktop__empty-state"]
+  },
+  "flex-layout.col#desktop__empty-state": {
+    "title": "Col empty state content on desktop",
+    "props":{
+      "blockClass": "minicart-empty-row-wrapper"
+    },
+  
+    "children": [
+      "flex-layout.row#desktop__image__text__empty-state-row",
+      "flex-layout.row#global__ckeckout__empty-state"
+    ]
+  },
+  "flex-layout.row#desktop__image__text__empty-state-row": {
+    "title": "Row wrapper for image and text for empty state minicart",
+    "children": [
+      "flex-layout.col#desktop__image__text__empty-state"
+    ]
+  },
+  "flex-layout.col#desktop__image__text__empty-state": {
+    "title": "Col empty state image and text content on desktop",
+    "children": [
+      "flex-layout.row#desktop__image__empty-state",
+      "flex-layout.row#global__empty__minicart-text"
+    ],
+    "props": {
+      "horizontalAlign": "center",
+      "verticalAlign": "middle",
+      "rowGap": 0,
+      "blockClass": "desktop__image__text__empty-state"
+    } 
+  },
+  "flex-layout.row#desktop__image__empty-state": {
+    "title": "Row empty state image content on desktop",
+    "props":{
+      "blockClass": "desktop__image__empty-state"
+    },
+    "children": [
+      "image#desktop__minicart-empty-state-image"
+    ]
+  },
+  "image#desktop__minicart-empty-state-image": {
+    "title": "Empty mini-cart image on desktop",
+    "props": {
+      "size": 200,
+      "src": "assets/img/17_image_empty-minicart-desktop.png",
+      "blockClass": "minicart-empty-state-image"
+    }
+  }
+}
