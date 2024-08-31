@@ -1,0 +1,60 @@
+{
+  "product-summary-image": {
+    "title": "Image on product summary on global",
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "blockClass": "computer--text"
+    }
+  },
+  "product-price-savings": {
+    "title": "Savings price product on global",
+    "props": {
+      "message": "{savingsPercentage} OFF",
+      "blockClass": ["savings--text", "label"]
+    }
+  },
+  "product-list-price": {
+    "title": "List price product on global",
+    "props": {
+      "message": "{listPriceValue}"
+    }
+  },
+  "product-selling-price": {
+    "title": "Selling price product on global",
+    "props": {
+      "message": "{sellingPriceValue}"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights": {
+    "title": "Highlight product summary on global",
+    "props": {
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Envío Gratis"]
+      }
+    },
+    "children": ["product-highlight-wrapper"]
+  },
+  "product-highlight-wrapper": {
+    "title": "Highlight wrapper product summary on global",
+    "children": ["product-highlight-text", "icon#envio-gratis"],
+    "props": {
+      "blockClass": "icon-wrapper--text"
+    }
+  },
+  "product-highlight-text": {
+    "title": "Highlight text product summary on global",
+    "props": {
+      "message": "{highlightName}",
+      "blockClass": "free-delivery--text"
+    }
+  },
+  "icon#envio-gratis": {
+    "title": "Icon flash roduct summary on global",
+    "props": {
+      "id": "flash",
+      "blockClass": "icon-flash--text"
+    }
+  }
+}

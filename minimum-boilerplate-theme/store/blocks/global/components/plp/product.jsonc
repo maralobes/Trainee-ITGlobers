@@ -1,0 +1,42 @@
+{
+  "product-summary.shelf#plp": {
+    "title": "Product summary shelf product list page",
+    "children": ["flex-layout.row#product-summary-global"]
+  },
+  "flex-layout.row#product-summary-global": {
+    "title": "Row product summary shelf product list page",
+    "props":{
+      "preserveLayoutOnMobile": true
+    },
+    "children": [
+      "flex-layout.col#product-image-plp",
+      "flex-layout.col#product-summary-details-plp"
+    ]
+  },
+  "flex-layout.col#product-image-plp": {
+    "title": "Col product summary shelf image product list page",
+    "children": ["product-summary-image"]
+  },
+  "flex-layout.col#product-summary-details-plp": {
+    "title": "Col product summary details on plp",
+    "children": [
+      "product-summary-description",
+      "product-summary-space",
+      "flex-layout.row#selling-price-savings-plp",
+      "vtex.product-highlights@2.x:product-highlights"
+    ],
+    "props": {
+      "marginLeft": 4
+    }
+  },
+  "flex-layout.row#selling-price-savings-plp": {
+    "title": "Row selling price and savings on plp",
+    "children": ["product-list-price", "product-selling-price"],
+    "props": {
+      "colGap": 2,
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": true,
+      "marginBottom": 4
+    }
+  }
+}

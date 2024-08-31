@@ -30,6 +30,7 @@
 
 .minicartCheckoutButton--global__checkout {
     padding-left: 0.5rem;
+    padding-right: 0.5rem;
 }
 
 .minicartCheckoutButton :global(.vtex-button__label) {
