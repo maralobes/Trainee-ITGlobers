@@ -76,7 +76,7 @@
   "flex-layout.col#desktop__result-search--filter-col": {
     "title": "Col container for filter search result on desktop",
     "props": {
-      "blockClass": ""
+      "blockClass": "filter-navigator"
     },
     "children": ["filter-navigator.v3"]
   },
@@ -102,7 +102,8 @@
   },
   "breadcrumb.search": {
     "props": {
-      "showOnMobile": true
+      "showOnMobile": true,
+      "homeIconSize": 16
     }
   }
 }

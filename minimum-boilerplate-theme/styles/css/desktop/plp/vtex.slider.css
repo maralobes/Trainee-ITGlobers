@@ -1,0 +1,8 @@
+:global(.vtex-slider__left-value),
+:global(.vtex-slider__right-value) {
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 20px;
+    text-align : right;
+    color: #1D2734;
+}

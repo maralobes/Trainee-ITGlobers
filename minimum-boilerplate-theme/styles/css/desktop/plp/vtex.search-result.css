@@ -1,0 +1,70 @@
+.totalProducts--layout {
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 17.5px;
+    text-align : left;
+    width      : 172px;
+    height     : 18px;
+}
+
+.filterAvailable {
+    border-radius   : 40px;
+    background-color: rgba(29, 39, 52, 0.1);
+    border          : 1px solid rgba(29, 39, 52, 1);
+    height          : 2.2rem;
+    width           : 11.5rem;
+}
+
+.filterItem {
+    font-size  : 12px;
+    font-weight: 300;
+    line-height: 15px;
+    text-align : left;
+    color      : rgba(29, 39, 52, 1);
+}
+
+.filterTitleSpan {
+    font-size  : 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align : right;
+}
+
+/* .orderBy--layout :global(.vtex-button) {
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 10.65rem;
+    height: 40px;
+} */
+
+.galleryTitle--layout {
+    font-size  : 20px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align : left;
+    color      : #1D2734;
+}
+
+.orderByText {
+    font-size     : 14px;
+    font-weight   : 400;
+    line-height   : 17.5px;
+    text-align    : center;
+    color         : #1D2734;
+    text-transform: initial;
+}
+
+.buttonShowMore :global(.vtex-button) {
+    border: 1px solid black;
+    border-radius: 40pc;
+    text-transform: initial;
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 20px;
+    text-align: left;
+}
+
+.buttonShowMore {
+    height: 2rem;
+    width: 7.87rem;
+}
