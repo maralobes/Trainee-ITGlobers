@@ -1,3 +1,70 @@
 .flexColChild--filter-navigator {
-    width: 184px;
+    width       : 184px;
+    padding-left: 1rem;
+}
+
+.flexRow--title__order-container :global(.vtex-store-components-3-x-container) {
+    width: 70.3rem;
+}
+
+.flexRow--filter__content-container :global(.vtex-store-components-3-x-container) {
+    width: 71.3rem;
+}
+
+.flexRowContent--filter__content-container .stretchChildrenWidth:first-child {
+    justify-content: flex-start;
+    width          : 11.5rem !important;
+}
+
+.flexRowContent--filter__content-container .stretchChildrenWidth:last-child {
+    justify-content: flex-start;
+    width          : 54.4rem !important;
+}
+
+.flexColChild--image__plp-col {
+    width: 8.5rem;
+}
+
+.flexRowContent--prices-row-plp {
+    flex-direction: column;
+}
+
+.flexCol--details__plp {
+    padding-left: 1rem;
+    margin-top  : 4px;
+}
+
+.flexColChild--details__plp:first-child {
+    height     : 3.62rem !important;
+    /* width   : 9.3rem;
+    max-height : 3.1rem; */
+    overflow   : hidden;
+    flex-shrink: 0;
+    text-align : left;
+}
+
+.flexCol--switcher-orderby-wrapper {
+    flex-direction : row;
+    padding-right  : 1rem;
+    justify-content: flex-end;
+}
+
+/* .flexRowContent--title__order-container{
+    padding-bottom: 2rem;
+} */
+.flexColChild--switcher-orderby-wrapper:first-child {
+    border          : 1px solid rgba(231, 231, 231, 1);
+    border-radius   : 40px;
+    width           : 10.6rem;
+    height          : 2.5rem !important;
+    background-color: rgba(231, 231, 231, 1);
+    align-content   : center;
+    padding-left    : 41px;
+    margin          : auto;
+    margin-right    : 1rem;
+}
+
+.flexCol--filter-order-switcher-container {
+    flex-direction: row;
+    padding-bottom: 0.5rem;
 }

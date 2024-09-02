@@ -2,71 +2,74 @@
   "flex-layout.row#desktop__result-search--title--orderby": {
     "title": "Row container for title and order by search result on desktop",
     "props": {
-      "blockClass": ""
+      "blockClass": "title__order-container"
     },
     "children": [
-      "flex-layout.col#desktop__result-search--title-totalProducs-wrapper",
-      "flex-layout.col#desktop__result-search--orderby-wrapper"
+      // "flex-layout.col#desktop__result-search--title-totalProducs-wrapper",
+      // "flex-layout.col#desktop__result-search--orderby-wrapper"
+      "search-title.v2",
+      "flex-layout.col#desktop__orderb__switcher"
     ]
   },
   "flex-layout.col#desktop__result-search--title-totalProducs-wrapper": {
     "title": "Col container for title search result on desktop",
     "props": {
-      "blockClass": ""
+      "blockClass": "title-totalProducts-wrapper"
     },
     "children": [
-      "flex-layout.row#desktop__result-search--title",
-      "flex-layout.row#desktop__result-search--totalProducts"
+      "flex-layout.row#desktop__result-search--title"
     ]
   },
   "flex-layout.row#desktop__result-search--title": {
     "title": "Row container for title products on desktop",
     "props": {
-      "blockClass": ""
+      "blockClass": "title-products-container"
     },
     "children": ["search-title.v2"]
   },
   "flex-layout.row#desktop__result-search--totalProducts": {
     "title": "Row container for total products on desktop",
     "props": {
-      "blockClass": ""
+      "blockClass": "total-products-container"
     },
     "children": ["total-products.v2"]
   },
   "total-products.v2": {
     "title": "Total products",
     "props": {
-      "blockClass": ""
+      "blockClass": "total-products"
     }
   },
-  "flex-layout.col#desktop__result-search--orderby-wrapper": {
+  "flex-layout.col#desktop__orderb__switcher": {
     "title": "Col container for order by search result on desktop",
     "props": {
-      "blockClass": ""
+      "blockClass": "switcher-orderby-wrapper"
     },
     "children": [
-      "flex-layout.row#desktop__result-search--switcher",
-      "flex-layout.row#desktop__result-search--orderby-row"
+      // "flex-layout.row#desktop__result-search--switcher",
+      // "flex-layout.row#desktop__result-search--orderby-row"
+      "gallery-layout-switcher",
+      "order-by.v2#global"
     ]
   },
   "flex-layout.row#desktop__result-search--switcher": {
     "title": "Col container for order by search result on desktop",
     "props": {
-      "blockClass": ""
+      "blockClass": "gallery-switcher-container"
     },
     "children": ["gallery-layout-switcher"]
   },
   "flex-layout.row#desktop__result-search--orderby-row": {
     "title": "Col container for order by search result on desktop",
     "props": {
-      "blockClass": ""
+      "blockClass": "search-result-container"
     },
     "children": ["order-by.v2#global"]
   },
   "flex-layout.row#desktop__result-search--filter--content": {
     "title": "Row container for filter search and content result on desktop",
     "props": {
-      "blockClass": ""
+      "blockClass": "filter__content-container"
     },
     "children": [
       "flex-layout.col#desktop__result-search--filter-col",
@@ -83,14 +86,14 @@
   "flex-layout.col#desktop__result-search--content-col": {
     "title": "Col container for content search result on desktop",
     "props": {
-      "blockClass": ""
+      "blockClass": "content-search__container"
     },
     "children": ["search-content#global__search--layout"]
   },
   "flex-layout.row#desktop__result-search--fetch-more": {
     "title": "Row container for fetch more results on desktop",
     "props": {
-      "blockClass": ""
+      "blockClass": "fetch-more-container"
     },
     "children": ["search-fetch-more"]
   },
@@ -103,7 +106,8 @@
   "breadcrumb.search": {
     "props": {
       "showOnMobile": true,
-      "homeIconSize": 16
+      "homeIconSize": 16,
+      "blockClass": "breadcrumb"
     }
   }
 }

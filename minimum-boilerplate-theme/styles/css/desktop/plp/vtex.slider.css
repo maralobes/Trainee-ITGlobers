@@ -6,3 +6,8 @@
     text-align : right;
     color: #1D2734;
 }
+
+:global(.vtex-slider__values-container) {
+    width: 10.3rem;
+    height: 1.75rem;
+}
