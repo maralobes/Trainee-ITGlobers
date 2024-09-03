@@ -1,0 +1,8 @@
+{
+  "store.product": {
+    "children": [
+        "flex-layout.row#product__main",
+        "flex-layout.row#specifications--pdp"
+    ]
+  }
+}

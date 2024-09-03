@@ -1,0 +1,14 @@
+.quantitySelectorStepper--product__quantity--pdp :global(.vtex-numeric-stepper__plus-button),
+.quantitySelectorStepper--product__quantity--pdp :global(.vtex-numeric-stepper__minus-button) {
+    width     : 2rem;
+    background: #1D2734;
+    color     : #FFFFFF;
+}
+
+.quantitySelectorStepper--product__quantity--pdp :global(.vtex-numeric-stepper__input) {
+    font-size  : 14px;
+    font-weight: 300;
+    line-height: 17.5px;
+    text-align : center;
+    color      : #333333
+}
