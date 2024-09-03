@@ -36,12 +36,13 @@
 }
 
 .productNameContainer--product__name--pdp {
-    font-size  : 16px;
-    font-weight: 300;
-    line-height: 16.8px;
-    text-align : left;
-    height     : 2.1rem;
-    margin-top : 0.7rem;
+    font-size    : 16px;
+    font-weight  : 300;
+    line-height  : 16.8px;
+    text-align   : left;
+    height       : 2.1rem;
+    margin-top   : 0.7rem;
+    margin-bottom: 0.5rem;
 }
 
 .price_sellingPriceLabel--product__price--pdp,
@@ -53,13 +54,16 @@
     color      : #1D2734;
 }
 
-.price_listPriceLabel--product__price--pdp,
 .price_listPrice--product__price--pdp {
     font-size  : 14px;
     font-weight: 400;
     line-height: 16.8px;
     text-align : left;
     color      : rgba(29, 39, 52, 0.4);
+}
+
+.price_listPriceLabel--product__price--pdp {
+    display: none;
 }
 
 .frameAround {
@@ -83,4 +87,59 @@
 
 .shareContainer {
     margin-top: 0.5rem;
+}
+
+.specificationsTableContainer {
+    max-width: 1136px;
+    margin   : auto;
+}
+
+.skuSelectorSubcontainer:last-child {
+    margin-bottom: 2rem;
+}
+
+.price_sellingPriceContainer--product__price--pdp {
+    margin-bottom: 1rem;
+}
+
+.price_className--product__price--pdp {
+    display        : flex;
+    flex-direction : row-reverse;
+    justify-content: flex-end;
+    align-items    : flex-start;
+}
+
+.skuSelectorOptionsList {
+    margin-left: 0px;
+}
+
+.specificationsTitle {
+    font-size  : 16px;
+    font-weight: 600;
+    line-height: 16.8px;
+    text-align : left;
+    color      : #1D2734
+}
+
+.specificationsTablePropertyHeading, .specificationsTableSpecificationHeading,
+.specificationItemProperty {
+    font-size  : 14px;
+    font-weight: 600;
+    line-height: 17.5px;
+    text-align : left;
+    color      : #1D2734
+}
+
+.specificationItemSpecifications{
+    font-size: 14px;
+    font-weight: 300;
+    line-height: 16.8px;
+    text-align: left;
+}
+
+.specificationsTablePropertyHeading, .specificationsTableSpecificationHeading {
+    background: #E7E7E7;
+}
+.specificationItemSpecifications, .specificationItemProperty {
+    background: #FFFFFF;
 }

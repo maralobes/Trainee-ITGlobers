@@ -1,19 +1,4 @@
 {
-  "flex-layout.row#product__breadcrumb__pdp": {
-    "title": "Global breadcrumb row PDP",
-    "props": {
-      "marginTop": 4,
-      "blockClass": "breadcrumb__pdp-row"
-    },
-    "children": ["breadcrumb"]
-  },
-  "breadcrumb": {
-    "title": "Global breadcrumb component",
-    "props": {
-      "showOnMobile": true,
-      "blockClass": "breadcrumb__pdp"
-    }
-  },
   "flex-layout.row#product__main": {
     "title": "Product main row PDP",
     "props": {
@@ -60,7 +45,7 @@
       "blockClass": "product__information--pdp"
     },
     "children": [
-    "flex-layout.row#highlights-pdp",
+      "flex-layout.row#highlights-pdp",
       "vtex.store-components:product-name#product__name__pdp",
       "product-price#price__pdp",
       "sku-selector#sku-selector__pdp",
@@ -72,11 +57,12 @@
   "flex-layout.row#highlights-pdp": {
     "title": "Row container quantity and add-to-cart button PDP",
     "props": {
+      "preserveLayoutOnMobile": true,
       "blockClass": "highlights-pdp"
     },
     "children": [
-        "vtex.product-highlights@2.x:product-highlights#pdp__flash-highlight",
-        "vtex.product-highlights@2.x:product-highlights#pdp__bestSeller-highlight"
+      "vtex.product-highlights@2.x:product-highlights#pdp__flash-highlight",
+      "vtex.product-highlights@2.x:product-highlights#pdp__bestSeller-highlight"
     ]
   },
   "vtex.product-highlights@2.x:product-highlights#pdp__flash-highlight": {
@@ -121,7 +107,7 @@
   },
   "product-price#price__pdp": {
     "props": {
-      "showSavings": true,
+      "showSavings": false,
       "showListPrice": true,
       "blockClass": "product__price--pdp"
     }
@@ -140,6 +126,7 @@
   "flex-layout.row#quantity__add-to-cart-button-pdp": {
     "title": "Row container quantity and add-to-cart button PDP",
     "props": {
+      "preserveLayoutOnMobile": true,
       "blockClass": "bquantity__add-to-cart-button-pdp"
     },
     "children": [
@@ -189,92 +176,92 @@
     },
     "children": ["product-specifications"]
   }
-//   "product-specification-group#table__specificatioins--pdp": {
-//     "title": "Product specification table PDP",
-//     "props": {
-//       "blockClass": "table__specificatioins--pdp"
-//     },
-//     "children": ["flex-layout.row#spec-group--pdp"]
-//   },
-//   "flex-layout.row#spec-group--pdp": {
-//     "title": "Row specification group PDP",
-//     "props": {
-//       "blockClass": "spec-group-row--pdp"
-//     },
-//     "children": ["flex-layout.col#spec-group--pdp"]
-//   },
-//   "flex-layout.col#spec-group--pdp": {
-//     "title": "Col specification group PDP",
-//     "props": {
-//       "blockClass": "spec-group--pdp"
-//     },
-//     "children": [
-//       "flex-layout.row#spec-group-name--pdp",
-//       "product-specification"
-//     ]
-//   },
-//   "flex-layout.row#spec-group-name--pdp": {
-//     "title": "Row specification group name PDP",
-//     "props": {
-//       "blockClass": "spec-group-name--pdp"
-//     },
-//     "children": ["product-specification-text#group--pdp"]
-//   },
-//   "product-specification": {
-//     "title": "Product specification component PDP",
-//     "props": {
-//       "blockClass": "product__specification"
-//     },
-//     "children": ["flex-layout.row#spec-item--pdp"]
-//   },
-//   "flex-layout.row#spec-item--pdp": {
-//     "title": "Row specification item PDP",
-//     "props": {
-//       "blockClass": "product__specification"
-//     },
-//     "children": [
-//       "flex-layout.col#spec-name--pdp",
-//       "flex-layout.col#spec-value--pdp"
-//     ]
-//   },
-//   "flex-layout.col#spec-name--pdp": {
-//     "title": "Col specification name PDP",
-//     "props": {
-//       "blockClass": "spec-name--pdp",
-//       "width": {
-//         "mobile": "50%",
-//         "desktop": "25%"
-//       }
-//     },
-//     "children": ["product-specification-text#specification--pdp"]
-//   },
-//   "flex-layout.col#spec-value--pdp": {
-//     "title": "Col specification value PDP",
-//     "props": {
-//       "blockClass": "spec-value--pdp"
-//     },
-//     "children": ["product-specification-values"]
-//   },
-//   "product-specification-values": {
-//     "title": "Product specification values PDP",
-//     "children": ["product-specification-text#value--pdp"]
-//   },
-//   "product-specification-text#group--pdp": {
-//     "title": "Product specification text group PDP",
-//     "props": {
-//       "message": "{groupName}"
-//     }
-//   },
-//   "product-specification-text#specification--pdp": {
-//     "title": "Product specification text specification PDP",
-//     "props": {
-//       "message": "{specificationName}"
-//     }
-//   },
-//   "product-specification-text#value--pdp": {
-//     "title": "Product specification text value PDP",
-//     "props": {
-//       "message": "{specificationValue}"
-//     }
-//   }
+  //   "product-specification-group#table__specificatioins--pdp": {
+  //     "title": "Product specification table PDP",
+  //     "props": {
+  //       "blockClass": "table__specificatioins--pdp"
+  //     },
+  //     "children": ["flex-layout.row#spec-group--pdp"]
+  //   },
+  //   "flex-layout.row#spec-group--pdp": {
+  //     "title": "Row specification group PDP",
+  //     "props": {
+  //       "blockClass": "spec-group-row--pdp"
+  //     },
+  //     "children": ["flex-layout.col#spec-group--pdp"]
+  //   },
+  //   "flex-layout.col#spec-group--pdp": {
+  //     "title": "Col specification group PDP",
+  //     "props": {
+  //       "blockClass": "spec-group--pdp"
+  //     },
+  //     "children": [
+  //       "flex-layout.row#spec-group-name--pdp",
+  //       "product-specification"
+  //     ]
+  //   },
+  //   "flex-layout.row#spec-group-name--pdp": {
+  //     "title": "Row specification group name PDP",
+  //     "props": {
+  //       "blockClass": "spec-group-name--pdp"
+  //     },
+  //     "children": ["product-specification-text#group--pdp"]
+  //   },
+  //   "product-specification": {
+  //     "title": "Product specification component PDP",
+  //     "props": {
+  //       "blockClass": "product__specification"
+  //     },
+  //     "children": ["flex-layout.row#spec-item--pdp"]
+  //   },
+  //   "flex-layout.row#spec-item--pdp": {
+  //     "title": "Row specification item PDP",
+  //     "props": {
+  //       "blockClass": "product__specification"
+  //     },
+  //     "children": [
+  //       "flex-layout.col#spec-name--pdp",
+  //       "flex-layout.col#spec-value--pdp"
+  //     ]
+  //   },
+  //   "flex-layout.col#spec-name--pdp": {
+  //     "title": "Col specification name PDP",
+  //     "props": {
+  //       "blockClass": "spec-name--pdp",
+  //       "width": {
+  //         "mobile": "50%",
+  //         "desktop": "25%"
+  //       }
+  //     },
+  //     "children": ["product-specification-text#specification--pdp"]
+  //   },
+  //   "flex-layout.col#spec-value--pdp": {
+  //     "title": "Col specification value PDP",
+  //     "props": {
+  //       "blockClass": "spec-value--pdp"
+  //     },
+  //     "children": ["product-specification-values"]
+  //   },
+  //   "product-specification-values": {
+  //     "title": "Product specification values PDP",
+  //     "children": ["product-specification-text#value--pdp"]
+  //   },
+  //   "product-specification-text#group--pdp": {
+  //     "title": "Product specification text group PDP",
+  //     "props": {
+  //       "message": "{groupName}"
+  //     }
+  //   },
+  //   "product-specification-text#specification--pdp": {
+  //     "title": "Product specification text specification PDP",
+  //     "props": {
+  //       "message": "{specificationName}"
+  //     }
+  //   },
+  //   "product-specification-text#value--pdp": {
+  //     "title": "Product specification text value PDP",
+  //     "props": {
+  //       "message": "{specificationValue}"
+  //     }
+  //   }
 }
