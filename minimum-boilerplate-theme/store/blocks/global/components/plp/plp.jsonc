@@ -16,13 +16,14 @@
     "order-by.v2#global":{
         "title": "Order by result layout",
         "props": {
-            "blockClass": ""
+            "blockClass": "order-by",
+            "showOrderTitle": false
         }
     },
     "filter-navigator.v3":{
         "title": "Filter result layout",
         "props": {
-            "blockClass": ""
+            "blockClass": "filter-navigator"
         }
     }
 }

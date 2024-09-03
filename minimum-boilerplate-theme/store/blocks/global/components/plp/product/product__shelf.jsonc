@@ -1,0 +1,69 @@
+{
+  "product-summary-image#plp__image": {
+    "title": "Product summary image for PLP",
+    "props": {
+      "showBadge": false,
+      "aspectRatio": "1:1",
+      "blockClass": "image__plp"
+    }
+  },
+  "product-summary-description#description__plp": {
+    "title": "Product description global for PLP",
+    "props": {
+      "blockClass": "description__plp",
+      "message": "{listPriceValue}"
+    }
+  },
+  "product-list-price#list-price__plp": {
+    "title": "List price product for PLP",
+    "props": {
+      "blockClass": "product-list__plp",
+      "message": "{listPriceValue}"
+    }
+  },
+  "product-selling-price#selling-price__plp": {
+    "title": "Selling price product for PLP",
+    "props": {
+      "blockClass": "product-selling__plp",
+      "message": "{sellingPriceValue}"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#highlight__plp": {
+    "title": "Highlight product summary for PLP",
+    "props": {
+      "blockClass": "hightlight__plp",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Envío Gratis"]
+      }
+    },
+    "children": ["product-highlight-wrapper#highlight__plp"]
+  },
+  "product-highlight-wrapper#highlight__plp": {
+    "title": "Highlight wrapper product summary on global",
+    "children": [
+      "product-highlight-text#highlight__plp",
+      "icon#envio-gratis#highlight__plp"
+    ],
+    "props": {
+      "blockClass": "icon-wrapper--plp"
+    }
+  },
+  "product-highlight-text#highlight__plp": {
+    "title": "Highlight text product summary on global",
+    "props": {
+      "message": "{highlightName}",
+      "blockClass": "free-delivery--plp"
+    }
+  },
+  "icon#envio-gratis#highlight__plp": {
+    "title": "Icon flash roduct summary on global",
+    "props": {
+      "id": "flash",
+      "width": 7,
+      "height": 11,
+      "viewBox": "0 0 18 18",
+      "blockClass": "icon-flash--plp"
+    }
+  }
+}
