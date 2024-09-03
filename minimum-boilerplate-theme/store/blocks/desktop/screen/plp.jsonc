@@ -1,0 +1,15 @@
+{
+  "search-result-layout.desktop": {
+    "title": "Search result screen desktop",
+    "children": [
+      "breadcrumb.search",
+      "flex-layout.row#desktop__result-search--title--orderby",
+      "flex-layout.row#desktop__result-search--totalProducts",
+      "flex-layout.row#desktop__result-search--filter--content",
+      "flex-layout.row#desktop__result-search--fetch-more"
+    ],
+    "props": {
+      "preventRouteChange": true
+    }
+  }
+}

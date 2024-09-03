@@ -1,0 +1,17 @@
+.description--description__plp {
+    font-size      : 12px;
+    font-weight    : 400;
+    line-height    : 12.76px;
+    max-height     : 3.1rem;
+    /* overflow       : hidden; */
+    margin-right   : 22px;
+    margin-bottom  : 7px;
+    margin-top     : 12px;
+    color          : rgba(29, 39, 52, 0.6);
+    text-decoration: none;
+}
+
+.image--image__plp {
+    width  : 8.5rem;
+    height : 6.64rem;
+}

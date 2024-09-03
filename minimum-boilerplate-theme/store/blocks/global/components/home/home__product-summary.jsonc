@@ -5,18 +5,14 @@
     "props": {
       "fullWidth": false,
       "preventHorizontalStretch": true,
-      "blockClass": [
-        "row-container-home--text"
-      ]
+      "blockClass": ["row-container-home--text"]
     }
   },
-
   "list-context.product-list#context-product-global": {
     "title": "List context product on global",
     "blocks": ["product-summary.shelf#shelf__product-summary-home"],
     "children": ["slider-layout#product__summary__carousel"]
   },
-
   "product-summary.shelf#shelf__product-summary-home": {
     "title": "Product summary shelf on global",
     "children": [
@@ -26,7 +22,6 @@
       "flex-layout.row#add-to-car-button-summary"
     ]
   },
-
   "slider-layout#product__summary__carousel": {
     "title": "Product summary slider on global",
     "props": {
@@ -41,7 +36,6 @@
     },
     "children": []
   },
-
   "flex-layout.row#savings__and_wishlist-summary": {
     "title": "Savings and wishlist row container on global",
     "children": ["product-price-savings", "add-to-list-btn"],
@@ -50,7 +44,6 @@
       "blockClass": "savings__and__wishlist__row--text"
     }
   },
-
   "flex-layout.row#description_and_prices_summary": {
     "title": "Description and prices row container on global",
     "children": [
@@ -64,7 +57,6 @@
       "colSizing": "auto"
     }
   },
-
   "flex-layout.row#add-to-car-button-summary": {
     "title": "Add to car button row container on global",
     "children": ["add-to-cart-button"],
@@ -72,38 +64,6 @@
       "blockClass": "add-to-car-button-summary"
     }
   },
-
-  "product-summary-image": {
-    "title": "Image on product summary on global",
-    "props": {
-      "showBadge": false,
-      "aspectRatio": "1:1",
-      "blockClass": "computer--text"
-    }
-  },
-
-  "product-price-savings": {
-    "title": "Savings price product on global",
-    "props": {
-      "message": "{savingsPercentage} OFF",
-      "blockClass": ["savings--text", "label"]
-    }
-  },
-
-  "product-list-price": {
-    "title": "List price product on global",
-    "props": {
-      "message": "{listPriceValue}"
-    }
-  },
-
-  "product-selling-price": {
-    "title": "Selling price product on global",
-    "props": {
-      "message": "{sellingPriceValue}"
-    }
-  },
-
   "add-to-cart-button": {
     "title": "Add to cart button on global",
     "props": {
@@ -116,40 +76,6 @@
     "title": "Wishlist button on global",
     "props": {
       "blockClass": "wishlist__button-text"
-    }
-  },
-
-  "vtex.product-highlights@2.x:product-highlights": {
-    "title": "Highlight product summary on global",
-    "props": {
-      "filter": {
-        "type": "show",
-        "highlightNames": ["Envío Gratis"]
-      }
-    },
-    "children": ["product-highlight-wrapper"]
-  },
-
-  "product-highlight-wrapper": {
-    "title": "Highlight wrapper product summary on global",
-    "children": ["product-highlight-text", "icon#envio-gratis"],
-    "props": {
-      "blockClass": "icon-wrapper--text"
-    }
-  },
-  "product-highlight-text": {
-    "title": "Highlight text product summary on global",
-    "props": {
-      "message": "{highlightName}",
-      "blockClass": "free-delivery--text"
-    }
-  },
-
-  "icon#envio-gratis": {
-    "title": "Icon flash roduct summary on global",
-    "props": {
-      "id": "flash",
-      "blockClass": "icon-flash--text"
     }
   }
 }

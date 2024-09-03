@@ -1,0 +1,13 @@
+.listPrice--product-list__plp {
+    font-size  : 12px;
+    font-weight: 400;
+    line-height: 12.76px;
+    text-align : left;
+}
+
+.sellingPrice--product-selling__plp {
+    font-size  : 20px;
+    font-weight: 600;
+    line-height: 21.87px;
+    text-align : left;
+}

@@ -1,0 +1,186 @@
+.totalProducts--layout {
+    font-size        : 14px;
+    font-weight      : 300;
+    line-height      : 17.5px;
+    text-align       : left;
+    width            : 172px;
+    height           : 18px;
+    text-transform   : lowercase;
+    /* color         : #1D2734 !important; */
+}
+
+.filterAvailable {
+    border-radius   : 40px;
+    background-color: rgba(29, 39, 52, 0.1);
+    border          : 1px solid rgba(29, 39, 52, 1);
+    height          : 2.2rem;
+    width           : 11.5rem;
+    padding-top     : 0px;
+    padding-bottom  : 0px;
+}
+
+.filterItem {
+    font-size    : 12px;
+    font-weight  : 300;
+    line-height  : 15px;
+    text-align   : left;
+    color        : rgba(29, 39, 52, 1);
+    margin-bottom: 1rem;
+}
+
+.filterTitleSpan {
+    font-size   : 14px;
+    font-weight : 400;
+    line-height : 20px;
+    text-align  : right;
+    padding-left: 0.8rem;
+}
+
+.filterTitle {
+    margin    : auto;
+    margin-top: 0.4rem;
+}
+
+/* .filterTitle::after {
+    
+} */
+
+/* .orderBy--layout :global(.vtex-button) {
+    border: 1px solid black;
+    border-radius: 40px;
+    width: 10.65rem;
+    height: 40px;
+} */
+
+.galleryTitle--layout {
+    font-size  : 20px;
+    font-weight: 600;
+    line-height: 25px;
+    text-align : left;
+    color      : #1D2734;
+}
+
+.orderByText {
+    font-size     : 14px;
+    font-weight   : 400;
+    line-height   : 17.5px;
+    text-align    : center;
+    color         : #1D2734;
+    text-transform: initial;
+}
+
+.buttonShowMore :global(.vtex-button) {
+    border        : 1px solid black;
+    border-radius : 40pc;
+    text-transform: initial;
+    font-size     : 14px;
+    font-weight   : 400;
+    line-height   : 20px;
+    text-align    : left;
+}
+
+.buttonShowMore {
+    height: 2rem;
+    width : 7.87rem;
+}
+
+.filterTemplateOverflow {
+    padding-left: 0.7rem;
+    margin-top  : 0.8rem;
+}
+
+.filter__container {
+    border-bottom-style: none;
+    padding-bottom     : 5px;
+}
+
+.galleryItem :global(.vtex-product-summary-2-x-container) {
+    width: 18.1rem;
+}
+
+.galleryItem :global(.vtex-product-summary-2-x-element) {
+    min-height: 6.64rem;
+}
+
+.totalProducts--layout {
+    padding-left   : 4.5rem;
+    /* padding-top : 0px; */
+    margin-bottom  : 1rem;
+}
+
+.orderByButton--order-by {
+    border          : 1px solid rgba(231, 231, 231, 1);
+    border-radius   : 40px;
+    width           : 10.6rem;
+    height          : 2.5rem;
+    background-color: rgba(231, 231, 231, 1);
+    margin          : auto;
+    margin-top      : 4px;
+    margin-right    : 4px;
+}
+
+@media screen and (max-width: 1024px) {
+    .orderByButton--order-by {
+        width : 9.1rem;
+        border: 1px solid #1D2734;
+    }
+    .orderByText {
+        font-size     : 12px;
+        line-height   : 15px;
+    }
+}
+
+.filterPopupButton {
+    border          : 1px solid rgba(231, 231, 231, 1);
+    border-radius   : 40px;
+    width           : 6.8rem;
+    height          : 2.5rem;
+    background-color: rgba(231, 231, 231, 1);
+    margin          : auto;
+    margin-top      : 6px;
+    flex-direction  : row-reverse;
+    margin-right    : 4px;
+}
+
+.filterPopupTitle,
+.filterPopupTitle--order-by {
+    font-size     : 12px;
+    font-weight   : 400;
+    line-height   : 15px;
+    text-align    : center;
+    padding-left  : 4px;
+    text-transform: initial;
+
+}
+
+.filterPopupTitle,
+.filterPopupArrowIcon {
+    margin-left: 0px;
+}
+
+.galleryLayoutSwitcher {
+    margin     : auto;
+    padding-top: 0.3rem;
+}
+
+@media screen and (max-width: 1024px) {
+    .flexColChild--filter-order-switcher-container {
+        border          : 1px solid rgba(231, 231, 231, 1);
+        border-radius   : 40px;
+        width           : 7.6rem;
+        height          : 2.5rem;
+        background-color: rgba(231, 231, 231, 1);
+        margin          : auto;
+        margin-top      : 4px;
+    }
+
+    .galleryLayoutSwitcher {
+        padding-top: 0.6rem;
+    }
+}
+
+.caretIcon--filter-navigator,
+.caretIcon--order-by {
+    width : 24px;
+    height: 24px;
+}

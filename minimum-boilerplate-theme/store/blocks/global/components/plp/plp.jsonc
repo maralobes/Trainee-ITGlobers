@@ -1,0 +1,29 @@
+{
+    "search-content#global__search--layout": {
+        "title": "Search content on desktop",
+        "blocks": [
+            "gallery#plp",
+            "not-found"
+        ]
+    },
+
+    "search-title.v2":{
+        "title": "Search title result layout",
+        "props": {
+            "blockClass": ""
+        }
+    },
+    "order-by.v2#global":{
+        "title": "Order by result layout",
+        "props": {
+            "blockClass": "order-by",
+            "showOrderTitle": false
+        }
+    },
+    "filter-navigator.v3":{
+        "title": "Filter result layout",
+        "props": {
+            "blockClass": "filter-navigator"
+        }
+    }
+}
