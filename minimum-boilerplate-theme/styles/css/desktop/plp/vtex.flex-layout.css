@@ -1,6 +1,6 @@
 .flexColChild--filter-navigator {
     width       : 184px;
-    padding-left: 1rem;
+    padding-left: 0.4rem;
 }
 
 .flexRow--title__order-container :global(.vtex-store-components-3-x-container) {
@@ -21,6 +21,16 @@
     width          : 54.4rem !important;
 }
 
+.flexColChild--filter-order-switcher-container:last-child {
+    border          : 1px solid rgba(231, 231, 231, 1);
+    border-radius   : 40px;
+    height          : 2.3rem !important;
+    background-color: rgba(231, 231, 231, 1);
+    padding-left    : 13px;
+    margin-top      : 5px;
+    width           : 6.8rem;
+}
+
 .flexColChild--image__plp-col {
     width: 8.5rem;
 }
@@ -35,12 +45,12 @@
 }
 
 .flexColChild--details__plp:first-child {
-    height     : 3.62rem !important;
-    /* width   : 9.3rem;
-    max-height : 3.1rem; */
-    overflow   : hidden;
-    flex-shrink: 0;
-    text-align : left;
+    height                 : 3.62rem !important;
+    /* width               : 9.3rem;
+    max-height             : 3.1rem; */
+    overflow               : hidden;
+    flex-shrink            : 0;
+    text-align             : left;
 }
 
 .flexCol--switcher-orderby-wrapper {
