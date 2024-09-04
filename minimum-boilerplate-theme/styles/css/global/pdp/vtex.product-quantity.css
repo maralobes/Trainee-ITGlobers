@@ -10,5 +10,15 @@
     font-weight: 300;
     line-height: 17.5px;
     text-align : center;
-    color      : #333333
+    color      : #333333;
+    width: 100%;
+}
+
+.quantitySelectorStepper--product__quantity--pdp :global(.vtex-numeric-stepper__plus-button){
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+}
+.quantitySelectorStepper--product__quantity--pdp :global(.vtex-numeric-stepper__minus-button) {
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
 }

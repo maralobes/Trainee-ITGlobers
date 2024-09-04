@@ -48,3 +48,19 @@
     background     : rgba(147, 255, 150, 0.2);
     /* padding-left: 0.9rem; */
 }
+
+.flexRowContent--bquantity__add-to-cart-button-pdp {
+    gap: 16px
+
+}
+
+.flexRowContent--bquantity__add-to-cart-button-pdp .stretchChildrenWidth:first-child {
+    padding-right: 0rem;
+    width: 145px !important;
+    flex-shrink: 0;
+}
+
+.flexRowContent--bquantity__add-to-cart-button-pdp .stretchChildrenWidth:last-child {
+    width: 100%;
+    flex-grow: 1;
+}

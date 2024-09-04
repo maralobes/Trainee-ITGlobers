@@ -115,8 +115,8 @@
   "sku-selector#sku-selector__pdp": {
     "props": {
       "hideImpossibleCombinations": false,
-      "imageWidth": "40",
-      "imageHeight": "40",
+      "imageWidth": 64,
+      "imageHeight": 64,
       "disableUnavailableSelectOptions": true,
       "showValueForVariation": "image",
       "variationsSpacing": "4",
@@ -127,6 +127,9 @@
     "title": "Row container quantity and add-to-cart button PDP",
     "props": {
       "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": false,
+    //   "rowGap": 10,
+    //   "colGap": 10,
       "blockClass": "bquantity__add-to-cart-button-pdp"
     },
     "children": [
