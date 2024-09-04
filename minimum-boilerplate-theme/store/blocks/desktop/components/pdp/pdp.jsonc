@@ -1,0 +1,9 @@
+{
+//   "responsive-layout.desktop#pdp__desktop": {
+//     "title": "Resposive layout PDP desktop",
+//     "children": [
+//       "flex-layout.row#product__main",
+//       "flex-layout.row#specifications--pdp"
+//     ]
+//   }
+}

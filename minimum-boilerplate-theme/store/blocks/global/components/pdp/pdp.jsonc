@@ -1,0 +1,270 @@
+{
+  "flex-layout.row#product__main": {
+    "title": "Product main row PDP",
+    "props": {
+      "colGap": 7,
+      "rowGap": 7,
+      "marginTop": 4,
+      "marginBottom": 7,
+      "paddingTop": 7,
+      "paddingBottom": 7,
+      "blockClass": "product__main--pdp"
+    },
+    "children": [
+      "flex-layout.col#product__image__pdp",
+      "flex-layout.col#product__information__PDP"
+    ]
+  },
+  "flex-layout.col#product__image__pdp": {
+    "title": "Product image row PDP",
+    "props": {
+      "width": "60%",
+      "rowGap": 0,
+      "blockClass": "product__image__col--pdp"
+    },
+    "children": ["product-images#global__pdp"]
+  },
+  "product-images#global__pdp": {
+    "title": "Product images component PDP",
+    "props": {
+      "displayThumbnailsArrows": true,
+      "showPaginationDots": false,
+      "showNavigationArrows": false,
+      "aspectRatio": "3:4",
+      "thumbnailAspectRatio": "1:1",
+      "thumbnailMaxHeight": "76",
+      "maxHeight": "650",
+      "blockClass": "product__images--pdp"
+    }
+  },
+  "flex-layout.col#product__information__PDP": {
+    "title": "Product details col PDP",
+    "props": {
+      "preventVerticalStretch": true,
+      "rowGap": 0,
+      "blockClass": "product__information--pdp"
+    },
+    "children": [
+      "flex-layout.row#highlights-pdp",
+      "vtex.store-components:product-name#product__name__pdp",
+      "product-price#price__pdp",
+      "sku-selector#sku-selector__pdp",
+      "flex-layout.row#quantity__add-to-cart-button-pdp",
+      "product-separator",
+      "share"
+    ]
+  },
+  "flex-layout.row#highlights-pdp": {
+    "title": "Row container quantity and add-to-cart button PDP",
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "blockClass": "highlights-pdp"
+    },
+    "children": [
+      "vtex.product-highlights@2.x:product-highlights#pdp__flash-highlight",
+      "vtex.product-highlights@2.x:product-highlights#pdp__bestSeller-highlight"
+    ]
+  },
+  "vtex.product-highlights@2.x:product-highlights#pdp__flash-highlight": {
+    "title": "Highlight flash deal product PDP",
+    "props": {
+      "blockClass": "pdp__flash-highlight",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Flash Deal"]
+      }
+    },
+    "children": ["product-highlight-text#flash-deal"]
+  },
+  "product-highlight-text#flash-deal": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  },
+  "vtex.product-highlights@2.x:product-highlights#pdp__bestSeller-highlight": {
+    "title": "Highlight best seller product PDP",
+    "props": {
+      "blockClass": "pdp__bestSeller-highlight",
+      "filter": {
+        "type": "show",
+        "highlightNames": ["Best Seller"]
+      }
+    },
+    "children": ["product-highlight-text#best-seller"]
+  },
+  "product-highlight-text#best-seller": {
+    "props": {
+      "message": "{highlightName}"
+    }
+  },
+  "vtex.store-components:product-name#product__name__pdp": {
+    "title": "Product name PDP",
+    "props": {
+      "showSku": true,
+      "showBrandName": false,
+      "blockClass": "product__name--pdp"
+    }
+  },
+  "product-price#price__pdp": {
+    "props": {
+      "showSavings": false,
+      "showListPrice": true,
+      "blockClass": "product__price--pdp"
+    }
+  },
+  "sku-selector#sku-selector__pdp": {
+    "props": {
+      "hideImpossibleCombinations": false,
+      "imageWidth": 64,
+      "imageHeight": 64,
+      "disableUnavailableSelectOptions": true,
+      "showValueForVariation": "image",
+      "variationsSpacing": "4",
+      "blockClass": "product__sku--pdp"
+    }
+  },
+  "flex-layout.row#quantity__add-to-cart-button-pdp": {
+    "title": "Row container quantity and add-to-cart button PDP",
+    "props": {
+      "preserveLayoutOnMobile": true,
+      "preventHorizontalStretch": false,
+    //   "rowGap": 10,
+    //   "colGap": 10,
+      "blockClass": "bquantity__add-to-cart-button-pdp"
+    },
+    "children": [
+      "product-quantity#quantity__pdp",
+      "add-to-cart-button#add-to-cart-button-pdp"
+    ]
+  },
+  //   "flex-layout.row#add-to-cart-button-pdp": {
+  //     "title": "Add-to-cart button PDP",
+  //     "props":{
+  //         "blockClass": "buy__button__row--pdp"
+  //     },
+  //     "children": ["add-to-cart-button#add-to-cart-button-pdp"]
+  //   },
+  "product-quantity#quantity__pdp": {
+    "props": {
+      "showUnit": true,
+      "showLabel": false,
+      "size": "large",
+      "blockClass": "product__quantity--pdp"
+    }
+  },
+  "add-to-cart-button#add-to-cart-button-pdp": {
+    "title": "Add to cart button PDP",
+    "props": {
+      "text": "Agregar al carrito",
+      "blockClass": "pdp-button--text"
+    }
+  },
+  "share": {
+    "props": {
+      "social": {
+        "Facebook": true,
+        "Twitter": false,
+        "WhatsApp": true,
+        "Pinterest": true
+      },
+      "options": {
+        "size": 40
+      }
+    }
+  },
+  "flex-layout.row#specifications--pdp": {
+    "title": "Row specifications PDP",
+    "props": {
+      "blockClass": "specifications--pdp"
+    },
+    "children": ["product-specifications"]
+  }
+  //   "product-specification-group#table__specificatioins--pdp": {
+  //     "title": "Product specification table PDP",
+  //     "props": {
+  //       "blockClass": "table__specificatioins--pdp"
+  //     },
+  //     "children": ["flex-layout.row#spec-group--pdp"]
+  //   },
+  //   "flex-layout.row#spec-group--pdp": {
+  //     "title": "Row specification group PDP",
+  //     "props": {
+  //       "blockClass": "spec-group-row--pdp"
+  //     },
+  //     "children": ["flex-layout.col#spec-group--pdp"]
+  //   },
+  //   "flex-layout.col#spec-group--pdp": {
+  //     "title": "Col specification group PDP",
+  //     "props": {
+  //       "blockClass": "spec-group--pdp"
+  //     },
+  //     "children": [
+  //       "flex-layout.row#spec-group-name--pdp",
+  //       "product-specification"
+  //     ]
+  //   },
+  //   "flex-layout.row#spec-group-name--pdp": {
+  //     "title": "Row specification group name PDP",
+  //     "props": {
+  //       "blockClass": "spec-group-name--pdp"
+  //     },
+  //     "children": ["product-specification-text#group--pdp"]
+  //   },
+  //   "product-specification": {
+  //     "title": "Product specification component PDP",
+  //     "props": {
+  //       "blockClass": "product__specification"
+  //     },
+  //     "children": ["flex-layout.row#spec-item--pdp"]
+  //   },
+  //   "flex-layout.row#spec-item--pdp": {
+  //     "title": "Row specification item PDP",
+  //     "props": {
+  //       "blockClass": "product__specification"
+  //     },
+  //     "children": [
+  //       "flex-layout.col#spec-name--pdp",
+  //       "flex-layout.col#spec-value--pdp"
+  //     ]
+  //   },
+  //   "flex-layout.col#spec-name--pdp": {
+  //     "title": "Col specification name PDP",
+  //     "props": {
+  //       "blockClass": "spec-name--pdp",
+  //       "width": {
+  //         "mobile": "50%",
+  //         "desktop": "25%"
+  //       }
+  //     },
+  //     "children": ["product-specification-text#specification--pdp"]
+  //   },
+  //   "flex-layout.col#spec-value--pdp": {
+  //     "title": "Col specification value PDP",
+  //     "props": {
+  //       "blockClass": "spec-value--pdp"
+  //     },
+  //     "children": ["product-specification-values"]
+  //   },
+  //   "product-specification-values": {
+  //     "title": "Product specification values PDP",
+  //     "children": ["product-specification-text#value--pdp"]
+  //   },
+  //   "product-specification-text#group--pdp": {
+  //     "title": "Product specification text group PDP",
+  //     "props": {
+  //       "message": "{groupName}"
+  //     }
+  //   },
+  //   "product-specification-text#specification--pdp": {
+  //     "title": "Product specification text specification PDP",
+  //     "props": {
+  //       "message": "{specificationName}"
+  //     }
+  //   },
+  //   "product-specification-text#value--pdp": {
+  //     "title": "Product specification text value PDP",
+  //     "props": {
+  //       "message": "{specificationValue}"
+  //     }
+  //   }
+}
