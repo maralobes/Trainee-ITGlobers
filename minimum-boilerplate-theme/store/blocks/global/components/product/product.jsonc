@@ -1,10 +1,10 @@
 {
   "store.product": {
     "blocks": [
-      "flex-layout.row#product__main",
-      "flex-layout.row#specifications--pdp"
-      //   "responsive-layout.desktop#pdp__desktop",
-      //   "responsive-layout.mobile#pdp__mobile"
+    //   "flex-layout.row#product__main",
+    //   "flex-layout.row#specifications--pdp"
+        "responsive-layout.desktop#pdp__desktop",
+        "responsive-layout.mobile#pdp__mobile"
     ]
   }
 }
