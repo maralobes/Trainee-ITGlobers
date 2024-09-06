@@ -81,7 +81,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "#",
+            "href": "/electrodomesticos",
             "noFollow": false,
             "tagTitle": "ITG-trends",
             "text": "Tendencias de ITGlobers"
@@ -94,7 +94,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/month-collection",
+            "href": "/moda",
             "noFollow": false,
             "tagTitle": "month-collection",
             "text": "Colección del mes"
@@ -107,7 +107,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/january-sales",
+            "href": "/moda",
             "noFollow": false,
             "tagTitle": "january-sales",
             "text": "Ofertas de enero"
@@ -120,7 +120,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/cyber-monday",
+            "href": "/electrodomesticos",
             "noFollow": false,
             "tagTitle": "cyber-monday",
             "text": "Cyber Monday"
@@ -133,7 +133,7 @@
           "highlight": false,
           "itemProps": {
             "type": "internal",
-            "href": "/never-say-never",
+            "href": "/electrodomesticos",
             "noFollow": false,
             "tagTitle": "never-say-never",
             "text": "Never say never"
