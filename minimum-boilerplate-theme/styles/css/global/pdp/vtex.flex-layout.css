@@ -1,0 +1,66 @@
+.flexRowContent--product__main--pdp {
+    max-width: 1136px;
+    margin   : auto;
+}
+
+.flexRow--bquantity__add-to-cart-button-pdp :global(.vtex-button) {
+    max-width    : 312px;
+    min-width    : 160px;
+    width        : 100%;
+    height       : 48px;
+    background   : #492A77;
+    border       : 1px solid;
+    border-radius: 8px;
+}
+
+.flexRow--bquantity__add-to-cart-button-pdp :global(.vtex-buttonDataContainer) {
+    background           : url("assets/img/2_image_add_shopping_car.svg");
+    background-repeat    : no-repeat;
+    display              : flex;
+    flex-direction       : row;
+    justify-content      : center;
+    background-position  : center;
+    background-position-x: 10%;
+    background-position-y: 11px;
+}
+
+.flexRowContent--highlights-pdp .stretchChildrenWidth {
+    max-width    : 8rem;
+    min-width    : 6.5;
+    height       : 2rem;
+    font-size    : 14px;
+    font-weight  : 400;
+    line-height  : 20px;
+    text-align   : center;
+    border-radius: 4px;
+    padding-top  : 5px;
+}
+
+.flexRowContent--highlights-pdp .stretchChildrenWidth:first-child {
+    color       : #FF8324;
+    background  : rgba(255, 131, 36, 0.2);
+    margin-right: 1rem;
+    padding-left: 1.7rem;
+}
+
+.flexRowContent--highlights-pdp .stretchChildrenWidth:last-child {
+    color          : #1D2734;
+    background     : rgba(147, 255, 150, 0.2);
+    /* padding-left: 0.9rem; */
+}
+
+.flexRowContent--bquantity__add-to-cart-button-pdp {
+    gap: 16px
+
+}
+
+.flexRowContent--bquantity__add-to-cart-button-pdp .stretchChildrenWidth:first-child {
+    padding-right: 0rem;
+    width: 145px !important;
+    flex-shrink: 0;
+}
+
+.flexRowContent--bquantity__add-to-cart-button-pdp .stretchChildrenWidth:last-child {
+    width: 100%;
+    flex-grow: 1;
+}
