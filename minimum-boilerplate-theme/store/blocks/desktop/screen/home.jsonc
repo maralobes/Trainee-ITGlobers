@@ -3,6 +3,7 @@
     "title": "Home screen desktop",
     "children": [
       "image#desktop__banner-home",
+      "whatsapp-button",
       "flex-layout.row#heading-home",
       "flex-layout.row#desktop__row-container-home",
       "flex-layout.row#heading-home",
