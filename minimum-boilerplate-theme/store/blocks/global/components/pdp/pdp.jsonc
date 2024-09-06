@@ -51,7 +51,8 @@
       "sku-selector#sku-selector__pdp",
       "flex-layout.row#quantity__add-to-cart-button-pdp",
       "product-separator",
-      "share"
+      "share",
+      "whatsapp-button"
     ]
   },
   "flex-layout.row#highlights-pdp": {
@@ -170,6 +171,16 @@
       "options": {
         "size": 40
       }
+    }
+  },
+  "whatsapp-button": {
+    "title": "Whatsapp custom button",
+    "props": {
+      "logo": "assets/img/whatsapp-logo.png",
+      "phone": "88908876",
+      "message": "Hola, cómo te puedo ayudar?",
+      "width": 80,
+      "height": 80
     }
   },
   "flex-layout.row#specifications--pdp": {
