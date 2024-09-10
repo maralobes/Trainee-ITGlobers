@@ -179,8 +179,8 @@
       "logo": "assets/img/whatsapp-logo.png",
       "phone": "88908876",
       "message": "Hola, cómo te puedo ayudar?",
-      "width": 80,
-      "height": 80
+      "width": 40,
+      "height": 40
     }
   },
   "flex-layout.row#specifications--pdp": {
